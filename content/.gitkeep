@@ -1,0 +1,2 @@
+# 此目录存放 MDX 内容文件，将在后续阶段（文章导入）填充。
+# 保留本占位文件使 content/ 目录在 git 中存在，避免 scripts/generate-content-manifest.mjs 因目录缺失而 process.exit(1)。
