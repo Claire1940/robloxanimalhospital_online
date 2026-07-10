@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital Oggy: Complete Night Shift Survival Guide",
+  description: "Master Roblox Animal Hospital Oggy gameplay. Learn how to spot creepy anomalies, manage your Sanity meter, choose the best classes, and survive the night.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/115e59/fff?text=Roblox+Animal+Hospital+Oggy+Survival+Guide",
+  date: "2026-07-10",
+  author: "roblox animal hospital Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Loop**: Work the night shift in a creepy clinic, treat real patients, and reject terrifying anomalies.
+- **Sanity Meter**: Your ultimate health bar. Protect your Sanity by avoiding direct eye contact with visual anomalies and drinking coffee.
+- **Top Class**: Start with Intern to save coins, then upgrade to Doctor or Surgeon for high-tier healing and Sanity recovery.
+- **Critical Warning**: Letting an anomaly slip past the reception shutters creates a hostile Skinwalker that will hunt you down.
+</Callout>
+
+<Section icon={Map} title="Roblox Animal Hospital Oggy Gameplay Loop">
+
+Welcome to the night shift at the clinic. In **roblox animal hospital oggy**, players must work together or play solo to survive increasingly difficult shifts. Your primary objective is to manage incoming animal patients, diagnose their issues, apply correct medical treatments, and identify shape-shifting anomalies trying to breach the facility.
+
+**Video Highlights:**
+- **Visual Checks**: How to inspect incoming patients at the front desk.
+- **Shutter Mechanics**: Using the security shutters to reject anomalies safely.
+- **Treatment Flow**: Moving normal patients to treatment rooms and applying the correct cures.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Roblox Animal Hospital Oggy Gameplay" />
+
+Every round requires a delicate balance of speed and caution. Rushing patients through the doors without inspecting them leads to quick deaths, while taking too long allows your sanity to drain into critical levels.
+
+| Shift Phase | Primary Objective | Key Risk | Best Tool |
+|---|---|---|---|
+| **Reception** | Check in patients, reject anomalies | Letting Skinwalkers enter | Front desk shutters, CCTV |
+| **Diagnostics** | Send patients to assigned rooms (1-8) | Wrong room routing | Lobby computer |
+| **Treatment** | Complete room tasks, apply medicine | Killing normal patients | Medicine, surgery tools |
+| **Survival** | Keep Sanity above zero, clear events | Hostile entities, fires | Coffee, fire extinguisher, taser |
+
+<Callout type="tip" title="Pro Tip">
+Assign dedicated roles if playing in a team. Have one player manage the reception desk, one handle diagnostics and room tasks, and a third run supplies and manage emergency events.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Spot and Reject Anomalies">
+
+Anomaly detection is the most critical skill required to survive your shifts. Anomalies are hostile entities disguised as normal animal patients. If you accept them, they transform into Skinwalkers that haunt the halls, drain your Sanity, and attack players.
+
+### Visual, CCTV, and Photo Checks
+
+To keep the hospital safe, you must utilize three distinct layers of inspection before opening the shutters to admit any visitor.
+
+<CardGrid cols={3}>
+  <Card title="Visual Signs">
+    Look for physical deformities on the patient at the desk. Watch out for **three eyes**, completely hollow sockets, sharp realistic teeth, wide grins, or unnatural twitching.
+  </Card>
+  <Card title="CCTV Signs">
+    Check the lobby and check-in cameras. Look for black boxes over the eyes, stretched limbs, or a completely black void-like body that only appears on screen.
+  </Card>
+  <Card title="Photo Signs">
+    Compare the live patient with their official photo. Reject them immediately if the photo has bloodshot eyes, a creepy grin, or does not match the animal's species.
+  </Card>
+</CardGrid>
+
+Use standard markdown checklists to ensure you never miss a tell during high-pressure shifts.
+
+<Checklist
+  id="anomaly-detection-checklist"
+  title="Front Desk Inspection Routine:"
+  items={[
+    "Verify face and body parts for extra eyes, realistic teeth, or wide grins",
+    "Switch to CCTV to check for camera-only distortions and void bodies",
+    "Compare the patient's physical appearance with their desk photo",
+    "Check the immediate environment for green slime or wall bangers",
+    "Press the shutter button immediately if any anomaly sign is detected"
+  ]}
+/>
+
+<Callout type="warning" title="Critical Threat">
+Cursed photos can drain your Sanity if you stare at them for too long. Confirm the discrepancy quickly, make your decision, and look away to preserve your mental meter.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sanity Management and Survival Items">
+
+Sanity acts as your health bar in **roblox animal hospital oggy**. If your Sanity hits zero, your run ends immediately. Managing this resource is just as important as treating your patients.
+
+### Sanity Drain Causes and Recovery
+
+Sanity drops when you make mistakes, such as admitting anomalies, taking damage from entities, or interacting with cursed environmental events like the Death Ritual. To recover, you must use shop items purchased with cash earned during the shift.
+
+| Item | Category | Use Case | Priority | Mistake to Avoid |
+|---|---|---|---|---|
+| **Coffee** | Sanity | Restores Sanity during long shifts | High | Using it too early |
+| **Taser** | Threat Control | Stops active Skinwalkers in hallways | High (Late Shifts) | Wasting charges on non-threats |
+| **Fire Extinguisher** | Emergency | Clears fires and burning patients | Medium | Ignoring follow-up ointments |
+| **Gun** | Threat Control | Ranged defense against hostile entities | Team-dependent | Firing near normal patients |
+
+<Steps>
+  <Step num="1" title="Monitor Your Meter">
+    Keep a close eye on your Sanity level. If it drops below 50%, prepare to swap roles with a teammate.
+  </Step>
+  <Step num="2" title="Locate Coffee and Food">
+    Keep a steady supply of Coffee in your inventory. Use it immediately after handling rituals or surviving a Skinwalker encounter.
+  </Step>
+  <Step num="3" title="Assign Safe Tasks">
+    If your Sanity is low and you have no recovery items, stay away from the front desk and cameras. Stick to simple room tasks.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Sanity Guard">
+Some classes have passive perks that reduce Sanity drain or restore Sanity when performing specific actions, such as healing patients or checking in visitors.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Class Tier List and Progression">
+
+Classes define your role in the hospital by granting unique starting items, inventory slots, speed boosts, and Sanity perks. You can unlock and upgrade these classes using Animal Coins, which are permanently retained across runs.
+
+### Class Tier Rankings
+
+Choosing the right class for your playstyle makes surviving difficult shifts much easier.
+
+| Class | Cost | Primary Role | Key Perk | Tier |
+|---|---|---|---|---|
+| **Surgeon** | 2,500 Coins | Fast Healing & Sanity | Gains Sanity and speed after healing patients | **S-Tier** |
+| **Secret Agent** | 890 Robux | Combat & Defense | Starts with a gun; regenerates ammo | **S-Tier** |
+| **Doctor** | 900 Coins | Balanced Medical | Recovers Sanity when healing; high starting Sanity | **A-Tier** |
+| **Security** | 1,250 Coins | Entity Defense | Starts with an X-Taser to stun Skinwalkers | **A-Tier** |
+| **Secretary** | 120 Coins | Receptionist | Recovers Sanity when checking in patients | **A-Tier** |
+| **Psychologist** | 500 Coins | Sanity Support | Doubles Sanity effects; chance to ignore drain | **A-Tier** |
+| **Paramedic** | 250 Coins | Fast Responder | Starts with Speed Cola for quick movement | **B-Tier** |
+| **Nurse** | 20 Coins | Inventory Support | Increases maximum inventory capacity | **B-Tier** |
+| **Intern** | Free | Starter | Starts with bonus Sanity; no extra mechanics | **C-Tier** |
+
+<Callout type="success" title="Progression Tip">
+Do not spread your Animal Coins thin by buying every class. Save up for **Doctor** or **Surgeon** if you enjoy healing, or buy **Secretary** if you prefer running the front desk. Upgrade your chosen main class to Level 3 to maximize its passive perks.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the primary objective in Roblox Animal Hospital Oggy?",
+    answer: "Your objective is to survive the night shift by checking in normal animal patients, rejecting creepy anomalies at the front desk, completing medical room tasks, and keeping your Sanity meter above zero."
+  },
+  {
+    question: "How do I deal with a missed anomaly that enters the hospital?",
+    answer: "If an anomaly slips past the shutters, it will turn into a hostile Skinwalker. You must defend yourself using defensive items like a Taser or Gun, protect your Sanity, and eliminate the threat before returning to patient care."
+  },
+  {
+    question: "What is the difference between Cash and Animal Coins?",
+    answer: "Cash is earned during a shift and is spent at the in-game shop to buy temporary survival items like Coffee and Tasers. Animal Coins are permanent rewards used in the main menu to unlock and upgrade classes."
+  },
+  {
+    question: "Which class is best for solo players?",
+    answer: "The Surgeon is the best free-to-play class for solo players because it grants both Sanity recovery and a movement speed boost every time you successfully heal a patient, allowing you to sustain yourself indefinitely."
+  }
+]} />
+
+</Section>

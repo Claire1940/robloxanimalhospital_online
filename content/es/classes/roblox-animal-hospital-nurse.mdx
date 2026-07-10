@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, ClipboardList, Stethoscope } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital: Guía de Anomalías y Estrategia para Principiantes",
+  description: "Domina el turno de noche en Roblox Animal Hospital con nuestra guía experta que cubre la detección de anomalías, niveles de clases y consejos de supervivencia para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/14b8a6/fff?text=Animal+Hospital+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Roblox Animal Hospital"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Roblox Animal Hospital** te desafía a sobrevivir a intensos turnos de noche mientras atiendes a pacientes e identificas anomalías peligrosas.
+- **La Detección de Anomalías** es tu principal herramienta de supervivencia; comprueba siempre las fotos y las cámaras de seguridad (CCTV) antes de admitir a un paciente.
+- **La Selección de Clase** influye significativamente en tu éxito; elige roles como Cirujano o Secretario según las necesidades de tu equipo.
+- **La Gestión de la Cordura** es fundamental; guarda tu café para situaciones de emergencia o cuando te enfrentes a amenazas de alto riesgo.
+- **La Estrategia de Progresión** consiste en usar Monedas de Animales para mejorar las ventajas de tu clase y obtener mejores tasas de supervivencia a largo plazo.
+</Callout>
+
+<Section icon={Map} title="Dominando el Turno de Noche">
+
+Sobrevivir a un turno de noche en Roblox Animal Hospital requiere algo más que conocimientos médicos. Eres la última línea de defensa contra las anomalías que intentan infiltrarse en tu clínica. La eficiencia en la recepción es tu habilidad más valiosa.
+
+**Puntos Destacados del Video:**
+- Identificación de las señales de advertencia de anomalías al principio del juego
+- Admisión eficiente de pacientes y asignación de salas
+- Cómo gestionar la cordura durante eventos de alta presión
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Resumen del Gameplay de Animal Hospital" />
+
+El ciclo de juego se divide en recepción, diagnóstico y tratamiento. No detectar una anomalía a tiempo puede provocar encuentros con Skinwalkers, que agotan tu cordura rápidamente.
+
+| Fase | Objetivo Principal | Nivel de Riesgo |
+| :--- | :--- | :--- |
+| Recepción | Verificar identificación y buscar anomalías | Bajo |
+| Diagnóstico | Realizar controles de salud básicos | Medio |
+| Tratamiento | Administrar la medicación correcta | Alto |
+| Evento | Sobrevivir a eventos de terror especializados | Extremo |
+
+<Callout type="tip" title="Consejo Profesional">
+Mantén siempre una rutina constante: comprobación visual, comparación de fotos y verificación final por CCTV. Saltarse estos pasos es la forma más rápida de perder cordura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificación para la Detección de Anomalías">
+
+Identificar anomalías es el núcleo de la experiencia. Usa esta lista de verificación para asegurarte de no admitir amenazas en las salas de tu hospital.
+
+<Checklist
+  id="anomaly-check"
+  title="Protocolo de Detección de Anomalías:"
+  items={[
+    "Busca anomalías físicas como tres ojos o cuencas vacías.",
+    "Verifica que los dientes del paciente coincidan con la anatomía animal.",
+    "Compara al paciente con su identificación con foto provista para detectar discrepancias.",
+    "Usa el CCTV para detectar extremidades distorsionadas o patrones de movimiento anormales.",
+    "Escucha comportamientos extraños que no coincidan con la especie del animal."
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia Crítica">
+Si pasas por alto una anomalía, es probable que se transforme en un Skinwalker hostil. Mantén un táser o un objeto defensivo equipado si estás trabajando en turnos nocturnos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Niveles de Clases y Ventajas">
+
+Elegir la clase adecuada define tu estilo de juego y tu potencial de supervivencia. A continuación, se presenta un desglose de las clases más efectivas disponibles actualmente en el juego.
+
+| Clase | Costo | Rol | Ideal para |
+| :--- | :--- | :--- | :--- |
+| Cirujano | 2500 Monedas | Polivalente | Jugadores en solitario |
+| Agente Secreto | 890 Robux | Cazador de anomalías | Enfoque en combate |
+| Doctor | 900 Monedas | Soporte médico | Partidas estables |
+| Secretario | 120 Monedas | Recepción | Principiantes |
+| Pasante | Gratis | Inicial | Aprendizaje |
+
+<CardGrid cols={3}>
+  <Card title="Cirujano (Tier S)">
+    - Excelente autosustento
+    - Aumento de velocidad después de curar
+    - Escalado de alto nivel
+  </Card>
+  <Card title="Doctor (Tier A)">
+    - Recuperación de cordura confiable
+    - Progresión médica constante
+    - Excelente para jugar en equipo
+  </Card>
+  <Card title="Secretario (Tier B)">
+    - Perfecto para el trabajo en recepción
+    - Recuperación de cordura al registrar pacientes
+    - Inversión de bajo costo
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Stethoscope} title="Guía de Tratamientos y Objetos">
+
+Usar el objeto de tratamiento incorrecto en un paciente puede ser fatal. Asegúrate de estar familiarizado con las herramientas médicas estándar para mantener tu rendimiento en el turno.
+
+| Objeto | Uso Principal | Evitar Cuando |
+| :--- | :--- | :--- |
+| Café | Restaurar la cordura | Tienes la salud al máximo |
+| Táser | Detener Skinwalkers | Durante el tratamiento normal |
+| Ungüento | Emergencias por quemaduras | El paciente está sano |
+| Kit Médico | Curación de rutina | Te enfrentas a una entidad hostil |
+
+<Steps>
+  <Step num="1" title="Admisión de Pacientes">
+    Verifica al visitante en el mostrador y usa las persianas para rechazar cualquier entidad sospechosa.
+  </Step>
+  <Step num="2" title="Asignación de Sala">
+    Dirige al paciente a la sala adecuada según sus síntomas y especie.
+  </Step>
+  <Step num="3" title="Aplicar Tratamiento">
+    Selecciona la medicina o herramienta correcta de tu inventario según la pantalla médica.
+  </Step>
+  <Step num="4" title="Mantenimiento de la Cordura">
+    Consume café o comida si tu medidor de cordura cae por debajo del 50% para evitar la muerte.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de Éxito">
+Coordínate con tu equipo. Asigna a un jugador a la recepción y a otro al tratamiento en las salas para maximizar la eficiencia y la protección de la cordura.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de ganar Monedas de Animales?",
+    answer: "Concéntrate en completar los turnos con éxito sin pasar por alto las anomalías. Las rachas de supervivencia más largas y el procesamiento eficiente de pacientes otorgan más monedas."
+  },
+  {
+    question: "¿Cómo funciona la cordura en Roblox Animal Hospital?",
+    answer: "La cordura es tu barra de vida. Disminuye cuando encuentras anomalías, sufres sustos repentinos (jump scares) o fallas tareas. Manténla alta consumiendo comida y café."
+  },
+  {
+    question: "¿Debería comprar clases premium?",
+    answer: "Las clases como el Agente Secreto son poderosas para el combate, pero las clases estándar como el Cirujano ofrecen un valor excelente para los jugadores gratuitos (free-to-play)."
+  }
+]} />
+
+</Section>

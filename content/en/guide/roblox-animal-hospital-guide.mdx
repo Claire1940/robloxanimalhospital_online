@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital: Beginner Guide & Anomaly Tips",
+  description: "Master the night shift in Roblox Animal Hospital. Learn how to spot anomalies, treat patients, manage your sanity, and choose the best classes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/267d7d/fff?text=Roblox+Animal+Hospital+Guide",
+  date: "2026-07-10",
+  author: "roblox animal hospital Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Roblox Animal Hospital** is a survival horror experience where you manage a clinic while identifying dangerous anomalies.
+- **Sanity management** is the most critical survival mechanic; keep it high by using coffee and avoiding cursed items.
+- **Anomaly detection** relies on cross-referencing visual cues, CCTV footage, and patient behavior.
+- **Class selection** defines your role; choose between support, treatment, or defensive classes based on your team's needs.
+- **Correct treatment** is essential; applying the wrong medicine to normal patients will lead to failure.
+</Callout>
+
+<Section icon={Map} title="Getting Started: The Night Shift Loop">
+
+Working the night shift in this clinic is far from a standard job. Your performance depends on your ability to balance administrative tasks with lethal threat detection.
+
+**Video Highlights:**
+- Essential reception desk routines
+- Visual identification of early-stage anomalies
+- How to manage the shutter controls effectively
+
+<YouTubeEmbed videoId="PQU1KMZ6Pac" title="Roblox Animal Hospital Gameplay Guide" />
+
+The core gameplay loop involves checking in visitors, verifying their identity, and administering medical care. If you admit an anomaly, your shift quickly devolves into a fight for survival.
+
+| Task Category | Primary Objective | Key Tool Used |
+| :--- | :--- | :--- |
+| Reception | Verify patient identity | Shutter Controls |
+| Diagnostics | Identify medical needs | Computer Terminal |
+| Treatment | Administer correct cure | Medical Supplies |
+| Survival | Maintain sanity levels | Coffee / Food |
+
+<Callout type="tip" title="Pro Tip">
+Always establish a routine. Use a consistent pattern of checking the patient's face, comparing it to their photo, and glancing at the CCTV before pressing the admit button.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Anomaly Detection Strategies">
+
+Identifying anomalies before they enter your hospital is the most important skill you can develop. Once an anomaly enters, it can transform into a Skinwalker, creating a chaotic environment that drains your sanity rapidly.
+
+| Anomaly Sign | Detection Method | Action Required |
+| :--- | :--- | :--- |
+| Physical Deformity | Visual inspection | Reject immediately |
+| CCTV Distortion | Camera monitoring | Close shutters |
+| Photo Mismatch | Compare with desk file | Deny entry |
+| Hostile Behavior | Observe movement | Use Taser/Gun |
+
+<Checklist
+  id="anomaly-checklist"
+  title="Anomaly Detection Checklist:"
+  items={[
+    "Check for three or hollow eyes",
+    "Watch for twitching or distorted limbs on CCTV",
+    "Verify the photo matches the visitor",
+    "Reject anyone with realistic or sharp teeth",
+    "Listen for strange audio cues near the desk"
+  ]}
+/>
+
+<Callout type="warning" title="Critical Warning">
+Do not stare at cursed photos or anomalies for too long. Prolonged exposure causes significant sanity loss, making you vulnerable to environmental hazards.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Class Progression and Tier List">
+
+Classes modify your baseline stats and provide unique perks. Investing in the right class early will significantly improve your survival rate during longer shifts.
+
+<CardGrid cols={3}>
+  <Card title="Surgeon (S-Tier)">
+    - Best for treatment rooms
+    - Sanity gain on heal
+    - Speed boost perk
+  </Card>
+  <Card title="Secretary (A-Tier)">
+    - Ideal for reception
+    - Sanity recovery on check-in
+    - Low cost investment
+  </Card>
+  <Card title="Security (A-Tier)">
+    - Defensive specialist
+    - Starts with X-Taser
+    - Best for anomaly control
+  </Card>
+</CardGrid>
+
+Upgrading your class at level 3 provides the most significant bonuses. Focus your Animal Coins on your primary role rather than spreading resources across multiple classes.
+
+</Section>
+
+<Section icon={Target} title="Treatment and Item Guide">
+
+Mistreating a normal patient is a common cause of failure. Each room has specific requirements that must be met precisely.
+
+| Treatment Tool | Best Used For | Penalty for Error |
+| :--- | :--- | :--- |
+| Ointment | Burn emergencies | Patient death |
+| Fire Extinguisher | Room fires | Loss of shift time |
+| Surgery Tools | Room 8 procedures | Patient death |
+| Coffee | Sanity recovery | None (Self-use) |
+
+<Steps>
+  <Step num="1" title="Room Assignment">
+    Direct the verified patient to the correct treatment room based on their injury.
+  </Step>
+  <Step num="2" title="Task Completion">
+    Follow the on-screen prompt (e.g., heart monitor rhythm or surgery sequence).
+  </Step>
+  <Step num="3" title="Final Application">
+    Apply the specific item listed in the treatment guide to complete the cure.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success Strategy">
+Coordinate with your team. Assign one player to monitor cameras and reception while others focus solely on room treatments to maximize efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to regain sanity in Roblox Animal Hospital?",
+    answer: "You can restore sanity by consuming coffee and food items found in the shop. Certain classes, like the Doctor or Surgeon, also provide passive sanity recovery when performing their specific duties."
+  },
+  {
+    question: "What happens if I accidentally let an anomaly into the hospital?",
+    answer: "The anomaly may turn into a hostile entity, such as a Skinwalker. You will need to use defensive items like the Taser or Gun to neutralize the threat before it compromises your shift."
+  },
+  {
+    question: "Are there any active codes for Roblox Animal Hospital?",
+    answer: "Currently, there are no active public codes. Check the official Animal Anomaly Discord server and Roblox group for the most accurate information on future reward systems."
+  }
+]} />
+
+</Section>

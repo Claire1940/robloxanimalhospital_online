@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital Events: Shift Survival & Event Guide",
+  description: "Survive all Roblox Animal Hospital events and shifts. Learn to detect anomalies, manage sanity, and complete night shift room tasks safely.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/10b981/fff?text=Shift+Survival+Guide",
+  date: "2026-07-10",
+  author: "roblox animal hospital Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Roblox Animal Hospital Events**: Surviving dangerous environmental hazards and shifting anomalies is key to finishing the night shift.
+- **Sanity Management**: Keep Sanity above zero by avoiding visual triggers and utilizing recovery items like Coffee.
+- **Anomaly Detection**: Use the front desk shutters to reject suspicious patients before they breach the clinic.
+- **Class Perks**: Choose role-specific classes such as Surgeon or Security to gain passive survival advantages.
+- **Room Tasks**: Complete active diagnostic treatments quickly to prevent patients from dying and hurting your score.
+</Callout>
+
+<Section icon={Map} title="Roblox Animal Hospital Events & Shift Loop">
+
+Working the night shift in [Animal Hospital (Anomaly)](https://www.roblox.com/games/78515283254292/Animal-Hospital) is a high-stakes balancing act. Players must check in incoming animal patients, identify hidden anomalies, treat normal animals, and survive random, terrifying environmental events. Admitting a single anomaly can trigger a Skinwalker outbreak, turning a quiet shift into a desperate struggle for survival. 
+
+**Video Highlights:**
+- **Anomaly Identification**: How to spot subtle visual glitches at the front desk.
+- **Room Diagnostics**: Step-by-step walkthrough of medical rooms 1 through 8.
+- **Threat Mitigation**: Using the Taser and shutters to secure the clinic.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Roblox Animal Hospital Gameplay Walkthrough" />
+
+To consistently survive your shifts, you must understand the differences between standard patient management and active environmental threats.
+
+| Shift Stage | Primary Objective | Critical Threat | Best Prevention Tool |
+|---|---|---|---|
+| **Check-In** | Filter normal patients from anomalies | Admitting a Skinwalker | Front desk shutters |
+| **Diagnostics** | Complete room-specific mini-games | Wasting time / Patient death | Group coordination |
+| **Treatment** | Apply correct medical items | Giving the wrong item | Double-checking computer |
+| **Late-Shift** | Survive active environmental events | Extreme Sanity drain | Coffee / Team backup |
+
+<Callout type="warning" title="Outbreak Warning">
+Never rush the check-in process. Admitting a single anomaly patient will trigger a Skinwalker event, which actively hunts players and rapidly drains group Sanity.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Spot and Reject Anomalies">
+
+Anomaly detection is your primary line of defense. When a patient approaches the front desk, you must run through a strict inspection sequence before pressing the accept button. If any red flags appear, use the shutter button immediately to reject them.
+
+<Steps>
+  <Step num="1" title="In-Person Visual Check">
+    Look directly at the patient at the desk. Scan for physical deformities such as three eyes, hollow sockets, sharp realistic teeth, an impossibly wide grin, or unnatural body twitching.
+  </Step>
+  <Step num="2" title="CCTV Camera Verification">
+    Check the lobby and check-in feed. Some anomalies look normal in person but display black boxes over their eyes, stretched limbs, or completely void-like bodies on camera.
+  </Step>
+  <Step num="3" title="Photo ID Comparison">
+    Compare the physical patient with their file photo. Reject them if the photo does not match, appears heavily static-grained, or displays cursed attributes like bloodshot eyes.
+  </Step>
+  <Step num="4" title="Deploy the Shutters">
+    If any anomaly is confirmed, hit the shutter button. This safely turns the entity away without letting it enter the main hospital corridors.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Inspection Tip">
+Establish a set routine with your team: one player dedicated entirely to front desk check-ins and camera feeds, while others handle internal treatment rooms.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Environmental Events & Threat Countermeasures">
+
+As shifts progress, the clinic itself will turn hostile. Random environmental events challenge your team's coordination and threaten to zero out your Sanity.
+
+| Event Name | Hazard Description | Immediate Countermeasure |
+|---|---|---|
+| **Wall Bangers** | Strange noises and vibrations near the desk | Back away from the walls / Avoid looking |
+| **Bed Monster** | Hostile entity hiding beneath treatment beds | Avoid standing near bed edges / Use light |
+| **Room Fires** | Sudden fire outbreaks in patient rooms | Deploy Fire Extinguisher immediately |
+| **Ceiling Threats** | Entities hanging from above that punish looking up | Keep your camera angle low / Focus on floor |
+| **Skinwalker Loose** | An admitted anomaly begins hunting players | Shoot with Gun or stun with X-Taser |
+
+<CardGrid cols={3}>
+  <Card title="Taser Strategy">
+    - **Stuns hostile anomalies**
+    - High priority for later shifts
+    - Free defense option
+  </Card>
+  <Card title="Coffee Management">
+    - **Restores lost Sanity**
+    - Save for late-shift events
+    - Do not waste on minor drops
+  </Card>
+  <Card title="Fire Safety">
+    - **Extinguish burning patients**
+    - Apply Ointment post-fire
+    - Keeps patients alive
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sanity Recovery">
+If you are targeted by a Wall Banger or visual threat, immediately step away, look down, and consume a Coffee to restore your Sanity meter before returning to duty.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Class Progression & Upgrade Path">
+
+Earning Animal Coins allows you to unlock and upgrade various classes. Each class provides unique perks that make surviving long shifts and chaotic events much easier.
+
+| Class Name | Cost | Primary Perk | Best Role |
+|---|---|---|---|
+| **Intern** | Free | Starts with bonus Sanity (+10 to +20) | Beginners / Learning basics |
+| **Secretary** | 120 Coins | Recovers Sanity when checking in patients | Front desk / Camera duty |
+| **Doctor** | 900 Coins | Recovers Sanity when healing patients | Mid-game solo / Treatment rooms |
+| **Security** | 1,250 Coins | Starts with an X-Taser (regenerates uses) | Team defense / Skinwalker control |
+| **Surgeon** | 2,500 Coins | Gains Sanity and speed boost after healing | Late-game solo / Fast clears |
+
+<Callout type="info" title="Robux Options">
+Premium classes like the Head Nurse (190 Robux) and Secret Agent (890 Robux) provide powerful shortcuts, but standard Animal Coin classes are fully capable of clearing all difficulty levels.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Shift Survival Checklist">
+
+Use this checklist to prepare your squad before launching into high-difficulty night shifts.
+
+<Checklist
+  id="shift-survival"
+  title="Night Shift Preparation:"
+  items={[
+    "Assign one dedicated player to the front desk check-in desk",
+    "Stock up on Coffee and Fire Extinguishers from the shop",
+    "Equip at least one player with a Taser or Gun for defense",
+    "Double-check patient photos before clicking the accept button",
+    "Clear room fires immediately before patients take fatal damage"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What happens when my Sanity hits zero in Roblox Animal Hospital?",
+    answer: "If your Sanity drops to zero, your character faints or dies, ending your active participation in the shift. You must rely on teammates to finish the round or recover."
+  },
+  {
+    question: "How do I stop a Skinwalker that got inside the clinic?",
+    answer: "You must use defensive weapons like the X-Taser (available via the Security class or shop) or the Gun (Secret Agent class) to stun and neutralize the threat."
+  },
+  {
+    question: "Can I change my class during a shift?",
+    answer: "No, classes must be selected and upgraded in the main lobby before starting a shift. Choose your role based on your team's division of labor."
+  },
+  {
+    question: "How do I get more Animal Coins?",
+    answer: "Animal Coins are permanently awarded upon successfully surviving night shifts. Higher difficulties and clean runs with zero patient deaths yield the highest payouts."
+  }
+]} />
+
+</Section>

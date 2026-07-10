@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Eventos de Roblox Animal Hospital: Guía de Sobrevivencia y Turnos",
+  description: "Sobrevive a todos los eventos y turnos de Roblox Animal Hospital. Aprende a detectar anomalías, gestionar la cordura y completar las tareas del turno nocturno de forma segura.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/10b981/fff?text=Shift+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Roblox Animal Hospital",
+  keywords: "Roblox Animal Hospital, eventos, anomalías, guía de supervivencia, turno nocturno"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Eventos de Roblox Animal Hospital**: Sobrevivir a los peligros ambientales y a las anomalías cambiantes es la clave para terminar el turno de noche.
+- **Gestión de la Cordura**: Mantén la Cordura por encima de cero evitando los desencadenantes visuales y utilizando objetos de recuperación como el Café.
+- **Detección de Anomalías**: Usa las persianas de la recepción para rechazar a los pacientes sospechosos antes de que irrumpan en la clínica.
+- **Ventajas de Clase**: Elige clases específicas como Cirujano o Seguridad para obtener ventajas pasivas de supervivencia.
+- **Tareas de Habitación**: Completa los tratamientos de diagnóstico activos rápidamente para evitar que los pacientes mueran y afecten tu puntuación.
+</Callout>
+
+<Section icon={Map} title="Eventos de Roblox Animal Hospital y Ciclo de Turnos">
+
+Trabajar en el turno de noche en [Animal Hospital (Anomaly)](https://www.roblox.com/games/78515283254292/Animal-Hospital) es un acto de equilibrio de alto riesgo. Los jugadores deben registrar a los pacientes animales que llegan, identificar anomalías ocultas, tratar a los animales normales y sobrevivir a eventos ambientales aleatorios y aterradores. Admitir una sola anomalía puede desencadenar un brote de Skinwalker, convirtiendo un turno tranquilo en una lucha desesperada por la supervivencia. 
+
+**Aspectos destacados del video:**
+- **Identificación de Anomalías**: Cómo detectar fallos visuales sutiles en la recepción.
+- **Diagnóstico de Habitaciones**: Recorrido paso a paso por las salas médicas de la 1 a la 8.
+- **Mitigación de Amenazas**: Uso del Taser y las persianas para asegurar la clínica.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Roblox Animal Hospital Gameplay Walkthrough" />
+
+Para sobrevivir consistentemente a tus turnos, debes comprender las diferencias entre la gestión estándar de pacientes y las amenazas ambientales activas.
+
+| Etapa del Turno | Objetivo Principal | Amenaza Crítica | Mejor Herramienta de Prevención |
+|---|---|---|---|
+| **Registro** | Filtrar pacientes normales de anomalías | Admitir a un Skinwalker | Persianas de recepción |
+| **Diagnóstico** | Completar minijuegos específicos de la sala | Perder tiempo / Muerte del paciente | Coordinación grupal |
+| **Tratamiento** | Aplicar los objetos médicos correctos | Entregar el objeto equivocado | Doble verificación en la computadora |
+| **Final del Turno** | Sobrevivir a eventos ambientales activos | Drenaje extremo de Cordura | Café / Apoyo del equipo |
+
+<Callout type="warning" title="Aviso de Brote">
+Nunca apresures el proceso de registro. Admitir a un solo paciente anómalo activará un evento de Skinwalker, que caza activamente a los jugadores y drena rápidamente la Cordura del grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Detectar y Rechazar Anomalías">
+
+La detección de anomalías es tu primera línea de defensa. Cuando un paciente se acerque a la recepción, debes realizar una secuencia de inspección estricta antes de presionar el botón de aceptar. Si aparece cualquier señal de alerta, usa el botón de las persianas inmediatamente para rechazarlo.
+
+<Steps>
+  <Step num="1" title="Inspección Visual en Persona">
+    Mira directamente al paciente en el mostrador. Busca deformidades físicas como tres ojos, cuencas vacías, dientes afilados y realistas, una sonrisa imposiblemente amplia o espasmos corporales antinaturales.
+  </Step>
+  <Step num="2" title="Verificación por Cámara de CCTV">
+    Revisa la transmisión del vestíbulo y del registro. Algunas anomalías parecen normales en persona, pero muestran cuadros negros sobre sus ojos, extremidades estiradas o cuerpos completamente vacíos en la cámara.
+  </Step>
+  <Step num="3" title="Comparación con Foto de ID">
+    Compara al paciente físico con la foto de su archivo. Recházalo si la foto no coincide, aparece con mucho ruido estático o muestra atributos malditos como ojos inyectados en sangre.
+  </Step>
+  <Step num="4" title="Desplegar las Persianas">
+    Si se confirma alguna anomalía, presiona el botón de la persiana. Esto aleja a la entidad de forma segura sin permitirle entrar en los pasillos principales del hospital.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de Inspección">
+Establece una rutina fija con tu equipo: un jugador dedicado enteramente al registro en recepción y a las cámaras, mientras otros se encargan de las salas de tratamiento internas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Eventos Ambientales y Contramedidas">
+
+A medida que avanzan los turnos, la propia clínica se volverá hostil. Los eventos ambientales aleatorios desafían la coordinación de tu equipo y amenazan con agotar tu Cordura.
+
+| Nombre del Evento | Descripción del Peligro | Contramedida Inmediata |
+|---|---|---|
+| **Golpeadores de Paredes** | Ruidos extraños y vibraciones cerca del mostrador | Aléjate de las paredes / Evita mirar |
+| **Monstruo de la Cama** | Entidad hostil escondida bajo las camas de tratamiento | Evita estar cerca de los bordes / Usa luz |
+| **Incendios en Salas** | Brotes repentinos de fuego en las salas de pacientes | Despliega el extintor de incendios inmediatamente |
+| **Amenazas del Techo** | Entidades que cuelgan desde arriba y castigan si miras arriba | Mantén el ángulo de la cámara bajo / Enfócate en el suelo |
+| **Skinwalker Suelto** | Una anomalía admitida comienza a cazar jugadores | Dispara con el Arma o aturde con el X-Taser |
+
+<CardGrid cols={3}>
+  <Card title="Estrategia del Taser">
+    - **Aturde anomalías hostiles**
+    - Prioridad alta para turnos avanzados
+    - Opción de defensa gratuita
+  </Card>
+  <Card title="Gestión del Café">
+    - **Restaura la Cordura perdida**
+    - Guárdalo para eventos de final de turno
+    - No lo desperdicies en caídas menores
+  </Card>
+  <Card title="Seguridad contra Incendios">
+    - **Extingue a los pacientes en llamas**
+    - Aplica ungüento post-incendio
+    - Mantiene a los pacientes vivos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recuperación de Cordura">
+Si eres el objetivo de un Golpeador de Paredes o una amenaza visual, aléjate de inmediato, mira hacia abajo y consume un Café para restaurar tu medidor de Cordura antes de volver al trabajo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión de Clases y Ruta de Mejoras">
+
+Ganar Animal Coins te permite desbloquear y mejorar varias clases. Cada clase proporciona ventajas únicas que facilitan la supervivencia en turnos largos y eventos caóticos.
+
+| Nombre de la Clase | Costo | Ventaja Principal | Mejor Rol |
+|---|---|---|---|
+| **Pasante** | Gratis | Comienza con bono de Cordura (+10 a +20) | Principiantes / Aprendizaje |
+| **Secretario/a** | 120 Coins | Recupera Cordura al registrar pacientes | Recepción / Vigilancia de cámaras |
+| **Doctor** | 900 Coins | Recupera Cordura al curar pacientes | Solo a mitad de juego / Salas de tratamiento |
+| **Seguridad** | 1,250 Coins | Comienza con un X-Taser (usos regenerativos) | Defensa de equipo / Control de Skinwalkers |
+| **Cirujano** | 2,500 Coins | Gana Cordura y aumento de velocidad tras curar | Solo a final de juego / Limpiezas rápidas |
+
+<Callout type="info" title="Opciones de Robux">
+Las clases premium como la Enfermera Jefe (190 Robux) y el Agente Secreto (890 Robux) proporcionan atajos poderosos, pero las clases estándar de Animal Coins son totalmente capaces de superar todos los niveles de dificultad.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para Sobrevivir al Turno">
+
+Usa esta lista para preparar a tu escuadrón antes de lanzarte a turnos nocturnos de alta dificultad.
+
+<Checklist
+  id="shift-survival"
+  title="Preparación para el Turno de Noche:"
+  items={[
+    "Asigna a un jugador dedicado exclusivamente al mostrador de registro",
+    "Abastécete de Café y Extintores en la tienda",
+    "Equipa al menos a un jugador con un Taser o Arma para defensa",
+    "Verifica dos veces las fotos de los pacientes antes de aceptar",
+    "Apaga los incendios de las salas de inmediato antes de que los pacientes sufran daños fatales"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué pasa cuando mi Cordura llega a cero en Roblox Animal Hospital?",
+    answer: "Si tu Cordura cae a cero, tu personaje se desmaya o muere, terminando tu participación activa en el turno. Deberás confiar en tus compañeros para terminar la ronda o recuperarte."
+  },
+  {
+    question: "¿Cómo detengo a un Skinwalker que logró entrar en la clínica?",
+    answer: "Debes usar armas defensivas como el X-Taser (disponible a través de la clase Seguridad o la tienda) o el Arma (clase Agente Secreto) para aturdir y neutralizar la amenaza."
+  },
+  {
+    question: "¿Puedo cambiar mi clase durante un turno?",
+    answer: "No, las clases deben seleccionarse y mejorarse en el vestíbulo principal antes de comenzar un turno. Elige tu rol basándote en la división de tareas de tu equipo."
+  },
+  {
+    question: "¿Cómo obtengo más Animal Coins?",
+    answer: "Las Animal Coins se otorgan permanentemente al sobrevivir con éxito a los turnos nocturnos. Las dificultades más altas y las partidas limpias sin muertes de pacientes ofrecen las mayores recompensas."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,232 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Heart, Coffee, AlertTriangle, List } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de supervivencia de Roblox Animal Hospital: Detección de anomalías 2026",
+  description: "Domina Roblox Animal Hospital con nuestra guía de supervivencia 2026. Aprende sobre detección de anomalías, rankings de clases, gestión de cordura y consejos expertos de tratamiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Animal+Hospital+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Roblox Animal Hospital",
+  keywords: "roblox animal hospital, guía de supervivencia, anomalías, cordura, clases, consejos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de supervivencia de Roblox animal hospital**: Céntrate en la inspección visual, la verificación por CCTV y la comparación de fotos para identificar anomalías.
+- **Mecánica clave**: Equilibra el tratamiento de los pacientes con la **gestión de la Cordura** para sobrevivir a los turnos nocturnos cada vez más difíciles.
+- **Mejor estrategia**: Asigna roles específicos a los miembros del equipo, como un recepcionista dedicado y un tratador médico principal.
+- **Consejo crítico**: Usa las **persianas de la recepción inmediatamente** cuando un paciente muestre rasgos distorsionados o un comportamiento extraño.
+- **Mejor clase**: El **Cirujano** es la opción principal para jugadores experimentados debido a sus enormes bonificaciones de Cordura y velocidad.
+</Callout>
+
+<Section icon={Map} title="Bucle principal de juego y conceptos básicos para principiantes">
+
+Trabajar en el turno de noche en una instalación médica ya es bastante estresante, pero en el mundo de **Hospital de Animales Anomalía**, los pacientes son tan peligrosos como las enfermedades que portan. El éxito requiere un enfoque disciplinado del ciclo de \"Observar, Verificar y Tratar\". Cada paciente que cruza la puerta principal es una amenaza potencial para tu Cordura y la seguridad de todo el hospital.
+
+Los jugadores nuevos suelen cometer el error de apresurar a los pacientes a las salas de tratamiento para ganar dinero rápido. Sin embargo, la regla más importante de esta **guía de supervivencia de roblox animal hospital** es que la precisión es más importante que la velocidad. Admitir una sola anomalía puede resultar en un brote de Skinwalker que termine tu partida prematuramente.
+
+| Fase del turno | Objetivo principal | Interacción clave | Recompensa/Penalización |
+| :--- | :--- | :--- | :--- |
+| **Registro** | Identificar anomalías | Persianas de recepción | Correcto: +Cordura / Error: -Cordura |
+| **Diagnóstico** | Determinar enfermedad | Computadora de la sala | Éxito: Plan de tratamiento / Fallo: Retraso |
+| **Tratamiento** | Aplicar medicina | Herramientas de interacción | Éxito: Efectivo y monedas / Fallo: Muerte del paciente |
+| **Emergencia** | Sobrevivir a peligros | Extintor/Táser | Éxito: El turno continúa / Fallo: Fin del juego |
+
+<Callout type="tip" title="Consejo profesional: El chequeo de tres puntos">
+Realiza siempre una comprobación visual en el mostrador, una comprobación de CCTV para detectar distorsiones en las extremidades y una comparación de fotos antes de decidir abrir las persianas. Nunca confíes en una sola fuente de información.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Iniciar el turno">
+    Preséntate en el mostrador de recepción de inmediato. Asegúrate de que tu inventario tenga suministros básicos como Café si tienes los fondos. El primer paciente llega poco después de que comience el reloj.
+  </Step>
+  <Step num="2" title="El protocolo de inspección">
+    Examina el rostro del paciente en busca de rasgos \"extraños\". Revisa el monitor de CCTV para ver si su forma física cambia cuando no está siendo observado directamente. Finalmente, compara su apariencia en vivo con su foto de identificación médica.
+  </Step>
+  <Step num="3" title="Decisión y enrutamiento">
+    Si el paciente es normal, admítelo y asígnalo a una sala de tratamiento abierta (Salas 1-8). Si es una anomalía, pulsa el botón rojo de la persiana para rechazarlo al instante.
+  </Step>
+  <Step num="4" title="Intervención médica">
+    Sigue las indicaciones en la sala de tratamiento. Usa la computadora de diagnóstico para identificar el objeto requerido (hierbas, gotas para los ojos, etc.) y aplícalo antes de que la barra de salud del paciente se agote.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Detección de anomalías e identificación de amenazas">
+
+Las anomalías son los principales antagonistas de tu turno. Estas entidades imitan a los animales pero poseen defectos distintos, a menudo sutiles, en su apariencia o comportamiento. Aprender a detectar estas \"señales\" es la diferencia entre un turno exitoso y un desastre que agota la Cordura.
+
+<Callout type="warning" title="Advertencia crítica">
+Algunas anomalías solo revelan su verdadera forma en las cámaras de CCTV. Un paciente puede parecer perfectamente normal en el mostrador pero mostrar extremidades alargadas o un vacío negro donde deberían estar sus ojos en el monitor.
+</Callout>
+
+<Checklist
+  id="anomaly-checklist"
+  title="Señales de alerta de anomalías visuales:"
+  items={[
+    "Ojos extra o cuencas oculares completamente huecas",
+    "Dientes afilados como agujas o dientes humanos hiperrealistas",
+    "Extremidades distorsionadas o estiradas visibles solo en CCTV",
+    "Pacientes mirando directamente a la lente de la cámara con una amplia sonrisa",
+    "Fotos médicas que muestran sangre, estática o estructuras faciales diferentes",
+    "Contracciones antinaturales o flotar ligeramente sobre el suelo"
+  ]}
+/>
+
+Cuando identifiques una anomalía, debes actuar con decisión. Rechazarlas evita que entren en la instalación y protege tu Cordura. Si se admite una anomalía por accidente, puede transformarse en un **Skinwalker**. Estos hostiles cazarán tanto a jugadores como a pacientes, requiriendo el uso de un Táser o un Arma para neutralizarlos.
+
+| Tipo de anomalía | Método de detección | Mejor contraataque | Nivel de riesgo |
+| :--- | :--- | :--- | :--- |
+| **Mímico visual** | Vista del mostrador | Persiana inmediata | Medio |
+| **Fantasma de CCTV** | Revisión del monitor | Persiana antes de entrar | Alto |
+| **Error de foto** | Comparación de ID | Persiana antes de entrar | Medio |
+| **Skinwalker** | Señales auditivas/visuales | Táser o armas de fuego | Crítico |
+| **Monstruo de cama** | Revisión bajo la cama | Evitación/Luz | Alto |
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de niveles de clase: Rankings 2026">
+
+Elegir la clase adecuada es esencial para la progresión a largo plazo en **Roblox Animal Hospital**. Cada clase ofrece ventajas únicas que se adaptan a diferentes estilos de juego, desde la seguridad del mostrador hasta el tratamiento médico de alta velocidad.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Cirujano">
+    - **Rol**: Especialista en tratamiento
+    - **Ventaja**: Gran ganancia de Cordura y aumento de velocidad tras curar.
+    - **Ideal para**: Jugadores solitarios y roles de acarreo.
+  </Card>
+  <Card title="S-Tier: Agente Secreto">
+    - **Rol**: Cazador de anomalías
+    - **Ventaja**: Comienza con un arma para neutralizar amenazas.
+    - **Ideal para**: Jugadores premium enfocados en el combate.
+  </Card>
+  <Card title="A-Tier: Seguridad">
+    - **Rol**: Control defensivo
+    - **Ventaja**: Comienza con un X-Táser para detener Skinwalkers.
+    - **Ideal para**: Defensa de equipo y gestión de anomalías.
+  </Card>
+  <Card title="A-Tier: Doctor">
+    - **Rol**: Médico fiable
+    - **Ventaja**: Gana Cordura al curar pacientes.
+    - **Ideal para**: Progresión a mitad de juego y partidas estables.
+  </Card>
+  <Card title="B-Tier: Secretario">
+    - **Rol**: Profesional de recepción
+    - **Ventaja**: Recupera Cordura al realizar registros correctos.
+    - **Ideal para**: Jugadores dedicados al mostrador.
+  </Card>
+  <Card title="C-Tier: Pasante">
+    - **Rol**: Principiante
+    - **Ventaja**: Cordura adicional básica (+10 a +20).
+    - **Ideal para**: Aprender los conceptos básicos.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Progresión de clase">
+Cada clase tiene tres niveles. Mejorar tu clase favorita con Monedas de Animal es más efectivo que comprar múltiples clases de Nivel 1 que rara vez usas.
+</Callout>
+
+| Nombre de la clase | Costo | Beneficio principal | Techo de habilidad |
+| :--- | :--- | :--- | :--- |
+| **Cirujano** | 2500 Monedas | Velocidad + Regen. Cordura | Alto |
+| **Psicólogo** | 500 Monedas | Duplicación de efecto de Cordura | Muy alto |
+| **Paramédico** | 250 Monedas | Inicio con Speed Cola grande | Medio |
+| **Enfermero** | 20 Monedas | +3 Capacidad de inventario | Bajo |
+| **Enfermero Jefe** | 190 Robux | Manejo de tratamiento más rápido | Medio |
+
+</Section>
+
+<Section icon={Heart} title="Gestión de la Cordura y tácticas de supervivencia">
+
+En esta **guía de supervivencia de roblox animal hospital**, la Cordura es tu verdadera barra de salud. Si llega a cero, mueres. La Cordura se agota al cometer errores (admitir anomalías), presenciar eventos horribles (rituales) o mirar objetos malditos durante demasiado tiempo.
+
+Para mantener una Cordura alta, los jugadores deben utilizar los objetos de recuperación y las ventajas de clase de manera efectiva. El **Café** es la herramienta más fiable para la recuperación y debe comprarse en la tienda entre turnos.
+
+| Agotador de Cordura | Impacto | Método de recuperación |
+| :--- | :--- | :--- |
+| **Anomalía omitida** | Pérdida fuerte | Café / Comida |
+| **Foto maldita** | Pérdida gradual | Dejar de mirar / Café |
+| **Ataque de Skinwalker** | Pérdida crítica | Táser + Recuperación |
+| **Rituales de muerte** | Drenaje de área constante | Limpiar velas / Salir del área |
+
+<Callout type="success" title="Estrategia de sinergia de equipo">
+En el modo multijugador, haz que un jugador se dedique a la \"Vigilancia de Cordura\". Este jugador lleva Café extra y se encarga del mostrador o de las tareas de tratamiento cuando la Cordura de otro compañero baja del 40%.
+</Callout>
+
+**Peligros ambientales:**
+- **Golpeadores de paredes**: Evita interactuar con ellos cerca del mostrador de recepción a menos que estés preparado para un golpe a la Cordura.
+- **Amenazas en el techo**: Nunca mires directamente hacia arriba si oyes ruidos extraños en los conductos de ventilación.
+- **Baba verde**: Vigila tus pasos; resbalar puede causar daños menores y ralentizar tu movimiento durante las emergencias.
+
+</Section>
+
+<Section icon={Swords} title="Objetos y protocolos de tratamiento médico">
+
+El lado médico del hospital requiere precisión. Cada sala tiene una tarea específica que debe completarse antes de que se pueda aplicar el objeto de tratamiento final. No seguir la secuencia correcta o usar el objeto equivocado resultará en la muerte del paciente.
+
+| Sala de tratamiento | Tipo de tarea | Herramienta/Acción requerida |
+| :--- | :--- | :--- |
+| **Salas 1-5** | Cuidado estándar | Análisis + Objetos del pasillo |
+| **Sala 6** | Secuencia de rayos X | Patrón de cuadrados parpadeantes |
+| **Sala 7** | Monitor cardíaco | Clic en iconos (Evitar calaveras) |
+| **Sala 8** | Cirugía | Uso cronometrado de bisturí/tijeras |
+
+<Callout type="warning" title="Advertencia de cirugía">
+Una vez que comienza una cirugía en la Sala 8, el jugador no puede salir hasta que termine. Asegúrate de que todas las demás emergencias estén bajo control antes de iniciar un procedimiento quirúrgico.
+</Callout>
+
+**Objetos esenciales de la tienda:**
+- **Táser**: Esencial para los turnos 3 en adelante para manejar anomalías omitidas.
+- **Extintor**: Necesario para incendios espontáneos en las salas y eventos de \"Paciente en llamas\".
+- **Speed Cola**: Aumenta la velocidad de movimiento, permitiéndote llegar más rápido a las salas de tratamiento.
+- **Ungüento**: Se usa específicamente para pacientes rescatados de incendios.
+
+</Section>
+
+<Section icon={Trophy} title="Guía de progresión y moneda">
+
+Hay dos monedas principales: **Efectivo** y **Monedas de Animal**. El Efectivo se gana durante un turno y se usa para objetos temporales como Café y Táseres. Las Monedas de Animal son recompensas permanentes que se usan para desbloquear y mejorar clases.
+
+<Checklist
+  id="progression-milestones"
+  title="Objetivos de progresión 2026:"
+  items={[
+    "Sobrevive a tu primera racha de 5 turnos para desbloquear la clase Secretario",
+    "Acumula 1250 Monedas de Animal para la clase de Seguridad",
+    "Alcanza el Nivel 3 en tu clase principal para obtener las máximas bonificaciones de Cordura",
+    "Neutraliza con éxito a un Skinwalker usando un Táser o un Arma",
+    "Completa un turno perfecto 'Sin Errores' para obtener recompensas de monedas adicionales"
+  ]}
+/>
+
+<Callout type="info" title="Actualizaciones y eventos">
+El ciclo de actualizaciones de 2026 ha introducido las \"Interacciones de Harlow\" y nuevos eventos [CENSURADO]. Consulta siempre la página oficial de eventos de Roblox para desafíos de tiempo limitado que ofrecen el doble de Monedas de Animal.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor clase para un jugador solitario en Roblox Animal Hospital?",
+    answer: "El Cirujano es ampliamente considerado la mejor clase para jugar en solitario porque recompensa cada tratamiento exitoso con una ráfaga de Cordura y velocidad, lo que te permite mantenerte sin depender de compañeros para el Café."
+  },
+  {
+    question: "¿Cómo me enfrento a un Skinwalker si no tengo un arma?",
+    answer: "Si no tienes un Táser o un Arma, tu única opción es evitar al Skinwalker. Cierra las puertas de la habitación en la que se encuentra y concéntrate en tratar a los pacientes en otras áreas, pero prepárate para un drenaje significativo de Cordura."
+  },
+  {
+    question: "¿Por qué bajó mi Cordura a pesar de que rechacé la anomalía?",
+    answer: "Es posible que hayas mirado una 'Foto Maldita' durante demasiado tiempo. Las fotos malditas drenan la Cordura gradualmente mientras las miras. Identifica la anomalía rápidamente y mira hacia otro lado para minimizar la pérdida."
+  },
+  {
+    question: "¿Cómo gano Monedas de Animal más rápido?",
+    answer: "Las Monedas de Animal se otorgan en función del número de turnos sobrevividos y la precisión de tu detección de anomalías. Jugar en turnos de mayor dificultad o durante eventos especiales de fin de semana es la forma más rápida de farmearlas."
+  }
+]} />
+
+</Section>

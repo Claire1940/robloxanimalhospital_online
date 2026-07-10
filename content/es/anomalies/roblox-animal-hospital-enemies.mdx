@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Enemigos de Roblox Animal Hospital: Guía de Supervivencia y Clasificación de Amenazas",
+  description: "Domina cada amenaza en Roblox Animal Hospital (Anomaly). Aprende a identificar anomalías, derrotar a los Skinwalkers y lidiar con enemigos como el Monstruo de la Cama.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Enemy+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de roblox animal hospital",
+  keywords: "roblox animal hospital enemigos, guía de supervivencia, anomalías, skinwalker, cordura"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **enemigos de Roblox animal hospital** consisten en anomalías que se infiltran en la clínica y peligros ambientales que agotan la Cordura.
+- Los **Skinwalkers** son las amenazas más peligrosas, y aparecen solo cuando una anomalía es admitida accidentalmente en una sala de tratamiento.
+- La **inspección visual** es tu defensa principal; usa el CCTV y las comparaciones de fotos para detectar anomalías antes de que crucen las persianas.
+- Las **armas** como el X-Taser y la Pistola son esenciales para la supervivencia en los turnos finales, cuando las entidades hostiles se vuelven más agresivas.
+- La **gestión de la Cordura** es crítica porque la mayoría de los enemigos infligen daño mental en lugar de reducir la salud física.
+</Callout>
+
+<Section icon={Map} title="Enemigos de Roblox Animal Hospital: Identificación de Amenazas de Anomalías">
+
+En el entorno de alto riesgo de Animal Hospital (Anomaly), tu objetivo principal es diferenciar entre los pacientes estándar y los diversos **enemigos de roblox animal hospital** disfrazados de animales inocentes. Estas "Anomalías" son los antagonistas centrales del juego, y no detectarlas conduce a fallos catastróficos en el turno.
+
+**Puntos Destacados del Video:**
+- Desglose visual detallado de los rasgos comunes de las anomalías.
+- Cómo usar las persianas de la recepción para rechazar pacientes hostiles.
+- Comparación entre la distorsión del CCTV y las mutaciones físicas.
+- Estrategias para sobrevivir los primeros cinco turnos sin pérdida de Cordura.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Guía de Juego de Animal Hospital Anomaly" />
+
+La identificación es un proceso de varios pasos. Debes analizar al paciente en el mostrador, revisar las cámaras del vestíbulo y verificar su identidad con la foto proporcionada. Cualquier discrepancia es una señal de que estás tratando con un enemigo.
+
+| Método de Detección | Qué Buscar | Nivel de Riesgo |
+| :--- | :--- | :--- |
+| **Inspección Física** | Ojos extra, dientes afilados, rasgos humanos realistas o extremidades temblorosas. | **Alto** |
+| **Monitor de CCTV** | Cuadros negros sobre los ojos, extremidades distorsionadas o el paciente mirando fijamente a la cámara. | **Crítico** |
+| **Comparación de Fotos** | La foto muestra un animal diferente o ha sido "maldecida" con ojos inyectados en sangre. | **Medio** |
+| **Pistas de Comportamiento** | Agresión extrema en el mostrador o ignorar las indicaciones verbales del personal. | **Alto** |
+
+<Callout type="warning" title="Advertencia de Detección">
+Nunca confíes en una sola comprobación. Algunas anomalías avanzadas se ven perfectamente normales en el mostrador, pero revelan su verdadera forma solo en el monitor de CCTV. Realiza siempre la "Triple Comprobación" (Mostrador, Cámara, Foto) antes de abrir las puertas internas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="La Amenaza del Skinwalker: Consecuencias de Admitir Enemigos">
+
+Los **enemigos de roblox animal hospital** más temidos son los Skinwalkers. Estas entidades no aparecen de forma natural; son el resultado directo de que un jugador admita una anomalía en el hospital. Una vez que una anomalía se coloca en una sala de tratamiento, tiene una alta probabilidad de transformarse en un Skinwalker, que luego cazará a los jugadores y atacará a los pacientes legítimos.
+
+<CardGrid cols={3}>
+  <Card title="Fase de Acecho">
+    - **Presencia oculta**
+    - El Skinwalker se esconde en conductos de ventilación o rincones oscuros.
+    - Agota la Cordura de los jugadores cercanos.
+  </Card>
+  <Card title="Fase Hostil">
+    - **Persecución activa**
+    - Persigue a los jugadores con una alta velocidad de movimiento.
+    - Puede matar a los jugadores si la Cordura llega a cero.
+  </Card>
+  <Card title="Mimetismo de Paciente">
+    - **Comportamiento engañoso**
+    - Puede intentar acostarse en una cama para atraer a los jugadores.
+    - Ataca cuando intentas realizar el tratamiento.
+  </Card>
+</CardGrid>
+
+Para lidiar con un Skinwalker, debes actuar rápidamente antes de que se agote la Cordura de todo el hospital. Sigue estos pasos para neutralizar la amenaza:
+
+<Steps>
+  <Step num="1" title="Confirmar la Brecha">
+    Si escuchas gruñidos extraños o ves que un paciente ha desaparecido de su habitación, hay un Skinwalker suelto. Revisa los pasillos de inmediato.
+  </Step>
+  <Step num="2" title="Equipar Herramientas Defensivas">
+    Cambia a tu X-Taser o Pistola. Si juegas como la clase de Seguridad o Agente Secreto, tendrás estos objetos por defecto.
+  </Step>
+  <Step num="3" title="Aturdir y Neutralizar">
+    Apunta a la cabeza. Un disparo de Taser desactivará temporalmente al Skinwalker, permitiéndote terminar el turno o usar objetos más poderosos para eliminarlo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Estrategia Pro">
+Si te das cuenta de que admitiste una anomalía pero aún no se ha transformado, no entres en la habitación. Alerta a tu equipo y prepara tus armas en la puerta. Es más fácil matar a un Skinwalker en el momento en que se revela.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Peligros Ambientales y Enemigos Específicos de Sala">
+
+No todos los **enemigos de roblox animal hospital** entran por la puerta principal. Algunos son peligros ambientales o entidades especializadas que rondan áreas específicas de la clínica. Gestionar estos es tan importante como atrapar anomalías en la recepción.
+
+| Nombre del Enemigo | Ubicación | Comportamiento | Contramedida |
+| :--- | :--- | :--- | :--- |
+| **Monstruo de la Cama** | Bajo las camas de tratamiento | Atrapa a los jugadores que se quedan quietos cerca de las camas. | Mantente en movimiento / Usa el Taser. |
+| **Golpeador de Paredes**| Cerca de la recepción | Hace ruidos fuertes de golpes para agotar la Cordura. | Ignora el ruido / Usa Café. |
+| **Acechador del Techo** | Pasillos | Castiga a los jugadores por mirar hacia arriba. | Mantén tu cámara nivelada. |
+| **Limo Verde** | Suelos | Ralentiza el movimiento y causa daños menores. | Evita los charcos. |
+| **Anomalías de Pared** | Corredores | Salen de las paredes para robar objetos. | Camina por el centro del pasillo. |
+
+Estos peligros aumentan en frecuencia a medida que avanza el turno. A partir del Turno 5, puedes esperar que se activen múltiples amenazas ambientales simultáneamente, lo que requiere una alta coordinación entre el personal.
+
+<Callout type="success" title="Consejo de Cordura">
+Los enemigos ambientales atacan principalmente tu Cordura. Si te encuentras frecuentemente como blanco de los Golpeadores de Paredes o Acechadores del Techo, considera cambiar a la clase de Psicólogo para gestionar mejor el agotamiento de la Cordura.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Clases de Combate y Equipamientos Defensivos">
+
+Lidiar con los **enemigos de roblox animal hospital** de manera efectiva requiere la clase adecuada. Mientras que el Pasante es bueno para aprender, los roles especializados proporcionan la potencia de fuego y la utilidad necesarias para sobrevivir a los encuentros del final del juego.
+
+| Clase | Costo | Ventaja Defensiva Principal | Mejor Contra |
+| :--- | :--- | :--- | :--- |
+| **Seguridad** | 1,250 Monedas | Comienza con X-Taser (Se regenera) | Skinwalkers / Monstruos de la Cama |
+| **Agente Secreto** | 890 Robux | Comienza con Pistola (Daño alto) | Todas las entidades hostiles |
+| **Cirujano** | 2,500 Monedas | Aumento de velocidad tras curar | Escapar de perseguidores |
+| **Psicólogo** | 500 Monedas | Resistencia a la pérdida de Cordura | Peligros ambientales |
+
+Si juegas en equipo, al menos una persona debería ser siempre de la clase Seguridad. Este jugador actúa como el "Ejecutor", patrullando los pasillos mientras otros se concentran en el tratamiento.
+
+<Checklist
+  id="defense-prep"
+  title="Lista de Verificación para Sobrevivir al Turno:"
+  items={[
+    "Compra al menos un Café en la tienda",
+    "Asegúrate de que el jugador de Seguridad tenga un Taser cargado",
+    "Revisa todas las salas de tratamiento en busca de Monstruos de la Cama",
+    "Verifica el funcionamiento de la persiana en la recepción",
+    "Asigna a un jugador para monitorear el CCTV exclusivamente"
+  ]}
+/>
+
+<Callout type="warning" title="Gestión de Armas">
+El X-Taser tiene cargas limitadas. No desperdicies disparos en peligros ambientales que pueden evitarse con movimiento. Guarda tu munición para los Skinwalkers y las brechas activas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Supervivencia Avanzada: Turno 10 y Más Allá">
+
+A medida que alcanzas los turnos finales, los **enemigos de roblox animal hospital** se vuelven más engañosos. Encontrarás "Miméticos" que pueden saltarse ciertos filtros de CCTV o "Sombras" que solo aparecen en la esquina de tu pantalla.
+
+**Tácticas Clave para el Final del Juego:**
+- **Defensa de Doble Capa:** Mantén las puertas de los pasillos internos cerradas en todo momento. Esto crea una barrera secundaria si una anomalía se deja pasar accidentalmente por la primera persiana.
+- **Rotaciones de Cordura:** Si la Cordura de un jugador cae por debajo del 30%, debe intercambiar roles con alguien en una zona "segura" (como la farmacia) para recuperarse usando comida o café.
+- **Interacciones con Harlow:** Presta atención a las ventanas de eventos especiales (como la actualización de julio de 2026). Nuevas entidades como Harlow pueden cambiar las reglas de enfrentamiento, requiriendo interacciones únicas en lugar del combate estándar.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el enemigo más peligroso en Roblox Animal Hospital?",
+    answer: "El Skinwalker es el enemigo más peligroso. Solo aparece si no rechazas una anomalía en la recepción. Es rápido, agota la Cordura velozmente y puede terminar una partida si no se maneja con un Taser o Pistola."
+  },
+  {
+    question: "¿Cómo evito que el Monstruo de la Cama ataque?",
+    answer: "El Monstruo de la Cama se esconde debajo de las camas de tratamiento. Para evitar su ataque, nunca te quedes perfectamente quieto junto a una cama por más de unos segundos. Si te atrapa, un compañero puede usar un Taser para obligarlo a soltarte."
+  },
+  {
+    question: "¿Puedo matar anomalías en la recepción?",
+    answer: "No, no puedes matarlas en el mostrador. Debes usar el botón de la persiana para rechazarlas. Las armas solo se usan para enemigos que ya han entrado en el hospital o para amenazas ambientales."
+  },
+  {
+    question: "¿Por qué baja mi Cordura cuando no hay enemigos cerca?",
+    answer: "Probablemente estés encontrando peligros ambientales como Golpeadores de Paredes o mirando a los Acechadores del Techo. Además, revisar 'Fotos Maldecidas' o mirar imágenes de CCTV distorsionadas durante demasiado tiempo agotará naturalmente tu Cordura."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Profesional Final">
+El éxito en Animal Hospital no se trata de qué tan rápido tratas a los pacientes; se trata de cuántos pocos enemigos dejas entrar. Un turno lento y perfecto siempre es mejor que uno rápido y peligroso. Mantente alerta, confía en tus cámaras y ten tu Taser listo.
+</Callout>
+
+</Section>

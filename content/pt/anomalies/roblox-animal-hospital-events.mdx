@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Eventos do Roblox Animal Hospital: Guia de Sobrevivência de Turno e Eventos",
+  description: "Sobreviva a todos os eventos e turnos do Roblox Animal Hospital. Aprenda a detectar anomalias, gerenciar a sanidade e concluir tarefas de sala no turno da noite com segurança.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/10b981/fff?text=Shift+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipe da Wiki do roblox animal hospital",
+  keywords: "roblox animal hospital, eventos, guia de sobrevivência, anomalias, sanidade"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Eventos do Roblox Animal Hospital**: Sobreviver a perigos ambientais perigosos e anomalias mutantes é a chave para terminar o turno da noite.
+- **Gerenciamento de Sanidade**: Mantenha a Sanidade acima de zero evitando gatilhos visuais e utilizando itens de recuperação como Café.
+- **Detecção de Anomalias**: Use as persianas da recepção para rejeitar pacientes suspeitos antes que eles invadam a clínica.
+- **Vantagens de Classe**: Escolha classes específicas de função, como Cirurgião ou Segurança, para ganhar vantagens passivas de sobrevivência.
+- **Tarefas de Sala**: Conclua os tratamentos de diagnóstico ativos rapidamente para evitar que os pacientes morram e prejudiquem sua pontuação.
+</Callout>
+
+<Section icon={Map} title="Eventos e Loop de Turno do Roblox Animal Hospital">
+
+Trabalhar no turno da noite em [Hospital dos Animais Anomalia](https://www.roblox.com/games/78515283254292/Animal-Hospital) é um ato de equilíbrio de alto risco. Os jogadores devem fazer o check-in dos pacientes animais que chegam, identificar anomalias ocultas, tratar animais normais e sobreviver a eventos ambientais aleatórios e aterrorizantes. Admitir uma única anomalia pode desencadear um surto de Skinwalker, transformando um turno tranquilo em uma luta desesperada pela sobrevivência. 
+
+**Destaques do Vídeo:**
+- **Identificação de Anomalias**: Como detectar falhas visuais sutis na recepção.
+- **Diagnósticos de Sala**: Passo a passo das salas médicas de 1 a 8.
+- **Mitigação de Ameaças**: Usando o Taser e as persianas para proteger a clínica.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Roblox Animal Hospital Gameplay Walkthrough" />
+
+Para sobreviver consistentemente aos seus turnos, você deve entender as diferenças entre o gerenciamento padrão de pacientes e as ameaças ambientais ativas.
+
+| Estágio do Turno | Objetivo Principal | Ameaça Crítica | Melhor Ferramenta de Prevenção |
+|---|---|---|---|
+| **Check-In** | Filtrar pacientes normais de anomalias | Admitir um Skinwalker | Persianas da recepção |
+| **Diagnósticos** | Concluir mini-games específicos da sala | Perda de tempo / Morte do paciente | Coordenação de grupo |
+| **Tratamento** | Aplicar os itens médicos corretos | Dar o item errado | Verificar o computador duas vezes |
+| **Final do Turno** | Sobreviver a eventos ambientais ativos | Dreno extremo de Sanidade | Café / Apoio da equipe |
+
+<Callout type="warning" title="Aviso de Surto">
+Nunca apresse o processo de check-in. Admitir um único paciente anômalo desencadeará um evento Skinwalker, que caça ativamente os jogadores e drena rapidamente a Sanidade do grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Detectar e Rejeitar Anomalias">
+
+A detecção de anomalias é sua primeira linha de defesa. Quando um paciente se aproxima da recepção, você deve realizar uma sequência de inspeção rigorosa antes de pressionar o botão de aceitar. Se qualquer sinal de alerta aparecer, use o botão da persiana imediatamente para rejeitá-lo.
+
+<Steps>
+  <Step num="1" title="Verificação Visual Pessoal">
+    Olhe diretamente para o paciente no balcão. Procure por deformidades físicas, como três olhos, órbitas vazias, dentes afiados realistas, um sorriso impossivelmente largo ou espasmos corporais não naturais.
+  </Step>
+  <Step num="2" title="Verificação por Câmera de CFTV">
+    Verifique o feed do lobby e do check-in. Algumas anomalias parecem normais pessoalmente, mas exibem caixas pretas sobre os olhos, membros esticados ou corpos completamente vazios na câmera.
+  </Step>
+  <Step num="3" title="Comparação de Foto de Identidade">
+    Compare o paciente físico com a foto do arquivo. Rejeite-os se a foto não corresponder, parecer com muito ruído estático ou exibir atributos amaldiçoados como olhos injetados de sangue.
+  </Step>
+  <Step num="4" title="Acione as Persianas">
+    Se qualquer anomalia for confirmada, aperte o botão da persiana. Isso afasta a entidade com segurança sem deixá-la entrar nos corredores principais do hospital.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Inspeção">
+Estabeleça uma rotina definida com sua equipe: um jogador dedicado inteiramente aos check-ins da recepção e feeds de câmeras, enquanto outros cuidam das salas de tratamento internas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Eventos Ambientais e Contramedidas de Ameaça">
+
+À medida que os turnos avançam, a própria clínica se tornará hostil. Eventos ambientais aleatórios desafiam a coordenação da sua equipe e ameaçam zerar sua Sanidade.
+
+| Nome do Evento | Descrição do Perigo | Contramedida Imediata |
+|---|---|---|
+| **Batidas na Parede** | Ruídos e vibrações estranhas perto da mesa | Afaste-se das paredes / Evite olhar |
+| **Monstro da Cama** | Entidade hostil escondida sob as camas de tratamento | Evite ficar perto das bordas da cama / Use luz |
+| **Incêndios na Sala** | Surtos repentinos de incêndio nas salas dos pacientes | Use o Extintor de Incêndio imediatamente |
+| **Ameaças no Teto** | Entidades penduradas acima que punem quem olha para cima | Mantenha o ângulo da câmera baixo / Foque no chão |
+| **Skinwalker Solto** | Uma anomalia admitida começa a caçar os jogadores | Atire com a Arma ou atordoe com o X-Taser |
+
+<CardGrid cols={3}>
+  <Card title="Estratégia de Taser">
+    - **Atordoa anomalias hostis**
+    - Alta prioridade para turnos avançados
+    - Opção de defesa gratuita
+  </Card>
+  <Card title="Gerenciamento de Café">
+    - **Restaura a Sanidade perdida**
+    - Guarde para eventos de final de turno
+    - Não desperdice em pequenas quedas
+  </Card>
+  <Card title="Segurança contra Incêndio">
+    - **Extinga pacientes em chamas**
+    - Aplique Pomada após o incêndio
+    - Mantém os pacientes vivos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recuperação de Sanidade">
+Se você for alvo de uma Batida na Parede ou ameaça visual, afaste-se imediatamente, olhe para baixo e consuma um Café para restaurar seu medidor de Sanidade antes de retornar ao serviço.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão de Classe e Caminho de Melhoria">
+
+Ganhar Moedas de Animais permite que você desbloqueie e melhore várias classes. Cada classe oferece vantagens únicas que tornam a sobrevivência em turnos longos e eventos caóticos muito mais fácil.
+
+| Nome da Classe | Custo | Vantagem Principal | Melhor Função |
+|---|---|---|---|
+| **Estagiário** | Grátis | Começa com bônus de Sanidade (+10 a +20) | Iniciantes / Aprendendo o básico |
+| **Secretário** | 120 Moedas | Recupera Sanidade ao fazer o check-in de pacientes | Recepção / Serviço de câmera |
+| **Médico** | 900 Moedas | Recupera Sanidade ao curar pacientes | Solo de meio de jogo / Salas de tratamento |
+| **Segurança** | 1.250 Moedas | Começa com um X-Taser (regenera usos) | Defesa de equipe / Controle de Skinwalker |
+| **Cirurgião** | 2.500 Moedas | Ganha Sanidade e aumento de velocidade após a cura | Solo de final de jogo / Limpezas rápidas |
+
+<Callout type="info" title="Opções de Robux">
+Classes premium como a Enfermeira-Chefe (190 Robux) e o Agente Secreto (890 Robux) oferecem atalhos poderosos, mas as classes padrão de Moedas de Animais são totalmente capazes de completar todos os níveis de dificuldade.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Sobrevivência de Turno">
+
+Use este checklist para preparar seu esquadrão antes de iniciar turnos noturnos de alta dificuldade.
+
+<Checklist
+  id="shift-survival"
+  title="Preparação para o Turno da Noite:"
+  items={[
+    "Atribua um jogador dedicado ao balcão de check-in da recepção",
+    "Abasteça-se de Café e Extintores de Incêndio na loja",
+    "Equipe pelo menos um jogador com um Taser ou Arma para defesa",
+    "Verifique as fotos dos pacientes duas vezes antes de clicar no botão aceitar",
+    "Apague incêndios na sala imediatamente antes que os pacientes sofram danos fatais"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O que acontece quando minha Sanidade chega a zero no Roblox Animal Hospital?",
+    answer: "Se sua Sanidade cair para zero, seu personagem desmaia ou morre, encerrando sua participação ativa no turno. Você deve contar com os companheiros de equipe para terminar a rodada ou se recuperar."
+  },
+  {
+    question: "Como paro um Skinwalker que entrou na clínica?",
+    answer: "Você deve usar armas defensivas como o X-Taser (disponível através da classe Segurança ou loja) ou a Arma (classe Agente Secreto) para atordoar e neutralizar a ameaça."
+  },
+  {
+    question: "Posso mudar minha classe durante um turno?",
+    answer: "Não, as classes devem ser selecionadas e melhoradas no lobby principal antes de iniciar um turno. Escolha sua função com base na divisão de trabalho da sua equipe."
+  },
+  {
+    question: "Como consigo mais Moedas de Animais?",
+    answer: "As Moedas de Animais são concedidas permanentemente ao sobreviver com sucesso aos turnos da noite. Dificuldades mais altas e execuções limpas com zero mortes de pacientes rendem os maiores pagamentos."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía Solo de Roblox Animal Hospital: Estrategia de Supervivencia 2026",
+  description: "Domina la guía en solitario de Roblox Animal Hospital con consejos de expertos sobre detección de anomalías, gestión de la cordura y las mejores clases para triunfar jugando solo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Solo+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de Roblox Animal Hospital",
+  keywords: "roblox animal hospital, guía solo, supervivencia, anomalías, cordura"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía solo de Roblox Animal Hospital**: El éxito depende de equilibrar las comprobaciones de anomalías en la recepción con los tratamientos rápidos en las salas.
+- **Prioridad de Cordura**: Los jugadores en solitario deben vigilar la Cordura constantemente; perderla termina la partida de inmediato sin compañeros que te revivan o ayuden.
+- **Mejor Clase Solo**: El **Cirujano** es actualmente la mejor opción para partidas en solitario debido a la recuperación de Cordura y los aumentos de velocidad tras tratamientos exitosos.
+- **Detección de Anomalías**: Utiliza siempre el método de triple comprobación (Visual, CCTV y Foto) antes de admitir a cualquier paciente en la clínica.
+- **Gestión de Objetos**: Mantén Café y un Táser en tu inventario en todo momento para lidiar con caídas de Cordura de emergencia y anomalías pasadas por alto.
+</Callout>
+
+<Section icon={Map} title="Dominando la Dinámica del Turno en Solitario">
+
+Sobrevivir a un turno en **Hospital de Animales Anomalía** como jugador en solitario requiere un enfoque significativamente diferente en comparación con el juego en equipo. En una partida individual, eres responsable de todos los roles: el recepcionista, el médico y el guardia de seguridad. La **guía solo de roblox animal hospital** se centra en optimizar tu movimiento y velocidad de toma de decisiones para garantizar que ningún paciente sea desatendido mientras mantienes el hospital a salvo de amenazas sobrenaturales.
+
+El ciclo principal consiste en registrar a los pacientes en la recepción, identificar anomalías y tratar a los pacientes normales en sus salas asignadas. Al estar solo, la presión sobre tu medidor de Cordura se duplica. Cada error se magnifica, y las amenazas ambientales como el Monstruo de la Cama o los Golpeadores de Paredes requieren tu atención inmediata e indivisa.
+
+| Característica | Mecánicas de Juego en Solo | Dinámica de Juego en Equipo |
+|:--- |:--- |:--- |
+| **Gestión de Cordura** | Presión alta; requiere un uso constante de Café | Responsabilidad compartida; los compañeros pueden ayudar |
+| **Eficiencia de Tareas** | Debe rotar rápidamente entre la recepción y las salas | Los roles se dividen (Recepcionista vs. Médico) |
+| **Margen de Error** | Crítico; una anomalía omitida puede terminar la partida | Moderado; los compañeros pueden ayudar a neutralizar amenazas |
+| **Recompensas de Monedas** | Mayor ganancia personal por turno exitoso | Recompensas compartidas basadas en la participación |
+| **Escalado de Dificultad** | Dificultad estática basada en el número de turno | Escala ligeramente con el número de jugadores |
+
+<Callout type="success" title="Ventaja del Juego en Solo">
+Aunque el juego en solitario es más difícil, te permite controlar el ritmo de la partida. No tendrás que preocuparte de que tus compañeros admitan anomalías accidentalmente o desperdicien valiosos suministros médicos.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Detección de Anomalías: La Triple Comprobación en Solitario">
+
+Para cualquier jugador que siga esta **guía solo de roblox animal hospital**, la habilidad más crítica es identificar anomalías. Admitir una anomalía en el hospital genera un Skinwalker, que te cazará activamente y drenará tu Cordura. Como jugador en solitario, no puedes permitirte tener un Skinwalker deambulando por los pasillos mientras intentas realizar una cirugía en la Sala 8.
+
+Debes implementar una rutina estricta de "Triple Comprobación" para cada visitante que llegue a la recepción. No apresures este proceso, incluso si la fila de espera está creciendo. Es más costoso en tiempo solucionar un solo error que un retraso de 10 segundos en el registro.
+
+**La Rutina de Triple Comprobación:**
+1.  **Inspección Visual**: Busca deformidades físicas obvias como ojos adicionales, dientes humanos realistas o una sonrisa distorsionada.
+2.  **Verificación por CCTV**: Revisa el monitor. Algunas anomalías solo revelan su verdadera forma en la cámara, apareciendo como vacíos oscuros o con extremidades que se estiran de forma antinatural.
+3.  **Comparación de Foto**: Compara la apariencia actual del paciente con la foto proporcionada. Si las orejas, la nariz o el color de los ojos difieren aunque sea mínimamente, es una anomalía.
+
+| Categoría de Anomalía | Indicio Visual Común | Acción Requerida |
+|:--- |:--- |:--- |
+| **Distorsión Física** | Tres ojos / Dientes humanos afilados / Sonrisas amplias | Rechazo Inmediato |
+| **Anomalías de Cámara** | Caja negra sobre los ojos / Espasmos solo en CCTV | Rechazo Inmediato |
+| **Incompatibilidad de Foto** | La foto muestra un animal o rasgos diferentes | Rechazo Inmediato |
+| **Ambiental** | El paciente mira fijamente a la lente de la cámara CCTV | Rechazo Inmediato |
+| **Agresivo** | El paciente gruñe o emite sonidos de aspecto humano | Rechazo Inmediato |
+
+<Callout type="warning" title="Advertencia Crítica">
+Si un paciente parece normal pero la foto tiene los ojos inyectados en sangre o un efecto de grano "maldito", no lo admitas. Mirar fotos malditas durante demasiado tiempo también drenará tu Cordura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Las Mejores Clases para la Progresión en Solitario">
+
+Elegir la clase adecuada es la base de una carrera exitosa en solitario en Roblox Animal Hospital. Las clases proporcionan bonificaciones pasivas y objetos iniciales que pueden mitigar los desafíos de estar solo. Para los jugadores en solitario, se priorizan las clases que ofrecen recuperación de Cordura o expansión de inventario sobre los roles enfocados en el combate.
+
+<CardGrid cols={3}>
+  <Card title="Cirujano (Tier S)">
+    - **Costo**: 2500 Monedas de Animal
+    - **Ventaja**: Gana Cordura y velocidad tras curar.
+    - **Ideal para**: Sostener turnos largos en solitario.
+  </Card>
+  <Card title="Secretario (Tier A)">
+    - **Costo**: 120 Monedas de Animal
+    - **Ventaja**: Recupera Cordura durante los registros.
+    - **Ideal para**: Principiantes que dominan la recepción.
+  </Card>
+  <Card title="Pasante (Tier B)">
+    - **Costo**: Gratis
+    - **Ventaja**: Comienza con Cordura de bonificación.
+    - **Ideal para**: Aprender las mecánicas básicas.
+  </Card>
+</CardGrid>
+
+El **Cirujano** es el objetivo definitivo para los jugadores en solitario. El aumento de velocidad te permite moverte rápidamente entre la recepción y las salas de tratamiento, mientras que la ganancia de Cordura garantiza que te mantengas en juego incluso después de lidiar con eventos estresantes. Si estás comenzando, el **Secretario** es una fantástica inversión de bajo costo que te recompensa por realizar la tarea más frecuente: registrar pacientes.
+
+| Nombre de Clase | Viabilidad Solo | Beneficio Clave para Jugadores Individuales |
+|:--- |:--- |:--- |
+| **Cirujano** | 5/5 | El mejor ciclo de Cordura/Velocidad para partidas en solo |
+| **Médico** | 4/5 | Recuperación constante de Cordura durante el tratamiento |
+| **Secretario** | 4/5 | Mantiene la Cordura alta durante los registros ocupados |
+| **Seguridad** | 3/5 | El Táser inicial ayuda con las anomalías omitidas |
+| **Enfermero** | 2/5 | El espacio de inventario es bueno, pero carece de ayuda para la Cordura |
+
+<Callout type="tip" title="Consejo Pro">
+Si tienes Robux, el **Agente Secreto** es una poderosa alternativa para jugar solo. Comenzar con un arma te permite lidiar con los Skinwalkers de inmediato, aunque carece de la recuperación pasiva de Cordura del Cirujano.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso del Turno en Solitario">
+
+Para maximizar tu eficiencia, sigue este flujo de trabajo estructurado para cada turno nocturno. Esta secuencia garantiza que mantengas el control sobre el entorno del hospital mientras avanzas en la cola de pacientes.
+
+<Steps>
+  <Step num="1" title="Preparación Inicial">
+    Antes de que llegue el primer paciente, revisa la tienda. Si tienes suficiente dinero, compra un **Café** y un **Táser**. Colócate en la recepción y asegúrate de que tu monitor de CCTV funcione.
+  </Step>
+  <Step num="2" title="El Registro por Lotes">
+    Registra de 2 a 3 pacientes a la vez. Utiliza el método de Triple Comprobación para rechazar anomalías de inmediato. Admitir un grupo pequeño te permite trasladarte al área de tratamiento y terminar múltiples tareas en un solo viaje.
+  </Step>
+  <Step num="3" title="Diagnóstico y Tratamiento Rápido">
+    Dirígete a las salas de tratamiento. Interactúa con las computadoras para diagnosticar al animal. Recoge los objetos necesarios (Pomada, Gotas para los Ojos, etc.) y aplícalos rápidamente. Para la Sala 8 (Cirugía), concéntrate por completo en el minijuego hasta terminar.
+  </Step>
+  <Step num="4" title="Limpieza Ambiental">
+    Entre lote y lote de pacientes, busca peligros. Mira debajo de las camas para detectar al Monstruo de la Cama, limpia el lodo verde y asegúrate de que ningún Golpeador de Pared bloquee tu camino. Si tu Cordura está por debajo del 40%, bebe tu Café.
+  </Step>
+  <Step num="5" title="Finalización del Turno">
+    Una vez tratado el número requerido de pacientes o cuando expire el temporizador, regresa a la recepción para el recuento final. Utiliza las Monedas de Animal obtenidas para mejorar tu clase antes de comenzar la siguiente noche.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota de Eficiencia">
+No intentes tratar a cada paciente uno por uno. Agrupar tus tareas ahorra el tiempo empleado en caminar de un lado a otro, que es la mayor pérdida de tiempo en el juego en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Salas de Tratamiento y Prioridad de Objetos">
+
+Comprender los requisitos específicos de cada sala es esencial para los jugadores en solitario que necesitan minimizar el tiempo que pasan en la parte trasera del hospital. Cada sala tiene un nivel de complejidad y un factor de riesgo diferentes.
+
+| Número de Sala | Tipo de Tarea | Nivel de Riesgo | Estrategia Solo |
+|:--- |:--- |:--- |:--- |
+| **Salas 1-5** | Médica Básica | Bajo | Entrega simple de objetos; hazlas en una sucesión rápida. |
+| **Sala 6** | Secuencia de Rayos X | Medio | Requiere coincidir un patrón; no te apresures o fallarás. |
+| **Sala 7** | Monitor Cardíaco | Medio | Haz clic en los íconos, evita las calaveras; requiere concentración. |
+| **Sala 8** | Cirugía | Alto | Quédate hasta terminar; irte matará al paciente. |
+
+En las partidas en solitario, el espacio de tu inventario es limitado. Debes priorizar los objetos que te mantienen con vida sobre aquellos que solo ayudan a los pacientes. Un médico muerto no puede curar a nadie.
+
+**Lista de Prioridad de Objetos para Jugadores en Solo:**
+- **Café**: Tier 1. Esencial para la recuperación de Cordura.
+- **Táser**: Tier 1. Tu única defensa contra las anomalías omitidas.
+- **Extintor de Incendios**: Tier 2. Necesario para eventos de fuego aleatorios.
+- **Cola de Velocidad**: Tier 3. Útil para hospitales grandes pero no obligatorio.
+- **Suministros Médicos**: Tier 3. Solo recógelos cuando te dirijas activamente a una sala de tratamiento.
+
+<Callout type="warning" title="Evita Errores">
+Darle la medicina incorrecta a un paciente normal lo matará instantáneamente. Esto resulta en una penalización masiva de Cordura. Siempre verifica dos veces el diagnóstico en la computadora de la sala antes de aplicar un objeto.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión a Largo Plazo y Monedas">
+
+A medida que sobrevivas a más turnos, ganarás **Monedas de Animal**. Estas son permanentes y deben gastarse sabiamente para facilitar futuros turnos en solitario. La **guía solo de roblox animal hospital** recomienda una ruta de mejora específica para maximizar tu tasa de supervivencia.
+
+<Checklist
+  id="solo-progression"
+  title="Hitos de Progresión en Solo:"
+  items={[
+    "Alcanza el Nivel 3 con la clase Pasante para maximizar la Cordura inicial.",
+    "Ahorra 120 Monedas para desbloquear al Secretario para turnos iniciales más sencillos.",
+    "Acumula 900 Monedas para la clase Médico para comenzar a curar la Cordura.",
+    "Ahorra hasta 2500 Monedas para la clase Cirujano (El Meta en Solitario).",
+    "Invierte en Mejoras de Nivel de Clase para aumentar el inventario y las pasivas de velocidad."
+  ]}
+/>
+
+| Fase de Gasto | Inversión Prioritaria | Razón |
+|:--- |:--- |:--- |
+| **Juego Temprano** | Clase Secretario | Hace que el ciclo de la recepción sea autosuficiente para la Cordura. |
+| **Juego Medio** | Clase Médico | Te permite recuperarte de los errores durante el tratamiento. |
+| **Juego Tardío** | Clase Cirujano | Proporciona la velocidad necesaria para turnos de alta dificultad. |
+| **End Game** | Mejoras de Nivel 3 | Maximiza la eficiencia de la clase principal elegida. |
+
+<Callout type="success" title="Consejo Final">
+No temas repetir turnos anteriores y más sencillos para acumular Monedas de Animal. Es mejor pasar una hora jugando turnos fáciles que perder una partida larga y difícil por estar mal equipado o usar una clase débil.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es posible superar los turnos más difíciles en solitario en Roblox Animal Hospital?",
+    answer: "Sí, pero requiere una clase Cirujano o Agente Secreto de alto nivel. También debes tener una comprensión perfecta de los indicios de anomalías para evitar la aparición de Skinwalkers."
+  },
+  {
+    question: "¿Qué debo hacer si aparece un Skinwalker durante una partida en solitario?",
+    answer: "Detén inmediatamente lo que estés haciendo. Usa un Táser o un Arma para neutralizar la amenaza. No intentes ignorarlo, ya que drenará tu Cordura rápidamente y terminará matándote."
+  },
+  {
+    question: "¿La Cordura se recupera naturalmente con el tiempo?",
+    answer: "No. La Cordura solo se recupera mediante ventajas de clases específicas (como el Médico o el Cirujano) o consumiendo objetos como Café y comida de la tienda."
+  },
+  {
+    question: "¿Puedo cambiar de clase a mitad de un turno?",
+    answer: "No, debes seleccionar tu clase en el vestíbulo antes de que comience el turno. Elige sabiamente según la dificultad de la noche que se avecina."
+  }
+]} />
+
+</Section>

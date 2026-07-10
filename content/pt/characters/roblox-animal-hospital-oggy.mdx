@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital Oggy: Guia Completo de Sobrevivência no Turno da Noite",
+  description: "Domine a jogabilidade de Roblox Animal Hospital Oggy. Aprenda a identificar anomalias assustadoras, gerenciar seu medidor de Sanidade, escolher as melhores classes e sobreviver à noite.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/115e59/fff?text=Roblox+Animal+Hospital+Oggy+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipe da Wiki do roblox animal hospital"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Fluxo Básico**: Trabalhe no turno da noite em uma clínica assustadora, trate pacientes reais e rejeite anomalias aterrorizantes.
+- **Medidor de Sanidade**: Sua barra de vida definitiva. Proteja sua Sanidade evitando contato visual direto com anomalias visuais e bebendo café.
+- **Melhor Classe**: Comece como Estagiário (Intern) para economizar moedas e depois mude para Médico (Doctor) ou Cirurgião (Surgeon) para cura de alto nível e recuperação de Sanidade.
+- **Aviso Crítico**: Deixar uma anomalia passar pelas portas da recepção cria um Skinwalker hostil que caçará você.
+</Callout>
+
+<Section icon={Map} title="Fluxo de Jogo de Roblox Animal Hospital Oggy">
+
+Bem-vindo ao turno da noite na clínica. Em **roblox animal hospital oggy**, os jogadores devem trabalhar juntos ou jogar sozinhos para sobreviver a turnos cada vez mais difíceis. Seu objetivo principal é gerenciar os pacientes animais que chegam, diagnosticar seus problemas, aplicar os tratamentos médicos corretos e identificar anomalias metamorfas que tentam invadir o local.
+
+**Destaques do Vídeo:**
+- **Verificações Visuais**: Como inspecionar os pacientes que chegam na recepção.
+- **Mecânica das Portas de Proteção**: Usar as portas de segurança para rejeitar anomalias com segurança.
+- **Fluxo de Tratamento**: Mover pacientes normais para as salas de tratamento e aplicar as curas corretas.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Jogabilidade de Roblox Animal Hospital Oggy" />
+
+Cada rodada exige um equilíbrio delicado entre velocidade e cautela. Apressar os pacientes pelas portas sem inspecioná-los leva a mortes rápidas, enquanto demorar muito permite que sua sanidade caia para níveis críticos.
+
+| Fase do Turno | Objetivo Principal | Risco Chave | Melhor Ferramenta |
+|---|---|---|---|
+| **Recepção** | Dar entrada nos pacientes, rejeitar anomalias | Deixar Skinwalkers entrarem | Portas da recepção, CFTV |
+| **Diagnóstico** | Enviar pacientes para as salas designadas (1-8) | Encaminhamento para a sala errada | Computador do lobby |
+| **Tratamento** | Concluir tarefas da sala, aplicar medicamentos | Matar pacientes normais | Medicamentos, ferramentas cirúrgicas |
+| **Sobrevivência** | Manter a Sanidade acima de zero, resolver eventos | Entidades hostis, incêndios | Café, extintor de incêndio, taser |
+
+<Callout type="tip" title="Dica de Mestre">
+Atribua funções dedicadas se estiver jogando em equipe. Faça um jogador gerenciar a recepção, outro cuidar do diagnóstico e das tarefas das salas, e um terceiro buscar suprimentos e gerenciar eventos de emergência.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Identificar e Rejeitar Anomalias">
+
+A detecção de anomalias é a habilidade mais crítica necessária para sobreviver aos seus turnos. As anomalias são entidades hostis disfarçadas de pacientes animais normais. Se você as aceitar, elas se transformam em Skinwalkers que assombram os corredores, drenam sua Sanidade e atacam os jogadores.
+
+### Verificações Visuais, de CFTV e de Fotos
+
+Para manter o hospital seguro, você deve utilizar três camadas distintas de inspeção antes de abrir as portas de proteção para admitir qualquer visitante.
+
+<CardGrid cols={3}>
+  <Card title="Sinais Visuais">
+    Procure por deformidades físicas no paciente na recepção. Fique atento a **três olhos**, órbitas completamente vazias, dentes realistas afiados, sorrisos largos ou espasmos não naturais.
+  </Card>
+  <Card title="Sinais de CFTV">
+    Verifique as câmeras do lobby e da recepção. Procure por caixas pretas sobre os olhos, membros esticados ou um corpo completamente preto semelhante ao vazio que só aparece na tela.
+  </Card>
+  <Card title="Sinais nas Fotos">
+    Compare o paciente ao vivo com sua foto oficial. Rejeite-o imediatamente se a foto tiver olhos injetados de sangue, um sorriso assustador ou não corresponder à espécie do animal.
+  </Card>
+</CardGrid>
+
+Use listas de verificação padrão em markdown para garantir que você nunca perca um detalhe durante turnos de alta pressão.
+
+<Checklist
+  id="anomaly-detection-checklist"
+  title="Rotina de Inspeção da Recepção:"
+  items={[
+    "Verificar o rosto e as partes do corpo em busca de olhos extras, dentes realistas ou sorrisos largos",
+    "Mudar para o CFTV para verificar distorções exclusivas da câmera e corpos vazios",
+    "Comparar a aparência física do paciente com a foto da recepção",
+    "Verificar o ambiente imediato em busca de gosma verde ou batidas na parede",
+    "Pressionar o botão da porta de proteção imediatamente se qualquer sinal de anomalia for detectado"
+  ]}
+/>
+
+<Callout type="warning" title="Ameaça Crítica">
+Fotos amaldiçoadas podem drenar sua Sanidade se você olhar para elas por muito tempo. Confirme a discrepância rapidamente, tome sua decisão e desvie o olhar para preservar seu medidor mental.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gerenciamento de Sanidade e Itens de Sobrevivência">
+
+A Sanidade funciona como sua barra de vida em **roblox animal hospital oggy**. Se sua Sanidade chegar a zero, sua partida termina imediatamente. Gerenciar esse recurso é tão importante quanto tratar seus pacientes.
+
+### Causas de Drenagem e Recuperação de Sanidade
+
+A Sanidade cai quando você comete erros, como admitir anomalias, sofrer danos de entidades ou interagir com eventos ambientais amaldiçoados como o Ritual de Morte. Para recuperá-la, você deve usar itens da loja comprados com o dinheiro ganho durante o turno.
+
+| Item | Categoria | Caso de Uso | Prioridade | Erro a Evitar |
+|---|---|---|---|---|
+| **Café (Coffee)** | Sanidade | Restaura a Sanidade durante turnos longos | Alta | Usar cedo demais |
+| **Taser** | Controle de Ameaças | Para Skinwalkers ativos nos corredores | Alta (Turnos Finais) | Desperdiçar cargas em não ameaças |
+| **Extintor de Incêndio (Fire Extinguisher)** | Emergência | Apaga incêndios e pacientes em chamas | Média | Ignorar as pomadas de acompanhamento |
+| **Arma (Gun)** | Controle de Ameaças | Defesa à distância contra entidades hostis | Depende da equipe | Atirar perto de pacientes normais |
+
+<Steps>
+  <Step num="1" title="Monitore seu Medidor">
+    Fique de olho no seu nível de Sanidade. Se cair abaixo de 50%, prepare-se para trocar de função com um colega de equipe.
+  </Step>
+  <Step num="2" title="Localize Café e Comida">
+    Mantenha um suprimento constante de Café em seu inventário. Use-o imediatamente após lidar com rituais ou sobreviver a um encontro com um Skinwalker.
+  </Step>
+  <Step num="3" title="Atribua Tarefas Seguras">
+    Se sua Sanidade estiver baixa e você não tiver itens de recuperação, fique longe da recepção e das câmeras. Dedique-se a tarefas simples nas salas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Guarda de Sanidade">
+Algumas classes têm vantagens passivas que reduzem a drenagem de Sanidade ou a restauram ao realizar ações específicas, como curar pacientes ou dar entrada em visitantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tier List de Classes e Progressão">
+
+As classes definem sua função no hospital, concedendo itens iniciais exclusivos, espaços no inventário, aumentos de velocidade e vantagens de Sanidade. Você pode desbloquear e atualizar essas classes usando Moedas de Animais (Animal Coins), que são mantidas permanentemente entre as partidas.
+
+### Classificação de Nível das Classes (Tier List)
+
+Escolher a classe certa para o seu estilo de jogo torna a sobrevivência em turnos difíceis muito mais fácil.
+
+| Classe | Custo | Função Principal | Vantagem Chave | Tier |
+|---|---|---|---|---|
+| **Cirurgião (Surgeon)** | 2.500 Moedas | Cura Rápida e Sanidade | Ganha Sanidade e velocidade após curar pacientes | **S-Tier** |
+| **Agente Secreto (Secret Agent)** | 890 Robux | Combate e Defesa | Começa com uma arma; regenera munição | **S-Tier** |
+| **Médico (Doctor)** | 900 Moedas | Médico Equilibrado | Recupera Sanidade ao curar; alta Sanidade inicial | **A-Tier** |
+| **Segurança (Security)** | 1.250 Moedas | Defesa contra Entidades | Começa com um X-Taser para atordoar Skinwalkers | **A-Tier** |
+| **Secretário (Secretary)** | 120 Moedas | Recepcionista | Recupera Sanidade ao dar entrada em pacientes | **A-Tier** |
+| **Psicólogo (Psychologist)** | 500 Moedas | Suporte de Sanidade | Dobra os efeitos de Sanidade; chance de ignorar drenagem | **A-Tier** |
+| **Paramédico (Paramedic)** | 250 Moedas | Resposta Rápida | Começa com Speed Cola para movimento rápido | **B-Tier** |
+| **Enfermeiro (Nurse)** | 20 Moedas | Suporte de Inventário | Aumenta a capacidade máxima do inventário | **B-Tier** |
+| **Estagiário (Intern)** | Grátis | Iniciante | Começa com bônus de Sanidade; sem mecânicas extras | **C-Tier** |
+
+<Callout type="success" title="Dica de Progressão">
+Não gaste suas Moedas de Animais comprando todas as classes. Economize para o **Médico (Doctor)** ou **Cirurgião (Surgeon)** se você gosta de curar, ou compre o **Secretário (Secretary)** se preferir cuidar da recepção. Atualize sua classe principal escolhida para o Nível 3 para maximizar suas vantagens passivas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o objetivo principal em Roblox Animal Hospital Oggy?",
+    answer: "Seu objetivo é sobreviver ao turno da noite dando entrada em pacientes animais normais, rejeitando anomalias assustadoras na recepção, concluindo tarefas médicas nas salas e mantendo seu medidor de Sanidade acima de zero."
+  },
+  {
+    question: "Como lidar com uma anomalia perdida que entra no hospital?",
+    answer: "Se uma anomalia passar pelas portas de proteção, ela se transformará em um Skinwalker hostil. Você deve se defender usando itens defensivos como um Taser ou Arma, proteger sua Sanidade e eliminar a ameaça antes de voltar a cuidar dos pacientes."
+  },
+  {
+    question: "Qual é a diferença entre Dinheiro (Cash) e Moedas de Animais (Animal Coins)?",
+    answer: "O Dinheiro (Cash) é ganho durante o turno e gasto na loja do jogo para comprar itens de sobrevivência temporários, como Café e Tasers. As Moedas de Animais (Animal Coins) são recompensas permanentes usadas no menu principal para desbloquear e atualizar classes."
+  },
+  {
+    question: "Qual classe é a melhor para jogadores solo?",
+    answer: "O Cirurgião (Surgeon) é a melhor classe gratuita para jogadores solo porque concede recuperação de Sanidade e aumento de velocidade de movimento toda vez que você cura um paciente com sucesso, permitindo que você se sustente indefinidamente."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital Stalker: Sobrevive al turno de noche y detecta anomalías",
+  description: "Domina las mecánicas de Roblox Animal Hospital Stalker. Aprende a detectar anomalías espeluznantes, gestionar la cordura, elegir las mejores clases y sobrevivir al aterrador turno de noche.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/fff?text=Animal+Hospital+Stalker+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Roblox Animal Hospital"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Amenaza del acechador**: Detectar las anomalías a tiempo es la única forma de evitar que los aterradores acechadores y las entidades Skinwalker entren en las instalaciones.
+- **Medidor de cordura**: Cada error o susto reduce tu cordura, lo que provoca un fin de partida instantáneo si llega a cero.
+- **Bucle principal de juego**: Registra a los pacientes animales, rechaza a los visitantes sospechosos usando las persianas del mostrador y cura a los pacientes reales en las salas asignadas.
+- **Ventaja de clase**: Gastar Monedas de Animales permanentes en clases de nivel alto como Cirujano o Seguridad mejora drásticamente las tasas de supervivencia.
+</Callout>
+
+<Section icon={Map} title="Conceptos básicos de supervivencia en Roblox Animal Hospital Stalker">
+
+En la jugabilidad de **roblox animal hospital stalker**, los jugadores asumen el papel de trabajadores de la clínica en el turno de noche que deben curar a los pacientes animales que llegan mientras defienden las instalaciones contra anomalías sobrenaturales. Si dejas pasar a un paciente corrompido por el mostrador de recepción, se transformará en un acechador hostil o Skinwalker que cazará activamente a los jugadores. Sobrevivir requiere un equilibrio perfecto entre un tratamiento clínico rápido, conciencia ambiental y protocolos de seguridad estrictos en la recepción.
+
+**Puntos destacados del video:**
+- Aprende las diferencias visuales entre los pacientes animales normales y las anomalías de los acechadores.
+- Comprende cómo operar las persianas de la recepción para bloquear las amenazas entrantes.
+- Descubre cómo gestionar las salas de tratamiento mientras mantienes tu cordura alta.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Guía de juego de Roblox Animal Hospital" />
+
+| Característica | Descripción | Impacto en la supervivencia |
+| :--- | :--- | :--- |
+| **Mostrador de recepción** | El punto de entrada donde inspeccionas a los pacientes que llegan. | Alto / Mantiene las anomalías fuera. |
+| **Persianas** | Barreras de seguridad utilizadas para rechazar entidades sospechosas. | Crítico / Evita que los acechadores irrumpan. |
+| **Cordura** | Tu reserva principal de salud que disminuye durante eventos aterradores. | Alto / Llegar a 0 provoca la muerte. |
+| **Salas de tratamiento** | Áreas donde se cura a los pacientes normales verificados. | Medio / Genera dinero y monedas. |
+
+<Callout type="warning" title="Advertencia">
+Nunca apresures el proceso de registro. Admitir una sola anomalía por querer ahorrar cinco segundos puede desatar a un acechador peligroso que arruine todo el turno de tu equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo identificar y rechazar anomalías">
+
+Detectar las anomalías antes de que crucen el umbral es tu defensa principal contra las amenazas de **roblox animal hospital stalker**. El juego proporciona múltiples herramientas en el mostrador de recepción para ayudarte a analizar a cada visitante. Debes comparar al paciente físico que está frente a ti con su foto oficial y las transmisiones de CCTV en vivo.
+
+<CardGrid cols={3}>
+  <Card title="Anomalías visuales">
+    Busca deformidades físicas como **tres ojos**, cuencas vacías, dientes afilados similares a los humanos o una sonrisa anormalmente amplia.
+  </Card>
+  <Card title="Indicios en CCTV">
+    Revisa el monitor en busca de cuadros negros que cubran los ojos del paciente, extremidades distorsionadas o una silueta completamente negra similar al vacío.
+  </Card>
+  <Card title="Discrepancias en las fotos">
+    Rechaza a los pacientes de inmediato si su apariencia real no coincide con la foto de sus documentos, o si la foto tiene un filtro sangriento o maldito.
+  </Card>
+</CardGrid>
+
+| Tipo de anomalía | Señal de advertencia clave | Acción requerida |
+| :--- | :--- | :--- |
+| **Deformidad física** | Dientes afilados, extremidades adicionales, ojos brillantes o espasmos. | Presiona el botón de la persiana inmediatamente. |
+| **Fallo de CCTV** | El paciente mira directamente a la cámara con el cuerpo distorsionado. | Recházalo mediante los controles del mostrador. |
+| **Foto maldita** | Grano estático o rasgos faciales sangrientos en los archivos. | Cierra las persianas de recepción. |
+| **Monstruo de la cama** | Gruñidos extraños o movimiento debajo de las camas de tratamiento. | Evita mirar debajo de la cama. |
+
+<Callout type="tip" title="Consejo profesional">
+Desarrolla una rutina de inspección estricta para cada visitante: primero revisa su rostro visualmente, luego mira el documento con la foto y finalmente echa un vistazo al monitor de CCTV. Si un solo detalle parece extraño, recházalo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso del turno de noche">
+
+Sobrevivir a un turno de noche completo requiere coordinación y velocidad. Sigue este protocolo optimizado para mantener el hospital funcionando sin problemas mientras mantienes a raya a los acechadores.
+
+<Steps>
+  <Step num="1" title="Asegura el mostrador de recepción">
+    Al comienzo del turno, asigna al menos a un jugador al mostrador de recepción. Este jugador es el único responsable de registrar a los pacientes animales normales y bloquear a las anomalías.
+  </Step>
+  <Step num="2" title="Dirige a los pacientes a las salas de tratamiento">
+    Una vez que se verifique que un paciente es seguro, guíalo a una sala de tratamiento abierta (Salas 1 a 8). Cada sala cuenta con equipos de diagnóstico específicos y requiere minijuegos médicos únicos.
+  </Step>
+  <Step num="3" title="Ejecuta los tratamientos correctos">
+    Interactúa con la computadora de la sala para identificar la medicina o las herramientas quirúrgicas necesarias. Administrar el tratamiento incorrecto mata al paciente y penaliza gravemente la calificación de tu turno.
+  </Step>
+  <Step num="4" title="Gestiona los peligros ambientales">
+    Ten cuidado con los eventos aleatorios como incendios en las salas, golpes en las paredes cerca de la recepción o baba verde en el suelo. Usa extintores y mantén la distancia con las anomalías hostiles de las paredes.
+  </Step>
+</Steps>
+
+| Sala de tratamiento | Mecánica de juego | Error común a evitar |
+| :--- | :--- | :--- |
+| **Salas 1-5** | Analiza la computadora y busca los artículos correspondientes en los estantes. | Agarrar la medicina equivocada. |
+| **Sala 6 (Radiografía)** | Completa la secuencia de cuadrados parpadeantes. | Adivinar el artículo de tratamiento final. |
+| **Sala 7 (Corazón)** | Haz clic en los íconos correspondientes mientras evitas los íconos de calaveras. | Hacer clic en las calaveras por pánico bajo presión. |
+| **Sala 8 (Cirugía)** | Usa herramientas de precisión temporal como bisturís y tijeras. | Salir de la sala a mitad de la operación. |
+
+<Callout type="info" title="Nota">
+Si una anomalía supera tu defensa, vagará por los pasillos como un acechador. Mantén un táser o una pistola listos para inhabilitarlos temporalmente mientras tu equipo se concentra en completar los tratamientos restantes de los pacientes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía de selección de clases y progresión">
+
+Ganar Monedas de Animales durante los turnos exitosos te permite desbloquear clases especializadas. Estas clases otorgan ventajas pasivas, objetos iniciales y mejoras de cordura que facilitan mucho la supervivencia en los turnos avanzados del juego.
+
+| Clase | Costo | Mejor rol | Ventaja clave |
+| :--- | :--- | :--- | :--- |
+| **Pasante** | Gratis | Principiantes | Comienza con cordura adicional; simple y seguro. |
+| **Secretario** | 120 monedas | Recepcionista | Recupera cordura al registrar pacientes normales. |
+| **Doctor** | 900 monedas | Médico | Restaura la cordura tras curar con éxito a los pacientes. |
+| **Seguridad** | 1250 monedas | Defensor | Comienza con un X-Táser para detener a los acechadores sueltos. |
+| **Cirujano** | 2500 monedas | Solitario avanzado | Obtiene grandes aumentos de velocidad y cordura tras curar. |
+
+<Checklist
+  id="progression-milestones"
+  title="Orden de progresión recomendado:"
+  items={[
+    "Comienza con el Pasante para aprender la distribución y los minijuegos básicos de los pacientes",
+    "Compra el Secretario si prefieres gestionar la recepción y detectar anomalías",
+    "Ahorra para el de Seguridad para obtener un arma confiable contra los acechadores sueltos",
+    "Desbloquea al Cirujano para maximizar tu velocidad de tratamiento y recuperación de cordura en partidas en solitario",
+    "Mejora tu clase favorita al nivel 3 para duplicar la efectividad de sus ventajas pasivas"
+  ]}
+/>
+
+<Callout type="success" title="Éxito">
+Para los jugadores premium, la clase **Agente Secreto** (890 Robux) comienza con una pistola de gran daño, lo que la convierte en la clase definitiva para cazar acechadores activos y Skinwalkers.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo detengo a un acechador que entró al hospital?",
+    answer: "Si un acechador o Skinwalker entra en las instalaciones, usa armas defensivas como el X-Táser (clase de Seguridad) o una pistola (clase de Agente Secreto) para aturdirlos o neutralizarlos. Evita el contacto directo para prevenir una pérdida rápida de cordura."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de recuperar la cordura en roblox animal hospital stalker?",
+    answer: "La forma más confiable de recuperar la cordura es bebiendo café o comiendo alimentos comprados en la tienda del juego. Ciertas clases, como el Doctor y el Cirujano, también recuperan cordura de forma pasiva cuando curan con éxito a los pacientes."
+  },
+  {
+    question: "¿Puedo cambiar mi clase durante un turno?",
+    answer: "No, las clases deben seleccionarse en la sala principal antes de comenzar un turno. Elige tu clase según el rol planificado para tu equipo (por ejemplo, Secretario para la recepción, Cirujano para las salas de tratamiento)."
+  },
+  {
+    question: "¿Qué pasa si le doy a un paciente la medicina equivocada?",
+    answer: "Dar la medicina equivocada o usar la herramienta quirúrgica incorrecta matará instántaneamente al paciente. Esto reduce la puntuación general de tu turno y disminuye la cantidad de dinero y Monedas de Animales que ganas al final de la ronda."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "anomalies": [
+      {
+        "slug": "roblox-animal-hospital-all-anomalies",
+        "file": "roblox-animal-hospital-all-anomalies"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomalies-list",
+        "file": "roblox-animal-hospital-anomalies-list"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomalies",
+        "file": "roblox-animal-hospital-anomalies"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomaly",
+        "file": "roblox-animal-hospital-anomaly"
+      },
+      {
+        "slug": "roblox-animal-hospital-enemies",
+        "file": "roblox-animal-hospital-enemies"
+      },
+      {
+        "slug": "roblox-animal-hospital-events",
+        "file": "roblox-animal-hospital-events"
+      },
+      {
+        "slug": "roblox-animal-hospital-jumpscares",
+        "file": "roblox-animal-hospital-jumpscares"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "roblox-animal-hospital-barney",
+        "file": "roblox-animal-hospital-barney"
+      },
+      {
+        "slug": "roblox-animal-hospital-characters",
+        "file": "roblox-animal-hospital-characters"
+      },
+      {
+        "slug": "roblox-animal-hospital-coffee-guy",
+        "file": "roblox-animal-hospital-coffee-guy"
+      },
+      {
+        "slug": "roblox-animal-hospital-officer-duckman",
+        "file": "roblox-animal-hospital-officer-duckman"
+      },
+      {
+        "slug": "roblox-animal-hospital-oggy",
+        "file": "roblox-animal-hospital-oggy"
+      },
+      {
+        "slug": "roblox-animal-hospital-rat",
+        "file": "roblox-animal-hospital-rat"
+      },
+      {
+        "slug": "roblox-animal-hospital-ratthew",
+        "file": "roblox-animal-hospital-ratthew"
+      },
+      {
+        "slug": "roblox-animal-hospital-ron",
+        "file": "roblox-animal-hospital-ron"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "roblox-animal-hospital-all-classes",
+        "file": "roblox-animal-hospital-all-classes"
+      },
+      {
+        "slug": "roblox-animal-hospital-best-class",
+        "file": "roblox-animal-hospital-best-class"
+      },
+      {
+        "slug": "roblox-animal-hospital-class-tier-list",
+        "file": "roblox-animal-hospital-class-tier-list"
+      },
+      {
+        "slug": "roblox-animal-hospital-classes",
+        "file": "roblox-animal-hospital-classes"
+      },
+      {
+        "slug": "roblox-animal-hospital-intern",
+        "file": "roblox-animal-hospital-intern"
+      },
+      {
+        "slug": "roblox-animal-hospital-nurse",
+        "file": "roblox-animal-hospital-nurse"
+      },
+      {
+        "slug": "roblox-animal-hospital-secret-agent",
+        "file": "roblox-animal-hospital-secret-agent"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "roblox-animal-hospital-codes",
+        "file": "roblox-animal-hospital-codes"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "roblox-animal-hospital-ending",
+        "file": "roblox-animal-hospital-ending"
+      },
+      {
+        "slug": "roblox-animal-hospital-endings",
+        "file": "roblox-animal-hospital-endings"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roblox-animal-hospital-beginner-guide",
+        "file": "roblox-animal-hospital-beginner-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-guide",
+        "file": "roblox-animal-hospital-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-survive",
+        "file": "roblox-animal-hospital-how-to-survive"
+      },
+      {
+        "slug": "roblox-animal-hospital-secrets",
+        "file": "roblox-animal-hospital-secrets"
+      },
+      {
+        "slug": "roblox-animal-hospital-solo-guide",
+        "file": "roblox-animal-hospital-solo-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-survival-guide",
+        "file": "roblox-animal-hospital-survival-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-tips",
+        "file": "roblox-animal-hospital-tips"
+      },
+      {
+        "slug": "roblox-animal-hospital-walkthrough",
+        "file": "roblox-animal-hospital-walkthrough"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "roblox-animal-hospital-coffee",
+        "file": "roblox-animal-hospital-coffee"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-get-rid-of-the-stalker",
+        "file": "roblox-animal-hospital-how-to-get-rid-of-the-stalker"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-unlock-mouse",
+        "file": "roblox-animal-hospital-how-to-unlock-mouse"
+      },
+      {
+        "slug": "roblox-animal-hospital-key",
+        "file": "roblox-animal-hospital-key"
+      },
+      {
+        "slug": "roblox-animal-hospital-sandbox",
+        "file": "roblox-animal-hospital-sandbox"
+      },
+      {
+        "slug": "roblox-animal-hospital-stalker",
+        "file": "roblox-animal-hospital-stalker"
+      },
+      {
+        "slug": "roblox-animal-hospital-suitcase",
+        "file": "roblox-animal-hospital-suitcase"
+      }
+    ]
+  },
+  "es": {
+    "anomalies": [
+      {
+        "slug": "roblox-animal-hospital-all-anomalies",
+        "file": "roblox-animal-hospital-all-anomalies"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomalies-list",
+        "file": "roblox-animal-hospital-anomalies-list"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomalies",
+        "file": "roblox-animal-hospital-anomalies"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomaly",
+        "file": "roblox-animal-hospital-anomaly"
+      },
+      {
+        "slug": "roblox-animal-hospital-enemies",
+        "file": "roblox-animal-hospital-enemies"
+      },
+      {
+        "slug": "roblox-animal-hospital-events",
+        "file": "roblox-animal-hospital-events"
+      },
+      {
+        "slug": "roblox-animal-hospital-jumpscares",
+        "file": "roblox-animal-hospital-jumpscares"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "roblox-animal-hospital-barney",
+        "file": "roblox-animal-hospital-barney"
+      },
+      {
+        "slug": "roblox-animal-hospital-characters",
+        "file": "roblox-animal-hospital-characters"
+      },
+      {
+        "slug": "roblox-animal-hospital-coffee-guy",
+        "file": "roblox-animal-hospital-coffee-guy"
+      },
+      {
+        "slug": "roblox-animal-hospital-officer-duckman",
+        "file": "roblox-animal-hospital-officer-duckman"
+      },
+      {
+        "slug": "roblox-animal-hospital-oggy",
+        "file": "roblox-animal-hospital-oggy"
+      },
+      {
+        "slug": "roblox-animal-hospital-rat",
+        "file": "roblox-animal-hospital-rat"
+      },
+      {
+        "slug": "roblox-animal-hospital-ratthew",
+        "file": "roblox-animal-hospital-ratthew"
+      },
+      {
+        "slug": "roblox-animal-hospital-ron",
+        "file": "roblox-animal-hospital-ron"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "roblox-animal-hospital-all-classes",
+        "file": "roblox-animal-hospital-all-classes"
+      },
+      {
+        "slug": "roblox-animal-hospital-best-class",
+        "file": "roblox-animal-hospital-best-class"
+      },
+      {
+        "slug": "roblox-animal-hospital-class-tier-list",
+        "file": "roblox-animal-hospital-class-tier-list"
+      },
+      {
+        "slug": "roblox-animal-hospital-classes",
+        "file": "roblox-animal-hospital-classes"
+      },
+      {
+        "slug": "roblox-animal-hospital-intern",
+        "file": "roblox-animal-hospital-intern"
+      },
+      {
+        "slug": "roblox-animal-hospital-nurse",
+        "file": "roblox-animal-hospital-nurse"
+      },
+      {
+        "slug": "roblox-animal-hospital-secret-agent",
+        "file": "roblox-animal-hospital-secret-agent"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "roblox-animal-hospital-codes",
+        "file": "roblox-animal-hospital-codes"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "roblox-animal-hospital-ending",
+        "file": "roblox-animal-hospital-ending"
+      },
+      {
+        "slug": "roblox-animal-hospital-endings",
+        "file": "roblox-animal-hospital-endings"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roblox-animal-hospital-beginner-guide",
+        "file": "roblox-animal-hospital-beginner-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-guide",
+        "file": "roblox-animal-hospital-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-survive",
+        "file": "roblox-animal-hospital-how-to-survive"
+      },
+      {
+        "slug": "roblox-animal-hospital-secrets",
+        "file": "roblox-animal-hospital-secrets"
+      },
+      {
+        "slug": "roblox-animal-hospital-solo-guide",
+        "file": "roblox-animal-hospital-solo-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-survival-guide",
+        "file": "roblox-animal-hospital-survival-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-tips",
+        "file": "roblox-animal-hospital-tips"
+      },
+      {
+        "slug": "roblox-animal-hospital-walkthrough",
+        "file": "roblox-animal-hospital-walkthrough"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "roblox-animal-hospital-coffee",
+        "file": "roblox-animal-hospital-coffee"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-get-rid-of-the-stalker",
+        "file": "roblox-animal-hospital-how-to-get-rid-of-the-stalker"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-unlock-mouse",
+        "file": "roblox-animal-hospital-how-to-unlock-mouse"
+      },
+      {
+        "slug": "roblox-animal-hospital-key",
+        "file": "roblox-animal-hospital-key"
+      },
+      {
+        "slug": "roblox-animal-hospital-sandbox",
+        "file": "roblox-animal-hospital-sandbox"
+      },
+      {
+        "slug": "roblox-animal-hospital-stalker",
+        "file": "roblox-animal-hospital-stalker"
+      },
+      {
+        "slug": "roblox-animal-hospital-suitcase",
+        "file": "roblox-animal-hospital-suitcase"
+      }
+    ]
+  },
+  "ja": {
+    "anomalies": [
+      {
+        "slug": "roblox-animal-hospital-all-anomalies",
+        "file": "roblox-animal-hospital-all-anomalies"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomalies-list",
+        "file": "roblox-animal-hospital-anomalies-list"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomalies",
+        "file": "roblox-animal-hospital-anomalies"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomaly",
+        "file": "roblox-animal-hospital-anomaly"
+      },
+      {
+        "slug": "roblox-animal-hospital-enemies",
+        "file": "roblox-animal-hospital-enemies"
+      },
+      {
+        "slug": "roblox-animal-hospital-events",
+        "file": "roblox-animal-hospital-events"
+      },
+      {
+        "slug": "roblox-animal-hospital-jumpscares",
+        "file": "roblox-animal-hospital-jumpscares"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "roblox-animal-hospital-barney",
+        "file": "roblox-animal-hospital-barney"
+      },
+      {
+        "slug": "roblox-animal-hospital-characters",
+        "file": "roblox-animal-hospital-characters"
+      },
+      {
+        "slug": "roblox-animal-hospital-coffee-guy",
+        "file": "roblox-animal-hospital-coffee-guy"
+      },
+      {
+        "slug": "roblox-animal-hospital-officer-duckman",
+        "file": "roblox-animal-hospital-officer-duckman"
+      },
+      {
+        "slug": "roblox-animal-hospital-oggy",
+        "file": "roblox-animal-hospital-oggy"
+      },
+      {
+        "slug": "roblox-animal-hospital-rat",
+        "file": "roblox-animal-hospital-rat"
+      },
+      {
+        "slug": "roblox-animal-hospital-ratthew",
+        "file": "roblox-animal-hospital-ratthew"
+      },
+      {
+        "slug": "roblox-animal-hospital-ron",
+        "file": "roblox-animal-hospital-ron"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "roblox-animal-hospital-all-classes",
+        "file": "roblox-animal-hospital-all-classes"
+      },
+      {
+        "slug": "roblox-animal-hospital-best-class",
+        "file": "roblox-animal-hospital-best-class"
+      },
+      {
+        "slug": "roblox-animal-hospital-class-tier-list",
+        "file": "roblox-animal-hospital-class-tier-list"
+      },
+      {
+        "slug": "roblox-animal-hospital-classes",
+        "file": "roblox-animal-hospital-classes"
+      },
+      {
+        "slug": "roblox-animal-hospital-intern",
+        "file": "roblox-animal-hospital-intern"
+      },
+      {
+        "slug": "roblox-animal-hospital-nurse",
+        "file": "roblox-animal-hospital-nurse"
+      },
+      {
+        "slug": "roblox-animal-hospital-secret-agent",
+        "file": "roblox-animal-hospital-secret-agent"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "roblox-animal-hospital-codes",
+        "file": "roblox-animal-hospital-codes"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "roblox-animal-hospital-ending",
+        "file": "roblox-animal-hospital-ending"
+      },
+      {
+        "slug": "roblox-animal-hospital-endings",
+        "file": "roblox-animal-hospital-endings"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roblox-animal-hospital-beginner-guide",
+        "file": "roblox-animal-hospital-beginner-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-guide",
+        "file": "roblox-animal-hospital-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-survive",
+        "file": "roblox-animal-hospital-how-to-survive"
+      },
+      {
+        "slug": "roblox-animal-hospital-secrets",
+        "file": "roblox-animal-hospital-secrets"
+      },
+      {
+        "slug": "roblox-animal-hospital-solo-guide",
+        "file": "roblox-animal-hospital-solo-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-survival-guide",
+        "file": "roblox-animal-hospital-survival-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-tips",
+        "file": "roblox-animal-hospital-tips"
+      },
+      {
+        "slug": "roblox-animal-hospital-walkthrough",
+        "file": "roblox-animal-hospital-walkthrough"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "roblox-animal-hospital-coffee",
+        "file": "roblox-animal-hospital-coffee"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-get-rid-of-the-stalker",
+        "file": "roblox-animal-hospital-how-to-get-rid-of-the-stalker"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-unlock-mouse",
+        "file": "roblox-animal-hospital-how-to-unlock-mouse"
+      },
+      {
+        "slug": "roblox-animal-hospital-key",
+        "file": "roblox-animal-hospital-key"
+      },
+      {
+        "slug": "roblox-animal-hospital-sandbox",
+        "file": "roblox-animal-hospital-sandbox"
+      },
+      {
+        "slug": "roblox-animal-hospital-stalker",
+        "file": "roblox-animal-hospital-stalker"
+      },
+      {
+        "slug": "roblox-animal-hospital-suitcase",
+        "file": "roblox-animal-hospital-suitcase"
+      }
+    ]
+  },
+  "pt": {
+    "anomalies": [
+      {
+        "slug": "roblox-animal-hospital-all-anomalies",
+        "file": "roblox-animal-hospital-all-anomalies"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomalies-list",
+        "file": "roblox-animal-hospital-anomalies-list"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomalies",
+        "file": "roblox-animal-hospital-anomalies"
+      },
+      {
+        "slug": "roblox-animal-hospital-anomaly",
+        "file": "roblox-animal-hospital-anomaly"
+      },
+      {
+        "slug": "roblox-animal-hospital-enemies",
+        "file": "roblox-animal-hospital-enemies"
+      },
+      {
+        "slug": "roblox-animal-hospital-events",
+        "file": "roblox-animal-hospital-events"
+      },
+      {
+        "slug": "roblox-animal-hospital-jumpscares",
+        "file": "roblox-animal-hospital-jumpscares"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "roblox-animal-hospital-barney",
+        "file": "roblox-animal-hospital-barney"
+      },
+      {
+        "slug": "roblox-animal-hospital-characters",
+        "file": "roblox-animal-hospital-characters"
+      },
+      {
+        "slug": "roblox-animal-hospital-coffee-guy",
+        "file": "roblox-animal-hospital-coffee-guy"
+      },
+      {
+        "slug": "roblox-animal-hospital-officer-duckman",
+        "file": "roblox-animal-hospital-officer-duckman"
+      },
+      {
+        "slug": "roblox-animal-hospital-oggy",
+        "file": "roblox-animal-hospital-oggy"
+      },
+      {
+        "slug": "roblox-animal-hospital-rat",
+        "file": "roblox-animal-hospital-rat"
+      },
+      {
+        "slug": "roblox-animal-hospital-ratthew",
+        "file": "roblox-animal-hospital-ratthew"
+      },
+      {
+        "slug": "roblox-animal-hospital-ron",
+        "file": "roblox-animal-hospital-ron"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "roblox-animal-hospital-all-classes",
+        "file": "roblox-animal-hospital-all-classes"
+      },
+      {
+        "slug": "roblox-animal-hospital-best-class",
+        "file": "roblox-animal-hospital-best-class"
+      },
+      {
+        "slug": "roblox-animal-hospital-class-tier-list",
+        "file": "roblox-animal-hospital-class-tier-list"
+      },
+      {
+        "slug": "roblox-animal-hospital-classes",
+        "file": "roblox-animal-hospital-classes"
+      },
+      {
+        "slug": "roblox-animal-hospital-intern",
+        "file": "roblox-animal-hospital-intern"
+      },
+      {
+        "slug": "roblox-animal-hospital-nurse",
+        "file": "roblox-animal-hospital-nurse"
+      },
+      {
+        "slug": "roblox-animal-hospital-secret-agent",
+        "file": "roblox-animal-hospital-secret-agent"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "roblox-animal-hospital-codes",
+        "file": "roblox-animal-hospital-codes"
+      }
+    ],
+    "endings": [
+      {
+        "slug": "roblox-animal-hospital-ending",
+        "file": "roblox-animal-hospital-ending"
+      },
+      {
+        "slug": "roblox-animal-hospital-endings",
+        "file": "roblox-animal-hospital-endings"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "roblox-animal-hospital-beginner-guide",
+        "file": "roblox-animal-hospital-beginner-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-guide",
+        "file": "roblox-animal-hospital-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-survive",
+        "file": "roblox-animal-hospital-how-to-survive"
+      },
+      {
+        "slug": "roblox-animal-hospital-secrets",
+        "file": "roblox-animal-hospital-secrets"
+      },
+      {
+        "slug": "roblox-animal-hospital-solo-guide",
+        "file": "roblox-animal-hospital-solo-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-survival-guide",
+        "file": "roblox-animal-hospital-survival-guide"
+      },
+      {
+        "slug": "roblox-animal-hospital-tips",
+        "file": "roblox-animal-hospital-tips"
+      },
+      {
+        "slug": "roblox-animal-hospital-walkthrough",
+        "file": "roblox-animal-hospital-walkthrough"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "roblox-animal-hospital-coffee",
+        "file": "roblox-animal-hospital-coffee"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-get-rid-of-the-stalker",
+        "file": "roblox-animal-hospital-how-to-get-rid-of-the-stalker"
+      },
+      {
+        "slug": "roblox-animal-hospital-how-to-unlock-mouse",
+        "file": "roblox-animal-hospital-how-to-unlock-mouse"
+      },
+      {
+        "slug": "roblox-animal-hospital-key",
+        "file": "roblox-animal-hospital-key"
+      },
+      {
+        "slug": "roblox-animal-hospital-sandbox",
+        "file": "roblox-animal-hospital-sandbox"
+      },
+      {
+        "slug": "roblox-animal-hospital-stalker",
+        "file": "roblox-animal-hospital-stalker"
+      },
+      {
+        "slug": "roblox-animal-hospital-suitcase",
+        "file": "roblox-animal-hospital-suitcase"
+      }
+    ]
+  }
+}

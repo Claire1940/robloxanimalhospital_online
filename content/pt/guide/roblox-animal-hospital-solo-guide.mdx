@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia Solo do Roblox Animal Hospital: Estratégia de Sobrevivência 2026",
+  description: "Domine o guia solo do Roblox Animal Hospital com dicas de especialistas sobre detecção de anomalias, gerenciamento de sanidade e as melhores classes para o sucesso no modo um jogador.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Solo+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipe da Wiki do roblox animal hospital",
+  keywords: "guia solo roblox animal hospital, estratégia de sobrevivência, detecção de anomalias, hospital dos animais anomalia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia solo do Roblox Animal Hospital**: O sucesso depende do equilíbrio entre a verificação de anomalias na recepção e tratamentos rápidos nos quartos.
+- **Prioridade de Sanidade**: Jogadores solo devem monitorar a Sanidade constantemente; perdê-la encerra a partida imediatamente, sem colegas de equipe para reviver ou ajudar.
+- **Melhor Classe Solo**: O **Cirurgião** é atualmente a melhor escolha para partidas solo devido à recuperação de Sanidade e bônus de velocidade após tratamentos bem-sucedidos.
+- **Detecção de Anomalias**: Use sempre o método de verificação tripla (Visual, CCTV e Foto) antes de admitir qualquer paciente na clínica.
+- **Gerenciamento de Itens**: Mantenha Café e um Taser em seu inventário o tempo todo para lidar com quedas de Sanidade de emergência e anomalias perdidas.
+</Callout>
+
+<Section icon={Map} title="Dominando a Dinâmica do Turno Solo">
+
+Sobreviver a um turno no **Hospital dos Animais Anomalia** como jogador solo requer uma abordagem significativamente diferente em comparação ao jogo em equipe. Em uma partida solo, você é responsável por todas as funções: recepcionista, médico e segurança. O **guia solo do roblox animal hospital** foca em otimizar seu movimento e velocidade de tomada de decisão para garantir que nenhum paciente seja negligenciado, mantendo o hospital seguro contra ameaças sobrenaturais.
+
+O ciclo principal envolve fazer o check-in dos pacientes na recepção, identificar anomalias e tratar pacientes normais em seus quartos designados. Como você está sozinho, a pressão no seu medidor de Sanidade é dobrada. Cada erro é amplificado, e ameaças ambientais como o Monstro da Cama ou os Wall Bangers exigem sua atenção imediata e total.
+
+| Recurso | Mecânicas de Jogo Solo | Dinâmicas de Jogo em Equipe |
+|:--- |:--- |:--- |
+| **Gerenciamento de Sanidade** | Pressão alta; requer uso constante de Café | Responsabilidade compartilhada; colegas podem ajudar |
+| **Eficiência de Tarefas** | Deve alternar entre recepção e quartos rapidamente | Funções são divididas (Recepção vs. Médico) |
+| **Margem de Erro** | Crítica; uma anomalia perdida pode encerrar a partida | Moderada; colegas podem ajudar a neutralizar ameaças |
+| **Recompensas em Moedas** | Ganho pessoal maior por turno bem-sucedido | Recompensas compartilhadas com base na participação |
+| **Escalonamento de Dificuldade** | Dificuldade estática baseada no número do turno | Escala ligeiramente com o número de jogadores |
+
+<Callout type="success" title="Vantagem Solo">
+Embora o jogo solo seja mais difícil, ele permite que você controle o ritmo do jogo. Você não precisará se preocupar com colegas de equipe admitindo anomalias acidentalmente ou desperdiçando suprimentos médicos preciosos.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Detecção de Anomalias: A Verificação Tripla Solo">
+
+Para qualquer jogador que siga este **guia solo do roblox animal hospital**, a habilidade mais crítica é identificar anomalias. Admitir uma anomalia no hospital cria um Skinwalker, que irá caçá-lo ativamente e drenar sua Sanidade. Como jogador solo, você não pode se dar ao luxo de ter um Skinwalker vagando pelos corredores enquanto tenta realizar uma cirurgia no Quarto 8.
+
+Você deve implementar uma rotina rigorosa de "Verificação Tripla" para cada visitante que chegar à recepção. Não apresse este processo, mesmo que a fila de espera esteja crescendo. Um único erro consome mais tempo para ser corrigido do que um atraso de 10 segundos no check-in.
+
+**A Rotina de Verificação Tripla:**
+1.  **Inspeção Visual**: Procure por deformidades físicas óbvias, como olhos extras, dentes humanos realistas ou um sorriso distorcido.
+2.  **Verificação por CCTV**: Verifique o monitor. Algumas anomalias só revelam sua verdadeira forma na câmera, aparecendo como vazios escuros ou tendo membros que se alongam de forma não natural.
+3.  **Comparação de Foto**: Compare a aparência atual do paciente com a foto fornecida. Se as orelhas, o nariz ou a cor dos olhos diferirem, mesmo que ligeiramente, é uma anomalia.
+
+| Categoria de Anomalia | Sinal Visual Comum | Ação Necessária |
+|:--- |:--- |:--- |
+| **Distorção Física** | Três olhos / Dentes humanos afiados / Sorrisos largos | Rejeição Imediata |
+| **Anomalias de Câmera** | Caixa preta sobre os olhos / Tremores apenas no CCTV | Rejeição Imediata |
+| **Divergência na Foto** | Foto mostra animal ou características diferentes | Rejeição Imediata |
+| **Ambiental** | Paciente olhando diretamente para a lente do CCTV | Rejeição Imediata |
+| **Agressivo** | Paciente rosnando ou fazendo ruídos humanos | Rejeição Imediata |
+
+<Callout type="warning" title="Aviso Crítico">
+Se um paciente parecer normal, mas a foto tiver olhos injetados ou um efeito de granulação "amaldiçoado", não o admita. Olhar para fotos amaldiçoadas por muito tempo também drenará sua Sanidade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Classes para Progressão Solo">
+
+Escolher a classe certa é a base de uma carreira solo de sucesso no Roblox Animal Hospital. As classes oferecem bônus passivos e itens iniciais que podem mitigar os desafios de estar sozinho. Para jogadores solo, classes que oferecem recuperação de Sanidade ou expansão de inventário têm prioridade sobre funções focadas em combate.
+
+<CardGrid cols={3}>
+  <Card title="Cirurgião (S-Tier)">
+    - **Custo**: 2500 Animal Coins
+    - **Vantagem**: Ganha Sanidade e velocidade após a cura.
+    - **Melhor para**: Sustentar turnos solo longos.
+  </Card>
+  <Card title="Secretário (A-Tier)">
+    - **Custo**: 120 Animal Coins
+    - **Vantagem**: Recupera Sanidade durante os check-ins.
+    - **Melhor para**: Iniciantes dominando a recepção.
+  </Card>
+  <Card title="Estagiário (B-Tier)">
+    - **Custo**: Grátis
+    - **Vantagem**: Começa com bônus de Sanidade.
+    - **Melhor para**: Aprender as mecânicas básicas.
+  </Card>
+</CardGrid>
+
+O **Cirurgião** é o objetivo final para jogadores solo. O bônus de velocidade permite que você circule rapidamente entre a recepção e as salas de tratamento, enquanto o ganho de Sanidade garante que você permaneça no jogo mesmo após lidar com eventos estressantes. Se você está começando agora, o **Secretário** é um fantástico investimento de baixo custo que o recompensa por realizar a tarefa mais frequente: fazer o check-in dos pacientes.
+
+| Nome da Classe | Viabilidade Solo | Principal Benefício para Jogadores Solo |
+|:--- |:--- |:--- |
+| **Cirurgião** | 5/5 | Melhor ciclo de Sanidade/Velocidade para solo |
+| **Médico** | 4/5 | Recuperação consistente de Sanidade durante o tratamento |
+| **Secretário** | 4/5 | Mantém a Sanidade alta durante check-ins ocupados |
+| **Segurança** | 3/5 | Taser inicial ajuda com anomalias perdidas |
+| **Enfermeiro** | 2/5 | Espaço no inventário é bom, mas carece de ajuda na Sanidade |
+
+<Callout type="tip" title="Dica Pro">
+Se você tiver Robux, o **Agente Secreto** é uma poderosa alternativa solo. Começar com uma arma permite lidar com Skinwalkers imediatamente, embora careça da recuperação passiva de Sanidade do Cirurgião.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo do Turno Solo">
+
+Para maximizar sua eficiência, siga este fluxo de trabalho estruturado para cada turno noturno. Esta sequência garante que você mantenha o controle sobre o ambiente do hospital enquanto progride na fila de pacientes.
+
+<Steps>
+  <Step num="1" title="Preparação Inicial">
+    Antes que o primeiro paciente chegue, verifique a loja. Se tiver dinheiro suficiente, compre um **Café** e um **Taser**. Posicione-se na recepção e garanta que seu monitor de CCTV esteja funcionando.
+  </Step>
+  <Step num="2" title="Check-In em Lote">
+    Faça o check-in de 2 a 3 pacientes de uma vez. Use o método de Verificação Tripla para rejeitar anomalias imediatamente. Admitir um pequeno lote permite que você se desloque para a área de tratamento e finalize várias tarefas em uma única viagem.
+  </Step>
+  <Step num="3" title="Diagnóstico e Tratamento Rápido">
+    Vá para as salas de tratamento. Interaja com os computadores para diagnosticar o animal. Colete os itens necessários (Pomada, Colírio, etc.) e aplique-os rapidamente. Para o Quarto 8 (Cirurgia), foque inteiramente no mini-game até terminar.
+  </Step>
+  <Step num="4" title="Limpeza Ambiental">
+    Entre os lotes de pacientes, verifique se há perigos. Olhe debaixo das camas para ver se há o Monstro da Cama, limpe qualquer gosma verde e garanta que nenhum Wall Banger esteja bloqueando seu caminho. Se sua Sanidade estiver abaixo de 40%, beba seu Café.
+  </Step>
+  <Step num="5" title="Conclusão do Turno">
+    Assim que o número necessário de pacientes for tratado ou o tempo expirar, retorne à recepção para a contagem final. Use seus Animal Coins ganhos para melhorar sua classe antes de iniciar a próxima noite.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota de Eficiência">
+Não tente tratar cada paciente um por um. Agrupar suas tarefas economiza o tempo gasto caminhando de um lado para o outro, que é o maior desperdício de tempo no jogo solo.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Salas de Tratamento e Prioridade de Itens">
+
+Entender os requisitos específicos de cada sala é essencial para jogadores solo que precisam minimizar o tempo gasto na parte de trás do hospital. Cada sala tem um nível de complexidade e fator de risco diferente.
+
+| Número do Quarto | Tipo de Tarefa | Nível de Risco | Estratégia Solo |
+|:--- |:--- |:--- |:--- |
+| **Quartos 1-5** | Médico Básico | Baixo | Entrega simples de itens; faça-os em sucessão rápida. |
+| **Quarto 6** | Sequência de Raio-X | Médio | Requer correspondência de padrões; não se apresse ou falhará. |
+| **Quarto 7** | Monitor Cardíaco | Médio | Clique nos ícones, evite as caveiras; requer foco. |
+| **Quarto 8** | Cirurgia | Alto | Fique até terminar; sair mata o paciente. |
+
+Em partidas solo, o espaço no seu inventário é limitado. Você deve priorizar itens que o mantenham vivo em vez de itens que apenas ajudam os pacientes. Um médico morto não pode curar ninguém.
+
+**Lista de Prioridade de Itens para Jogadores Solo:**
+- **Café**: Tier 1. Essencial para recuperação de Sanidade.
+- **Taser**: Tier 1. Sua única defesa contra anomalias perdidas.
+- **Extintor de Incêndio**: Tier 2. Necessário para eventos aleatórios de fogo.
+- **Speed Cola**: Tier 3. Útil para hospitais grandes, mas não obrigatório.
+- **Suprimentos Médicos**: Tier 3. Pegue-os apenas quando estiver indo ativamente para uma sala de tratamento.
+
+<Callout type="warning" title="Evite Erros">
+Dar o remédio errado a um paciente normal irá matá-lo instantaneamente. Isso resulta em uma penalidade massiva de Sanidade. Sempre verifique o diagnóstico no computador da sala antes de aplicar um item.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão a Longo Prazo e Moedas">
+
+À medida que você sobrevive a mais turnos, ganhará **Animal Coins**. Elas são permanentes e devem ser gastas com sabedoria para facilitar os futuros turnos solo. O **guia solo do roblox animal hospital** recomenda um caminho de atualização específico para maximizar sua taxa de sobrevivência.
+
+<Checklist
+  id="solo-progression"
+  title="Marcos de Evolução Solo:"
+  items={[
+    "Alcance o Nível 3 com a classe Estagiário para maximizar a Sanidade inicial.",
+    "Economize 120 Moedas para desbloquear o Secretário para turnos iniciais mais fáceis.",
+    "Acumule 900 Moedas para a classe Médico para começar a curar a Sanidade.",
+    "Junte 2500 Moedas para a classe Cirurgião (O Meta Solo).",
+    "Invista em Upgrades de Nível de Classe para aumentar o inventário e passivas de velocidade."
+  ]}
+/>
+
+| Fase de Gastos | Investimento Prioritário | Razão |
+|:--- |:--- |:--- |
+| **Início do Jogo** | Classe Secretário | Torna o ciclo da recepção autossustentável para a Sanidade. |
+| **Meio do Jogo** | Classe Médico | Permite que você se recupere de erros durante o tratamento. |
+| **Fim do Jogo** | Classe Cirurgião | Fornece a velocidade necessária para turnos de alta dificuldade. |
+| **Pós-Jogo** | Upgrades de Nível 3 | Maximiza a eficiência da sua classe principal escolhida. |
+
+<Callout type="success" title="Dica Final">
+Não tenha medo de repetir turnos iniciais e mais fáceis para farmar Animal Coins. É melhor gastar uma hora farmando turnos fáceis do que perder uma partida longa e difícil porque você estava mal equipado ou usando uma classe fraca.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "É possível vencer os turnos mais difíceis jogando solo no Roblox Animal Hospital?",
+    answer: "Sim, mas requer uma classe de Cirurgião ou Agente Secreto de alto nível. Você também deve ter um entendimento perfeito dos sinais de anomalia para evitar o surgimento de Skinwalkers."
+  },
+  {
+    question: "O que devo fazer se um Skinwalker aparecer durante uma partida solo?",
+    answer: "Pare imediatamente o que estiver fazendo. Use um Taser ou Arma para neutralizar a ameaça. Não tente ignorá-lo, pois ele drenará sua Sanidade rapidamente e acabará matando você."
+  },
+  {
+    question: "A Sanidade se recupera naturalmente com o tempo?",
+    answer: "Não. A Sanidade só se recupera através de vantagens específicas de classe (como o Médico ou Cirurgião) ou consumindo itens como Café e comida da loja."
+  },
+  {
+    question: "Posso trocar de classe no meio de um turno?",
+    answer: "Não, você deve selecionar sua classe no lobby antes do início do turno. Escolha com sabedoria, baseando-se na dificuldade da noite seguinte."
+  }
+]} />
+
+</Section>

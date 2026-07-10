@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "roblox animal hospital anomaly: Guía de Supervivencia y Lista de Niveles de Clases",
+  description: "Domina roblox animal hospital anomaly con nuestra guía sobre niveles de clases, detección de anomalías, tareas en salas de tratamiento y consejos de gestión de cordura para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Animal+Hospital+Anomaly+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de roblox animal hospital"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **roblox animal hospital anomaly** es una experiencia de terror y supervivencia donde los jugadores trabajan en turnos nocturnos curando mascotas mientras identifican peligrosas anomalías sobrenaturales.
+- **La Detección de Anomalías** es la mecánica principal; debes usar inspecciones visuales, cámaras de seguridad (CCTV) y comparaciones de fotos para rechazar a los imitadores antes de que entren a las instalaciones.
+- **La Gestión de Cordura** es tu barra de vida; los errores en el tratamiento o dejar entrar anomalías drenarán tu cordura, lo que provocará el fin del juego.
+- **Cirujano y Agente Secreto** son actualmente las clases de primer nivel para la supervivencia y la neutralización de amenazas en el meta de 2026.
+- **Las Monedas de Animales** son la moneda permanente utilizada para desbloquear y mejorar clases, mientras que el dinero en efectivo se gasta en artículos temporales del turno como Café y Tasers.
+</Callout>
+
+<Section icon={Map} title="Jugabilidad Principal y Supervivencia del Turno">
+
+Trabajar en el turno de noche en **roblox animal hospital anomaly** requiere una combinación de precisión médica y observación paranoica. Desarrollado por Animal Anomaly, este juego te sitúa en un entorno de alto riesgo donde los pacientes no siempre son lo que parecen. Tu objetivo principal es sobrevivir al turno tratando correctamente a los pacientes animales normales y utilizando las compuertas de la recepción para rechazar cualquier entidad que muestre rasgos anómalos. Admitir a un \"Skinwalker\" o a un imitador no solo reduce tu puntuación, sino que introduce una amenaza letal en el hospital que puede acabar con la partida de todo el equipo.
+
+**Puntos Destacados del Video:**
+- Tutorial básico sobre las tareas de recepción en el mostrador principal.
+- Cómo usar la computadora para diagnosticar correctamente a los pacientes.
+- Ejemplos visuales de anomalías comunes al principio del juego.
+- Consejos para gestionar los primeros tres turnos en solitario o en grupo.
+
+<YouTubeEmbed videoId="PQU1KMZ6Pac" title="Animal Hospital Roblox - Cómo Jugar" />
+
+El éxito en el hospital se mide por tu capacidad para realizar múltiples tareas a la vez. Mientras un jugador se encarga del proceso de registro, otros deben estar en las salas de tratamiento (Salas 1 a 8) realizando diagnósticos, cirugías o monitoreo cardíaco. La coordinación es esencial, ya que una acumulación de pacientes en la recepción a menudo conduce a decisiones apresuradas y anomalías pasadas por alto.
+
+<Callout type="tip" title="Estrategia de Turno">
+Prioriza siempre el proceso de registro. Es mejor dejar que el temporizador de un tratamiento se extienda un poco a admitir accidentalmente una anomalía de alta amenaza por tener prisa por despejar el vestíbulo.
+</Callout>
+
+| Fase del Turno | Objetivo Principal | Riesgo Clave |
+| --- | --- | --- |
+| **Registro** | Identificar y rechazar anomalías | Admitir a un Skinwalker |
+| **Diagnóstico** | Determinar el tratamiento correcto | Perder tiempo con herramientas incorrectas |
+| **Tratamiento** | Aplicar medicamentos o realizar cirugías | Matar a un paciente con objetos incorrectos |
+| **Emergencia** | Manejar incendios o pacientes desmayados | Drenaje de cordura debido al caos |
+| **Post-Turno** | Gastar Monedas de Animales en mejoras | Comprar clases de baja prioridad |
+
+</Section>
+
+<Section icon={Target} title="Detección de Anomalías: Cómo Detectar Imitadores">
+
+En **roblox animal hospital anomaly**, tu supervivencia depende de tu capacidad para distinguir entre un animal común y un imitador deforme. Las anomalías se manifiestan de diversas formas y el juego proporciona tres herramientas principales para la verificación: inspección visual directa, monitores de CCTV y comparación de fotos de identificación. A medida que avanzan los turnos, estas anomalías se vuelven más sutiles, lo que requiere que los jugadores memoricen el aspecto \"estándar\" de cada especie animal del juego.
+
+<Checklist
+  id="anomaly-signs"
+  title="Señales de Advertencia Críticas de Anomalías:"
+  items={[
+    "Extremidades u ojos adicionales o faltantes (por ejemplo, un conejo con tres ojos)",
+    "Rasgos faciales distorsionados como sonrisas amplias de aspecto humano o dientes afilados",
+    "Distorsiones visibles solo en CCTV donde el cuerpo aparece como un vacío negro o una sombra",
+    "Fotos de identificación que no coinciden con el paciente que está en el mostrador",
+    "Comportamiento errático como espasmos, mirar fijamente a las cámaras o flotar"
+  ]}
+/>
+
+Cuando identifiques una anomalía, debes presionar inmediatamente el botón de la compuerta. No hacerlo permite que la entidad entre al hospital, donde puede transformarse en un Skinwalker. Los Skinwalkers son hostiles y cazarán a los jugadores, lo que requerirá el uso de un Taser o un Arma para neutralizarlos.
+
+| Método de Detección | Qué Buscar | Gravedad |
+| --- | --- | --- |
+| **Inspección Visual** | Dientes afilados, ojos realistas, espasmos, extremidades adicionales | Alta |
+| **Monitor de CCTV** | Cuadros negros sobre los ojos, cuerpos vacíos, extremidades estiradas | Crítica |
+| **Foto de Identificación** | Partes de la cara que difieren del paciente real, grano maldito | Alta |
+| **Comportamiento** | Mirar fijamente a la cámara o directamente al alma del jugador | Media |
+
+<Callout type="warning" title="Prioridad de CCTV">
+Algunas anomalías son invisibles a simple vista y solo aparecen en el monitor de CCTV. Siempre verifica dos veces la transmisión de la cámara, incluso si el paciente parece perfectamente normal en el mostrador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Niveles de Clases: Clasificación de 2026">
+
+Elegir la clase adecuada en **roblox animal hospital anomaly** cambia significativamente tu rol y tu tasa de supervivencia. Las clases se desbloquean con Monedas de Animales, que se ganan al completar turnos con éxito. Algunas clases premium también están disponibles a través de Robux para los jugadores que buscan una ventaja inmediata. Cada clase tiene tres niveles de progresión, lo que mejora sus ventajas pasivas y su equipo inicial.
+
+<CardGrid cols={3}>
+  <Card title="Cirujano (Nivel S)">
+    - **Costo**: 2500 Monedas de Animales
+    - **Ventaja**: Gana Cordura y Velocidad después de curar.
+    - **Ideal para**: Roles de tratamiento de alta intensidad.
+  </Card>
+  <Card title="Agente Secreto (Nivel S)">
+    - **Costo**: 890 Robux
+    - **Ventaja**: Comienza con un Arma para el control de amenazas.
+    - **Ideal para**: Jugadores enfocados en cazar anomalías filtradas.
+  </Card>
+  <Card title="Médico (Nivel A)">
+    - **Costo**: 900 Monedas de Animales
+    - **Ventaja**: Recupera Cordura al curar pacientes.
+    - **Ideal para**: Supervivencia consistente en juego en solitario.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Elección del Meta">
+El **Cirujano** es actualmente la mejor clase gratuita porque el aumento de velocidad te permite moverte por las salas 1 a 8 mucho más rápido, lo cual es vital durante los eventos de \"Prisa\" en el juego tardío.
+</Callout>
+
+| Nivel | Clase | Costo | Rol Principal |
+| --- | --- | --- | --- |
+| **S** | Cirujano | 2500 Monedas | Tratamiento Rápido / Recuperación de Cordura |
+| **S** | Agente Secreto | 890 Robux | Combate / Neutralización de Anomalías |
+| **A** | Seguridad | 1250 Monedas | Soporte Defensivo con Taser |
+| **A** | Psicólogo | 500 Monedas | Especialista en Gestión de Cordura |
+| **A** | Recepcionista | 120 Monedas | Especialista en Recepción / Registro |
+| **B** | Paramédico | 250 Monedas | Respuesta de Emergencia / Velocidad |
+| **B** | Enfermero | 20 Monedas | Soporte de Inventario / Objetos |
+| **C** | Pasante | Gratis | Clase Inicial para Principiantes |
+
+</Section>
+
+<Section icon={Swords} title="Guía de Salas de Tratamiento y Tareas">
+
+Una vez admitido un paciente, se le debe asignar una sala para su tratamiento. En **roblox animal hospital anomaly**, diferentes salas requieren diferentes minijuegos. Completar estas tareas con precisión es la única forma de ganar el dinero necesario para comprar artículos en la tienda como Café.
+
+<Steps>
+  <Step num="1" title="Diagnóstico">
+    Interactúa con la computadora en la sala de tratamiento para ver qué necesita el paciente. Busca síntomas como quemaduras, huesos rotos o parásitos internos.
+  </Step>
+  <Step num="2" title="Completar el Minijuego">
+    Sigue las instrucciones en pantalla. Por ejemplo, en la Sala 6 (Rayos X), debes seguir una secuencia de cuadrados parpadeantes. en la Sala 8 (Cirugía), debes usar herramientas específicas como Bisturís en el orden correcto.
+  </Step>
+  <Step num="3" title="Aplicación de Objetos">
+    Recupera la medicina requerida (Hierbas, Gotas para los ojos, Ungüento) de los gabinetes del pasillo y aplícala al paciente para finalizar la cura.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Advertencia de la Sala 8">
+La cirugía es un evento con límite de tiempo. Si sales de la sala o tardas demasiado en seleccionar la siguiente herramienta, el paciente morirá, lo que resultará en una enorme penalización de Cordura para todo el equipo.
+</Callout>
+
+| Tipo de Sala | Mecánica del Minijuego | Objetos Requeridos |
+| --- | --- | --- |
+| **Salas 1-5** | Análisis Médico Básico | Hierbas, Gotas para los ojos, Vendas |
+| **Sala 6** | Memoria de Secuencia de Rayos X | Herramientas de Diagnóstico, Ungüento |
+| **Sala 7** | Clic en Iconos de Monitor Cardíaco | Desfibrilador, Medicina |
+| **Sala 8** | Cirugía de Varios Pasos | Bisturí, Tijeras, Pinzas |
+
+</Section>
+
+<Section icon={Shield} title="Gestión de Cordura y Objetos">
+
+La cordura es tu recurso más valioso. En **roblox animal hospital anomaly**, tu Cordura se drena cada vez que te encuentras con eventos aterradores, miras fotos malditas o cometes errores. Si llega a cero, tu personaje muere. Gestionar este medidor requiere una combinación de ventajas de clase y objetos de la tienda.
+
+**Causas Comunes de Pérdida de Cordura:**
+- Admitir una anomalía (Caída instantánea).
+- Mirar fijamente a los \"Golpeadores de Pared\" o amenazas en el techo.
+- Fallar un minijuego de cirugía.
+- Enfrentarse a Skinwalkers sin un arma.
+
+<Callout type="warning" title="Conservación del Café">
+No bebas Café cuando tu Cordura esté al 80%. Guarda tus objetos de recuperación para las fases de \"Pesadilla\" donde la Cordura se drena pasivamente con el tiempo.
+</Callout>
+
+| Objeto | Caso de Uso | Prioridad |
+| --- | --- | --- |
+| **Café** | Restaura una gran parte de la Cordura | Alta |
+| **Taser** | Aturde a anomalías hostiles/Skinwalkers | Alta (Turnos Tardíos) |
+| **Extintor** | Apaga incendios en las salas | Media |
+| **Refresco de Velocidad** | Aumenta la velocidad de movimiento durante 30s | Baja |
+| **Botiquín** | Cura el daño físico de los ataques | Media |
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo más Monedas de Animales en roblox animal hospital anomaly?",
+    answer: "Las Monedas de Animales se otorgan al final de un turno exitoso. Cuantos más pacientes cures correctamente y menos anomalías admitas, mayor será tu recompensa en monedas."
+  },
+  {
+    question: "¿Puedo cambiar mi clase durante un turno?",
+    answer: "No, debes seleccionar tu clase en el vestíbulo antes de que comience el turno. Una vez que empieza la noche, quedas bloqueado en ese rol hasta que termine el turno o fracases."
+  },
+  {
+    question: "¿Qué debo hacer si entra un Skinwalker?",
+    answer: "Si tienes la clase Seguridad o Agente Secreto, usa tu Taser o Arma. Si no, debes comprar un Taser en la tienda usando el dinero del turno y coordinar con tu equipo para aturdirlo mientras terminan los tratamientos."
+  },
+  {
+    question: "¿Hay alguna forma de recuperar Cordura sin usar objetos?",
+    answer: "Sí, ciertas clases como el Médico, el Cirujano y el Recepcionista tienen ventajas pasivas que recuperan Cordura cuando realizas tus tareas laborales específicas (curar o registrar pacientes)."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Mantén siempre a un jugador en la recepción. Tener un 'Recepcionista' dedicado (idealmente un Recepcionista o Psicólogo) garantiza que ninguna anomalía se filtre mientras el resto del equipo está ocupado en las salas traseras.
+</Callout>
+
+</Section>

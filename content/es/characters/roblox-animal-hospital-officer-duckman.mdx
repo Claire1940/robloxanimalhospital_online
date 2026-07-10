@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital: Guía para Principiantes y Lista de Niveles de Clases",
+  description: "Domina Roblox Animal Hospital con nuestra guía para principiantes, lista de niveles de clases, consejos de detección de anomalías y estrategias de supervivencia de cordura para los turnos nocturnos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/fff?text=Roblox+Animal+Hospital+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de roblox animal hospital"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Sobrevivir a los turnos nocturnos en **roblox animal hospital** tratando a pacientes reales y filtrando anomalías peligrosas.
+- **Recurso Crítico**: Protege tu **Cordura** a toda costa; dejar pasar anomalías o fallar tareas la reduce a cero, provocando la muerte.
+- **Mejor Clase**: El **Cirujano** (Surgeon) es la mejor clase gratuita, ofreciendo una recuperación de Cordura excepcional y aumentos de velocidad de movimiento.
+- **Método de Detección**: Compara siempre la apariencia física del paciente en vivo con las transmisiones de CCTV y las fotos de la carpeta antes de admitirlo.
+</Callout>
+
+<Section icon={Map} title="Roblox Animal Hospital: Bucle de Juego Principal">
+
+El bucle principal de **roblox animal hospital** (desarrollado por Animal Anomaly) gira en torno a trabajar en un tenso turno nocturno en una sospechosa clínica veterinaria. Los jugadores deben gestionar a los pacientes animales que llegan, diagnosticar sus enfermedades, aplicar los tratamientos correctos y, lo más importante, detectar y rechazar anomalías sobrenaturales antes de que se infiltren en las instalaciones.
+
+**Puntos Destacados del Video:**
+- Recorrido paso a paso de un turno nocturno perfecto.
+- Cómo coordinar tareas de manera eficiente con un equipo multijugador.
+- Ejemplos visuales de indicios sutiles de anomalías en la recepción.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Recorrido del Gameplay de Roblox Animal Hospital" />
+
+Para tener éxito, los jugadores deben dividirse las tareas entre la recepción, los diagnósticos activos y la contención de amenazas. Admitir una sola anomalía puede desencadenar una cascada de eventos hostiles, convirtiendo un turno rutinario en una lucha por la supervivencia.
+
+### Estructura del Turno y Flujo de Monedas
+
+| Fase del Turno | Enfoque Principal | Peligro Clave | Recompensa |
+|---|---|---|---|
+| **Registro (Check-In)** | Escanear pacientes en el escritorio | Admitir anomalías | Progresión del turno |
+| **Tratamiento** | Completar minijuegos en salas | Dar la medicina incorrecta | Bonificación de Dinero / Puntuación |
+| **Emergencia** | Apagar incendios, eliminar amenazas | Drenaje rápido de Cordura | Supervivencia |
+| **Fin del Turno** | Gastar recursos en la tienda | Ninguno | Monedas de Animal (Animal Coins) |
+
+<Callout type="tip" title="Consejo Pro">
+Nunca apresures el proceso de registro. Una sola anomalía que pase desapercibida por la puerta principal puede arruinar fácilmente una partida perfecta al generar Skinwalkers agresivos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Supervivencia del Turno Paso a Paso">
+
+Completar con éxito un turno nocturno en **roblox animal hospital** requiere un enfoque disciplinado. Sigue este protocolo estructurado para mantener tu clínica segura y eficiente.
+
+<Steps>
+  <Step num="1" title="Asegurar la Recepción">
+    Cuando comience el turno, al menos un jugador debe estar en el escritorio de recepción. Cuando llegue un paciente, no abras las puertas de inmediato. Recupera su archivo y prepárate para la inspección visual.
+  </Step>
+  <Step num="2" title="Realizar la Inspección de Triple Verificación">
+    Compara al paciente físico en el escritorio con la foto de su archivo y el monitor de CCTV en vivo. Busca discrepancias en los ojos, dientes, proporciones de las extremidades o comportamiento general.
+  </Step>
+  <Step num="3" title="Procesar o Rechazar al Visitante">
+    Si el paciente coincide con toda la documentación, acéptalo en la clínica. Si se detecta alguna anomalía, tira inmediatamente del interruptor de la persiana en el escritorio para rechazarlo.
+  </Step>
+  <Step num="4" title="Ejecutar los Tratamientos Indicados">
+    Guía a los pacientes aceptados a las salas de tratamiento designadas (Salas 1-8). Completa las tareas específicas de la sala (como secuencias de radiografías o clics en el monitor cardíaco) y administra los elementos exactos necesarios.
+  </Step>
+  <Step num="5" title="Gestionar la Cordura de la Clínica y los Peligros">
+    Mantén la Cordura alta bebiendo Café. Si aparecen amenazas ambientales como Monstruos de Cama (Bed Monsters) o Golpeadores de Pared (Wall Bangers), despliega objetos de contraataque como Tasers o limpia los peligros de inmediato.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia">
+Dar el objeto de tratamiento incorrecto a un paciente normal lo matará instintivamente. Esto penaliza severamente la calificación de tu turno y agota la Cordura del equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Niveles de Clases y Progresión">
+
+Las clases en **roblox animal hospital** definen tu rol, inventario inicial y ventajas pasivas. Mejorar la clase elegida usando Monedas de Animal (Animal Coins) permanentes es esencial para sobrevivir a los turnos de las fases avanzadas del juego.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Cirujano (Surgeon)">
+    - **Costo**: 2500 Monedas de Animal
+    - **Rol**: Médico de Élite
+    - **Ventajas**: Aumentos masivos de Cordura y velocidad al curar pacientes. Perfecto para partidas en solitario.
+  </Card>
+  <Card title="Nivel A: Seguridad (Security)">
+    - **Costo**: 1250 Monedas de Animal
+    - **Rol**: Control de Amenazas
+    - **Ventajas**: Comienza con un X-Taser para neutralizar anomalías escapadas y Skinwalkers.
+  </Card>
+  <Card title="Nivel B: Secretario (Secretary)">
+    - **Costo**: 120 Monedas de Animal
+    - **Rol**: Especialista en Recepción
+    - **Ventajas**: Recupera Cordura al procesar o rechazar visitantes con éxito.
+  </Card>
+</CardGrid>
+
+### Comparación de Todas las Clases
+
+| Clase | Costo | Ventaja Principal | Ideal Para | Calificación de Nivel |
+|---|---|---|---|---|
+| **Cirujano (Surgeon)** | 2,500 Monedas | Aumento de Cordura + Velocidad al curar | Solitario / Médicos Activos | **Nivel S** |
+| **Agente Secreto (Secret Agent)** | 890 Robux | Comienza con Pistola regenerable | Eliminación de amenazas | **Nivel S** |
+| **Jefa de Enfermeras (Head Nurse)** | 190 Robux | Capacidad de inventario ampliada | Soporte de emergencia | **Nivel S** |
+| **Doctor** | 900 Monedas | Recupera Cordura al curar | Progresión a mitad de juego | **Nivel A** |
+| **Psicólogo (Psychologist)** | 500 Monedas | Duplica los efectos de la Cordura | Jugadores avanzados | **Nivel A** |
+| **Seguridad (Security)** | 1,250 Monedas | Comienza con Taser recargable | Defensa / Control de masas | **Nivel A** |
+| **Secretario (Secretary)** | 120 Monedas | Recupera Cordura al registrar | Tareas de recepción | **Nivel A** |
+| **Paramédico (Paramedic)** | 250 Monedas | Comienza con Speed Cola Grande | Respuesta rápida/emergencias | **Nivel B** |
+| **Enfermero (Nurse)** | 20 Monedas | Añade +3 ranuras de inventario | Transportadores de recursos | **Nivel B** |
+| **Pasante (Intern)** | Gratis | Bonificación de Cordura inicial (+10 a +20) | Principiantes aprendiendo lo básico | **Nivel C** |
+
+<Callout type="info" title="Consejo de Progresión">
+No distribuyas tus Monedas de Animal en demasiadas cosas. Elige una clase que se adapte a tu estilo de juego preferido (por ejemplo, Secretario para recepción, Cirujano para tratamiento) y mejórala al Nivel 3 para desbloquear todo su potencial.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo Detectar y Manejar Anomalías">
+
+La detección de anomalías es tu primera línea de defensa. Utiliza esta lista de verificación para identificar anomalías antes de que irrumpan en el vestíbulo.
+
+<Checklist
+  id="anomaly-detection"
+  title="Indicadores Críticos de Anomalías:"
+  items={[
+    "Deformidades físicas (tres ojos, cuencas vacías, dientes humanos realistas, amplias sonrisas estáticas)",
+    "Distorsión de la transmisión de CCTV (cuadros negros sobre los ojos, extremidades estiradas, siluetas completamente negras)",
+    "Incoherencias en las fotos (efectos de grano/estática en la foto, ojos inyectados en sangre en la imagen del archivo)",
+    "Señales de alerta de comportamiento (espasmos antinaturales, mirar directamente a las cámaras de seguridad)",
+    "Peligros ambientales (limo verde en el suelo, Monstruos de Cama debajo de las mesas de tratamiento)"
+  ]}
+/>
+
+### Protocolos de las Salas de Tratamiento
+
+| Sala | Tipo de Tratamiento | Mecánica Principal | Error Clave a Evitar |
+|---|---|---|---|
+| **Salas 1-5** | Médico Básico | Aplicar objetos del pasillo correspondientes | Apresurarse sin mirar la pantalla |
+| **Sala 6** | Diagnóstico de Radiografía | Completar secuencia de cuadrados parpadeantes | Adivinar objetos en secuencias fallidas |
+| **Sala 7** | Monitor Cardíaco | Hacer clic en iconos correctos, evitar calaveras | Hacer clic por pánico en iconos de calaveras |
+| **Sala 8** | Cirugía | Usar Tijeras/Bisturíes en secuencia | Salir de la sala a mitad del procedimiento |
+
+<Callout type="success" title="Recuperación de Cordura">
+Si tu Cordura baja debido a revisar fotos malditas o lidiar con Golpeadores de Pared, coordínate con tu equipo para tomar un descanso para tomar café. Mantén una reserva de Café en tu inventario durante los turnos 3 en adelante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal en roblox animal hospital?",
+    answer: "El objetivo principal es sobrevivir a los turnos nocturnos inspeccionando a los pacientes animales que llegan, rechazando anomalías sobrenaturales en la recepción y tratando con éxito a los pacientes normales en las salas designadas."
+  },
+  {
+    question: "¿Cómo recupero la Cordura perdida durante un turno?",
+    answer: "La Cordura se puede recuperar bebiendo Café o comiendo alimentos comprados en la tienda. Además, clases específicas como el Cirujano, el Doctor y el Secretario recuperan Cordura de forma pasiva al realizar sus respectivas tareas."
+  },
+  {
+    question: "¿Qué pasa si se acepta una anomalía en el hospital?",
+    answer: "Una anomalía admitida puede transformarse en un Skinwalker hostil. Los Skinwalkers atacarán a los jugadores y pacientes, agotando rápidamente la Cordura. Necesitarás un Taser o una Pistola para neutralizarlos."
+  },
+  {
+    question: "¿Debería comprar clases de Robux como el Agente Secreto?",
+    answer: "Aunque el Agente Secreto (Pistola) y la Jefa de Enfermeras (inventario adicional) ofrecen una excelente utilidad premium, las clases gratuitas como el Cirujano (2500 Monedas de Animal) y Seguridad (1250 Monedas de Animal) son altamente competitivas y suficientes para completar todos los turnos."
+  }
+]} />
+
+</Section>

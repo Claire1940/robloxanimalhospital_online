@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Inimigos do Roblox Animal Hospital: Guia de Sobrevivência e Ranking de Ameaças",
+  description: "Domine todas as ameaças no Roblox Animal Hospital (Anomalia). Aprenda a identificar anomalias, derrotar Skinwalkers e lidar com inimigos como o Monstro da Cama.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Enemy+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipe da Wiki do Roblox Animal Hospital"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **inimigos do Roblox Animal Hospital** consistem em anomalias que se infiltram na clínica e perigos ambientais que drenam a Sanidade.
+- **Skinwalkers** são as ameaças mais perigosas, aparecendo apenas quando uma anomalia é admitida acidentalmente em uma sala de tratamento.
+- A **inspeção visual** é sua defesa primária; use o CFTV e comparações de fotos para capturar anomalias antes que elas cruzem as persianas.
+- **Armas** como o X-Taser e a Pistola são essenciais para a sobrevivência em turnos avançados, quando as entidades hostis se tornam mais agressivas.
+- O **gerenciamento de Sanidade** é crítico, pois a maioria dos inimigos causa dano mental em vez de redução de saúde física.
+</Callout>
+
+<Section icon={Map} title="Inimigos do Roblox Animal Hospital: Identificando Ameaças de Anomalias">
+
+No ambiente de alto risco do Hospital dos Animais (Anomalia), seu objetivo principal é diferenciar entre pacientes padrão e os vários **inimigos do Roblox Animal Hospital** disfarçados de animais inocentes. Essas "Anomalias" são os principais antagonistas do jogo, e falhar em detectá-las leva a falhas catastróficas no turno.
+
+**Destaques do Vídeo:**
+- Detalhamento visual detalhado de sinais comuns de anomalias.
+- Como usar as persianas da recepção para rejeitar pacientes hostis.
+- Comparação entre distorção de CFTV e mutações físicas.
+- Estratégias para sobreviver aos primeiros cinco turnos sem perda de Sanidade.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Guia de Gameplay de Animal Hospital Anomaly" />
+
+A identificação é um processo de várias etapas. Você deve analisar o paciente no balcão, verificar as câmeras do saguão e validar sua identidade com a foto fornecida. Qualquer discrepância é um sinal de que você está lidando com um inimigo.
+
+| Método de Detecção | O que Procurar | Nível de Risco |
+| :--- | :--- | :--- |
+| **Inspeção Física** | Olhos extras, dentes afiados, características humanas realistas ou membros tremendo. | **Alto** |
+| **Monitor de CFTV** | Caixas pretas sobre os olhos, membros distorcidos ou o paciente encarando a câmera. | **Crítico** |
+| **Comparação de Fotos** | A foto mostra um animal diferente ou foi "amaldiçoada" com olhos injetados de sangue. | **Médio** |
+| **Pistas Comportamentais** | Agressividade extrema no balcão ou ignorar comandos verbais da equipe. | **Alto** |
+
+<Callout type="warning" title="Aviso de Detecção">
+Nunca confie em apenas uma verificação. Algumas anomalias avançadas parecem perfeitamente normais no balcão, mas revelam sua verdadeira forma apenas no monitor de CFTV. Sempre realize a "Verificação Tripla" (Balcão, Câmera, Foto) antes de abrir as portas internas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="A Ameaça Skinwalker: Consequências de Inimigos Admitidos">
+
+Os **inimigos do Roblox Animal Hospital** mais temidos são os Skinwalkers. Essas entidades não surgem naturalmente; elas são o resultado direto de um jogador admitir uma anomalia no hospital. Uma vez que uma anomalia é colocada em uma sala de tratamento, há uma alta chance de ela se transformar em um Skinwalker, que passará a caçar jogadores e atacar pacientes legítimos.
+
+<CardGrid cols={3}>
+  <Card title="Fase de Espreita">
+    - **Presença oculta**
+    - O Skinwalker se esconde em dutos de ventilação ou cantos escuros.
+    - Drena a Sanidade dos jogadores próximos.
+  </Card>
+  <Card title="Fase Hostil">
+    - **Perseguição ativa**
+    - Persegue jogadores com alta velocidade de movimento.
+    - Pode matar jogadores se a Sanidade chegar a zero.
+  </Card>
+  <Card title="Mimetismo de Paciente">
+    - **Comportamento enganoso**
+    - Pode tentar deitar em uma cama para atrair jogadores.
+    - Ataca quando você tenta realizar o tratamento.
+  </Card>
+</CardGrid>
+
+Para lidar com um Skinwalker, você deve agir rapidamente antes que a Sanidade de todo o hospital seja esgotada. Use as seguintes etapas para neutralizar a ameaça:
+
+<Steps>
+  <Step num="1" title="Confirme a Brecha">
+    Se você ouvir rosnados estranhos ou vir que um paciente desapareceu de sua sala, um Skinwalker está solto. Verifique os corredores imediatamente.
+  </Step>
+  <Step num="2" title="Equipe Ferramentas Defensivas">
+    Mude para seu X-Taser ou Pistola. Se estiver jogando como a classe Segurança ou Agente Secreto, você terá esses itens por padrão.
+  </Step>
+  <Step num="3" title="Atordoe e Neutralize">
+    Mire na cabeça. Um tiro de Taser desabilitará temporariamente o Skinwalker, permitindo que você termine o turno ou use itens mais poderosos para removê-lo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Estratégia Profissional">
+Se você perceber que admitiu uma anomalia, mas ela ainda não se transformou, não entre na sala. Alerte sua equipe e prepare suas armas na porta. É mais fácil matar um Skinwalker no momento em que ele se revela.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perigos Ambientais e Inimigos Específicos de Salas">
+
+Nem todos os **inimigos do Roblox Animal Hospital** entram pela porta da frente. Alguns são perigos ambientais ou entidades especializadas que assombram áreas específicas da clínica. Gerenciar esses perigos é tão importante quanto capturar anomalias na recepção.
+
+| Nome do Inimigo | Localização | Comportamento | Contra-ataque |
+| :--- | :--- | :--- | :--- |
+| **Monstro da Cama** | Debaixo das camas de tratamento | Agarra jogadores que ficam parados perto das camas. | Mantenha-se em movimento / Use o Taser. |
+| **Batedor de Parede** | Perto da recepção | Faz barulhos altos de batidas para drenar a Sanidade. | Ignore o barulho / Use Café. |
+| **Perseguidor do Teto** | Corredores | Pune jogadores por olharem para cima. | Mantenha sua câmera nivelada. |
+| **Limo Verde** | Pisos | Reduz a velocidade de movimento e causa dano leve. | Evite as poças. |
+| **Anomalias de Parede** | Corredores | Saem das paredes para roubar itens. | Caminhe pelo centro do corredor. |
+
+Esses perigos aumentam em frequência à medida que o turno avança. Do Turno 5 em diante, espere que múltiplas ameaças ambientais ocorram simultaneamente, exigindo alta coordenação entre a equipe.
+
+<Callout type="success" title="Dica de Sanidade">
+Inimigos ambientais visam principalmente sua Sanidade. Se você se tornar alvo frequente de Batedores de Parede ou Perseguidores do Teto, considere mudar para a classe Psicólogo para gerenciar melhor a drenagem de Sanidade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Classes de Combate e Equipamentos Defensivos">
+
+Lidar eficazmente com os **inimigos do Roblox Animal Hospital** requer a classe certa. Embora o Estagiário seja bom para aprender, funções especializadas fornecem o poder de fogo e a utilidade necessários para sobreviver a encontros no final do jogo.
+
+| Classe | Custo | Vantagem Defensiva Principal | Melhor Contra |
+| :--- | :--- | :--- | :--- |
+| **Segurança** | 1.250 Moedas | Começa com X-Taser (Regenera) | Skinwalkers / Monstros da Cama |
+| **Agente Secreto** | 890 Robux | Começa com Pistola (Dano Alto) | Todas as Entidades Hostis |
+| **Cirurgião** | 2.500 Moedas | Aumento de velocidade após curar | Escapar de Perseguidores |
+| **Psicólogo** | 500 Moedas | Resistência à perda de Sanidade | Perigos Ambientais |
+
+Se estiver jogando em equipe, pelo menos uma pessoa deve sempre ser da classe Segurança. Este jogador atua como o "Executor", patrulhando os corredores enquanto outros focam no tratamento.
+
+<Checklist
+  id="defense-prep"
+  title="Checklist de Sobrevivência do Turno:"
+  items={[
+    "Compre pelo menos um Café na loja",
+    "Certifique-se de que o jogador Segurança tenha um Taser carregado",
+    "Verifique todas as salas de tratamento em busca de Monstros da Cama",
+    "Verifique o funcionamento da persiana na recepção",
+    "Atribua um jogador para monitorar o CFTV exclusivamente"
+  ]}
+/>
+
+<Callout type="warning" title="Gerenciamento de Armas">
+O X-Taser tem cargas limitadas. Não desperdice tiros em perigos ambientais que podem ser evitados com movimento. Guarde sua munição para Skinwalkers e brechas ativas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sobrevivência Avançada: Turno 10 e Além">
+
+Ao chegar aos turnos posteriores, os **inimigos do Roblox Animal Hospital** tornam-se mais enganosos. Você encontrará "Mímicos" que podem burlar certos filtros de CFTV ou "Sombras" que aparecem apenas no canto da sua tela.
+
+**Principais Táticas de Fim de Jogo:**
+- **Defesa de Camada Dupla:** Mantenha as portas internas do corredor fechadas o tempo todo. Isso cria uma barreira secundária se uma anomalia for acidentalmente deixada passar pela primeira persiana.
+- **Rotações de Sanidade:** Se a Sanidade de um jogador cair abaixo de 30%, ele deve trocar de função com alguém em uma zona "segura" (como a farmácia) para se recuperar usando comida ou café.
+- **Interações com Harlow:** Preste atenção às janelas de eventos especiais (como a atualização de julho de 2026). Novas entidades como Harlow podem mudar as regras de engajamento, exigindo interações únicas em vez de combate padrão.
+
+<FAQ items={[
+  {
+    question: "Qual é o inimigo mais perigoso no Roblox Animal Hospital?",
+    answer: "O Skinwalker é o inimigo mais perigoso. Ele só aparece se você falhar em rejeitar uma anomalia na recepção. Ele é rápido, drena a Sanidade rapidamente e pode encerrar uma partida se não for combatido com um Taser ou Pistola."
+  },
+  {
+    question: "Como faço para impedir o ataque do Monstro da Cama?",
+    answer: "O Monstro da Cama se esconde debaixo das camas de tratamento. Para evitar seu ataque, nunca fique perfeitamente parado ao lado de uma cama por mais de alguns segundos. Se ele te agarrar, um colega de equipe pode usar um Taser para forçá-lo a soltar."
+  },
+  {
+    question: "Posso matar anomalias na recepção?",
+    answer: "Não, você não pode matá-las no balcão. Você deve usar o botão da persiana para rejeitá-las. Armas são usadas apenas para inimigos que já entraram no hospital ou ameaças ambientais."
+  },
+  {
+    question: "Por que minha Sanidade cai quando não há inimigos por perto?",
+    answer: "Você provavelmente está encontrando perigos ambientais como Batedores de Parede ou olhando para Perseguidores do Teto. Além disso, verificar 'Fotos Amaldiçoadas' ou encarar imagens distorcidas do CFTV por muito tempo drenará naturalmente sua Sanidade."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Profissional Final">
+O sucesso no Animal Hospital não depende da velocidade com que você trata os pacientes; depende de quão poucos inimigos você deixa entrar. Um turno lento e perfeito é sempre melhor do que um rápido e perigoso. Fique vigilante, confie em suas câmeras e mantenha seu Taser pronto.
+</Callout>
+
+</Section>

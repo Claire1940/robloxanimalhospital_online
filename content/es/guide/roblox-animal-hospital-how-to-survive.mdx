@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Eye, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo sobrevivir en Roblox Animal Hospital: Guía de estrategia para el turno de noche",
+  description: "Domina cómo sobrevivir en Roblox Animal Hospital con nuestra guía de 2026. Aprende sobre detección de anomalías, gestión de cordura, clasificación de clases y consejos para salas de tratamiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Animal+Hospital+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Roblox Animal Hospital",
+  keywords: "Roblox Animal Hospital, cómo sobrevivir, guía de supervivencia, turno de noche, anomalías, cordura, clases"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cómo sobrevivir en Roblox Animal Hospital**: El éxito depende de equilibrar el tratamiento de los pacientes con una estricta detección de anomalías para evitar la pérdida de Cordura.
+- **Detección de anomalías**: Compara siempre el aspecto físico del paciente con las imágenes de las cámaras de seguridad (CCTV) y las fotos médicas antes de admitirlo.
+- **Mantener la Cordura**: Usa café y las ventajas de clases específicas para mantener la Cordura por encima de cero; llegar a cero resulta en el fracaso inmediato del turno.
+- **Prioridad de clases**: Los jugadores nuevos deberían empezar con el Pasante o la Secretaria, mientras que los jugadores experimentados deberían ahorrar Monedas de Animal para el Cirujano.
+- **Protocolo de emergencia**: Usa táseres o armas solo cuando una anomalía no detectada se transforme en una amenaza hostil de Skinwalker.
+</Callout>
+
+<Section icon={Map} title="Cómo sobrevivir en Roblox Animal Hospital: El protocolo del turno de noche">
+
+Aprender **cómo sobrevivir en Roblox Animal Hospital** requiere una combinación de habilidades de observación y gestión del tiempo. En esta experiencia de terror y supervivencia desarrollada por Animal Anomaly, tu tarea es gestionar una clínica donde no todos los pacientes son lo que parecen. El ciclo principal de juego consiste en registrar a los animales, identificar anomalías sobrenaturales y tratar a los pacientes legítimos mientras mantienes tu estabilidad mental.
+
+**Puntos destacados del video:**
+- **Configuración inicial**: Cómo navegar por la recepción y usar el sistema de persianas de seguridad.
+- **Pistas visuales**: Identificación de deformidades físicas evidentes en los pacientes.
+- **Conceptos básicos del tratamiento**: Un recorrido por las primeras cinco salas de tratamiento y medicamentos básicos.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Roblox Animal Hospital Gameplay Overview" />
+
+Para sobrevivir a tus primeros turnos, debes entender que la velocidad es secundaria frente a la precisión. Admitir una sola anomalía puede desencadenar una reacción en cadena de eventos que agotan la Cordura, lo que puede poner fin a la partida de todo el equipo.
+
+| Prioridad | Acción | Impacto en la supervivencia |
+| :--- | :--- | :--- |
+| **Crítica** | Buscar anomalías | Evita la aparición de Skinwalkers y la pérdida masiva de Cordura |
+| **Alta** | Tratar a pacientes normales | Gana dinero y Monedas de Animal para mejoras |
+| **Media** | Gestionar la Cordura | Evita la muerte del jugador y las alucinaciones |
+| **Baja** | Limpieza de salas | Mejora la puntuación del turno pero no pone en peligro la vida |
+
+<Callout type="success" title="Consejo de Supervivencia">
+Cierra siempre las persianas de inmediato si un paciente muestra "Dientes realistas" u "Ojos huecos". Estas son señales de anomalía 100% confirmadas que no requieren más investigación.
+</Callout>
+
+</Section>
+
+<Section icon={Eye} title="Detección e identificación de anomalías">
+
+La habilidad más importante para saber **cómo sobrevivir en Roblox Animal Hospital** es la detección de anomalías. Los pacientes llegan a la recepción y tú debes decidir si los tratas o los rechazas. Hay tres niveles principales de inspección que debes realizar con cada visitante.
+
+### Métodos de inspección visual
+1.  **Observación directa**: Mira la cara y el cuerpo del paciente. Busca ojos adicionales, extremidades distorsionadas o sonrisas antinaturales.
+2.  **Comparación de CCTV**: Revisa las cámaras del vestíbulo y del escritorio. Algunas anomalías solo revelan su verdadera forma en las pantallas digitales, mostrando cuadros negros sobre los ojos o cuerpos parecidos al vacío.
+3.  **Verificación de fotos**: Compara la apariencia del paciente con su foto médica. Si la foto tiene grano, estática o muestra una especie diferente, recházalo.
+
+| Categoría de anomalía | Señales comunes | Acción recomendada |
+| :--- | :--- | :--- |
+| **Física** | Tres ojos, dientes afilados, espasmos, ojos realistas | Cierre inmediato de persianas |
+| **Digital** | Extremidades estiradas en CCTV, cuerpo de vacío negro | Cierre inmediato de persianas |
+| **Fotográfica** | Foto maldita, especie incorrecta, efecto de estática | Cierre inmediato de persianas |
+| **De comportamiento** | Mirar fijamente a la cámara, negarse a moverse, golpear la pared | Monitorear y cerrar persianas |
+
+<Checklist
+  id="anomaly-checklist"
+  title="Lista de verificación previa a la admisión:"
+  items={[
+    "Verifica que la especie del paciente coincida con el registro médico",
+    "Revisa el CCTV en busca de distorsión en las extremidades u ojos ocultos",
+    "Compara al paciente en vivo con la foto médica proporcionada",
+    "Escucha si hay ruidos inusuales como rasguños o gruñidos",
+    "Asegúrate de que el paciente no esté mirando directamente a la lente de la cámara"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia Crítica">
+Las anomalías que no se detecten se convertirán en Skinwalkers. Estas entidades deambularán por el hospital, atacando a jugadores y pacientes. Si se te pasa una, debes usar un táser o una pistola (clase Agente Secreto) para neutralizar la amenaza antes de que tu Cordura llegue a cero.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de niveles de clases y progresión">
+
+Las clases definen tu rol y tu capacidad de supervivencia. Para saber **cómo sobrevivir en Roblox Animal Hospital**, elegir la clase adecuada para tu estilo de juego es esencial. Las clases se compran con Monedas de Animal, que se ganan al completar turnos con éxito.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Cirujano">
+    - **Costo**: 2500 Monedas de Animal
+    - **Rol**: Especialista en tratamientos
+    - **Ventaja**: Gana Cordura y un aumento de velocidad después de curar. El nivel 3 duplica estas bonificaciones.
+  </Card>
+  <Card title="Nivel A: Seguridad">
+    - **Costo**: 1250 Monedas de Animal
+    - **Rol**: Control de anomalías
+    - **Ventaja**: Comienza con un táser. Los niveles más altos regeneran los usos del táser en cada ronda.
+  </Card>
+  <Card title="Nivel B: Secretaria">
+    - **Costo**: 120 Monedas de Animal
+    - **Rol**: Recepcionista
+    - **Ventaja**: Recupera Cordura al registrar o rechazar pacientes correctamente.
+  </Card>
+</CardGrid>
+
+### Datos de comparación de clases
+
+| Clase | Tipo | Valor de supervivencia | Ideal para |
+| :--- | :--- | :--- | :--- |
+| **Pasante** | Inicial | **Bajo** | Aprender los controles básicos |
+| **Enfermero** | Soporte | **Medio** | Llevar objetos de tratamiento adicionales |
+| **Médico** | Médico | **Alto** | Cordura estable durante el tratamiento |
+| **Psicólogo** | Avanzado | **Extremo** | Gestión de Cordura de alto riesgo |
+| **Agente Secreto** | Premium | **Alto** | Caza de anomalías centrada en el combate |
+
+<Callout type="tip" title="Consejo profesional de progresión">
+No repartas tus Monedas de Animal en todas las clases. Elige un rol, ya sea Recepción o Tratamiento, y mejora esa clase específica al Nivel 3 primero. Un Cirujano de Nivel 3 es significativamente más efectivo que tres clases de Nivel 1.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de Cordura y utilidad de objetos">
+
+Tu medidor de Cordura es tu barra de salud. Si llega a cero, mueres. Gestionar este recurso marca la diferencia entre un turno fallido y uno exitoso. La Cordura se agota al ver anomalías, fallar rituales o ser atacado por Skinwalkers.
+
+<Steps>
+  <Step num="1" title="Monitorea el medidor">
+    Vigila la barra de Cordura en la parte inferior de tu pantalla. Si la pantalla comienza a distorsionarse o a ponerse gris, tu Cordura está peligrosamente baja.
+  </Step>
+  <Step num="2" title="Usa objetos de recuperación">
+    El café es tu principal herramienta de recuperación. Bébelo para restaurar una parte de tu Cordura. Guárdalo para emergencias al final del turno o después de completar un ritual.
+  </Step>
+  <Step num="3" title="Evita elementos visuales malditos">
+    Mirar fotos malditas o transmisiones de CCTV distorsionadas durante demasiado tiempo agotará lentamente tu Cordura. Mira hacia otro lado una vez que hayas confirmado la anomalía.
+  </Step>
+  <Step num="4" title="Coordinación en equipo">
+    Si tu Cordura está baja, intercambia roles con un compañero. Deja que un jugador con mucha Cordura se encargue de la recepción mientras tú te recuperas en una sala segura.
+  </Step>
+  <Step num="5" title="Limpia los peligros ambientales">
+    Apaga los incendios y elimina a los golpeadores de paredes de inmediato. Estos eventos causan un drenaje pasivo de Cordura si no se atienden.
+  </Step>
+</Steps>
+
+### Objetos de supervivencia esenciales
+
+| Objeto | Categoría | Uso principal | Cómo obtenerlo |
+| :--- | :--- | :--- | :--- |
+| **Café** | Recuperación | Restaura la Cordura | Tienda / Objeto inicial |
+| **Táser** | Defensa | Aturde a los Skinwalkers | Tienda / Clase de Seguridad |
+| **Extintor** | Emergencia | Apaga incendios en las salas | Pasillo del hospital |
+| **Ungüento** | Tratamiento | Cura a pacientes con quemaduras | Suministros del pasillo |
+| **Instrumental quirúrgico** | Médico | Requerido para la Sala 8 | Gabinetes de la Sala 8 |
+
+<Callout type="info" title="Lógica de Cordura">
+La clase Psicólogo duplica los efectos de Cordura tanto positivos como negativos. Aunque esto permite una recuperación rápida, un solo error agotará tu Cordura el doble de rápido. Usa esta clase solo si confías plenamente en tus habilidades de detección.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía paso a paso de las salas de tratamiento">
+
+Una vez admitido un paciente, se le envía a una de las ocho salas. Saber **cómo sobrevivir en Roblox Animal Hospital** significa saber cómo manejar el minijuego específico de cada sala.
+
+1.  **Salas 1 a 5 (Básicas)**: Diagnósticos estándar. Revisa la computadora, mira el medicamento requerido y ve a buscarlo al pasillo.
+2.  **Sala 6 (Rayos X)**: Debes completar una secuencia de cuadrados parpadeantes. Si fallas, el paciente sufre daños. Espera siempre a que termine la secuencia antes de hacer clic.
+3.  **Sala 7 (Monitor cardíaco)**: Haz clic en los íconos correctos mientras evitas las calaveras. Las calaveras causan penalizaciones de tiempo y pérdida de salud del paciente.
+4.  **Sala 8 (Cirugía)**: La sala más peligrosa. Debes usar herramientas específicas (tijeras, bisturís) en el orden que se muestra en la pantalla. Salir de la sala durante la cirugía matará al paciente al instante.
+
+| Tipo de sala | Dificultad | Error común | Prioridad de supervivencia |
+| :--- | :--- | :--- | :--- |
+| **Salas 1-5** | Fácil | Traer el medicamento equivocado | **Media** |
+| **Sala 6** | Media | Hacer clic en los cuadrados demasiado pronto | **Media** |
+| **Sala 7** | Media | Hacer clic en los íconos de calavera | **Alta** |
+| **Sala 8** | Difícil | Salir antes de completar | **Crítica** |
+
+<Callout type="warning" title="Consejo de Tratamiento">
+Dar el objeto de tratamiento equivocado a un paciente normal puede matarlo. Esto reduce tu puntuación final del turno y te impide ganar la cantidad máxima de Monedas de Animal. Revisa bien la pantalla de la computadora antes de aplicar cualquier medicamento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo lidio con la anomalía del Monstruo de la Cama?",
+    answer: "El Monstruo de la Cama aparece debajo de las camas de tratamiento. No interactúes directamente con él. Usa un táser si se vuelve agresivo y asegúrate de que la sala esté despejada antes de traer a un nuevo paciente."
+  },
+  {
+    question: "¿Cuál es la mejor manera de ganar Monedas de Animal rápido?",
+    answer: "Sobrevive a largas rachas de turnos sin perder pacientes ni admitir anomalías. Usar la clase Cirujano en el Nivel 3 proporciona las mejores recompensas por tratamientos exitosos."
+  },
+  {
+    question: "¿Puedo jugar a Roblox Animal Hospital en solitario?",
+    answer: "Sí, pero es mucho más difícil. Al jugar solo, debes gestionar la recepción y todas las salas de tratamiento de forma simultánea. Las clases de Pasante o Cirujano son las mejores para jugar en solitario debido a sus bonificaciones de Cordura."
+  },
+  {
+    question: "¿Qué pasa si un Skinwalker entra en el hospital?",
+    answer: "Cazará a jugadores y pacientes. Debes encontrarlo y usar un táser o una pistola para detenerlo. Si no tienes un arma, debes mantenerte alejado e intentar completar el turno mientras lo evitas."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+El éxito en **cómo sobrevivir en Roblox Animal Hospital** se reduce a la comunicación. Si juegas en equipo, asigna a una persona a la recepción y a otras al tratamiento. Un equipo especializado siempre superará a uno desorganizado.
+</Callout>
+
+</Section>

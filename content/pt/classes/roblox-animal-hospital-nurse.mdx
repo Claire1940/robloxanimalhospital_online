@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, ClipboardList, Stethoscope } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital: Guia de Estratégia para Iniciantes e Anomalias",
+  description: "Domine o plantão noturno no Roblox Animal Hospital com o nosso guia especializado que cobre detecção de anomalias, tiers de classes e dicas de sobrevivência para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/14b8a6/fff?text=Animal+Hospital+Guide",
+  date: "2026-07-10",
+  author: "Equipe da Wiki do roblox animal hospital"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Roblox Animal Hospital** desafia você a sobreviver a plantões noturnos intensos enquanto trata pacientes e identifica anomalias perigosas.
+- **Detecção de Anomalias** é sua principal ferramenta de sobrevivência; sempre verifique as fotos e o circuito interno de TV (CCTV) antes de admitir um paciente.
+- **Seleção de Classe** afeta significativamente o seu sucesso; escolha funções como Cirurgião (Surgeon) ou Secretário (Secretary) com base nas necessidades da sua equipe.
+- **Gerenciamento de Sanidade** é crítico; guarde seu café para situações de emergência ou quando encontrar ameaças de alto risco.
+- **Estratégia de Progressão** envolve o uso de Animal Coins para melhorar as vantagens da sua classe para obter melhores taxas de sobrevivência a longo prazo.
+</Callout>
+
+<Section icon={Map} title="Dominando o Plantão Noturno">
+
+Sobreviver a um plantão noturno no Roblox Animal Hospital exige mais do que apenas conhecimento médico. Você é a última linha de defesa contra as anomalias que tentam se infiltrar na sua clínica. A eficiência na recepção é a sua habilidade mais valiosa.
+
+**Destaques do Vídeo:**
+- Identificação de sinais de alerta de anomalias no início do jogo
+- Entrada eficiente de pacientes e direcionamento para as salas
+- Como gerenciar a sanidade durante eventos de alta pressão
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Visão Geral da Gameplay do Animal Hospital" />
+
+O ciclo de jogo é dividido em recepção, diagnóstico e tratamento. Deixar de detectar uma anomalia cedo pode levar a encontros com Skinwalkers, que drenam sua Sanidade rapidamente.
+
+| Fase | Objetivo Principal | Nível de Risco |
+| :--- | :--- | :--- |
+| Recepção | Verificar ID e checar anomalias | Baixo |
+| Diagnóstico | Realizar exames de saúde básicos | Médio |
+| Tratamento | Administrar a medicação correta | Alto |
+| Evento | Sobreviver a eventos de terror especializados | Extremo |
+
+<Callout type="tip" title="Dica de Mestre">
+Sempre mantenha uma rotina consistente: verificação visual, comparação de fotos e verificação final por CCTV. Pular essas etapas é a maneira mais rápida de perder Sanidade.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificação de Detecção de Anomalias">
+
+Identificar anomalias é o cerne da experiência. Use esta lista de verificação para garantir que você não está admitindo ameaças nas alas do seu hospital.
+
+<Checklist
+  id="anomaly-check"
+  title="Protocolo de Detecção de Anomalias:"
+  items={[
+    "Procure por anomalias físicas, como três olhos ou órbitas vazias.",
+    "Verifique se os dentes do paciente são compatíveis com a anatomia animal.",
+    "Compare o paciente com o documento de identidade com foto fornecido para verificar discrepâncias.",
+    "Use o CCTV para detectar membros distorcidos ou padrões de movimento anormais.",
+    "Fique atento a comportamentos estranhos que não condizem com a espécie do animal."
+  ]}
+/>
+
+<Callout type="warning" title="Aviso Crítico">
+Se você deixar passar uma anomalia, ela provavelmente se transformará em um Skinwalker hostil. Mantenha um Taser ou item defensivo equipado se estiver trabalhando nos turnos da madrugada.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List de Classes e Vantagens">
+
+Escolher a classe certa define seu estilo de jogo e potencial de sobrevivência. Abaixo está uma análise das classes mais eficazes atualmente disponíveis no jogo.
+
+| Classe | Custo | Função | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| Cirurgião | 2500 Moedas | Versátil | Jogadores solo |
+| Agente Secreto | 890 Robux | Caçador de Anomalias | Foco em combate |
+| Médico | 900 Moedas | Suporte Médico | Partidas estáveis |
+| Secretário | 120 Moedas | Recepção | Iniciantes |
+| Estagiário | Grátis | Inicial | Aprendizado |
+
+<CardGrid cols={3}>
+  <Card title="Cirurgião (S-Tier)">
+    - Excelente autossustento
+    - Aumento de velocidade após curar
+    - Escalamento de alto nível
+  </Card>
+  <Card title="Médico (A-Tier)">
+    - Recuperação de sanidade confiável
+    - Progressão médica constante
+    - Ótimo para jogar em equipe
+  </Card>
+  <Card title="Secretário (B-Tier)">
+    - Perfeito para o trabalho na recepção
+    - Recuperação de sanidade ao fazer o check-in
+    - Investimento de baixo custo
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Stethoscope} title="Guia de Itens e Tratamento">
+
+Usar o item de tratamento errado em um paciente pode ser fatal. Certifique-se de estar familiarizado com as ferramentas médicas padrão para manter o desempenho do seu turno.
+
+| Item | Uso Principal | Evitar Quando |
+| :--- | :--- | :--- |
+| Café | Restaurar Sanidade | Você estiver com a vida cheia |
+| Taser | Parar Skinwalkers | Durante o tratamento normal |
+| Pomada | Emergências de queimadura | O paciente estiver saudável |
+| Kit Médico | Cura de rotina | Estiver lidando com uma entidade hostil |
+
+<Steps>
+  <Step num="1" title="Entrada do Paciente">
+    Verifique o visitante na recepção e use as persianas para rejeitar quaisquer entidades suspeitas.
+  </Step>
+  <Step num="2" title="Designação de Sala">
+    Direcione o paciente para a sala apropriada com base em seus sintomas e espécie.
+  </Step>
+  <Step num="3" title="Aplicar Tratamento">
+    Selecione o medicamento ou ferramenta correta do seu inventário com base na tela médica.
+  </Step>
+  <Step num="4" title="Manutenção da Sanidade">
+    Consuma café ou comida se o seu medidor de Sanidade cair abaixo de 50% para evitar a morte.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estratégia de Sucesso">
+Coordene com sua equipe. Designe um jogador para o trabalho de recepção e outro para o tratamento nas salas para maximizar a eficiência e a proteção da sanidade.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de ganhar Animal Coins?",
+    answer: "Foque em completar os plantões com sucesso sem deixar passar anomalias. Sequências de sobrevivência mais longas e processamento eficiente de pacientes rendem mais moedas."
+  },
+  {
+    question: "Como funciona a Sanidade no Roblox Animal Hospital?",
+    answer: "A Sanidade é a sua barra de vida. Ela diminui quando você encontra anomalias, sofre sustos (jumpscares) ou falha em tarefas. Mantenha-a alta usando comida e café."
+  },
+  {
+    question: "Devo comprar classes premium?",
+    answer: "Classes como o Agente Secreto são poderosas para combate, mas classes padrão como o Cirurgião oferecem um excelente valor para jogadores gratuitos (free-to-play)."
+  }
+]} />
+
+</Section>

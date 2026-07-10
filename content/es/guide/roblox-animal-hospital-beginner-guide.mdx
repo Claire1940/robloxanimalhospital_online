@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para Principiantes de Roblox Animal Hospital: Supervivencia del Turno y Consejos",
+  description: "Domina el turno de noche en Roblox Animal Hospital. Aprende a detectar anomalías, tratar pacientes reales, gestionar tu Cordura y elegir las mejores clases.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/10b981/fff?text=Beginner+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de roblox animal hospital",
+  keywords: "roblox animal hospital, guía para principiantes, anomalías, supervivencia, horror"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía para principiantes de Roblox animal hospital**: Comienza dominando los registros en recepción y las verificaciones visuales de anomalías.
+- **Ciclo Principal**: Inspecciona a los animales que llegan, rechaza anomalías mediante las persianas y trata a los pacientes normales en las salas designadas.
+- **Gestión de la Cordura**: La cordura es tu principal recurso de supervivencia; mantenla alta usando café, ventajas de clase y turnos sin errores.
+- **Progresión de Clases**: Ahorra tus Monedas de Animal para mejorar de Pasante a clases poderosas de juego tardío como Cirujano o Seguridad.
+</Callout>
+
+<Section icon={Map} title="Guía para Principiantes de Roblox Animal Hospital: Ciclo Principal y Configuración">
+
+Bienvenido al turno de noche en la clínica. Animal Hospital (Anomalía) es un juego de terror y supervivencia en Roblox desarrollado por Animal Anomaly. Tu trabajo es gestionar a los pacientes animales que llegan, identificar anomalías extrañas y tratar a los pacientes normales mientras mantienes tu Cordura por encima de cero. Admitir una sola anomalía puede liberar a un peligroso Skinwalker en las instalaciones, convirtiendo un turno tranquilo en una lucha por la supervivencia.
+
+**Puntos Destacados del Video:**
+- Aprende el diseño básico de la recepción y los controles de las persianas.
+- Mira ejemplos en tiempo real de anomalías visuales en el mostrador principal.
+- Entiende cómo navegar por las salas de tratamiento de la 1 a la 8.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Recorrido de Gameplay de Roblox Animal Hospital" />
+
+Para sobrevivir a tus primeras noches, debes entender la estructura básica del turno. La siguiente tabla resume cómo progresa un turno nocturno estándar desde el registro hasta la finalización exitosa.
+
+| Fase | Objetivo Principal | Herramientas Clave | Peligro Crítico |
+| :--- | :--- | :--- | :--- |
+| **Registro** | Evaluar pacientes en el mostrador | CCTV, Fotos, Persianas | Admitir anomalías ocultas |
+| **Tratamiento** | Completar tareas y aplicar medicinas | Diagnósticos, Objetos médicos | Dar tratamientos erróneos |
+| **Defensa** | Gestionar amenazas y cordura | Café, X-Taser, Linterna | Skinwalkers, Monstruos de cama |
+| **Finalización** | Sobrevivir hasta el fin del turno | Mejoras de tienda, Clases | Quedarse sin Cordura |
+
+<Callout type="tip" title="Consejo Pro">
+Nunca apresures el proceso de registro. Tomarse cinco segundos extra para verificar la foto de un paciente es mucho más seguro que lidiar con un Skinwalker escapado por los pasillos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Supervivencia Paso a Paso para tu Primer Turno">
+
+Tener éxito en tus primeros turnos requiere un enfoque metódico. Sigue estos pasos precisos para asegurar tu primera partida limpia y ganar tu lote inicial de Monedas de Animal.
+
+<Steps>
+  <Step num="1" title="Reportarse en el Mostrador de Recepción">
+    Tan pronto como comience el turno, dirígete directamente al mostrador principal. Aquí es donde llegan los pacientes. Tu tarea principal es decidir si el visitante es un animal normal o una anomalía peligrosa que intenta colarse.
+  </Step>
+  <Step num="2" title="Realizar la Inspección de Triple Verificación">
+    Cuando un paciente se acerque, no lo aceptes de inmediato. Primero, míralo directamente en busca de deformidades físicas. Segundo, verifica su identificación con foto en el escritorio. Tercero, mira el monitor de CCTV para detectar anomalías que solo aparecen en cámara.
+  </Step>
+  <Step num="3" title="Rechazar Anomalías y Aceptar Pacientes">
+    Si el animal pasa todas las verificaciones, déjalo entrar. Si detectas aunque sea una pista de anomalía, presiona el botón de la persiana inmediatamente para rechazarlo. Rechazar correctamente las anomalías evita brotes internos y protege a tu equipo.
+  </Step>
+  <Step num="4" title="Ejecutar Tratamientos Médicos Precisos">
+    Los pacientes aceptados van a las salas 1 a 8. Lee la pantalla de diagnóstico en su sala, completa el minijuego (como la secuencia de rayos X o los clics del monitor cardíaco) y aplica la medicina exacta requerida.
+  </Step>
+  <Step num="5" title="Gestionar la Cordura y Completar el Turno">
+    Vigila tu medidor de Cordura. Si baja, bebe café o come comida de la tienda. Una vez que todos los pacientes sean tratados o rechazados de forma segura y el temporizador se agote, habrás completado el turno con éxito.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia">
+Entregar el objeto de tratamiento incorrecto a un paciente normal lo matará instantáneamente. Esto reduce severamente tu puntuación final del turno y desperdicia valiosos recursos del hospital.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo Detectar y Rechazar Anomalías">
+
+La detección de anomalías es la habilidad más importante del juego. Las anomalías se presentan de diversas formas, sutiles y obvias. Debes revisar al paciente en persona, en su foto y a través del sistema de CCTV para atrapar cada amenaza.
+
+<CardGrid cols={3}>
+  <Card title="Signos en Persona">
+    - **Deformidades Físicas**: Ojos extra, cuencas vacías o dientes humanos.
+    - **Movimientos Antinaturales**: Espasmos corporales severos o sonrisas distorsionadas.
+    - **Acción**: Rechazar de inmediato usando las persianas de recepción.
+  </Card>
+  <Card title="Signos en el Monitor de CCTV">
+    - **Fallos Visuales**: Cuadros negros sobre los ojos o cuerpos completamente negros.
+    - **Extremidades Distorsionadas**: Piernas o brazos alargados visibles solo en cámara.
+    - **Acción**: Confía en la señal de la cámara por encima de tus ojos físicos.
+  </Card>
+  <Card title="Signos en la Identificación con Foto">
+    - **Fotos Discordantes**: La especie o las características no coinciden con el paciente vivo.
+    - **Imágenes Malditas**: Grano estático, ojos inyectados en sangre o expresiones aterradoras.
+    - **Acción**: Rechaza al paciente si la foto parece corrupta.
+  </Card>
+</CardGrid>
+
+| Categoría de Anomalía | Pistas Visuales Comunes | Contramedida Inmediata | Severidad |
+| :--- | :--- | :--- | :--- |
+| **Física** | Dientes afilados, sonrisas anchas, tres ojos, espasmos | Cerrar persianas de recepción | Alta |
+| **Solo Cámara** | Extremidades estiradas, mirando a cámara, cuerpo negro vacío | Confiar en CCTV, rechazar paciente | Alta |
+| **Basada en Foto** | Estática granulada, ojos inyectados en sangre, especie discordante | Comparar foto con animal vivo | Alta |
+| **Ambiental** | Limo verde en el suelo, Monstruos de cama, Golpeadores de pared | Usar extintor, evitar mirar | Media |
+
+<Callout type="info" title="Nota">
+Si una anomalía pasa el mostrador, puede transformarse en un Skinwalker hostil. Si esto sucede, debes usar armas de defensa personal como Tasers o armas de fuego para neutralizar la amenaza antes de que mate a tu equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía de Progresión de Clases y Monedas de Animal">
+
+A medida que completes turnos, ganarás Monedas de Animal permanentes. Usa estas monedas para desbloquear y mejorar clases. Cada clase ofrece objetos iniciales únicos, ventajas pasivas y aumentos de Cordura que facilitan la supervivencia en turnos posteriores.
+
+| Nombre de la Clase | Costo | Rol Principal | Ventaja Clave | Nivel |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cirujano** | 2,500 Monedas | Mejor F2P equilibrado | Gana Cordura y velocidad tras curar | **Nivel S** |
+| **Agente Secreto** | 890 Robux | Cazador Premium | Comienza con arma, regenera munición | **Nivel S** |
+| **Doctor** | 900 Monedas | Curandero de juego medio | Recupera Cordura al curar pacientes | **Nivel A** |
+| **Seguridad** | 1,250 Monedas | Defensa contra amenazas | Comienza con X-Taser para detener Skinwalkers | **Nivel A** |
+| **Secretario** | 120 Monedas | Especialista en recepción | Recupera Cordura al registrar pacientes | **Nivel A** |
+| **Pasante** | Gratis | Inicial por defecto | Comienza con bono de Cordura (+10 a +20) | **Nivel C** |
+
+<Callout type="success" title="Éxito">
+Para tu primera compra, adquiere la clase Secretario si prefieres el trabajo en recepción, o ahorra directamente para el Doctor si prefieres trabajar en las salas de tratamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Gestión de la Cordura y Objetos de Tratamiento">
+
+La Cordura es tu verdadera barra de vida. Mirar fotos malditas, dejar entrar anomalías o enfrentar monstruos ambientales drenará rápidamente tu Cordura. Si llega a cero, mueres. Usa la tabla a continuación para aprender qué objetos protegen tu mente y curan a tus pacientes.
+
+| Nombre del Objeto | Categoría | Caso de Uso Principal | Error Común a Evitar |
+| :--- | :--- | :--- | :--- |
+| **Café** | Recuperación | Restaura Cordura en turnos largos e intensos | Beberlo demasiado pronto antes de recibir daño |
+| **Taser** | Control | Detiene temporalmente a Skinwalkers hostiles | Desperdiciar cargas en entidades no hostiles |
+| **Extintor** | Emergencia | Apaga incendios en salas y pacientes quemándose | Olvidar aplicar ungüento después del fuego |
+| **Ungüento** | Tratamiento | Cura a los pacientes tras ser extinguidos | Aplicarlo antes de apagar las llamas |
+| **Herramientas de Cirugía** | Tratamiento | Necesarias para tareas de cirugía en la Sala 8 | Salir de la sala a mitad de cirugía (mata al paciente) |
+
+<Checklist
+  id="beginner-checklist"
+  title="Objetivos de tu Primer Turno:"
+  items={[
+    "Completar una verificación visual, de cámara y de foto para cada paciente",
+    "Rechazar al menos tres anomalías usando las persianas de recepción",
+    "Tratar a un paciente en la Sala 6 completando la secuencia de rayos X",
+    "Mantener tu Cordura por encima del 50% usando café cuando sea necesario",
+    "Ganar suficientes Monedas de Animal para desbloquear tu primera mejora de clase"
+  ]}
+/>
+
+<Callout type="warning" title="Importante">
+Algunas amenazas ambientales, como los Monstruos del Techo, te castigan por mirar hacia arriba. Si escuchas ruidos extraños sobre ti, mantén tu cámara apuntando al suelo para evitar una pérdida masiva de Cordura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el ciclo principal en esta guía para principiantes de Roblox Animal Hospital?",
+    answer: "El ciclo principal consiste en registrar pacientes en recepción, identificar y rechazar anomalías usando las persianas, tratar a los pacientes normales en las salas 1-8 y gestionar tu Cordura para sobrevivir al turno de noche."
+  },
+  {
+    question: "¿Qué pasa si admito una anomalía por error?",
+    answer: "Una anomalía admitida puede convertirse en un Skinwalker hostil. Deambulará por los pasillos, atacará a los jugadores y drenará tu Cordura. Necesitarás un Taser o un arma para defenderte."
+  },
+  {
+    question: "¿Cómo gano Monedas de Animal y en qué debería gastarlas?",
+    answer: "Ganas Monedas de Animal al sobrevivir turnos con éxito. Deberías gastarlas en desbloquear y mejorar clases. Los principiantes deberían empezar con el Secretario o la Enfermera, y luego ahorrar para el Cirujano."
+  },
+  {
+    question: "¿Cómo restauro mi Cordura cuando está baja?",
+    answer: "Puedes restaurar la Cordura bebiendo café, comiendo alimentos comprados en la tienda o usando ventajas específicas de clase (como los bonos de curación del Doctor o Cirujano)."
+  }
+]} />
+
+</Section>

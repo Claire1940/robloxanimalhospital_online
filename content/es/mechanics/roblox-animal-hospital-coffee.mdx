@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Café de roblox animal hospital: Gestión de Cordura y Consejos de Supervivencia",
+  description: "Domina las mecánicas del café de roblox animal hospital para sobrevivir al turno de noche. Aprende a gestionar la cordura, recuperarte de anomalías y usar objetos eficazmente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Sanity+and+Coffee+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de roblox animal hospital"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El café de roblox animal hospital** es el objeto principal utilizado para restaurar la Cordura durante los peligrosos turnos de noche.
+- **Las mecánicas de Cordura** dictan tu supervivencia; llegar a cero provoca la muerte inmediata y el fallo del turno.
+- **El consumo estratégico** de café es necesario para contrarrestar el agotamiento causado por encuentros con anomalías y fotos malditas.
+- **La selección de clase** influye significativamente en cuánta Cordura ganas o pierdes a lo largo de tu estancia en el hospital.
+- **La coordinación del equipo** asegura que los jugadores que realizan las tareas más peligrosas tengan acceso prioritario a los objetos de recuperación.
+</Callout>
+
+<Section icon={Sparkles} title="El Papel Crítico del café de roblox animal hospital">
+
+En el entorno de alto riesgo de **roblox animal hospital**, el café sirve como el salvavidas definitivo para los jugadores que navegan por los horrores psicológicos del turno de noche. A diferencia de los simuladores de hospital estándar, esta experiencia de Roblox integra una capa de survival horror donde tu estado mental es tan vulnerable como los pacientes que tratas. El café no es simplemente un objeto decorativo; es una herramienta táctica diseñada para evitar que tu medidor de Cordura toque fondo cuando las cosas salen mal.
+
+A medida que avanzas por los turnos posteriores en 2026, la frecuencia de las anomalías aumenta y la presión psicológica se intensifica. Gestionar tus recursos, específicamente tu suministro de café, se convierte en la diferencia entre un turno exitoso y una pantalla de \"Game Over\". Entender cuándo beber y cuándo ahorrar es el primer paso para convertirte en un veterano cazador de anomalías.
+
+| Objeto de Recuperación | Uso Principal | Ganancia de Cordura | Disponibilidad |
+| :--- | :--- | :--- | :--- |
+| **Café** | Restauración rápida de Cordura | **Alta** | Tienda / Objeto Inicial |
+| **Comida de la Tienda** | Aumento menor de Cordura | **Media** | Máquina Expendedora |
+| **Ventajas de Clase** | Recuperación pasiva | **Variable** | Clases Específicas |
+| **Apoyo de Equipo** | Recuperación compartida | **Baja** | Solo Multijugador |
+
+<Callout type="tip" title="Estrategia Pro">
+No uses tu café tan pronto como pierdas una pequeña cantidad de Cordura. Guárdalo para la fase \"Crítica\" o después de haber sido forzado a mirar una foto maldita durante un período prolongado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Cordura y Factores de Agotamiento">
+
+La Cordura es la métrica de supervivencia central en Animal Hospital (Anomaly). Cada jugador comienza con un nivel base de Cordura, pero este número está constantemente bajo amenaza por el entorno y los \"pacientes\" que llegan a tu escritorio. Si tu Cordura llega a cero, tu personaje muere y ya no puedes ayudar a tu equipo a completar el turno.
+
+Varios factores contribuyen a la pérdida de Cordura, que van desde simples errores hasta eventos ambientales inevitables. Al identificar estos desencadenantes temprano, puedes minimizar la cantidad de **café de roblox animal hospital** que necesitas consumir por partida.
+
+| Factor de Agotamiento | Gravedad | Descripción del Impacto |
+| :--- | :--- | :--- |
+| **Anomalías Omitidas** | **Crítica** | Admitir a un Skinwalker drena la Cordura de todo el equipo. |
+| **Fotos Malditas** | **Alta** | Mirar fotos de pacientes distorsionadas causa un drenaje rápido. |
+| **Eventos Hostiles** | **Alta** | Los Monstruos de Cama y Wall Bangers infligen daño directo a la Cordura. |
+| **Rituales de Muerte** | **Media** | Manipular velas rituales o peligros presiona el medidor. |
+| **Deterioro por Tiempo** | **Baja** | La Cordura baja lentamente de forma natural durante turnos muy largos. |
+
+<Callout type="warning" title="Advertencia: Amenaza de Skinwalker">
+Si una anomalía logra pasar la recepción, puede transformarse en un Skinwalker. Estas entidades cazan activamente a los jugadores, y los sustos resultantes causan caídas de Cordura masivas y repentinas que generalmente requieren el consumo inmediato de café.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Cordura: Crítica">
+    - **Distorsión Visual**: La pantalla comienza a desenfocarse o oscurecerse.
+    - **Señales de Audio**: Aumentan los sonidos de latidos y susurros.
+    - **Riesgo**: Muerte inmediata si se recibe cualquier daño adicional.
+  </Card>
+  <Card title="Cordura: Advertencia">
+    - **Señales Visuales**: Ligera desaturación de los colores.
+    - **Acción Requerida**: Prepárate para usar café o buscar una zona segura.
+    - **Riesgo**: Vulnerable a sustos y peligros ambientales.
+  </Card>
+  <Card title="Cordura: Estable">
+    - **Vista Clara**: Sin perturbaciones visuales ni de audio.
+    - **Estrategia**: Continúa con las tareas normales de tratamiento.
+    - **Riesgo**: Mínimo, pero mantén un ojo en el medidor.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Guía de Supervivencia Paso a Paso">
+
+Sobrevivir a una rotación completa en Animal Hospital requiere más que solo conocimientos médicos. Debes equilibrar la admisión de pacientes con el mantenimiento de tu propia salud mental. Sigue este flujo de trabajo optimizado para asegurar que tu equipo llegue a las 6:00 AM con las mínimas bajas posibles.
+
+<Steps>
+  <Step num="1" title="Control Inicial de Recepción">
+    Comienza el turno en la recepción. Usa el CCTV y las comparaciones de fotos para verificar si el paciente es humano/animal o una anomalía. Busca tics, extremidades adicionales o rasgos distorsionados.
+  </Step>
+  <Step num="2" title="Mitigación de Anomalías">
+    Si un paciente es sospechoso, usa las persianas inmediatamente. Rechazar una anomalía evita el drenaje de Cordura para todo el hospital y mantiene el entorno seguro para el tratamiento.
+  </Step>
+  <Step num="3" title="Asignación de Salas de Tratamiento">
+    Envía a los pacientes normales a las salas 1-8. Cada sala tiene una tarea específica, como radiografías o cirugía. Completar estas tareas de manera eficiente mantiene el turno en movimiento y te otorga Monedas Animal.
+  </Step>
+  <Step num="4" title="Monitoreo de Cordura">
+    Revisa tu medidor después de cada tres pacientes o cualquier evento \"extraño\". Si tu visión parpadea, es hora de acceder a tu inventario y usar tu **café de roblox animal hospital**.
+  </Step>
+  <Step num="5" title="Respuesta de Emergencia">
+    Controla los incendios con extintores y usa Tasers en cualquier anomalía omitida que haya entrado en los pasillos. Estas emergencias son la causa principal de fallos repentinos de Cordura.
+  </Step>
+  <Step num="6" title="Finalización del Turno">
+    Sobrevive hasta que termine el temporizador. Usa tus Monedas Animal ganadas para mejorar tu clase o comprar más café para el próximo turno, que será más difícil.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Eficiencia">
+Asigna a un jugador específicamente para la \"Vigilancia de Cordura\". Este jugador lleva café y comida extra para distribuir a los recepcionistas y cirujanos que no pueden abandonar sus puestos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de Clases para la Gestión de Cordura">
+
+Tu elección de clase en **roblox animal hospital** determina tu Cordura base y con qué eficacia puedes recuperarla. Mientras algunas clases se centran en la velocidad o el combate, otras están diseñadas específicamente para resistir el desgaste psicológico del hospital.
+
+| Nombre de la Clase | Coste | Ventaja de Cordura | Mejor Rol |
+| :--- | :--- | :--- | :--- |
+| **Pasante** | **Gratis** | +10 a +20 de Cordura de Bonificación | Principiantes / Solo |
+| **Secretario/a** | **120 Monedas** | Recupera Cordura al registrar pacientes | Recepción |
+| **Doctor** | **900 Monedas** | Recupera Cordura al curar | Salas de Tratamiento |
+| **Cirujano** | **2500 Monedas** | Gran aumento de Cordura + Velocidad | Carry de juego tardío |
+| **Psicólogo** | **500 Monedas** | Duplica todos los efectos de Cordura | Jugadores Expertos |
+
+<Callout type="info" title="Perspectiva de Clase: El Psicólogo">
+El Psicólogo es una clase de \"alto riesgo, alta recompensa\". Aunque recuperas el doble de Cordura con el café, también pierdes el doble con las anomalías. Solo usa esta clase si confías en tus habilidades de detección.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Objetos Esenciales y Herramientas de Tratamiento">
+
+Para maximizar la efectividad de tu café, necesitas entender todo el arsenal de objetos disponibles en la tienda. Una elección adecuada de objetos evita la pérdida innecesaria de Cordura, permitiéndote ahorrar tus recursos para las fases más peligrosas de la noche.
+
+| Objeto | Categoría | Función | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Café** | **Cordura** | Recuperación mental instantánea | **Muy Alta** |
+| **X-Taser** | **Defensa** | Aturde a anomalías hostiles | **Alta** |
+| **Extintor** | **Utilidad** | Apaga incendios en las salas | **Media** |
+| **Herramientas de Cirugía** | **Médica** | Requeridas para tareas de la Sala 8 | **Requerido** |
+| **Cola de Velocidad** | **Potenciador** | Aumenta la velocidad de movimiento | **Baja** |
+
+<Callout type="warning" title="Gestión de Inventario">
+El espacio del inventario es limitado. Si juegas como Enfermero/a, utiliza tus ranuras extra para llevar varios cafés para tus compañeros. Un equipo que se queda sin café es un equipo que no terminará el turno.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para el Turno de Noche">
+
+Antes de comenzar tu próxima partida en 2026, asegúrate de que tu equipo esté completamente preparado. Usa esta lista para verificar que tienes los suministros necesarios y los roles asignados para manejar la dificultad creciente de los turnos de \"Anomalía\".
+
+<Checklist
+  id="shift-prep"
+  title="Requisitos Pre-Turno:"
+  items={[
+    "Al menos dos jugadores tienen Café en su inventario inicial",
+    "Roles asignados: Recepción, Tratamiento y Respuesta de Emergencia",
+    "Las Monedas Animal se han gastado en Mejoras de Clase (Nivel 2+ recomendado)",
+    "Todos los jugadores entienden las 'señales' visuales del grupo actual de anomalías",
+    "Un 'Corredor' designado está listo para reponer suministros de la tienda a mitad del turno"
+  ]}
+/>
+
+<Callout type="success" title="Consejo Final">
+La consistencia es clave. Cuantos más pacientes trates correctamente, más Monedas Animal ganarás, lo que te permitirá comprar la clase Cirujano y, eventualmente, hacer que la gestión de la Cordura deje de ser un problema.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo más café de roblox animal hospital?",
+    answer: "Puedes comprar Café en la tienda del juego usando el dinero ganado durante tus turnos. Algunas clases también comienzan con café o tienen ventajas que lo proporcionan automáticamente al principio de una ronda."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de perder Cordura?",
+    answer: "Admitir una anomalía a través de la recepción o mirar directamente una 'Foto Maldita' son las formas más rápidas de agotar tu medidor. Los peligros ambientales como el Monstruo de Cama también causan daños significativos si se ignoran."
+  },
+  {
+    question: "¿Puedo compartir mi café con otros jugadores?",
+    answer: "Sí, puedes soltar objetos para otros jugadores. En un entorno de equipo, a menudo es mejor dar tu café al jugador con la Cordura más baja o al que esté manejando las tareas más peligrosas."
+  },
+  {
+    question: "¿La Cordura se recupera naturalmente con el tiempo?",
+    answer: "No, la Cordura no se recupera por sí sola. Debes usar objetos como café o comida, o jugar como una clase (como el Doctor o el Cirujano) que recupera Cordura a través de acciones específicas del juego."
+  }
+]} />
+
+</Section>

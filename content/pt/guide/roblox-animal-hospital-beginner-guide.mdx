@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Iniciante do Roblox Animal Hospital: Sobrevivência no Turno e Dicas",
+  description: "Domine o turno da noite no Roblox Animal Hospital. Aprenda a identificar anomalias, tratar pacientes reais, gerenciar sua Sanidade e escolher as melhores classes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/10b981/fff?text=Beginner+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipe da Wiki do roblox animal hospital"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia de iniciante do Roblox animal hospital**: Comece dominando o check-in na recepção e as verificações visuais de anomalias.
+- **Ciclo Principal**: Inspecione os pacientes animais que chegam, rejeite anomalias através das persianas e trate pacientes normais em salas designadas.
+- **Gerenciamento de Sanidade**: A Sanidade é seu principal recurso de sobrevivência; mantenha-a alta usando Café, vantagens de classe e turnos sem erros.
+- **Progressão de Classe**: Economize suas Animal Coins para fazer o upgrade de Estagiário para classes poderosas de fim de jogo, como Cirurgião ou Segurança.
+</Callout>
+
+<Section icon={Map} title="Guia de Iniciante do Roblox Animal Hospital: Ciclo Principal e Configuração">
+
+Bem-vindo ao turno da noite na clínica. Animal Hospital (Anomaly) é um jogo de terror de sobrevivência no Roblox desenvolvido pela Animal Anomaly. Seu trabalho é gerenciar os pacientes animais que chegam, identificar anomalias estranhas e tratar pacientes normais enquanto mantém sua Sanidade acima de zero. Admitir uma única anomalia pode soltar um perigoso Skinwalker na instalação, transformando um turno tranquilo em uma luta pela sobrevivência.
+
+**Destaques do Vídeo:**
+- Aprenda o layout básico da recepção e os controles das persianas.
+- Veja exemplos em tempo real de anomalias visuais no balcão da frente.
+- Entenda como navegar pelas salas de tratamento de 1 a 8.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Roblox Animal Hospital Gameplay Walkthrough" />
+
+Para sobreviver às suas primeiras noites, você deve entender a estrutura básica do turno. A tabela abaixo descreve como um turno noturno padrão progride do check-in até a conclusão bem-sucedida.
+
+| Fase | Objetivo Principal | Ferramentas Chave | Perigo Crítico |
+| :--- | :--- | :--- | :--- |
+| **Check-In** | Triagem de pacientes na recepção | CCTV, Fotos dos Pacientes, Persianas | Admitir anomalias ocultas |
+| **Tratamento** | Concluir tarefas na sala e aplicar medicamentos | Diagnósticos, Itens Médicos | Dar tratamentos errados |
+| **Defesa** | Gerenciar ameaças ambientais e sanidade | Café, X-Taser, Lanterna | Skinwalkers, Monstros de Cama |
+| **Conclusão** | Sobreviver até o fim do turno para ganhar moedas | Upgrades da loja, Vantagens de classe | Ficar sem Sanidade |
+
+<Callout type="tip" title="Dica de Profissional">
+Nunca apresse o processo de check-in. Levar cinco segundos extras para verificar a foto de um paciente é muito mais seguro do que lidar com um Skinwalker solto pelos corredores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Sobrevivência Passo a Passo para o Seu Primeiro Turno">
+
+Ter sucesso em seus primeiros turnos requer uma abordagem metódica. Siga estes passos precisos para garantir sua primeira rodada limpa e ganhar seu lote inicial de Animal Coins.
+
+<Steps>
+  <Step num="1" title="Relate-se ao Balcão da Recepção">
+    Assim que o turno começar, vá direto para o balcão da frente. É aqui que os pacientes chegam. Sua tarefa principal aqui é decidir se o visitante é um animal normal ou uma anomalia perigosa tentando entrar.
+  </Step>
+  <Step num="2" title="Realize a Inspeção de Verificação Tripla">
+    Quando um paciente se aproximar, não o aceite imediatamente. Primeiro, olhe diretamente para ele em busca de deformidades físicas. Segundo, verifique a foto de identificação no balcão. Terceiro, olhe para o monitor do CCTV para detectar anomalias visíveis apenas na câmera.
+  </Step>
+  <Step num="3" title="Rejeite Anomalias e Aceite Pacientes">
+    Se o animal passar em todas as verificações, deixe-o entrar. Se notar pelo menos uma pista de anomalia, pressione o botão da persiana imediatamente para rejeitá-lo. Rejeitar anomalias corretamente evita surtos internos e protege sua equipe.
+  </Step>
+  <Step num="4" title="Execute Tratamentos Médicos Precisos">
+    Os pacientes aceitos vão para as salas 1 a 8. Leia a tela de diagnóstico na sala deles, complete o minijogo (como a sequência de Raio-X ou cliques no monitor cardíaco) e aplique exatamente o medicamento necessário.
+  </Step>
+  <Step num="5" title="Gerencie a Sanidade e Conclua o Turno">
+    Fique de olho no seu medidor de Sanidade. Se ele cair, beba Café ou coma comida da loja. Assim que todos os pacientes forem tratados ou rejeitados com segurança e o cronômetro acabar, você concluirá o turno com sucesso.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso">
+Dar o item de tratamento errado a um paciente normal irá matá-lo instantaneamente. Isso reduz severamente sua pontuação final do turno e desperdiça recursos valiosos do hospital.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Como Identificar e Rejeitar Anomalias">
+
+A detecção de anomalias é a habilidade mais importante do jogo. As anomalias se apresentam de várias formas sutis e óbvias. Você deve verificar o paciente pessoalmente, em sua foto e através do sistema de CCTV para capturar todas as ameaças.
+
+<CardGrid cols={3}>
+  <Card title="Sinais Presenciais">
+    - **Deformidades Físicas**: Olhos extras, órbitas vazias ou dentes parecidos com humanos.
+    - **Movimentos Não Naturais**: Contrações corporais graves ou sorrisos distorcidos.
+    - **Ação**: Rejeite imediatamente usando as persianas da recepção.
+  </Card>
+  <Card title="Sinais no Monitor CCTV">
+    - **Falhas Visuais**: Caixas pretas sobre os olhos ou corpos completamente pretos como o vácuo.
+    - **Membros Distorcidos**: Pernas ou braços alongados visíveis apenas na câmera.
+    - **Ação**: Confie na imagem da câmera em vez dos seus olhos físicos.
+  </Card>
+  <Card title="Sinais na Foto de ID">
+    - **Fotos Incompatíveis**: A espécie ou características não correspondem ao paciente ao vivo.
+    - **Imagens Amaldiçoadas**: Ruído estático, olhos injetados de sangue ou expressões aterrorizantes.
+    - **Ação**: Rejeite o paciente se a foto parecer corrompida.
+  </Card>
+</CardGrid>
+
+| Categoria da Anomalia | Pistas Visuais Comuns | Contra-ação Imediata | Gravidade |
+| :--- | :--- | :--- | :--- |
+| **Física** | Dentes afiados, sorrisos largos, três olhos, espasmos | Fechar persianas da recepção | Alta |
+| **Apenas Câmera** | Membros esticados, encarando a câmera, corpo de vácuo preto | Confiar no CCTV, rejeitar paciente | Alta |
+| **Baseada em Foto** | Estática granulada, olhos injetados, espécie incompatível | Comparar foto com animal vivo | Alta |
+| **Ambiental** | Limo verde no chão, Monstros de Cama, Batidas na Parede | Usar Extintor, evitar olhar | Média |
+
+<Callout type="info" title="Nota">
+Se uma anomalia passar pelo balcão, ela pode se transformar em um Skinwalker hostil. Se isso acontecer, você deve usar armas de autodefesa como Tasers ou Armas para neutralizar a ameaça antes que ela mate sua equipe.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão de Classe e Guia de Animal Coins">
+
+Ao completar turnos, você ganhará Animal Coins permanentes. Use essas moedas para desbloquear e melhorar classes. Cada classe oferece itens iniciais exclusivos, vantagens passivas e bônus de Sanidade que tornam a sobrevivência em turnos posteriores muito mais fácil.
+
+| Nome da Classe | Custo | Função Primária | Vantagem Chave | Tier |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cirurgião** | 2.500 Moedas | Melhor Polivalente F2P | Ganha Sanidade e bônus de velocidade após curar | **Tier-S** |
+| **Agente Secreto** | 890 Robux | Caçador Premium | Começa com uma arma, regenera munição | **Tier-S** |
+| **Médico** | 900 Moedas | Curandeiro de Meio de Jogo | Recupera Sanidade ao curar pacientes | **Tier-A** |
+| **Segurança** | 1.250 Moedas | Defesa contra Ameaças | Começa com um X-Taser para parar Skinwalkers | **Tier-A** |
+| **Secretário** | 120 Moedas | Especialista em Recepção | Recupera Sanidade ao fazer check-in de pacientes | **Tier-A** |
+| **Estagiário** | Grátis | Iniciante Padrão | Começa com bônus de Sanidade (+10 a +20) | **Tier-C** |
+
+<Callout type="success" title="Sucesso">
+Para sua primeira compra, compre a classe Secretário se preferir o dever da recepção, ou economize diretamente para a classe Médico se preferir cuidar das salas de tratamento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Gerenciamento de Sanidade e Itens de Tratamento">
+
+A Sanidade é sua verdadeira barra de vida. Encarar fotos amaldiçoadas, deixar anomalias entrarem ou enfrentar monstros ambientais drenará rapidamente sua Sanidade. Se chegar a zero, você morre. Use a tabela abaixo para aprender quais itens protegem sua mente e curam seus pacientes.
+
+| Nome do Item | Categoria | Caso de Uso Primário | Erro Comum a Evitar |
+| :--- | :--- | :--- | :--- |
+| **Café** | Recuperação de Sanidade | Restaura Sanidade durante turnos longos e intensos | Beber muito cedo antes de sofrer dano |
+| **Taser** | Controle de Ameaças | Para temporariamente Skinwalkers hostis | Desperdiçar cargas em entidades não hostis |
+| **Extintor** | Ferramenta de Emergência | Apaga incêndios em salas e pacientes em chamas | Esquecer de aplicar Pomada após o fogo |
+| **Pomada** | Item de Tratamento | Cura pacientes após serem extinguidos | Aplicar antes de apagar as chamas |
+| **Ferramentas de Cirurgia** | Tratamento com Tempo | Necessário para tarefas de cirurgia na Sala 8 | Sair da sala no meio da cirurgia (mata o paciente) |
+
+<Checklist
+  id="beginner-checklist"
+  title="Objetivos do Seu Primeiro Turno:"
+  items={[
+    "Realizar uma verificação visual, de câmera e de foto para cada paciente",
+    "Rejeitar pelo menos três anomalias usando as persianas da recepção",
+    "Tratar um paciente na Sala 6 completando a sequência de Raio-X",
+    "Manter sua Sanidade acima de 50% usando Café quando necessário",
+    "Ganhar Animal Coins suficientes para desbloquear seu primeiro upgrade de classe"
+  ]}
+/>
+
+<Callout type="warning" title="Importante">
+Algumas ameaças ambientais, como Monstros de Teto, punem você por olhar para cima. Se ouvir ruídos estranhos acima de você, mantenha sua câmera apontada para o chão para evitar uma perda massiva de Sanidade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o ciclo principal neste guia de iniciante do Roblox animal hospital?",
+    answer: "O ciclo principal envolve fazer o check-in dos pacientes na recepção, identificar e rejeitar anomalias usando as persianas, tratar pacientes normais nas salas 1-8 e gerenciar sua Sanidade para sobreviver ao turno da noite."
+  },
+  {
+    question: "O que acontece se eu admitir uma anomalia por engano?",
+    answer: "Uma anomalia admitida pode se transformar em um Skinwalker hostil. Ele percorrerá os corredores, atacará os jogadores e drenará sua Sanidade. Você precisará de um Taser ou uma Arma para se defender."
+  },
+  {
+    question: "Como ganho Animal Coins e no que devo gastá-las?",
+    answer: "Você ganha Animal Coins ao sobreviver com sucesso aos turnos. Você deve gastá-las para desbloquear e melhorar classes. Iniciantes devem começar com o Secretário ou Enfermeiro e depois economizar para o Cirurgião."
+  },
+  {
+    question: "Como restauro minha Sanidade quando ela fica baixa?",
+    answer: "Você pode restaurar a Sanidade bebendo Café, comendo comida comprada na loja ou usando vantagens específicas de classe (como os bônus de cura do Médico ou Cirurgião)."
+  }
+]} />
+
+</Section>

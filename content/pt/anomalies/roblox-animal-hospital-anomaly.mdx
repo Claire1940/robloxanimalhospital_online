@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "roblox animal hospital anomaly: Guia de Sobrevivência e Tier List de Classes",
+  description: "Domine o roblox animal hospital anomaly com nosso guia sobre tiers de classes, detecção de anomalias, tarefas nas salas de tratamento e dicas de gestão de sanidade para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Animal+Hospital+Anomaly+Guide",
+  date: "2026-07-10",
+  author: "Equipe da Wiki de roblox animal hospital",
+  keywords: "roblox, animal hospital anomaly, guia de sobrevivência, tier list, anomalias, sanidade"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **roblox animal hospital anomaly** é uma experiência de terror de sobrevivência onde os jogadores trabalham em turnos noturnos tratando animais de estimação enquanto identificam anomalias sobrenaturais perigosas.
+- **Detecção de Anomalias** é a mecânica central; você deve usar verificações visuais, CFTV e comparações de fotos para rejeitar mímicos antes que eles entrem na instalação.
+- **Gestão de Sanidade** é sua barra de vida; erros no tratamento ou permitir a entrada de anomalias drenarão sua sanidade, levando ao fim do jogo.
+- **Cirurgião e Agente Secreto** são atualmente as classes de nível superior para sobrevivência e neutralização de ameaças no meta de 2026.
+- **Moedas de Animal** são a moeda permanente usada para desbloquear e melhorar classes, enquanto o dinheiro é gasto em itens temporários do turno, como Café e Tasers.
+</Callout>
+
+<Section icon={Map} title="Jogabilidade Principal e Sobrevivência no Turno">
+
+Trabalhar no turno da noite em **roblox animal hospital anomaly** exige uma mistura de precisão médica e observação paranoica. Desenvolvido por Animal Anomaly, este jogo coloca você em um ambiente de alto risco onde os pacientes nem sempre são o que parecem. Seu objetivo principal é sobreviver ao turno tratando corretamente os pacientes animais normais e usando as persianas da recepção para rejeitar qualquer entidade que apresente traços anômalos. Admitir um "Skinwalker" ou um mímico não apenas diminui sua pontuação — introduz uma ameaça letal no hospital que pode encerrar a partida para toda a equipe.
+
+**Destaques do Vídeo:**
+- Tutorial básico sobre as funções de recepção.
+- Como usar o computador para diagnosticar pacientes corretamente.
+- Exemplos visuais de anomalias comuns no início do jogo.
+- Dicas para gerenciar os três primeiros turnos sozinho ou em grupo.
+
+<YouTubeEmbed videoId="PQU1KMZ6Pac" title="Animal Hospital Roblox - Como Jogar" />
+
+O sucesso no hospital é medido pela sua capacidade de realizar várias tarefas ao mesmo tempo. Enquanto um jogador cuida do processo de check-in, outros devem estar nas salas de tratamento (Salas 1 a 8) realizando diagnósticos, cirurgias ou monitoramento cardíaco. A coordenação é essencial, pois um acúmulo de pacientes na recepção muitas vezes leva a decisões apressadas e anomalias não detectadas.
+
+<Callout type="tip" title="Estratégia de Turno">
+Sempre priorize o processo de check-in. É melhor deixar um cronômetro de tratamento correr um pouco mais do que admitir acidentalmente uma anomalia de alta ameaça porque você estava com pressa para limpar o lobby.
+</Callout>
+
+| Fase do Turno | Objetivo Principal | Risco Chave |
+| --- | --- | --- |
+| **Check-In** | Identificar e rejeitar anomalias | Admitir um Skinwalker |
+| **Diagnóstico** | Determinar o tratamento correto | Perder tempo com ferramentas erradas |
+| **Tratamento** | Aplicar remédios ou realizar cirurgia | Matar um paciente com itens errados |
+| **Emergência** | Lidar com incêndios ou pacientes desmaiados | Perda de sanidade pelo caos |
+| **Pós-Turno** | Gastar Moedas de Animal em melhorias | Comprar classes de baixa prioridade |
+
+</Section>
+
+<Section icon={Target} title="Detecção de Anomalias: Como Identificar Mímicos">
+
+Em **roblox animal hospital anomaly**, sua sobrevivência depende da sua habilidade de distinguir entre um animal comum e um mímico distorcido. As anomalias se manifestam de várias formas, e o jogo fornece três ferramentas principais para verificação: inspeção visual direta, monitores de CFTV e identificação por foto. À medida que os turnos avançam, essas anomalias tornam-se mais sutis, exigindo que os jogadores memorizem a aparência "padrão" de cada espécie animal no jogo.
+
+<Checklist
+  id="anomaly-signs"
+  title="Sinais de Alerta Críticos de Anomalia:"
+  items={[
+    "Membros ou olhos extras ou ausentes (ex: um coelho com três olhos)",
+    "Traços faciais distorcidos, como sorrisos largos e humanos ou dentes afiados",
+    "Distorções visíveis apenas no CFTV, onde o corpo aparece como um vazio negro ou sombra",
+    "Fotos que não coincidem, onde o paciente no balcão não corresponde ao ID",
+    "Comportamento errático, como espasmos, encarar as câmeras ou flutuar"
+  ]}
+/>
+
+Quando você identifica uma anomalia, deve apertar imediatamente o botão da persiana. Não fazer isso permite que a entidade entre no hospital, onde ela pode se transformar em um Skinwalker. Skinwalkers são hostis e caçarão os jogadores, exigindo o uso de um Taser ou uma Arma para neutralizá-los.
+
+| Método de Detecção | O que Procurar | Gravidade |
+| --- | --- | --- |
+| **Verificação Visual** | Dentes afiados, olhos realistas, espasmos, membros extras | Alta |
+| **Monitor de CFTV** | Caixas pretas nos olhos, corpos vazios, alongamento de membros | Crítica |
+| **ID com Foto** | Partes do rosto diferentes do paciente ao vivo, granulação amaldiçoada | Alta |
+| **Comportamental** | Encarar diretamente a câmera ou a alma do jogador | Média |
+
+<Callout type="warning" title="Prioridade ao CFTV">
+Algumas anomalias são invisíveis a olho nu e só aparecem no monitor de CFTV. Sempre verifique o feed da câmera, mesmo que o paciente pareça perfeitamente normal no balcão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de Classes: Rankings de 2026">
+
+Escolher a classe certa em **roblox animal hospital anomaly** muda significativamente seu papel e taxa de sobrevivência. As classes são desbloqueadas usando Moedas de Animal, que são ganhas ao completar turnos com sucesso. Algumas classes premium também estão disponíveis via Robux para jogadores que buscam uma vantagem imediata. Cada classe tem três níveis de progressão, melhorando suas vantagens passivas e equipamentos iniciais.
+
+<CardGrid cols={3}>
+  <Card title="Cirurgião (S-Tier)">
+    - **Custo**: 2500 Moedas de Animal
+    - **Vantagem**: Ganha Sanidade e Velocidade após curar.
+    - **Ideal para**: Papéis de tratamento de alta intensidade.
+  </Card>
+  <Card title="Agente Secreto (S-Tier)">
+    - **Custo**: 890 Robux
+    - **Vantagem**: Começa com uma Arma para controle de ameaças.
+    - **Ideal para**: Jogadores focados em caçar anomalias perdidas.
+  </Card>
+  <Card title="Médico (A-Tier)">
+    - **Custo**: 900 Moedas de Animal
+    - **Vantagem**: Recupera Sanidade ao curar pacientes.
+    - **Ideal para**: Sobrevivência consistente em jogo solo.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Escolha do Meta">
+O **Cirurgião** é atualmente a melhor classe gratuita porque o aumento de velocidade permite que você circule pelas salas 1-8 muito mais rápido, o que é vital durante os eventos de "Correria" no final do jogo.
+</Callout>
+
+| Tier | Classe | Custo | Função Principal |
+| --- | --- | --- | --- |
+| **S** | Cirurgião | 2500 Moedas | Tratamento Rápido / Recuperação de Sanidade |
+| **S** | Agente Secreto | 890 Robux | Combate / Neutralização de Anomalias |
+| **A** | Segurança | 1250 Moedas | Suporte Defensivo com Taser |
+| **A** | Psicólogo | 500 Moedas | Especialista em Gestão de Sanidade |
+| **A** | Secretário | 120 Moedas | Recepção / Especialista em Check-in |
+| **B** | Paramédico | 250 Moedas | Resposta de Emergência / Velocidade |
+| **B** | Enfermeiro | 20 Moedas | Inventário / Suporte de Itens |
+| **C** | Estagiário | Grátis | Classe Inicial para Iniciantes |
+
+</Section>
+
+<Section icon={Swords} title="Guia de Salas de Tratamento e Tarefas">
+
+Uma vez admitido, o paciente deve ser designado para uma sala de tratamento. Em **roblox animal hospital anomaly**, salas diferentes exigem mini-jogos diferentes. Completar essas tarefas com precisão é a única maneira de ganhar o dinheiro necessário para itens da loja, como Café.
+
+<Steps>
+  <Step num="1" title="Diagnóstico">
+    Interaja com o computador na sala de tratamento para ver do que o paciente precisa. Verifique sintomas como queimaduras, ossos quebrados ou parasitas internos.
+  </Step>
+  <Step num="2" title="Conclusão do Mini-jogo">
+    Siga as instruções na tela. Por exemplo, na Sala 6 (Raio-X), você deve seguir uma sequência de quadrados piscando. Na Sala 8 (Cirurgia), você deve usar ferramentas específicas como Escalpels na ordem correta.
+  </Step>
+  <Step num="3" title="Aplicação de Itens">
+    Pegue o medicamento necessário (Ervas, Colírio, Pomada) nos armários do corredor e aplique-o ao paciente para finalizar a cura.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Aviso da Sala 8">
+A cirurgia é um evento com tempo limitado. Se você sair da sala ou demorar muito para selecionar a próxima ferramenta, o paciente morrerá, resultando em uma enorme penalidade de Sanidade para toda a equipe.
+</Callout>
+
+| Tipo de Sala | Mecânica do Mini-jogo | Itens Necessários |
+| --- | --- | --- |
+| **Salas 1-5** | Análise Médica Básica | Ervas, Colírio, Bandagens |
+| **Sala 6** | Memória de Sequência de Raio-X | Ferramentas de Diagnóstico, Pomada |
+| **Sala 7** | Clicar em Ícones do Monitor Cardíaco | Desfibrilador, Remédio |
+| **Sala 8** | Cirurgia em Várias Etapas | Escalpelo, Tesoura, Fórceps |
+
+</Section>
+
+<Section icon={Shield} title="Gestão de Sanidade e Itens">
+
+A Sanidade é seu recurso mais valioso. Em **roblox animal hospital anomaly**, sua Sanidade drena sempre que você encontra eventos assustadores, olha para fotos amaldiçoadas ou comete erros. Se chegar a zero, seu personagem morre. Gerenciar este medidor requer uma combinação de vantagens de classe e itens da loja.
+
+**Drenos Comuns de Sanidade:**
+- Admitir uma anomalia (Queda instantânea).
+- Encarar "Wall Bangers" ou ameaças no teto.
+- Falhar em um mini-jogo de cirurgia.
+- Enfrentar Skinwalkers sem uma arma.
+
+<Callout type="warning" title="Conservação de Café">
+Não beba Café quando sua Sanidade estiver em 80%. Guarde seus itens de recuperação para as fases de "Pesadelo", onde a sanidade drena passivamente ao longo do tempo.
+</Callout>
+
+| Item | Caso de Uso | Prioridade |
+| --- | --- | --- |
+| **Café** | Restaura uma grande parte da Sanidade | Alta |
+| **Taser** | Atordoa anomalias hostis/Skinwalkers | Alta (Turnos Finais) |
+| **Extintor** | Apaga incêndios nas salas | Média |
+| **Speed Cola** | Aumenta a velocidade de movimento por 30s | Baixa |
+| **Kit Médico** | Cura danos físicos de ataques | Média |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Como consigo mais Moedas de Animal no roblox animal hospital anomaly?",
+    answer: "As Moedas de Animal são concedidas ao final de um turno bem-sucedido. Quanto mais pacientes você tratar corretamente e menos anomalias admitir, maior será sua recompensa em moedas."
+  },
+  {
+    question: "Posso mudar de classe durante um turno?",
+    answer: "Não, você deve selecionar sua classe no lobby antes do turno começar. Uma vez que a noite começa, você fica preso a essa função até o turno terminar ou você falhar."
+  },
+  {
+    question: "O que devo fazer se um Skinwalker entrar?",
+    answer: "Se você tiver uma classe de Segurança ou Agente Secreto, use seu Taser ou Arma. Se não, você deve comprar um Taser na loja usando o dinheiro do turno e coordenar com sua equipe para atordoá-lo enquanto terminam os tratamentos."
+  },
+  {
+    question: "Existe uma maneira de recuperar Sanidade sem itens?",
+    answer: "Sim, certas classes como o Médico, Cirurgião e Secretário têm vantagens passivas que recuperam Sanidade quando você realiza suas tarefas específicas (curar ou fazer check-in de pacientes)."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Sempre mantenha um jogador na recepção. Ter um 'Recepcionista' dedicado (idealmente um Secretário ou Psicólogo) garante que nenhuma anomalia passe enquanto o resto da equipe está ocupado nas salas dos fundos.
+</Callout>
+
+</Section>

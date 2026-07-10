@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, ClipboardList, Stethoscope } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital: Beginner Strategy & Anomaly Guide",
+  description: "Master the night shift in Roblox Animal Hospital with our expert guide covering anomaly detection, class tiers, and survival tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/14b8a6/fff?text=Animal+Hospital+Guide",
+  date: "2026-07-10",
+  author: "roblox animal hospital Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Roblox Animal Hospital** challenges you to survive intense night shifts while treating patients and identifying dangerous anomalies.
+- **Anomaly Detection** is your primary survival tool; always check photos and CCTV before admitting a patient.
+- **Class Selection** significantly impacts your success; choose roles like Surgeon or Secretary based on your team's needs.
+- **Sanity Management** is critical; save your coffee for emergency situations or when you encounter high-risk threats.
+- **Progression Strategy** involves using Animal Coins to upgrade your class perks for better long-term survival rates.
+</Callout>
+
+<Section icon={Map} title="Mastering the Night Shift">
+
+Surviving a night shift in Roblox Animal Hospital requires more than just medical knowledge. You are the last line of defense against anomalies that attempt to infiltrate your clinic. Efficiency at the front desk is your most valuable skill.
+
+**Video Highlights:**
+- Identifying early-game anomaly warning signs
+- Efficient patient intake and room routing
+- How to manage sanity during high-pressure events
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Animal Hospital Gameplay Overview" />
+
+The gameplay loop is divided into reception, diagnostics, and treatment. Failing to spot an anomaly early can lead to Skinwalker encounters, which drain your Sanity rapidly.
+
+| Phase | Core Objective | Risk Level |
+| :--- | :--- | :--- |
+| Reception | Verify ID and check for anomalies | Low |
+| Diagnostics | Perform basic health checks | Medium |
+| Treatment | Administer correct medication | High |
+| Event | Survive specialized horror events | Extreme |
+
+<Callout type="tip" title="Pro Tip">
+Always maintain a consistent routine: visual check, photo comparison, and final CCTV verification. Skipping these steps is the fastest way to lose Sanity.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Anomaly Detection Checklist">
+
+Identifying anomalies is the core of the experience. Use this checklist to ensure you are not admitting threats into your hospital wards.
+
+<Checklist
+  id="anomaly-check"
+  title="Anomaly Detection Protocol:"
+  items={[
+    "Check for physical oddities like three eyes or hollow sockets.",
+    "Verify that the patient's teeth are consistent with animal anatomy.",
+    "Compare the patient to their provided photo ID for discrepancies.",
+    "Use CCTV to spot distorted limbs or abnormal movement patterns.",
+    "Listen for strange behavior that doesn't match the animal's species."
+  ]}
+/>
+
+<Callout type="warning" title="Critical Warning">
+If you miss an anomaly, it will likely transform into a hostile Skinwalker. Keep a Taser or defensive item equipped if you are working late-shift rotations.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Class Tier List and Perks">
+
+Choosing the right class defines your playstyle and survival potential. Below is a breakdown of the most effective classes currently available in the game.
+
+| Class | Cost | Role | Best For |
+| :--- | :--- | :--- | :--- |
+| Surgeon | 2500 Coins | All-rounder | Solo players |
+| Secret Agent | 890 Robux | Anomaly Hunter | Combat focus |
+| Doctor | 900 Coins | Medical Support | Stable runs |
+| Secretary | 120 Coins | Reception | Beginners |
+| Intern | Free | Starter | Learning |
+
+<CardGrid cols={3}>
+  <Card title="Surgeon (S-Tier)">
+    - Excellent self-sustain
+    - Speed boost after healing
+    - High-level scaling
+  </Card>
+  <Card title="Doctor (A-Tier)">
+    - Reliable sanity recovery
+    - Steady medical progression
+    - Great for team play
+  </Card>
+  <Card title="Secretary (B-Tier)">
+    - Perfect for front-desk duty
+    - Sanity recovery on check-in
+    - Low-cost investment
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Stethoscope} title="Treatment and Item Guide">
+
+Using the wrong treatment item on a patient can be fatal. Ensure you are familiar with the standard medical tools to maintain your shift performance.
+
+| Item | Primary Use | Avoid When |
+| :--- | :--- | :--- |
+| Coffee | Restore Sanity | You are at full health |
+| Taser | Stop Skinwalkers | During normal treatment |
+| Ointment | Burn emergencies | Patient is healthy |
+| Medical Kit | Routine healing | Handling a hostile entity |
+
+<Steps>
+  <Step num="1" title="Patient Intake">
+    Verify the visitor at the desk and use the shutters to reject any suspicious entities.
+  </Step>
+  <Step num="2" title="Room Assignment">
+    Direct the patient to the appropriate room based on their symptoms and species.
+  </Step>
+  <Step num="3" title="Apply Treatment">
+    Select the correct medicine or tool from your inventory based on the medical screen.
+  </Step>
+  <Step num="4" title="Sanity Maintenance">
+    Consume coffee or food if your Sanity meter drops below 50% to prevent death.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success Strategy">
+Coordinate with your team. Assign one player to reception duty and another to room treatment to maximize efficiency and sanity protection.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best way to earn Animal Coins?",
+    answer: "Focus on completing shifts successfully without missing anomalies. Higher survival streaks and efficient patient processing yield more coins."
+  },
+  {
+    question: "How does Sanity work in Roblox Animal Hospital?",
+    answer: "Sanity is your health bar. It decreases when you encounter anomalies, experience jump scares, or fail tasks. Keep it up by using food and coffee."
+  },
+  {
+    question: "Should I buy premium classes?",
+    answer: "Classes like the Secret Agent are powerful for combat, but standard classes like the Surgeon provide excellent value for free-to-play players."
+  }
+]} />
+
+</Section>

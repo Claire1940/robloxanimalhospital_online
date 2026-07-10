@@ -10,7 +10,15 @@
       "twitterDescription": "Roblox Animal Hospital Wiki with codes, anomaly guides, class tips, patient tasks, shift survival, enemies, and updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "classes": "Classes",
+    "anomalies": "Anomalies",
+    "mechanics": "Mechanics",
+    "characters": "Characters",
+    "endings": "Endings"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -514,7 +522,11 @@
           "title": "Beginner Safety Path",
           "cost": "Free to 120 Animal Coins",
           "bestFor": "New solo players and first teams",
-          "classes": ["Intern", "Nurse", "Secretary"],
+          "classes": [
+            "Intern",
+            "Nurse",
+            "Secretary"
+          ],
           "value": "Intern gives beginner-friendly bonus Sanity, Nurse adds inventory capacity, and Secretary supports reception play with Sanity recovery from check-ins.",
           "buyAdvice": "Start with Intern, then buy Nurse or Secretary depending on whether you carry treatments or work the front desk."
         },
@@ -522,7 +534,11 @@
           "title": "Mid-Game Utility Path",
           "cost": "250 to 900 Animal Coins",
           "bestFor": "Players with a fixed team role",
-          "classes": ["Paramedic", "Psychologist", "Doctor"],
+          "classes": [
+            "Paramedic",
+            "Psychologist",
+            "Doctor"
+          ],
           "value": "Paramedic improves movement with Speed Cola, Psychologist doubles Sanity effects for advanced players, and Doctor rewards patient healing with Sanity recovery.",
           "buyAdvice": "Pick Paramedic for fast emergency response, Doctor for treatment rooms, and Psychologist only if you manage Sanity carefully."
         },
@@ -530,7 +546,9 @@
           "title": "Anomaly Control Path",
           "cost": "1,250 Animal Coins",
           "bestFor": "Defensive players",
-          "classes": ["Security"],
+          "classes": [
+            "Security"
+          ],
           "value": "Security starts with an X-Taser, making it useful when missed anomalies turn into active threats.",
           "buyAdvice": "Buy Security when your team often lets anomalies through or needs one player assigned to threat control."
         },
@@ -538,7 +556,9 @@
           "title": "Late-Game Treatment Path",
           "cost": "2,500 Animal Coins",
           "bestFor": "Experienced treatment players",
-          "classes": ["Surgeon"],
+          "classes": [
+            "Surgeon"
+          ],
           "value": "Surgeon rewards patient healing with Sanity and movement speed, making it strong for players who spend most of the shift in treatment rooms.",
           "buyAdvice": "Save for Surgeon after you already understand room tasks, surgery timing, and emergency routing."
         },
@@ -546,7 +566,10 @@
           "title": "Robux Class Options",
           "cost": "190 Robux or 890 Robux",
           "bestFor": "Players who want premium role shortcuts",
-          "classes": ["Head Nurse", "Secret Agent"],
+          "classes": [
+            "Head Nurse",
+            "Secret Agent"
+          ],
           "value": "Head Nurse is a flexible support class, while Secret Agent starts with a gun and fits combat-focused anomaly control.",
           "buyAdvice": "Use these only if you want their exact role; Animal Coin classes already cover the main survival jobs."
         },
@@ -554,7 +577,9 @@
           "title": "Upgrade After Choosing a Main Class",
           "cost": "Class upgrade levels",
           "bestFor": "Long-term progression",
-          "classes": ["All classes"],
+          "classes": [
+            "All classes"
+          ],
           "value": "Every class has three levels, and upgrades improve perks such as bonus Sanity, inventory capacity, starter items, or passive effects.",
           "buyAdvice": "Do not spread upgrades too thin. Choose one main role first, then upgrade the class you use most."
         }
@@ -662,125 +687,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Animal Hospital Guides",
-      "description": "Complete Animal Hospital guides covering codes, anomalies, classes, patients, enemies, shifts, and survival strategies.",
-      "metaTitle": "Animal Hospital Guides - Codes, Anomalies & Survival Strategies",
-      "metaDescription": "Browse Animal Hospital guides covering codes, anomaly detection, class tier lists, patient treatment, enemy counters, and shift survival tactics.",
-      "categoryLabel": "ANIMAL HOSPITAL GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Animal Hospital gameplay mechanics, anomaly detection, class roles, and shift survival strategies.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Roblox Animal Hospital Codes",
+      "description": "Latest working Roblox Animal Hospital codes for free Animal Coins, perks, and class upgrades, plus how to redeem them in-game.",
+      "metaTitle": "Roblox Animal Hospital Codes - Free Coins & Rewards (2026)",
+      "metaDescription": "Get free Animal Coins and rewards with active Roblox Animal Hospital codes. Updated list with redemption steps and where to find new codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Roblox Animal Hospital Codes?",
+      "whatIsDescription": "Codes are free redeemable strings released by the Animal Anomaly dev team that grant Animal Coins, sanity boosts, and class perks to help you survive the night shift.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Animal Coins",
+        "step1Description": "Redeem codes for coins to unlock new classes without grinding early shifts",
+        "step2Title": "Stay Ahead of Updates",
+        "step2Description": "New codes drop alongside major anomalies, classes, and events",
+        "step3Title": "Boost Early Survival",
+        "step3Description": "Use coin rewards to pick a stronger class before harder night shifts"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Roblox Animal Hospital Guide",
+      "description": "Complete Roblox Animal Hospital guides covering beginner tips, survival strategies, solo play, walkthroughs, and secrets for every night shift.",
+      "metaTitle": "Roblox Animal Hospital Guide - Beginner Tips, Walkthrough & Survival",
+      "metaDescription": "Master Roblox Animal Hospital with beginner guides, survival tips, solo strategies, full walkthroughs, and hidden secrets for every player.",
+      "categoryLabel": "GUIDES & WALKTHROUGHS",
+      "whatIs": "What is the Roblox Animal Hospital Guide?",
+      "whatIsDescription": "Guides walk you through the core night-shift loop: check in animal patients, treat them, detect anomalies, manage Sanity, and survive to the end of each shift.",
+      "why": "Why read the guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand anomaly detection and patient treatment to avoid common mistakes",
+        "step1Description": "Understand patient treatment and anomaly detection to avoid deadly mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive night shifts and earn Animal Coins",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for classes, Sanity management, and anomaly control"
+        "step2Description": "Follow proven paths to clear night shifts and earn Animal Coins",
+        "step3Title": "Master Survival",
+        "step3Description": "Develop advanced tactics for Sanity control, solo play, and hidden secrets"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "anomalies": {
-      "title": "Animal Hospital Anomalies",
-      "description": "Learn how to detect Animal Hospital anomalies using visual signs, CCTV, photos, and behavior changes before a patient enters the clinic.",
-      "metaTitle": "Animal Hospital Anomalies Guide - Visual, CCTV & Photo Signs",
-      "metaDescription": "Master Animal Hospital anomaly detection with visual, CCTV, photo, and behavior checks. Learn when to reject a patient with the front desk shutters.",
-      "categoryLabel": "ANOMALY DETECTION",
-      "whatIs": "What are Anomalies?",
-      "whatIsDescription": "Anomalies are visitors that look almost normal but show strange eyes, distorted bodies, photo mismatches, or camera-only warning signs.",
-      "why": "Why learn anomaly signs?",
-      "whySteps": {
-        "step1Title": "Reject Dangerous Patients",
-        "step1Description": "Stop anomalies before they enter and become Skinwalkers",
-        "step2Title": "Protect Sanity",
-        "step2Description": "Avoid Sanity-draining clues and cursed photos",
-        "step3Title": "Stay Consistent",
-        "step3Description": "Run visual, camera, and photo checks on every visitor"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Anomaly Guides"
-    },
     "classes": {
-      "title": "Animal Hospital Classes",
-      "description": "Compare every Animal Hospital class by cost, perk, role, and best use, from free Intern to premium Secret Agent.",
-      "metaTitle": "Animal Hospital Classes Tier List - Perks, Costs & Roles",
-      "metaDescription": "Full Animal Hospital class tier list covering Intern, Nurse, Secretary, Paramedic, Psychologist, Doctor, Security, Head Nurse, Surgeon, and Secret Agent.",
+      "title": "Roblox Animal Hospital Classes",
+      "description": "Compare every Roblox Animal Hospital class by cost, perk, role, and best use, from free Intern to premium Secret Agent, with a full tier list.",
+      "metaTitle": "Roblox Animal Hospital Classes Tier List - Perks, Costs & Roles",
+      "metaDescription": "Full Roblox Animal Hospital class tier list covering Intern, Nurse, Secretary, Paramedic, Psychologist, Doctor, Security, Surgeon, and Secret Agent.",
       "categoryLabel": "CLASSES & ROLES",
-      "whatIs": "What are Classes?",
-      "whatIsDescription": "Classes add Sanity bonuses, inventory space, movement tools, treatment perks, or weapons that change how each Animal Hospital shift plays.",
+      "whatIs": "What are Roblox Animal Hospital Classes?",
+      "whatIsDescription": "Classes are roles you unlock with Animal Coins that add Sanity bonuses, inventory space, movement tools, treatment perks, or weapons, changing how each shift plays.",
       "why": "Why pick the right class?",
       "whySteps": {
         "step1Title": "Match Your Role",
         "step1Description": "Choose a class that fits reception, treatment, or defense",
-        "step2Title": "Spend Animal Coins Smartly",
-        "step2Description": "Avoid wasting coins on classes you will not use",
+        "step2Title": "Spend Coins Smartly",
+        "step2Description": "Avoid wasting Animal Coins on classes you will not use",
         "step3Title": "Upgrade Over Time",
-        "step3Description": "Level your main class to boost Sanity and perks"
+        "step3Description": "Level your main class to boost Sanity and unlock stronger perks"
       },
       "featured": "Featured & Essential",
       "all": "All Class Guides"
     },
-    "shifts": {
-      "title": "Animal Hospital Shifts",
-      "description": "Master Animal Hospital night shifts: patient flow, room tasks, Sanity control, and how difficulty ramps across later shifts.",
-      "metaTitle": "Animal Hospital Shifts Guide - Night Shift Survival & Progression",
-      "metaDescription": "Survive Animal Hospital night shifts with patient flow, room tasks, Sanity management, and difficulty progression tips for every player.",
-      "categoryLabel": "NIGHT SHIFTS",
-      "whatIs": "What are Shifts?",
-      "whatIsDescription": "A shift is one Animal Hospital night shift run: check in patients, treat them, reject anomalies, manage Sanity, and survive to the end.",
-      "why": "Why plan your shift?",
+    "anomalies": {
+      "title": "Roblox Animal Hospital Anomalies",
+      "description": "Learn how to detect every Roblox Animal Hospital anomaly using visual signs, CCTV, photos, and behavior changes before a patient enters the clinic.",
+      "metaTitle": "Roblox Animal Hospital Anomalies Guide - Signs, Enemies & Jumpscares",
+      "metaDescription": "Master Roblox Animal Hospital anomaly detection with visual, CCTV, photo, and behavior checks. Learn to reject dangerous patients and survive events.",
+      "categoryLabel": "ANOMALY DETECTION",
+      "whatIs": "What are Roblox Animal Hospital Anomalies?",
+      "whatIsDescription": "Anomalies are visitors that look almost normal but show strange eyes, distorted bodies, photo mismatches, or camera-only warning signs before turning hostile.",
+      "why": "Why learn anomaly signs?",
       "whySteps": {
-        "step1Title": "Split Team Roles",
-        "step1Description": "Assign check-in, treatment, and defense to different players",
-        "step2Title": "Manage Sanity",
-        "step2Description": "Save Coffee and food for dangerous moments",
-        "step3Title": "Clear Rooms Efficiently",
-        "step3Description": "Finish room tasks fast to keep the shift moving"
+        "step1Title": "Reject Dangerous Patients",
+        "step1Description": "Stop anomalies before they enter and become Skinwalkers or worse",
+        "step2Title": "Protect Your Sanity",
+        "step2Description": "Avoid Sanity-draining clues, cursed photos, and jumpscares",
+        "step3Title": "Stay Consistent",
+        "step3Description": "Run visual, camera, and photo checks on every single visitor"
       },
       "featured": "Featured & Essential",
-      "all": "All Shift Guides"
+      "all": "All Anomaly Guides"
     },
-    "enemies": {
-      "title": "Animal Hospital Enemies",
-      "description": "Identify and counter Animal Hospital enemies and threats, including Skinwalkers, Bed Monsters, Wall Bangers, and ceiling hazards.",
-      "metaTitle": "Animal Hospital Enemies Guide - Skinwalkers, Bed Monsters & Threats",
-      "metaDescription": "Learn every Animal Hospital enemy and threat, how Skinwalkers, Bed Monsters, Wall Bangers, and ceiling hazards attack, and how to counter them.",
-      "categoryLabel": "ENEMIES & THREATS",
-      "whatIs": "What are Enemies?",
-      "whatIsDescription": "Enemies are hostile threats in Animal Hospital, from missed anomalies that turn into Skinwalkers to environmental hazards like Bed Monsters and Wall Bangers.",
-      "why": "Why study enemies?",
+    "mechanics": {
+      "title": "Roblox Animal Hospital Mechanics",
+      "description": "Deep dives into Roblox Animal Hospital mechanics: Coffee, keys, the suitcase, the Stalker, sandbox mode, and how to unlock hidden features like the mouse.",
+      "metaTitle": "Roblox Animal Hospital Mechanics - Coffee, Keys, Suitcase & Stalker",
+      "metaDescription": "Understand Roblox Animal Hospital core mechanics including Coffee, keys, the suitcase, the Stalker threat, sandbox mode, and unlocking the mouse.",
+      "categoryLabel": "GAME MECHANICS",
+      "whatIs": "What are Roblox Animal Hospital Mechanics?",
+      "whatIsDescription": "Mechanics are the systems that govern each shift: Coffee restores Sanity, keys open locked rooms, the suitcase stores items, and the Stalker is a recurring threat.",
+      "why": "Why master the mechanics?",
       "whySteps": {
-        "step1Title": "Counter Each Threat",
-        "step1Description": "Use the right tool for each enemy type",
-        "step2Title": "Keep Tasers Ready",
-        "step2Description": "Save threat control tools for late-shift danger",
-        "step3Title": "Protect the Team",
-        "step3Description": "Assign one player to handle active threats"
+        "step1Title": "Manage Resources",
+        "step1Description": "Use Coffee, keys, and the suitcase efficiently across the night shift",
+        "step2Title": "Counter the Stalker",
+        "step2Description": "Learn how to get rid of the Stalker before it ruins your shift",
+        "step3Title": "Unlock Hidden Content",
+        "step3Description": "Discover sandbox mode and how to unlock the mouse for new strategies"
       },
       "featured": "Featured & Essential",
-      "all": "All Enemy Guides"
+      "all": "All Mechanics Guides"
     },
-    "updates": {
-      "title": "Animal Hospital Updates",
-      "description": "Track Animal Hospital updates, events, new anomalies, class changes, and official announcements.",
-      "metaTitle": "Animal Hospital Updates & Events - Patch Notes and News",
-      "metaDescription": "Follow Animal Hospital updates, events, new anomalies, class balance changes, and official announcements from Roblox and Discord.",
-      "categoryLabel": "UPDATES & EVENTS",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Updates bring new anomalies, classes, events, and balance changes to Animal Hospital, often announced first on the official Discord.",
-      "why": "Why follow updates?",
+    "characters": {
+      "title": "Roblox Animal Hospital Characters",
+      "description": "Meet every Roblox Animal Hospital character: Barney, Ratthew, Coffee Guy, Ron, Officer Duckman, Oggy, and the full cast of patients and NPCs.",
+      "metaTitle": "Roblox Animal Hospital Characters - Barney, Ratthew, Coffee Guy & Cast",
+      "metaDescription": "Full Roblox Animal Hospital character list covering Barney, Ratthew, Coffee Guy, Ron, Officer Duckman, Oggy, and what each NPC does in the night shift.",
+      "categoryLabel": "CHARACTERS & NPCs",
+      "whatIs": "Who are the Roblox Animal Hospital Characters?",
+      "whatIsDescription": "Characters are the named NPCs and recurring patients you meet across shifts, from helpful allies like Barney to strange figures like Ratthew and the Coffee Guy.",
+      "why": "Why learn the characters?",
       "whySteps": {
-        "step1Title": "Catch New Content",
-        "step1Description": "See new anomalies, classes, and events first",
-        "step2Title": "Adjust Strategies",
-        "step2Description": "Re-check class perks and anomaly tells after patches",
-        "step3Title": "Find Codes",
-        "step3Description": "Watch official channels for code drops"
+        "step1Title": "Spot Friend or Threat",
+        "step1Description": "Recognize named characters to tell allies from disguised anomalies",
+        "step2Title": "Trigger Events",
+        "step2Description": "Know which characters unlock events, items, or hidden rooms",
+        "step3Title": "Follow the Story",
+        "step3Description": "Track character arcs to reach secret encounters and endings"
       },
       "featured": "Featured & Essential",
-      "all": "All Update Guides"
+      "all": "All Character Guides"
+    },
+    "endings": {
+      "title": "Roblox Animal Hospital Endings",
+      "description": "Complete guide to every Roblox Animal Hospital ending, how to trigger each one, and the choices and conditions needed to unlock them.",
+      "metaTitle": "Roblox Animal Hospital Endings Guide - How to Unlock Every Ending",
+      "metaDescription": "Unlock every Roblox Animal Hospital ending with this guide covering triggers, choices, anomaly outcomes, and the conditions for each finale.",
+      "categoryLabel": "ENDINGS & ROUTES",
+      "whatIs": "What are Roblox Animal Hospital Endings?",
+      "whatIsDescription": "Endings are the finales of the night-shift story, reached by meeting specific conditions, surviving enough shifts, or resolving key anomalies in certain ways.",
+      "why": "Why chase every ending?",
+      "whySteps": {
+        "step1Title": "See the Full Story",
+        "step1Description": "Each ending reveals new lore about the hospital and its anomalies",
+        "step2Title": "Hit Hidden Triggers",
+        "step2Description": "Learn the exact choices and conditions each ending requires",
+        "step3Title": "Complete the Game",
+        "step3Description": "Track which finales you have unlocked and what remains"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Endings Guides"
     }
   }
 }

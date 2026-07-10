@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "コード",
+    "guide": "ガイド",
+    "classes": "クラス",
+    "anomalies": "異常",
+    "mechanics": "メカニクス",
+    "characters": "キャラクター",
+    "endings": "エンディング"
+  }
+}

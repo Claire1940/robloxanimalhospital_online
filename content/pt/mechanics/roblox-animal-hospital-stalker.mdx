@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital Stalker: Sobreviva ao Turno da Noite e Detecte Anomalias",
+  description: "Domine as mecânicas de Roblox Animal Hospital Stalker. Aprenda a detectar anomalias assustadoras, gerenciar a sanidade, escolher as melhores classes e sobreviver ao aterrorizante turno da noite.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111827/fff?text=Animal+Hospital+Stalker+Guide",
+  date: "2026-07-10",
+  author: "Equipe da Wiki de roblox animal hospital"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ameaça do Stalker**: Detectar anomalias cedo é a única maneira de evitar que entidades aterrorizantes como stalkers e Skinwalkers entrem nas instalações.
+- **Medidor de Sanidade**: Cada erro ou susto (jumpscare) drena sua sanidade, o que leva a um fim de jogo instantâneo se chegar a zero.
+- **Ciclo Principal**: Registrar pacientes animais, rejeitar visitantes suspeitos usando as portas de segurança da recepção e tratar pacientes reais nas salas designadas.
+- **Vantagem de Classe**: Gastar Animal Coins permanentes em classes de nível alto, como Cirurgião ou Segurança, melhora drasticamente as taxas de sobrevivência.
+</Callout>
+
+<Section icon={Map} title="Básicos de Sobrevivência no Roblox Animal Hospital Stalker">
+
+No gameplay de **roblox animal hospital stalker**, os jogadores assumem o papel de funcionários da clínica no turno da noite, que devem tratar os pacientes animais que chegam enquanto defendem as instalações contra anomalias sobrenaturais. Se você deixar um paciente corrompido passar pela recepção, ele se transforma em um stalker ou Skinwalker hostil que caça ativamente os jogadores. Sobreviver exige um equilíbrio perfeito entre tratamento clínico rápido, consciência ambiental e protocolos de segurança rígidos na recepção.
+
+**Destaques do Vídeo:**
+- Aprenda as diferenças visuais entre pacientes animais normais e anomalias stalker.
+- Entenda como operar as portas de segurança da recepção para bloquear ameaças que chegam.
+- Veja como gerenciar as salas de tratamento enquanto mantém sua sanidade alta.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Detonado de Gameplay do Roblox Animal Hospital" />
+
+| Recurso | Descrição | Impacto na Sobrevivência |
+| :--- | :--- | :--- |
+| **Recepção** | O ponto de entrada onde você inspeciona os pacientes que chegam. | Alto / Mantém as anomalias do lado de fora. |
+| **Portas de Segurança (Shutters)** | Barreiras de segurança usadas para rejeitar entidades suspeitas. | Crítico / Impede invasões de stalkers. |
+| **Sanidade** | Sua barra de vida principal que drena durante eventos assustadores. | Alto / Chegar a 0 resulta em morte. |
+| **Salas de Tratamento** | Áreas onde pacientes normais e verificados são curados. | Médio / Gera dinheiro e moedas. |
+
+<Callout type="warning" title="Aviso">
+Nunca apresse o processo de registro. Admitir uma única anomalia só porque você queria economizar cinco segundos pode libertar um stalker perigoso que arruinará todo o turno da sua equipe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Como Identificar e Rejeitar Anomalias">
+
+Detectar anomalias antes que elas cruzem a entrada é sua principal defesa contra as ameaças de **roblox animal hospital stalker**. O jogo oferece várias ferramentas na recepção para ajudar você a analisar cada visitante. Você deve comparar o paciente físico à sua frente com a foto oficial e as transmissões de CCTV ao vivo.
+
+<CardGrid cols={3}>
+  <Card title="Anomalias Visuais">
+    Procure por deformidades físicas como **três olhos**, órbitas vazias, dentes afiados semelhantes aos humanos ou um sorriso anormalmente largo.
+  </Card>
+  <Card title="Sinais no CCTV">
+    Verifique no monitor se há caixas pretas cobrindo os olhos do paciente, membros distorcidos ou uma silhueta completamente preta e vazia.
+  </Card>
+  <Card title="Discrepâncias na Foto">
+    Rejeite os pacientes imediatamente se a aparência ao vivo não corresponder à foto dos documentos, ou se a foto tiver um filtro amaldiçoado e ensanguentado.
+  </Card>
+</CardGrid>
+
+| Tipo de Anomalia | Sinal de Alerta Principal | Ação Necessária |
+| :--- | :--- | :--- |
+| **Deformidade Física** | Dentes afiados, membros extras, olhos brilhantes ou espasmos. | Puxe o botão da porta de segurança imediatamente. |
+| **Bug no CCTV** | O paciente encara diretamente a câmera com o corpo distorcido. | Rejeite através dos controles da mesa. |
+| **Foto Amaldiçoada** | Estática de imagem ou traços faciais sangrentos nos arquivos. | Feche as portas de segurança da recepção. |
+| **Monstro da Cama** | Rosnados estranhos ou movimento sob as camas de tratamento. | Evite olhar debaixo da cama. |
+
+<Callout type="tip" title="Dica de Profissional">
+Desenvolva uma rotina de inspeção rigorosa para cada visitante: primeiro verifique o rosto visualmente, depois olhe o documento com foto e, finalmente, dê uma olhada no monitor do CCTV. Se apenas um detalhe parecer estranho, rejeite-os.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo do Turno da Noite">
+
+Sobreviver a um turno da noite completo exige coordenação e velocidade. Siga este protocolo otimizado para manter o hospital funcionando perfeitamente enquanto mantém os stalkers afastados.
+
+<Steps>
+  <Step num="1" title="Proteja a Recepção">
+    No início do turno, designe pelo menos um jogador para a recepção. Este jogador é o único responsável por registrar pacientes animais normais e bloquear as anomalias.
+  </Step>
+  <Step num="2" title="Encaminhe os Pacientes para as Salas de Tratamento">
+    Assim que um paciente for verificado como seguro, guie-o para uma sala de tratamento aberta (Salas 1 a 8). Cada sala possui equipamentos de diagnóstico específicos e exige minijogos médicos exclusivos.
+  </Step>
+  <Step num="3" title="Execute os Tratamentos Corretos">
+    Interaja com o computador da sala para identificar o medicamento ou as ferramentas cirúrgicas necessárias. Entregar o tratamento errado mata o paciente e penaliza severamente a avaliação do seu turno.
+  </Step>
+  <Step num="4" title="Gerencie os Perigos Ambientais">
+    Cuidado com eventos aleatórios como incêndios nas salas, batidas nas paredes perto da recepção ou gosma verde no chão. Use extintores de incêndio e mantenha distância de anomalias hostis nas paredes.
+  </Step>
+</Steps>
+
+| Sala de Tratamento | Mecânica de Gameplay | Erro Comum a Evitar |
+| :--- | :--- | :--- |
+| **Salas 1-5** | Analisar o computador, buscar os itens correspondentes na prateleira. | Pegar o medicamento errado. |
+| **Sala 6 (Raio-X)** | Concluir a sequência de quadrados piscantes. | Adivinhar o item de tratamento final. |
+| **Sala 7 (Coração)** | Clicar nos ícones correspondentes enquanto evita os ícones de caveira. | Clicar em caveiras por pânico sob pressão. |
+| **Sala 8 (Cirurgia)** | Usar ferramentas com tempo determinado, como bisturis e tesouras. | Sair da sala no meio da operação. |
+
+<Callout type="info" title="Nota">
+Se uma anomalia passar pela sua defesa, ela vagará pelos corredores como um stalker. Mantenha um Taser ou uma Arma prontos para desativá-los temporariamente enquanto sua equipe se concentra em concluir os tratamentos dos pacientes restantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guia de Seleção de Classe e Progressão">
+
+Ganhar Animal Coins durante turnos bem-sucedidos permite que você desbloqueie classes especializadas. Essas classes oferecem vantagens passivas, itens iniciais e bônus de sanidade que tornam a sobrevivência nos turnos avançados muito mais fácil.
+
+| Classe | Custo | Melhor Função | Vantagem Principal |
+| :--- | :--- | : :--- | :--- |
+| **Estagiário (Intern)** | Grátis | Iniciantes | Começa com bônus de sanidade; simples e seguro. |
+| **Secretário (Secretary)** | 120 Moedas | Recepcionista | Recupera a sanidade ao registrar pacientes normais. |
+| **Médico (Doctor)** | 900 Moedas | Médico | Restaura a sanidade após curar pacientes com sucesso. |
+| **Segurança (Security)** | 1250 Moedas | Defensor | Começa com um X-Taser para deter stalkers soltos. |
+| **Cirurgião (Surgeon)** | 2500 Moedas | Solo no Fim do Jogo | Ganha grandes impulsos de velocidade e sanidade após curas. |
+
+<Checklist
+  id="progression-milestones"
+  title="Ordem de Progressão Recomendada:"
+  items={[
+    "Comece com o Estagiário para aprender o mapa e os minijogos básicos dos pacientes",
+    "Compre o Secretário se preferir gerenciar a recepção e detectar anomalias",
+    "Economize para o Segurança para obter uma arma confiável contra stalkers soltos",
+    "Desbloqueie o Cirurgião para maximizar sua velocidade de tratamento e recuperação de sanidade durante partidas solo",
+    "Melhore sua classe favorita para o Nível 3 para dobrar a eficácia de suas vantagens passivas"
+  ]}
+/>
+
+<Callout type="success" title="Sucesso">
+Para jogadores premium, a classe **Agente Secreto (Secret Agent)** (890 Robux) começa com uma arma de alto dano, tornando-a a classe definitiva para caçar stalkers ativos e Skinwalkers.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para deter um stalker que entrou no hospital?",
+    answer: "Se um stalker ou Skinwalker entrar nas instalações, use armas defensivas como o X-Taser (classe Segurança) ou uma Arma (classe Agente Secreto) para atordoá-los ou neutralizá-los. Evite o contato direto para prevenir a perda rápida de sanidade."
+  },
+  {
+    question: "Qual é a maneira mais rápida de recuperar a sanidade no roblox animal hospital stalker?",
+    answer: "A maneira mais confiável de recuperar a sanidade é bebendo Café ou comendo comida comprada na loja do jogo. Certas classes, como o Médico e o Cirurgião, também recuperam a sanidade passivamente quando tratam pacientes com sucesso."
+  },
+  {
+    question: "Posso mudar de classe durante um turno?",
+    answer: "Não, as classes devem ser selecionadas no lobby principal antes de iniciar um turno. Escolha sua classe com base na função planejada para a equipe (ex: Secretário para a recepção, Cirurgião para as salas de tratamento)."
+  },
+  {
+    question: "O que acontece se eu der o medicamento errado a um paciente?",
+    answer: "Dar o medicamento errado ou usar a ferramenta cirúrgica errada matará o paciente instantaneamente. Isso diminui a pontuação geral do seu turno e reduz a quantidade de dinheiro e Animal Coins que você ganha no final da rodada."
+  }
+]} />
+
+</Section>

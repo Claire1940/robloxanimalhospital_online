@@ -9,26 +9,24 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://robloxanimalhospit
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'codes': 0.9,
+	'guide': 0.9,
+	'classes': 0.8,
+	'anomalies': 0.8,
+	'mechanics': 0.8,
+	'characters': 0.8,
+	'endings': 0.7,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（codes 经常更新用 daily，其余 weekly）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'codes': 'daily',
+	'guide': 'weekly',
+	'classes': 'weekly',
+	'anomalies': 'weekly',
+	'mechanics': 'weekly',
+	'characters': 'weekly',
+	'endings': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

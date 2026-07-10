@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Maletín de Roblox Animal Hospital: Guía de los mejores objetos y progresión",
+  description: "Domina las mecánicas del maletín de Roblox Animal Hospital. Aprende a gestionar tu inventario, usar objetos y sobrevivir al turno de noche con nuestra guía experta.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/14b8a6/fff?text=Suitcase+and+Item+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Roblox Animal Hospital"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Arma principal**: Administrar el inventario de tu **maletín de Roblox Animal Hospital** es el factor más importante para sobrevivir a los turnos avanzados del juego.
+- **Mecánica clave**: La capacidad de tu inventario determina cuántos objetos de tratamiento, restauradores de cordura y herramientas defensivas puedes llevar a la vez.
+- **Mejor estrategia**: Mejora tu clase de personaje al principio para ampliar tu capacidad de carga y desbloquear bonificaciones pasivas de objetos.
+- **Consejo crítico**: Nunca desperdicios ranuras valiosas del maletín en objetos de baja prioridad durante eventos de emergencia de alta intensidad.
+- **La mejor opción**: Las clases de Cirujano y Enfermera jefa ofrecen la mejor escala de inventario y recuperación para la supervivencia a largo plazo.
+</Callout>
+
+<Section icon={Map} title="Maletín de Roblox Animal Hospital: Mecánicas del inventario">
+
+Administrar el espacio de tu inventario en el sistema del **maletín de Roblox Animal Hospital** es lo que separa a los internos novatos de los cirujanos veteranos. En esta experiencia de terror y supervivencia, tienes la tarea de tratar a pacientes animales infectados mientras te defiendes de anomalías aterradoras. Cada objeto que llevas ocupa un espacio valioso, lo que significa que debes tomar decisiones en fracciones de segundo sobre qué mantener en tus manos.
+
+Tu capacidad de carga predeterminada es muy limitada, lo que hace que los primeros turnos sean excepcionalmente tensos. Si llevas demasiados suministros médicos, no tendrás espacio para armas defensivas como el Taser o consumibles para restaurar la cordura como el Café. Equilibrar tu equipamiento es esencial para mantener vivos a tus pacientes y conservar intacta tu cordura.
+
+| Nombre de la clase | Inventario inicial | Inventario máximo mejorado | Rol principal |
+| --- | --- | --- | --- |
+| **Interno** | 3 ranuras | 3 ranuras | Principiante / Aprendizaje |
+| **Enfermera** | 4 ranuras | 6 ranuras | Portador de objetos / Soporte |
+| **Enfermera jefa** | 5 ranuras | 7 ranuras | Soporte premium |
+| **Cirujano** | 4 ranuras | 5 ranuras | Tratamiento rápido |
+
+<Callout type="tip" title="Consejo pro para el inventario">
+Mantén siempre al menos una ranura vacía en tu maletín al comienzo de un turno. Esto te permite agarrar rápidamente herramientas de emergencia como el Extintor de incendios o las hojas de diagnóstico sin tener que soltar tus objetos defensivos principales.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Objetos esenciales y herramientas de tratamiento">
+
+Para completar con éxito un turno, debes comprender la función exacta de cada objeto que puede ocupar las ranuras de tu inventario. Usar la herramienta incorrecta o administrar un tratamiento erróneo matará instantáneamente a los pacientes normales, lo que reducirá tu puntuación final y agotará la cordura colectiva de tu equipo.
+
+Los objetos del juego se dividen en tres categorías principales: Cuidado del paciente, Recuperación de cordura y Control de amenazas. Saber cuándo comprarlos en la tienda y cómo priorizarlos en tu maletín es clave para sobrevivir a los turnos posteriores y más caóticos.
+
+| Nombre del objeto | Categoría | Caso de uso principal | Nivel de prioridad | Error a evitar |
+| --- | --- | --- | --- | --- |
+| **Café** | Cordura | Restaura la cordura durante turnos largos | **Crítica** | Beberlo demasiado pronto antes de que baje la cordura |
+| **X-Taser** | Defensa | Aturde a anomalías perdidas y Skinwalkers | **Alta** | Disparar a ciegas y desperdiciar cargas |
+| **Ungüento** | Tratamiento | Cura quemaduras en pacientes después de incendios | **Media** | Aplicarlo antes de extinguir el fuego |
+| **Herramientas de cirugía** | Tratamiento | Requerido para minijuegos con tiempo en la Sala 8 | **Alta** | Salir de la sala a mitad de la cirugía |
+| **Hierbas** | Tratamiento | Cura estándar para pacientes en etapa temprana | **Baja** | Sobrecargar las ranuras del maletín con ellas |
+
+<Callout type="warning" title="Peligro de cordura">
+Mirar fotos malditas o no rechazar las anomalías a través de las persianas de recepción agotará rápidamente tu cordura. Guarda una taza de Café en tu maletín para recuperarte inmediatamente cuando ocurran estos eventos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de supervivencia paso a paso para el turno">
+
+Sobrevivir a un turno de noche requiere una rutina estructurada. Sigue este flujo de trabajo paso a paso para maximizar tu eficiencia, administrar el espacio de tu maletín y evitar que las anomalías entren en las instalaciones.
+
+<Steps>
+  <Step num="1" title="Asegurar la recepción">
+    Comienza tu turno en el área de recepción. Tu objetivo principal es inspeccionar a los pacientes que llegan. Revisa sus características físicas, compara sus fotos y monitorea la transmisión de CCTV para detectar anomalías antes de dejarlos entrar.
+  </Step>
+  <Step num="2" title="Filtrar anomalías con las persianas">
+    Si un paciente muestra un comportamiento extraño, dientes realistas o extremidades distorsionadas, presiona inmediatamente el botón de la persiana para rechazarlo. Admitir una anomalía generará un Skinwalker hostil dentro de la clínica.
+  </Step>
+  <Step num="3" title="Organizar el maletín de tratamiento">
+    Una vez admitidos los pacientes seguros, coordínate con tu equipo. Llena tu maletín con las herramientas de diagnóstico específicas, hierbas u objetos médicos requeridos para las salas de tratamiento activas (Salas 1-8).
+  </Step>
+  <Step num="4" title="Ejecutar las tareas de las salas rápidamente">
+    Completa los minijuegos interactivos en cada sala. Para la Sala 6 (Radiografía) y la Sala 7 (Monitor cardíaco), sigue las indicaciones de la pantalla con cuidado. No hagas clic en las calaveras de peligro, ya que retrasarán tu progreso.
+  </Step>
+  <Step num="5" title="Gestionar emergencias a mitad del turno">
+    Si una sala se incendia, suelta tus objetos de tratamiento no esenciales, agarra el Extintor de incendios, apaga las llamas y aplica Ungüento al paciente lesionado de inmediato.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Coordinación de equipo">
+En salas multijugador, asigna a un jugador exclusivamente a la tarea de recepción con un maletín enfocado en objetos defensivos, mientras que los otros jugadores se especializan en el tratamiento y en completar rápidamente las tareas de las salas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión de clases y estrategia de mejora">
+
+Tu éxito a largo plazo depende de gastar tus Animal Coins ganadas con esfuerzo en las clases correctas. Cada clase ofrece ventajas pasivas únicas, objetos iniciales y estructuras de inventario de maletín. Mejorar la clase elegida al Nivel 3 maximiza estos beneficios.
+
+Recomendamos priorizar las clases que ofrecen un equilibrio entre la gestión de la cordura y la utilidad del inventario. Evita repartir tus Animal Coins en demasiadas clases diferentes al principio; concéntrate en mejorar por completo una sola clase que se adapte a tu estilo de juego preferido.
+
+<CardGrid cols={3}>
+  <Card title="Cirujano (Nivel S)">
+    - **Costo**: 2500 Animal Coins
+    - **Ventaja**: Obtiene mejoras masivas de cordura y velocidad al curar pacientes.
+    - **Ideal para**: Jugadores solitarios y curanderos principales.
+  </Card>
+  <Card title="Seguridad (Nivel A)">
+    - **Costo**: 1250 Animal Coins
+    - **Ventaja**: Comienza con un X-Taser; regenera cargas en cada ronda.
+    - **Ideal para**: Control de amenazas y defensa contra Skinwalkers.
+  </Card>
+  <Card title="Secretario (Nivel A)">
+    - **Costo**: 120 Animal Coins
+    - **Ventaja**: Recupera cordura al registrar con éxito a pacientes normales.
+    - **Ideal para**: Especialistas en recepción con presupuesto limitado.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de progresión">
+Si prefieres jugar como soporte, la clase de Enfermera es una excelente inversión de bajo costo. En el Nivel 3, otorga +3 ranuras adicionales de inventario en el maletín, lo que te permite llevar casi todos los objetos de tratamiento simultáneamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos diarios del turno y lista de verificación">
+
+Usa esta lista de verificación para realizar un seguimiento de tu progreso y asegurarte de maximizar tu eficiencia durante cada partida de supervivencia.
+
+<Checklist
+  id="shift-goals"
+  title="Lista de verificación del turno de noche:"
+  items={[
+    "Verificar la foto de cada paciente antes de abrir las puertas de la clínica",
+    "Mantener al menos un Café para restaurar la cordura en tu maletín",
+    "Mejorar tu clase de supervivencia principal al Nivel 3",
+    "Completar con éxito una cirugía en la Sala 8 sin errores",
+    "Terminar un turno sin permitir que aparezca un solo Skinwalker"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo aumento el espacio del inventario del maletín en Roblox Animal Hospital?",
+    answer: "Puedes aumentar el espacio del inventario de tu maletín comprando y mejorando clases como Enfermera o Enfermera jefa, las cuales ofrecen bonificaciones pasivas de capacidad de carga a medida que suben de nivel."
+  },
+  {
+    question: "¿Cuál es el mejor objeto para llevar en mi maletín de Roblox Animal Hospital en todo momento?",
+    answer: "El Café es el objeto más versátil para llevar en el maletín, ya que mantener una cordura alta evita la muerte instantánea y compensa los errores cometidos durante los caóticos turnos del final del juego."
+  },
+  {
+    question: "¿Puedo soltar objetos de mi maletín durante un turno?",
+    answer: "Sí, puedes soltar objetos al suelo para liberar espacio para herramientas de emergencia como el Extintor de incendios, pero ten cuidado de no perder el rastro de tus armas defensivas."
+  },
+  {
+    question: "¿Qué pasa si le doy a un paciente el tratamiento médico incorrecto?",
+    answer: "Dar el objeto incorrecto o fallar un minijuego de sala matará al paciente, lo que dañará gravemente la puntuación de tu turno y agotará la cordura de tu personaje."
+  }
+]} />
+
+</Section>

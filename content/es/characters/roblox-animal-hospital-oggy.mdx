@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital Oggy: Guía Completa de Supervivencia del Turno de Noche",
+  description: "Domina el juego Roblox Animal Hospital Oggy. Aprende a detectar anomalías espeluznantes, gestionar tu medidor de Cordura, elegir las mejores clases y sobrevivir a la noche.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/115e59/fff?text=Roblox+Animal+Hospital+Oggy+Survival+Guide",
+  date: "2026-07-10",
+  author: "Equipo de Wiki de roblox animal hospital",
+  keywords: "roblox animal hospital oggy, guía, anomalías, supervivencia, clases, cordura"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Bucle Principal**: Trabaja en el turno de noche en una clínica espeluznante, trata a pacientes reales y rechaza anomalías aterradoras.
+- **Medidor de Cordura**: Tu barra de salud definitiva. Protege tu Cordura evitando el contacto visual directo con anomalías visuales y bebiendo café.
+- **Mejor Clase**: Comienza con el Pasante (Intern) para ahorrar monedas, luego mejora a Doctor o Cirujano (Surgeon) para curación de alto nivel y recuperación de Cordura.
+- **Advertencia Crítica**: Dejar que una anomalía pase por las persianas de recepción crea un Skinwalker hostil que te cazará.
+</Callout>
+
+<Section icon={Map} title="Bucle de Juego de Roblox Animal Hospital Oggy">
+
+Bienvenido al turno de noche en la clínica. En **roblox animal hospital oggy**, los jugadores deben trabajar juntos o jugar solos para sobrevivir a turnos cada vez más difíciles. Tu objetivo principal es gestionar a los pacientes animales que llegan, diagnosticar sus problemas, aplicar los tratamientos médicos correctos e identificar anomalías que cambian de forma y que intentan infiltrarse en las instalaciones.
+
+**Puntos destacados del video:**
+- **Controles Visuales**: Cómo inspeccionar a los pacientes que llegan en la recepción.
+- **Mecánica de Persianas**: Uso de las persianas de seguridad para rechazar anomalías de forma segura.
+- **Flujo de Tratamiento**: Mover a los pacientes normales a las salas de tratamiento y aplicar las curas correctas.
+
+<YouTubeEmbed videoId="3awzFWk-Hpk" title="Gameplay de Roblox Animal Hospital Oggy" />
+
+Cada ronda requiere un delicado equilibrio entre velocidad y precaución. Hacer pasar a los pacientes por las puertas sin inspeccionarlos lleva a una muerte rápida, mientras que tardar demasiado permite que tu cordura drene hasta niveles críticos.
+
+| Fase del Turno | Objetivo Principal | Riesgo Clave | Mejor Herramienta |
+|---|---|---|---|
+| **Recepción** | Registrar pacientes, rechazar anomalías | Dejar entrar a Skinwalkers | Persianas de recepción, CCTV |
+| **Diagnóstico** | Enviar pacientes a salas asignadas (1-8) | Enrutamiento a sala incorrecta | Computadora del vestíbulo |
+| **Tratamiento** | Completar tareas de sala, aplicar medicina | Matar a pacientes normales | Medicina, herramientas de cirugía |
+| **Supervivencia** | Mantener Cordura sobre cero, limpiar eventos | Entidades hostiles, incendios | Café, extintor, táser |
+
+<Callout type="tip" title="Consejo Pro">
+Asigna roles dedicados si juegas en equipo. Haz que un jugador gestione el mostrador de recepción, otro se encargue del diagnóstico y las tareas de las salas, y un tercero suministre materiales y gestione eventos de emergencia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Detectar y Rechazar Anomalías">
+
+La detección de anomalías es la habilidad más crítica necesaria para sobrevivir a tus turnos. Las anomalías son entidades hostiles disfrazadas de pacientes animales normales. Si las aceptas, se transforman en Skinwalkers que acechan los pasillos, drenan tu Cordura y atacan a los jugadores.
+
+### Controles Visuales, de CCTV y de Fotos
+
+Para mantener el hospital seguro, debes utilizar tres niveles distintos de inspección antes de abrir las persianas para admitir a cualquier visitante.
+
+<CardGrid cols={3}>
+  <Card title="Señales Visuales">
+    Busca deformidades físicas en el paciente en el mostrador. Cuidado con **tres ojos**, cuencas completamente huecas, dientes afilados realistas, sonrisas amplias o espasmos antinaturales.
+  </Card>
+  <Card title="Señales de CCTV">
+    Revisa las cámaras del vestíbulo y de registro. Busca cuadros negros sobre los ojos, extremidades estiradas o un cuerpo completamente negro similar al vacío que solo aparece en pantalla.
+  </Card>
+  <Card title="Señales de Fotos">
+    Compara al paciente en vivo con su foto oficial. Recházalo inmediatamente si la foto tiene ojos inyectados en sangre, una sonrisa espeluznante o no coincide con la especie del animal.
+  </Card>
+</CardGrid>
+
+Usa listas de verificación estándar para asegurarte de no perder nunca un detalle durante los turnos de alta presión.
+
+<Checklist
+  id="anomaly-detection-checklist"
+  title="Rutina de Inspección en Recepción:"
+  items={[
+    "Verificar cara y partes del cuerpo en busca de ojos extra, dientes realistas o sonrisas amplias",
+    "Cambiar a CCTV para buscar distorsiones solo visibles en cámara y cuerpos de vacío",
+    "Comparar la apariencia física del paciente con su foto del mostrador",
+    "Revisar el entorno inmediato en busca de baba verde o golpes en las paredes",
+    "Presionar el botón de la persiana inmediatamente si se detecta cualquier signo de anomalía"
+  ]}
+/>
+
+<Callout type="warning" title="Amenaza Crítica">
+Las fotos malditas pueden drenar tu Cordura si las miras por demasiado tiempo. Confirma la discrepancia rápidamente, toma tu decisión y mira hacia otro lado para preservar tu medidor mental.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de Cordura y Objetos de Supervivencia">
+
+La Cordura actúa como tu barra de salud en **roblox animal hospital oggy**. Si tu Cordura llega a cero, tu partida termina inmediatamente. Gestionar este recurso es tan importante como tratar a tus pacientes.
+
+### Causas de Drenaje y Recuperación de Cordura
+
+La Cordura cae cuando cometes errores, como admitir anomalías, recibir daño de entidades o interactuar con eventos ambientales malditos como el Ritual de la Muerte. Para recuperarte, debes usar objetos de la tienda comprados con el dinero ganado durante el turno.
+
+| Objeto | Categoría | Caso de Uso | Prioridad | Error a Evitar |
+|---|---|---|---|---|
+| **Café** | Cordura | Restaura Cordura durante turnos largos | Alta | Usarlo demasiado pronto |
+| **Táser** | Control de Amenazas | Detiene Skinwalkers activos en pasillos | Alta (Turnos finales) | Desperdiciar cargas en no amenazas |
+| **Extintor** | Emergencia | Apaga fuegos y pacientes en llamas | Media | Ignorar los ungüentos posteriores |
+| **Pistola** | Control de Amenazas | Defensa a distancia contra entidades hostiles | Depende del equipo | Disparar cerca de pacientes normales |
+
+<Steps>
+  <Step num="1" title="Monitorea tu Medidor">
+    Vigila de cerca tu nivel de Cordura. Si cae por debajo del 50%, prepárate para intercambiar roles con un compañero.
+  </Step>
+  <Step num="2" title="Localiza Café y Comida">
+    Mantén un suministro constante de Café en tu inventario. Úsalo inmediatamente después de manejar rituales o sobrevivir a un encuentro con un Skinwalker.
+  </Step>
+  <Step num="3" title="Asigna Tareas Seguras">
+    Si tu Cordura es baja y no tienes objetos de recuperación, aléjate del mostrador de recepción y de las cámaras. Limítate a tareas sencillas en las salas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Protección de Cordura">
+Algunas clases tienen ventajas pasivas que reducen el drenaje de Cordura o la restauran al realizar acciones específicas, como curar pacientes o registrar visitantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de Niveles de Clase y Progresión">
+
+Las clases definen tu rol en el hospital otorgando objetos iniciales únicos, espacios de inventario, aumentos de velocidad y ventajas de Cordura. Puedes desbloquear y mejorar estas clases usando Monedas Animales, que se conservan permanentemente entre partidas.
+
+### Clasificación de Niveles de Clase
+
+Elegir la clase adecuada para tu estilo de juego hace que sobrevivir a los turnos difíciles sea mucho más fácil.
+
+| Clase | Costo | Rol Principal | Ventaja Clave | Tier |
+|---|---|---|---|---|
+| **Cirujano** | 2,500 Monedas | Curación Rápida y Cordura | Gana Cordura y velocidad tras curar pacientes | **S-Tier** |
+| **Agente Secreto** | 890 Robux | Combate y Defensa | Comienza con una pistola; regenera munición | **S-Tier** |
+| **Doctor** | 900 Monedas | Médico Equilibrado | Recupera Cordura al curar; alta Cordura inicial | **A-Tier** |
+| **Seguridad** | 1,250 Monedas | Defensa contra Entidades | Comienza con un X-Táser para aturdir Skinwalkers | **A-Tier** |
+| **Secretario/a** | 120 Monedas | Recepcionista | Recupera Cordura al registrar pacientes | **A-Tier** |
+| **Psicólogo** | 500 Monedas | Soporte de Cordura | Duplica efectos de Cordura; probabilidad de ignorar drenaje | **A-Tier** |
+| **Paramédico** | 250 Monedas | Respuesta Rápida | Comienza con Speed Cola para movimiento rápido | **B-Tier** |
+| **Enfermero/a** | 20 Monedas | Soporte de Inventario | Aumenta la capacidad máxima del inventario | **B-Tier** |
+| **Pasante** | Gratis | Principiante | Comienza con bonificación de Cordura; sin mecánicas extra | **C-Tier** |
+
+<Callout type="success" title="Consejo de Progresión">
+No gastes tus Monedas Animales comprando todas las clases. Ahorra para el **Doctor** o el **Cirujano** si te gusta curar, o compra el **Secretario/a** si prefieres manejar la recepción. Mejora tu clase principal elegida al Nivel 3 para maximizar sus ventajas pasivas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal en Roblox Animal Hospital Oggy?",
+    answer: "Tu objetivo es sobrevivir al turno de noche registrando a pacientes animales normales, rechazando anomalías espeluznantes en la recepción, completando tareas médicas en las salas y manteniendo tu medidor de Cordura por encima de cero."
+  },
+  {
+    question: "¿Cómo lidio con una anomalía que se me pasó y entró al hospital?",
+    answer: "Si una anomalía pasa las persianas, se convertirá en un Skinwalker hostil. Debes defenderte usando objetos defensivos como un Táser o una Pistola, proteger tu Cordura y eliminar la amenaza antes de volver al cuidado de los pacientes."
+  },
+  {
+    question: "¿Cuál es la diferencia entre el Efectivo (Cash) y las Monedas Animales?",
+    answer: "El Efectivo se gana durante un turno y se gasta en la tienda del juego para comprar objetos de supervivencia temporales como Café y Táseres. Las Monedas Animales son recompensas permanentes que se usan en el menú principal para desbloquear y mejorar clases."
+  },
+  {
+    question: "¿Qué clase es mejor para jugadores en solitario?",
+    answer: "El Cirujano es la mejor clase gratuita para jugadores en solitario porque otorga tanto recuperación de Cordura como un aumento de velocidad de movimiento cada vez que curas con éxito a un paciente, lo que te permite mantenerte indefinidamente."
+  }
+]} />
+
+</Section>

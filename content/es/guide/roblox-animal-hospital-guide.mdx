@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Roblox Animal Hospital: Guía para principiantes y consejos sobre anomalías",
+  description: "Domina el turno de noche en Roblox Animal Hospital. Aprende a detectar anomalías, tratar pacientes, gestionar tu cordura y elegir las mejores clases.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/267d7d/fff?text=Roblox+Animal+Hospital+Guide",
+  date: "2026-07-10",
+  author: "Equipo de la Wiki de Roblox Animal Hospital"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Roblox Animal Hospital** es una experiencia de terror y supervivencia en la que gestionas una clínica mientras identificas anomalías peligrosas.
+- **La gestión de la cordura** es la mecánica de supervivencia más crítica; mantenla alta usando café y evitando objetos malditos.
+- **La detección de anomalías** se basa en contrastar pistas visuales, grabaciones de CCTV y el comportamiento de los pacientes.
+- **La selección de clase** define tu rol; elige entre clases de apoyo, tratamiento o defensivas según las necesidades de tu equipo.
+- **El tratamiento correcto** es esencial; aplicar la medicina equivocada a pacientes normales te llevará al fracaso.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos: El ciclo del turno de noche">
+
+Trabajar en el turno de noche en esta clínica está lejos de ser un trabajo común. Tu rendimiento depende de tu capacidad para equilibrar las tareas administrativas con la detección de amenazas letales.
+
+**Puntos clave del video:**
+- Rutinas esenciales en el mostrador de recepción
+- Identificación visual de anomalías en etapa temprana
+- Cómo gestionar los controles de las persianas de manera eficaz
+
+<YouTubeEmbed videoId="PQU1KMZ6Pac" title="Guía de juego de Roblox Animal Hospital" />
+
+El ciclo de juego principal consiste en registrar a los visitantes, verificar su identidad y administrar atención médica. Si admites una anomalía, tu turno se convertirá rápidamente en una lucha por la supervivencia.
+
+| Categoría de tarea | Objetivo principal | Herramienta clave utilizada |
+| :--- | :--- | :--- |
+| Recepción | Verificar la identidad del paciente | Controles de persianas |
+| Diagnóstico | Identificar necesidades médicas | Terminal de computadora |
+| Tratamiento | Administrar la cura correcta | Suministros médicos |
+| Supervivencia | Mantener los niveles de cordura | Café / Comida |
+
+<Callout type="tip" title="Consejo profesional">
+Establece siempre una rutina. Utiliza un patrón constante: revisa la cara del paciente, compárala con su foto y echa un vistazo al CCTV antes de presionar el botón de admitir.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de detección de anomalías">
+
+Identificar anomalías antes de que entren a tu hospital es la habilidad más importante que puedes desarrollar. Una vez que una anomalía entra, puede transformarse en un Skinwalker, creando un entorno caótico que agota tu cordura rápidamente.
+
+| Señal de anomalía | Método de detección | Acción requerida |
+| :--- | :--- | :--- |
+| Deformidad física | Inspección visual | Rechazar inmediatamente |
+| Distorsión de CCTV | Monitoreo de cámaras | Cerrar persianas |
+| Incoherencia en foto | Comparar con archivo del mostrador | Denegar entrada |
+| Comportamiento hostil | Observar movimiento | Usar táser/pistola |
+
+<Checklist
+  id="anomaly-checklist"
+  title="Lista de verificación para detección de anomalías:"
+  items={[
+    "Busca la presencia de tres ojos o cuencas vacías",
+    "Observa espasmos o extremidades distorsionadas en el CCTV",
+    "Verifica que la foto coincida con el visitante",
+    "Rechaza a cualquiera que tenga dientes afilados o demasiado realistas",
+    "Escucha si hay señales de audio extrañas cerca del mostrador"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia crítica">
+No te quedes mirando fotos malditas o anomalías durante demasiado tiempo. La exposición prolongada causa una pérdida significativa de cordura, lo que te hace vulnerable a los peligros ambientales.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión de clases y lista de niveles">
+
+Las clases modifican tus estadísticas básicas y otorgan ventajas únicas. Invertir en la clase adecuada desde el principio mejorará significativamente tu tasa de supervivencia durante los turnos más largos.
+
+<CardGrid cols={3}>
+  <Card title="Cirujano (Nivel S)">
+    - El mejor para las salas de tratamiento
+    - Recuperación de cordura al curar
+    - Ventaja de aumento de velocidad
+  </Card>
+  <Card title="Secretario/a (Nivel A)">
+    - Ideal para recepción
+    - Recuperación de cordura al registrar
+    - Inversión de bajo costo
+  </Card>
+  <Card title="Seguridad (Nivel A)">
+    - Especialista defensivo
+    - Comienza con X-Táser
+    - El mejor para el control de anomalías
+  </Card>
+</CardGrid>
+
+Mejorar tu clase al nivel 3 proporciona las bonificaciones más significativas. Concentra tus Monedas de Animal (Animal Coins) en tu rol principal en lugar de repartir recursos en varias clases.
+
+</Section>
+
+<Section icon={Target} title="Guía de tratamientos y objetos">
+
+Tratar incorrectamente a un paciente normal es una causa común de fracaso. Cada sala tiene requisitos específicos que deben cumplirse con precisión.
+
+| Herramienta de tratamiento | Mejor uso | Penalización por error |
+| :--- | :--- | :--- |
+| Ungüento | Emergencias por quemaduras | Muerte del paciente |
+| Extintor de incendios | Incendios en salas | Pérdida de tiempo del turno |
+| Herramientas de cirugía | Procedimientos de la Sala 8 | Muerte del paciente |
+| Café | Recuperación de cordura | Ninguna (Uso propio) |
+
+<Steps>
+  <Step num="1" title="Asignación de sala">
+    Dirige al paciente verificado a la sala de tratamiento correcta según su lesión.
+  </Step>
+  <Step num="2" title="Finalización de tareas">
+    Sigue las instrucciones en pantalla (por ejemplo, el ritmo del monitor cardíaco o la secuencia de cirugía).
+  </Step>
+  <Step num="3" title="Aplicación final">
+    Aplica el objeto específico indicado en la guía de tratamiento para completar la cura.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de éxito">
+Coordínate con tu equipo. Asigna a un jugador para monitorear las cámaras y la recepción mientras los demás se concentran únicamente en los tratamientos de las salas para maximizar la eficiencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de recuperar la cordura en Roblox Animal Hospital?",
+    answer: "Puedes restaurar la cordura consumiendo café y alimentos que se encuentran en la tienda. Ciertas clases, como el Doctor o el Cirujano, también proporcionan recuperación pasiva de cordura al realizar sus tareas específicas."
+  },
+  {
+    question: "¿Qué pasa si dejo entrar accidentalmente una anomalía al hospital?",
+    answer: "La anomalía puede convertirse en una entidad hostil, como un Skinwalker. Deberás usar objetos defensivos como el táser o la pistola para neutralizar la amenaza antes de que comprometa tu turno."
+  },
+  {
+    question: "¿Hay códigos activos para Roblox Animal Hospital?",
+    answer: "Actualmente no hay códigos públicos activos. Consulta el servidor oficial de Discord de Animal Anomaly y el grupo de Roblox para obtener la información más precisa sobre futuros sistemas de recompensas."
+  }
+]} />
+
+</Section>

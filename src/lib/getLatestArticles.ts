@@ -23,19 +23,19 @@ export async function getLatestArticles(
     allArticles.push(...items.map(item => ({ ...item, contentType })))
   }
 
-  // 预分配随机 key，确保同时间文章随机排序稳定
+  // 预计算更新时间，确保排序稳定
   const articlesWithMeta = allArticles.map(article => ({
     article,
     updateTime: article.frontmatter.lastModified
       ? new Date(article.frontmatter.lastModified).getTime()
       : (article.frontmatter.date ? new Date(article.frontmatter.date).getTime() : 0),
-    rand: Math.random()
+    slug: article.slug
   }))
 
-  // 排序：更新时间降序，同时间随机
+  // 排序：更新时间降序，同时间按 slug 降序（确定性，与导航栏升序相反）
   articlesWithMeta.sort((a, b) => {
     if (a.updateTime !== b.updateTime) return b.updateTime - a.updateTime
-    return a.rand - b.rand
+    return b.slug.localeCompare(a.slug)
   })
 
   return articlesWithMeta.slice(0, max).map(x => x.article)
