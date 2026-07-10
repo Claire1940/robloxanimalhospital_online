@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { ExternalLink, Play } from "lucide-react";
 
@@ -16,21 +16,50 @@ export function VideoFeature({
   posterSrc = "/images/hero.webp",
 }: VideoFeatureProps) {
   const [playing, setPlaying] = useState(false);
+  const containerRef = useRef<HTMLDivElement | null>(null);
 
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
   );
 
+  // Muted autoplay is required for browsers to allow automatic playback.
+  // loop=1 together with playlist=<videoId> is the documented way to loop a
+  // single YouTube video inside an embedded iframe.
   const embedUrl = useMemo(
     () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
+      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`,
     [videoId],
   );
+
+  // Autoplay when the player scrolls into view. The click-to-play button below
+  // stays as a manual fallback for older browsers or blocked autoplay.
+  useEffect(() => {
+    if (playing) return;
+    const node = containerRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setPlaying(true);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { threshold: 0.5 },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [playing]);
 
   return (
     <div className="space-y-4">
       <div
+        ref={containerRef}
         className="relative w-full overflow-hidden rounded-lg bg-black"
         style={{ paddingBottom: "56.25%" }}
       >

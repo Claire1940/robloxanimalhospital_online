@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -29,7 +29,7 @@
   "hero": {
     "badge": "Roblox Survival Horror Hospital",
     "title": "Roblox Animal Hospital Wiki",
-    "description": "Work the night shift, treat animal patients, check for strange anomalies, survive scary events, and learn classes, enemies, items, shifts, and updates.",
+    "description": "Work the night shift, treat animal patients, check for strange anomalies, survive scary events, and learn codes, classes, patients, shifts, and updates.",
     "getFreeCodesCTA": "Get Free Codes",
     "playOnRobloxCTA": "Play on Roblox",
     "stats": {
@@ -52,696 +52,537 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Animal Hospital Gameplay",
+    "description": "Work night shifts, treat animal patients, detect strange anomalies, and survive horror events in this Roblox survival horror hospital."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Animal Hospital",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to survive night shifts, spot anomalies, pick classes, and treat patients in Animal Hospital.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Gift",
+        "title": "Animal Hospital Codes",
+        "description": "Active codes, expired codes, and where new codes drop first"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "GraduationCap",
+        "title": "Animal Hospital Beginner Guide",
+        "description": "First shift flow, patient checks, and early survival basics"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "ScanSearch",
+        "title": "Animal Hospital Anomalies",
+        "description": "Visual, CCTV, and photo signs to reject anomalies fast"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Users",
+        "title": "Animal Hospital Classes",
+        "description": "Tier list of every class, perk, cost, and best role"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "HeartPulse",
+        "title": "Animal Hospital Sanity",
+        "description": "Keep Sanity above zero and recover from dangerous events"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Syringe",
+        "title": "Animal Hospital Items",
+        "description": "Room tasks, treatment items, and emergency tools"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Coins",
+        "title": "Animal Hospital Coins",
+        "description": "How to spend Animal Coins on the right classes first"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Bell",
+        "title": "Animal Hospital Updates",
+        "description": "New events, class changes, and anomaly updates"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "animalHospitalCodes": {
+      "title": "Animal Hospital Codes",
+      "intro": "Animal Hospital currently focuses on shift survival, Animal Coins, classes, shop items, and anomaly detection. Track the code status here and watch the official Roblox game, group, and Discord for new code drops.",
+      "items": [
+        {
+          "label": "Active Codes",
+          "status": "none",
+          "value": "No active Animal Hospital codes are available right now.",
+          "reward": "No active code rewards",
+          "action": "Check the official Discord and Roblox group for future code drops."
+        },
+        {
+          "label": "Expired Codes",
+          "status": "none",
+          "value": "No expired Animal Hospital codes are listed.",
+          "reward": "No expired rewards",
+          "action": "Keep old code lists separate from active rewards to avoid fake code clutter."
+        },
+        {
+          "label": "Redeem System",
+          "status": "not-live",
+          "value": "No public code redemption flow is listed for Animal Hospital yet.",
+          "reward": "Future rewards may include Animal Coins, shop items, or event bonuses.",
+          "action": "Use official announcements as the first source before adding any new code."
+        }
+      ]
+    },
+    "animalHospitalBeginnerGuide": {
+      "title": "How to Play Animal Hospital",
+      "intro": "Animal Hospital is a Roblox survival horror game where you work night shifts in a strange animal clinic. Balance hospital duties with anomaly checks, because admitting the wrong patient can create dangerous threats and drain Sanity.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Start the shift at the front desk",
+          "description": "Patients arrive at the check-in area, and you decide whether they are normal patients or suspicious anomalies.",
+          "tip": "Do not rush every patient into treatment. A fast mistake can create more danger later."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Inspect each patient before accepting them",
+          "description": "Look at the patient in person, use photos, and check CCTV when needed. Warning signs include strange eyes, sharp teeth, twitching, and distorted body parts.",
+          "tip": "Use a consistent routine: visual check, camera check, photo check."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Reject anomalies with the shutters",
+          "description": "When a patient shows anomaly signs, use the shutter button at the desk to send them away before they enter the hospital.",
+          "tip": "Correctly rejecting anomalies improves shift results and helps prevent Skinwalker problems."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Treat normal patients correctly",
+          "description": "Accepted patients move into treatment rooms. Use the computer, diagnostics, and listed medicine or treatment items to cure them.",
+          "tip": "Giving the wrong treatment can kill a normal patient, so match the treatment screen carefully."
+        },
+        {
+          "title": "Keep Sanity above zero",
+          "description": "Sanity is the real survival meter. Anomalies, enemies, rituals, and scary events drain it, while Coffee and food restore it.",
+          "tip": "Buy useful items between shifts and carry Sanity recovery when possible."
+        },
+        {
+          "title": "Earn cash and Animal Coins",
+          "description": "Surviving shifts rewards money for items and Animal Coins for classes. Better classes make later shifts easier through Sanity boosts, movement, inventory, or weapons.",
+          "tip": "New players should focus on stable shift clears before chasing risky anomaly hunts."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Always run visual, camera, and photo checks before admitting a patient.",
+        "Close the shutters the moment a visitor looks wrong.",
+        "Save Coffee for camera duty, rituals, and emergency rooms.",
+        "Split team roles: one on check-in, one on treatment, one ready for threats.",
+        "Match the treatment screen exactly to avoid killing normal patients."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+    "animalHospitalAnomalies": {
+      "title": "Animal Hospital Anomalies Guide",
+      "intro": "Anomaly detection is the most important skill in Animal Hospital. Inspect each visitor through multiple checks before admitting them, then reject anything suspicious with the front desk shutters.",
+      "categories": [
+        {
+          "category": "In-Person Visual Signs",
+          "severity": "high",
+          "checks": [
+            "Three eyes",
+            "Hollow eyes",
+            "Sharp teeth",
+            "Realistic teeth",
+            "Wide grin",
+            "Twitching"
+          ],
+          "action": "Reject the patient immediately with the shutters when these signs appear at the desk."
+        },
+        {
+          "category": "CCTV Signs",
+          "severity": "high",
+          "checks": [
+            "Black box over the eyes",
+            "Stretched or distorted limbs",
+            "Patient staring at the camera",
+            "Void-like body",
+            "Twitching on camera only",
+            "Different ears, mouth, or nose"
+          ],
+          "action": "Use lobby cameras when the patient looks normal in person but still feels suspicious."
+        },
+        {
+          "category": "Photo Signs",
+          "severity": "high",
+          "checks": [
+            "Photo does not match the patient",
+            "Static or grainy photo",
+            "Cursed photo with bloodshot eyes",
+            "Facial parts differ from the live patient"
+          ],
+          "action": "Reject the patient after photo confirmation, and avoid staring at cursed photos too long."
+        },
+        {
+          "category": "Missed Anomaly Response",
+          "severity": "critical",
+          "checks": [
+            "Admitted anomalies can become Skinwalkers",
+            "Skinwalkers may attack players or patients",
+            "Tasers and guns handle direct threats"
+          ],
+          "action": "Clear missed anomalies fast, protect Sanity, and resume treatment once the threat is gone."
+        },
+        {
+          "category": "Environmental Threats",
+          "severity": "medium",
+          "checks": [
+            "Green slime on the floor",
+            "Bed Monster under treatment beds",
+            "Wall Bangers near the front desk",
+            "Ceiling threats punish looking up",
+            "Wall anomalies that chase or steal items"
+          ],
+          "action": "Follow the event-specific counter instead of treating every threat like a patient anomaly."
+        }
+      ]
+    },
+    "animalHospitalClasses": {
+      "title": "Animal Hospital Classes Tier List",
+      "intro": "Classes change how each shift feels by adding Sanity bonuses, inventory space, movement tools, treatment perks, or weapons. Most classes use Animal Coins earned from shifts, while premium options such as Head Nurse and Secret Agent use Robux.",
+      "tiers": [
+        {
+          "tier": "S",
+          "summary": "Best overall classes for strong survival value, late-game scaling, or premium power.",
+          "classes": [
+            {
+              "name": "Surgeon",
+              "cost": "2500 Animal Coins",
+              "role": "Best free-to-play all-rounder",
+              "perk": "Gains Sanity and a speed boost after healing patients.",
+              "bestFor": "Solo players, treatment-focused players, long shift streaks"
+            },
+            {
+              "name": "Secret Agent",
+              "cost": "890 Robux",
+              "role": "Best anomaly hunter",
+              "perk": "Starts with a gun; higher levels add bonus Sanity and regenerate one use each round.",
+              "bestFor": "Premium players, anomaly control, dangerous late-shift situations"
+            },
+            {
+              "name": "Head Nurse",
+              "cost": "190 Robux",
+              "role": "Premium support specialist",
+              "perk": "Adds inventory capacity; Level 3 starts each round with Special Technique.",
+              "bestFor": "Support players, emergency treatment, busy team runs"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "summary": "Strong value classes that are practical for most players and easier to build around.",
+          "classes": [
+            {
+              "name": "Doctor",
+              "cost": "900 Animal Coins",
+              "role": "Reliable medical class",
+              "perk": "Recovers Sanity when healing patients and gains higher starting Sanity later.",
+              "bestFor": "Patient treatment, mid-game progression, stable solo runs"
+            },
+            {
+              "name": "Psychologist",
+              "cost": "500 Animal Coins",
+              "role": "High-Sanity specialist",
+              "perk": "Doubles positive and negative Sanity effects; can ignore some Sanity loss at higher levels.",
+              "bestFor": "Experienced players, Sanity management, careful support play"
+            },
+            {
+              "name": "Secretary",
+              "cost": "120 Animal Coins",
+              "role": "Best early front-desk class",
+              "perk": "Recovers Sanity when checking in patients; later levels add bonus Sanity.",
+              "bestFor": "Beginners, reception duty, low-cost progression"
+            },
+            {
+              "name": "Security",
+              "cost": "1250 Animal Coins",
+              "role": "Defensive anomaly control",
+              "perk": "Starts with an X-Taser; higher levels add more uses and round-based regeneration.",
+              "bestFor": "Team defense, Skinwalker control, players who want a weapon without Robux"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "summary": "Useful classes with clear roles, but less overall value than the options above.",
+          "classes": [
+            {
+              "name": "Paramedic",
+              "cost": "250 Animal Coins",
+              "role": "Emergency movement class",
+              "perk": "Starts with Large Speed Cola; higher levels regenerate one use each round.",
+              "bestFor": "Fires, fainted patients, ambulance events, fast responders"
+            },
+            {
+              "name": "Nurse",
+              "cost": "20 Animal Coins",
+              "role": "Simple inventory support",
+              "perk": "Adds up to +3 maximum inventory capacity by Level 3.",
+              "bestFor": "New players, item carriers, low-cost support"
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "summary": "Starter class used mainly while learning the game and saving for better options.",
+          "classes": [
+            {
+              "name": "Intern",
+              "cost": "Free",
+              "role": "Default starter class",
+              "perk": "Starts with bonus Sanity that increases from +10 to +20 across levels.",
+              "bestFor": "First shifts, learning controls, saving Animal Coins"
+            }
+          ]
+        }
+      ]
+    },
+    "animalHospitalSanity": {
+      "title": "Animal Hospital Sanity Guide",
+      "intro": "Every shift mixes patient treatment with anomaly detection, and Sanity drops when players make risky mistakes, stare at dangerous clues, or get caught by hostile events. Keep one player on check-in, one on treatment, and one ready with Coffee or a Taser.",
+      "risks": [
+        {
+          "label": "Zero Sanity",
+          "meterLevel": "critical",
+          "risk": "Run-ending danger",
+          "whatHappens": "If Sanity reaches 0, the player dies and can no longer safely continue the shift.",
+          "commonCauses": [
+            "Letting anomaly patients through check-in",
+            "Taking damage from Skinwalkers or hostile events",
+            "Looking too long at Sanity-draining threats",
+            "Handling rituals while already low"
+          ],
+          "bestResponse": "Back away from the threat, stop looking at cursed clues, drink Coffee, and let a teammate take over."
+        },
+        {
+          "label": "Coffee and Food",
+          "meterLevel": "recovery",
+          "risk": "Main recovery tool",
+          "whatHappens": "Coffee and shop food restore Sanity during long shifts.",
+          "commonCauses": [
+            "Cursed photo checks",
+            "Death Ritual candle clearing",
+            "Wall Banger interactions",
+            "Skinwalker mistakes"
+          ],
+          "bestResponse": "Do not spend Coffee too early. Save it for camera duty, emergency rooms, rituals, or the player doing the most dangerous tasks."
+        },
+        {
+          "label": "Anomaly Mistakes",
+          "meterLevel": "high",
+          "risk": "Fast Sanity loss",
+          "whatHappens": "Missed anomalies can become Skinwalkers and pressure both patients and players.",
+          "commonCauses": [
+            "Skipping photo comparison",
+            "Ignoring CCTV tells",
+            "Not closing the shutters",
+            "Checking in too many visitors before confirming"
+          ],
+          "bestResponse": "Reject obvious anomalies at the front desk, use cameras and photos before admitting, and keep a Taser ready after later shifts."
+        },
+        {
+          "label": "Class Choice",
+          "meterLevel": "prevention",
+          "risk": "Build-dependent safety",
+          "whatHappens": "Some classes directly help Sanity while others help indirectly through inventory, speed, treatment, or combat control.",
+          "recommendedClasses": [
+            {
+              "name": "Intern",
+              "useCase": "Best beginner safety pick with bonus Sanity and no extra mechanic."
+            },
+            {
+              "name": "Secretary",
+              "useCase": "Rewards reception check-in work with Sanity recovery."
+            },
+            {
+              "name": "Doctor",
+              "useCase": "Recovers Sanity when healing patients."
+            },
+            {
+              "name": "Surgeon",
+              "useCase": "Gains Sanity and speed after healing patients."
+            }
+          ],
+          "bestResponse": "Pick the class based on your job: reception needs Secretary, treatment needs Doctor or Surgeon, and new players should start with Intern."
+        }
+      ]
+    },
+    "animalHospitalItems": {
+      "title": "Animal Hospital Items and Treatments Guide",
+      "intro": "Animal Hospital treatment is simple once the team splits the work: check in the visitor, confirm they are not an anomaly, send them to the right room, finish the room task, then give the required treatment. Know which tools are for Sanity, which are for enemies, and which are only for patient care.",
+      "rows": [
+        {
+          "item": "Coffee",
+          "category": "Sanity item",
+          "whereUsed": "Reception, camera duty, rituals",
+          "whatItDoes": "Restores Sanity after dangerous anomaly or event interactions.",
+          "priority": "High",
+          "mistakeToAvoid": "Do not waste it early before the team reaches dangerous events."
+        },
+        {
+          "item": "Taser",
+          "category": "Threat control",
+          "whereUsed": "Missed anomaly and Skinwalker situations",
+          "whatItDoes": "Stops hostile anomaly patients after they get through check-in.",
+          "priority": "High after early shifts",
+          "mistakeToAvoid": "Do not rely on weapons for every environmental enemy."
+        },
+        {
+          "item": "Fire Extinguisher",
+          "category": "Emergency tool",
+          "whereUsed": "Room fires and burning patient emergencies",
+          "whatItDoes": "Clears fires faster than putting them out by hand.",
+          "priority": "High once fire events begin",
+          "mistakeToAvoid": "After a burning patient is safe, apply the correct follow-up treatment."
+        },
+        {
+          "item": "Basic Medical Treatment",
+          "category": "Room treatment",
+          "whereUsed": "Rooms 1-5",
+          "whatItDoes": "Analyze the patient, then give the required hallway treatment items.",
+          "priority": "Core gameplay",
+          "mistakeToAvoid": "Giving the wrong treatment item kills a normal patient."
+        },
+        {
+          "item": "X-Ray Treatment",
+          "category": "Room treatment",
+          "whereUsed": "Room 6",
+          "whatItDoes": "Complete the flashing-square sequence, then give the required items.",
+          "priority": "Medium",
+          "mistakeToAvoid": "If the sequence fails, redo it before treating; do not guess the final item."
+        },
+        {
+          "item": "Heart Monitor Treatment",
+          "category": "Room treatment",
+          "whereUsed": "Room 7",
+          "whatItDoes": "Click the correct icons, avoid skulls, then finish treatment.",
+          "priority": "Medium",
+          "mistakeToAvoid": "Do not panic-click skulls, because they slow the room task."
+        },
+        {
+          "item": "Surgery Tools",
+          "category": "Timed treatment",
+          "whereUsed": "Room 8",
+          "whatItDoes": "Use the surgery-room tools shown on the screen, including Scissors and Scalpels.",
+          "priority": "Very high",
+          "mistakeToAvoid": "Once surgery starts, finish it immediately; the wrong tool kills the patient."
+        },
+        {
+          "item": "Herbs and Eye Drops",
+          "category": "Early treatment items",
+          "whereUsed": "First-shift patient care",
+          "whatItDoes": "Common starter treatments used in the early shift flow.",
+          "priority": "High for beginners",
+          "mistakeToAvoid": "Do not over-check-in patients before the first treatment items are ready."
+        }
+      ]
+    },
+    "animalHospitalCoins": {
+      "title": "Animal Hospital Animal Coins and Upgrades Guide",
+      "intro": "New players should not spend Animal Coins randomly. Start with simple survival value, then move into a role-specific class once your team knows who handles check-in, treatment rooms, and emergencies. Every class has three levels that improve Sanity bonuses, utility, starter items, or passive abilities.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Understand the Two Currencies",
+          "cost": "Animal Coins plus shift cash",
+          "bestFor": "All players",
+          "classes": [],
+          "value": "Animal Coins are permanent progression currency for classes. Cash earned during a run is used for shop items and upgrades.",
+          "buyAdvice": "Use run cash to survive the current shift, then use Animal Coins to improve your next runs."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Beginner Safety Path",
+          "cost": "Free to 120 Animal Coins",
+          "bestFor": "New solo players and first teams",
+          "classes": ["Intern", "Nurse", "Secretary"],
+          "value": "Intern gives bonus Sanity, Nurse adds inventory capacity, and Secretary supports reception with Sanity recovery.",
+          "buyAdvice": "Start with Intern, then buy Nurse or Secretary depending on your role."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Mid-Game Utility Path",
+          "cost": "250 to 900 Animal Coins",
+          "bestFor": "Players with a fixed team role",
+          "classes": ["Paramedic", "Psychologist", "Doctor"],
+          "value": "Paramedic improves movement, Psychologist doubles Sanity effects, and Doctor rewards healing with Sanity.",
+          "buyAdvice": "Pick Paramedic for fast response, Doctor for treatment rooms, Psychologist only if you manage Sanity carefully."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Anomaly Control Path",
+          "cost": "1,250 Animal Coins",
+          "bestFor": "Defensive players",
+          "classes": ["Security"],
+          "value": "Security starts with an X-Taser, useful when missed anomalies turn into active threats.",
+          "buyAdvice": "Buy Security when your team often lets anomalies through or needs threat control."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Late-Game Treatment Path",
+          "cost": "2,500 Animal Coins",
+          "bestFor": "Experienced treatment players",
+          "classes": ["Surgeon"],
+          "value": "Surgeon rewards healing with Sanity and movement speed for players who stay in treatment rooms.",
+          "buyAdvice": "Save for Surgeon after you understand room tasks, surgery timing, and emergency routing."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Robux Class Options",
+          "cost": "190 Robux or 890 Robux",
+          "bestFor": "Players who want premium role shortcuts",
+          "classes": ["Head Nurse", "Secret Agent"],
+          "value": "Head Nurse is flexible support, while Secret Agent starts with a gun for combat anomaly control.",
+          "buyAdvice": "Use these only if you want their exact role; Animal Coin classes already cover the main survival jobs."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Upgrade After Choosing a Main Class",
+          "cost": "Class upgrade levels",
+          "bestFor": "Long-term progression",
+          "classes": ["All classes"],
+          "value": "Every class has three levels that improve perks such as bonus Sanity, inventory, starter items, or passive effects.",
+          "buyAdvice": "Do not spread upgrades too thin. Choose one main role first, then upgrade the class you use most."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+    "animalHospitalUpdates": {
+      "title": "Animal Hospital Updates and Events",
+      "intro": "The game is built around live survival runs, new anomaly behavior, class balance, and community-discovered secrets. This feed gives returning players a fast view of what changed, what is coming next, and which official channels to follow.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "Jul 10 - Jul 12, 2026",
+          "type": "Scheduled Update",
+          "headline": "Next Update Event Window",
+          "details": [
+            "The Roblox event page lists the next Animal Hospital update window from Jul 10, 9:00 AM to Jul 12, 9:00 AM.",
+            "Announced highlights include Harlow interactions and a new redacted interaction."
+          ],
+          "playerImpact": "Check the event page before starting a long run, because new interactions can change route planning and late-shift decisions."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "Ongoing",
+          "type": "Official Community",
+          "headline": "Discord Update Hub",
+          "details": [
+            "The official Discord server is the main Animal Hospital community hub.",
+            "Its focus includes codes, weekly updates, update alerts, strategy guides, and patch notes."
+          ],
+          "playerImpact": "Use Discord for fast announcements, party finding, update alerts, and community anomaly tips."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "date": "Current Season",
+          "type": "Game Direction",
+          "headline": "New Anomalies and Classes Keep Changing Runs",
+          "details": [
+            "Animal Hospital is a survival horror multiplayer game with evolving anomalies and classes.",
+            "The class pool includes Intern, Nurse, Secretary, Paramedic, Psychologist, Doctor, Security, Head Nurse, Surgeon, and Secret Agent."
+          ],
+          "playerImpact": "Returning players should re-check class perks and anomaly tells before copying old strategies."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "date": "Live Game Page",
+          "type": "Official Status",
+          "headline": "Roblox Page and Animal Anomaly Community",
+          "details": [
+            "The Roblox game page identifies the experience as Animal Hospital (Anomaly) by Animal Anomaly.",
+            "The core loop is working the night shift, treating patients, and dealing with patients who act weird."
+          ],
+          "playerImpact": "Use the Roblox page for the official play link and the Animal Anomaly community page for creator updates."
         }
       ]
     }
@@ -749,31 +590,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Animal Hospital on Roblox",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Animal Hospital on Roblox?",
+        "answer": "Animal Hospital (Anomaly) is a Roblox survival horror game where players work night shifts in a strange animal clinic, treat patients, detect anomalies, and survive scary events."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem Animal Hospital codes?",
+        "answer": "Animal Hospital does not have a public code redemption flow yet. Watch the official Discord and Roblox group for future code drops and a redeem system."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What is Sanity in Animal Hospital?",
+        "answer": "Sanity is the main survival meter in Animal Hospital. It drops from anomaly mistakes, hostile events, and dangerous clues, and recovers with Coffee and food. If it hits zero, your player dies."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How do I spot anomalies in Animal Hospital?",
+        "answer": "Check each visitor in person, on CCTV, and with photos. Reject strange eyes, sharp teeth, distorted bodies, photo mismatches, or camera-only twitching using the front desk shutters."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What are Animal Coins used for in Animal Hospital?",
+        "answer": "Animal Coins are the permanent progression currency used to unlock classes like Secretary, Doctor, Security, and Surgeon. Shift cash is separate and used for shop items during a run."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Animal Hospital multiplayer?",
+        "answer": "Yes. Animal Hospital is a multiplayer survival horror game that supports up to 30 players, so teams can split check-in, treatment, and anomaly defense roles across a shift."
       }
     ]
   },
@@ -802,124 +643,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
+      "title": "Animal Hospital Guides",
+      "description": "Complete Animal Hospital guides covering codes, anomalies, classes, patients, enemies, shifts, and survival strategies.",
+      "metaTitle": "Animal Hospital Guides - Codes, Anomalies & Survival Strategies",
+      "metaDescription": "Browse Animal Hospital guides covering codes, anomaly detection, class tier lists, patient treatment, enemy counters, and shift survival tactics.",
+      "categoryLabel": "ANIMAL HOSPITAL GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Animal Hospital gameplay mechanics, anomaly detection, class roles, and shift survival strategies.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand anomaly detection and patient treatment to avoid common mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to survive night shifts and earn Animal Coins",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for classes, Sanity management, and anomaly control"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "anomalies": {
+      "title": "Animal Hospital Anomalies",
+      "description": "Learn how to detect Animal Hospital anomalies using visual signs, CCTV, photos, and behavior changes before a patient enters the clinic.",
+      "metaTitle": "Animal Hospital Anomalies Guide - Visual, CCTV & Photo Signs",
+      "metaDescription": "Master Animal Hospital anomaly detection with visual, CCTV, photo, and behavior checks. Learn when to reject a patient with the front desk shutters.",
+      "categoryLabel": "ANOMALY DETECTION",
+      "whatIs": "What are Anomalies?",
+      "whatIsDescription": "Anomalies are visitors that look almost normal but show strange eyes, distorted bodies, photo mismatches, or camera-only warning signs.",
+      "why": "Why learn anomaly signs?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Reject Dangerous Patients",
+        "step1Description": "Stop anomalies before they enter and become Skinwalkers",
+        "step2Title": "Protect Sanity",
+        "step2Description": "Avoid Sanity-draining clues and cursed photos",
+        "step3Title": "Stay Consistent",
+        "step3Description": "Run visual, camera, and photo checks on every visitor"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Anomaly Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "classes": {
+      "title": "Animal Hospital Classes",
+      "description": "Compare every Animal Hospital class by cost, perk, role, and best use, from free Intern to premium Secret Agent.",
+      "metaTitle": "Animal Hospital Classes Tier List - Perks, Costs & Roles",
+      "metaDescription": "Full Animal Hospital class tier list covering Intern, Nurse, Secretary, Paramedic, Psychologist, Doctor, Security, Head Nurse, Surgeon, and Secret Agent.",
+      "categoryLabel": "CLASSES & ROLES",
+      "whatIs": "What are Classes?",
+      "whatIsDescription": "Classes add Sanity bonuses, inventory space, movement tools, treatment perks, or weapons that change how each Animal Hospital shift plays.",
+      "why": "Why pick the right class?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Match Your Role",
+        "step1Description": "Choose a class that fits reception, treatment, or defense",
+        "step2Title": "Spend Animal Coins Smartly",
+        "step2Description": "Avoid wasting coins on classes you will not use",
+        "step3Title": "Upgrade Over Time",
+        "step3Description": "Level your main class to boost Sanity and perks"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Class Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "shifts": {
+      "title": "Animal Hospital Shifts",
+      "description": "Master Animal Hospital night shifts: patient flow, room tasks, Sanity control, and how difficulty ramps across later shifts.",
+      "metaTitle": "Animal Hospital Shifts Guide - Night Shift Survival & Progression",
+      "metaDescription": "Survive Animal Hospital night shifts with patient flow, room tasks, Sanity management, and difficulty progression tips for every player.",
+      "categoryLabel": "NIGHT SHIFTS",
+      "whatIs": "What are Shifts?",
+      "whatIsDescription": "A shift is one Animal Hospital night shift run: check in patients, treat them, reject anomalies, manage Sanity, and survive to the end.",
+      "why": "Why plan your shift?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Split Team Roles",
+        "step1Description": "Assign check-in, treatment, and defense to different players",
+        "step2Title": "Manage Sanity",
+        "step2Description": "Save Coffee and food for dangerous moments",
+        "step3Title": "Clear Rooms Efficiently",
+        "step3Description": "Finish room tasks fast to keep the shift moving"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Shift Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "enemies": {
+      "title": "Animal Hospital Enemies",
+      "description": "Identify and counter Animal Hospital enemies and threats, including Skinwalkers, Bed Monsters, Wall Bangers, and ceiling hazards.",
+      "metaTitle": "Animal Hospital Enemies Guide - Skinwalkers, Bed Monsters & Threats",
+      "metaDescription": "Learn every Animal Hospital enemy and threat, how Skinwalkers, Bed Monsters, Wall Bangers, and ceiling hazards attack, and how to counter them.",
+      "categoryLabel": "ENEMIES & THREATS",
+      "whatIs": "What are Enemies?",
+      "whatIsDescription": "Enemies are hostile threats in Animal Hospital, from missed anomalies that turn into Skinwalkers to environmental hazards like Bed Monsters and Wall Bangers.",
+      "why": "Why study enemies?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Counter Each Threat",
+        "step1Description": "Use the right tool for each enemy type",
+        "step2Title": "Keep Tasers Ready",
+        "step2Description": "Save threat control tools for late-shift danger",
+        "step3Title": "Protect the Team",
+        "step3Description": "Assign one player to handle active threats"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Enemy Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "updates": {
+      "title": "Animal Hospital Updates",
+      "description": "Track Animal Hospital updates, events, new anomalies, class changes, and official announcements.",
+      "metaTitle": "Animal Hospital Updates & Events - Patch Notes and News",
+      "metaDescription": "Follow Animal Hospital updates, events, new anomalies, class balance changes, and official announcements from Roblox and Discord.",
+      "categoryLabel": "UPDATES & EVENTS",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Updates bring new anomalies, classes, events, and balance changes to Animal Hospital, often announced first on the official Discord.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Catch New Content",
+        "step1Description": "See new anomalies, classes, and events first",
+        "step2Title": "Adjust Strategies",
+        "step2Description": "Re-check class perks and anomaly tells after patches",
+        "step3Title": "Find Codes",
+        "step3Description": "Watch official channels for code drops"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Update Guides"
     }
   }
 }

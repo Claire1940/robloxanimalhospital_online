@@ -38,6 +38,26 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Animal Hospital 医疗主题图标
+  Gift: LucideIcons.Gift,
+  Ticket: LucideIcons.Ticket,
+  GraduationCap: LucideIcons.GraduationCap,
+  ScanSearch: LucideIcons.ScanSearch,
+  HeartPulse: LucideIcons.HeartPulse,
+  Activity: LucideIcons.Activity,
+  Syringe: LucideIcons.Syringe,
+  Stethoscope: LucideIcons.Stethoscope,
+  Thermometer: LucideIcons.Thermometer,
+  Coins: LucideIcons.Coins,
+  Bell: LucideIcons.Bell,
+  Crown: LucideIcons.Crown,
+  Skull: LucideIcons.Skull,
+  Calendar: LucideIcons.Calendar,
+  PawPrint: LucideIcons.PawPrint,
+  ShieldAlert: LucideIcons.ShieldAlert,
+  Zap: LucideIcons.Zap,
+  Droplet: LucideIcons.Droplet,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
