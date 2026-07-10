@@ -752,14 +752,19 @@ export default function HomePageClient({
                     <p className="text-xs font-semibold text-foreground mb-1.5">
                       Recommended Classes
                     </p>
-                    <div className="flex flex-wrap gap-1.5">
+                    <div className="space-y-1.5">
                       {risk.recommendedClasses.map((rc: any, rci: number) => (
-                        <span
+                        <div
                           key={rci}
-                          className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]"
+                          className="p-2 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)]"
                         >
-                          {rc.name}
-                        </span>
+                          <span className="block text-xs font-semibold text-[hsl(var(--nav-theme-light))]">
+                            {rc.name}
+                          </span>
+                          <span className="block text-xs text-muted-foreground">
+                            {rc.useCase}
+                          </span>
+                        </div>
                       ))}
                     </div>
                   </div>

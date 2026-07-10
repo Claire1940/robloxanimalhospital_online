@@ -340,7 +340,7 @@
     },
     "animalHospitalSanity": {
       "title": "Animal Hospital Sanity Guide",
-      "intro": "Every shift mixes patient treatment with anomaly detection, and Sanity drops when players make risky mistakes, stare at dangerous clues, or get caught by hostile events. Keep one player on check-in, one on treatment, and one ready with Coffee or a Taser.",
+      "intro": "Sanity is the main survival meter in Animal Hospital. Every shift mixes patient treatment with anomaly detection, and Sanity drops when players make risky mistakes, stare at dangerous clues, or get caught by hostile events. Good players protect it by avoiding anomaly mistakes, saving Coffee for danger moments, and choosing a class that matches their role. The safest team keeps one player on check-in, one on treatment, and one ready with Coffee or a Taser when the run gets messy.",
       "risks": [
         {
           "label": "Zero Sanity",
@@ -350,23 +350,23 @@
           "commonCauses": [
             "Letting anomaly patients through check-in",
             "Taking damage from Skinwalkers or hostile events",
-            "Looking too long at Sanity-draining threats",
-            "Handling rituals while already low"
+            "Looking too long at Sanity-draining camera, photo, or ceiling threats",
+            "Handling rituals or hazards while already low"
           ],
-          "bestResponse": "Back away from the threat, stop looking at cursed clues, drink Coffee, and let a teammate take over."
+          "bestResponse": "Back away from the threat, stop looking at cursed visual clues, drink Coffee or food, and let a teammate take over the risky task."
         },
         {
           "label": "Coffee and Food",
           "meterLevel": "recovery",
           "risk": "Main recovery tool",
-          "whatHappens": "Coffee and shop food restore Sanity during long shifts.",
+          "whatHappens": "Coffee and shop food are used to restore Sanity during long shifts.",
           "commonCauses": [
             "Cursed photo checks",
             "Death Ritual candle clearing",
             "Wall Banger interactions",
             "Skinwalker mistakes"
           ],
-          "bestResponse": "Do not spend Coffee too early. Save it for camera duty, emergency rooms, rituals, or the player doing the most dangerous tasks."
+          "bestResponse": "Do not spend Coffee too early. Save it for camera duty, emergency rooms, rituals, or the player who is already doing the most dangerous tasks."
         },
         {
           "label": "Anomaly Mistakes",
@@ -376,10 +376,10 @@
           "commonCauses": [
             "Skipping photo comparison",
             "Ignoring CCTV tells",
-            "Not closing the shutters",
-            "Checking in too many visitors before confirming"
+            "Not closing the shutters when the visitor looks wrong",
+            "Checking in too many visitors before confirming anomalies"
           ],
-          "bestResponse": "Reject obvious anomalies at the front desk, use cameras and photos before admitting, and keep a Taser ready after later shifts."
+          "bestResponse": "Reject obvious anomalies at the front desk, use cameras and photos before admitting suspicious patients, and keep a Taser ready after later shifts."
         },
         {
           "label": "Class Choice",
@@ -389,19 +389,23 @@
           "recommendedClasses": [
             {
               "name": "Intern",
-              "useCase": "Best beginner safety pick with bonus Sanity and no extra mechanic."
+              "useCase": "Best beginner safety pick because it starts with bonus Sanity and has no extra mechanic to manage."
             },
             {
               "name": "Secretary",
-              "useCase": "Rewards reception check-in work with Sanity recovery."
+              "useCase": "Good for reception players because its perk rewards check-in work with Sanity recovery."
             },
             {
               "name": "Doctor",
-              "useCase": "Recovers Sanity when healing patients."
+              "useCase": "Good for treatment-focused players because it recovers Sanity when healing patients."
+            },
+            {
+              "name": "Psychologist",
+              "useCase": "Advanced pick with doubled Sanity effects, making both recovery and mistakes stronger."
             },
             {
               "name": "Surgeon",
-              "useCase": "Gains Sanity and speed after healing patients."
+              "useCase": "Strong treatment role that gains Sanity and speed after healing patients."
             }
           ],
           "bestResponse": "Pick the class based on your job: reception needs Secretary, treatment needs Doctor or Surgeon, and new players should start with Intern."
@@ -410,15 +414,15 @@
     },
     "animalHospitalItems": {
       "title": "Animal Hospital Items and Treatments Guide",
-      "intro": "Animal Hospital treatment is simple once the team splits the work: check in the visitor, confirm they are not an anomaly, send them to the right room, finish the room task, then give the required treatment. Know which tools are for Sanity, which are for enemies, and which are only for patient care.",
+      "intro": "Most normal patients need correct room tasks and correct treatment items, and the biggest mistake is giving the wrong item, because that can kill a normal patient and damage the shift score. Animal Hospital treatment is simple once the team splits the work: check in the visitor, confirm they are not an anomaly, send them to the right room, finish the room task, then give the required treatment. Emergencies can interrupt this flow, so know which tools are for Sanity, which are for enemies, and which are only for patient care.",
       "rows": [
         {
           "item": "Coffee",
           "category": "Sanity item",
-          "whereUsed": "Reception, camera duty, rituals",
-          "whatItDoes": "Restores Sanity after dangerous anomaly or event interactions.",
+          "whereUsed": "Reception, camera duty, rituals, long shifts",
+          "whatItDoes": "Restores Sanity and helps players recover after dangerous anomaly or event interactions.",
           "priority": "High",
-          "mistakeToAvoid": "Do not waste it early before the team reaches dangerous events."
+          "mistakeToAvoid": "Do not waste it early when the team has not reached dangerous events yet."
         },
         {
           "item": "Taser",
@@ -426,7 +430,15 @@
           "whereUsed": "Missed anomaly and Skinwalker situations",
           "whatItDoes": "Stops hostile anomaly patients after they get through check-in.",
           "priority": "High after early shifts",
-          "mistakeToAvoid": "Do not rely on weapons for every environmental enemy."
+          "mistakeToAvoid": "Do not rely on weapons for every environmental enemy; some hazards require special handling instead."
+        },
+        {
+          "item": "Gun",
+          "category": "Threat control",
+          "whereUsed": "Combat-focused anomaly control",
+          "whatItDoes": "Acts as a stronger ranged tool for dangerous hostile situations.",
+          "priority": "Team-dependent",
+          "mistakeToAvoid": "Do not fire carelessly near patients, because weapons can create extra patient problems."
         },
         {
           "item": "Fire Extinguisher",
@@ -434,7 +446,15 @@
           "whereUsed": "Room fires and burning patient emergencies",
           "whatItDoes": "Clears fires faster than putting them out by hand.",
           "priority": "High once fire events begin",
-          "mistakeToAvoid": "After a burning patient is safe, apply the correct follow-up treatment."
+          "mistakeToAvoid": "After a burning patient is safe, continue the patient flow and apply the correct follow-up treatment."
+        },
+        {
+          "item": "Ointment",
+          "category": "Treatment item",
+          "whereUsed": "Burning patient emergency",
+          "whatItDoes": "Used after a burning patient has been extinguished.",
+          "priority": "Emergency-only",
+          "mistakeToAvoid": "Do not rush the normal photo and treatment flow before dealing with the burn state."
         },
         {
           "item": "Basic Medical Treatment",
@@ -448,7 +468,7 @@
           "item": "X-Ray Treatment",
           "category": "Room treatment",
           "whereUsed": "Room 6",
-          "whatItDoes": "Complete the flashing-square sequence, then give the required items.",
+          "whatItDoes": "Complete the flashing-square sequence, then give the required treatment items.",
           "priority": "Medium",
           "mistakeToAvoid": "If the sequence fails, redo it before treating; do not guess the final item."
         },
@@ -456,17 +476,17 @@
           "item": "Heart Monitor Treatment",
           "category": "Room treatment",
           "whereUsed": "Room 7",
-          "whatItDoes": "Click the correct icons, avoid skulls, then finish treatment.",
+          "whatItDoes": "Click the correct icons, avoid skulls, then finish treatment after the monitor task is complete.",
           "priority": "Medium",
-          "mistakeToAvoid": "Do not panic-click skulls, because they slow the room task."
+          "mistakeToAvoid": "Do not panic-click skulls, because they slow the room task and waste time."
         },
         {
           "item": "Surgery Tools",
           "category": "Timed treatment",
           "whereUsed": "Room 8",
-          "whatItDoes": "Use the surgery-room tools shown on the screen, including Scissors and Scalpels.",
+          "whatItDoes": "Use the surgery-room tools shown on the screen, including surgery-specific tools such as Scissors and Scalpels.",
           "priority": "Very high",
-          "mistakeToAvoid": "Once surgery starts, finish it immediately; the wrong tool kills the patient."
+          "mistakeToAvoid": "Once surgery starts, finish it immediately; leaving or using the wrong tool kills the patient."
         },
         {
           "item": "Herbs and Eye Drops",
@@ -480,14 +500,14 @@
     },
     "animalHospitalCoins": {
       "title": "Animal Hospital Animal Coins and Upgrades Guide",
-      "intro": "New players should not spend Animal Coins randomly. Start with simple survival value, then move into a role-specific class once your team knows who handles check-in, treatment rooms, and emergencies. Every class has three levels that improve Sanity bonuses, utility, starter items, or passive abilities.",
+      "intro": "Animal Coins are the long-term currency for class progression, while shift cash is used for run items and shop supplies, and the best spending path depends on whether you play reception, treatment, support, or anomaly control. New players should not spend Animal Coins randomly. Start with simple survival value, then move into a role-specific class once your team knows who handles check-in, treatment rooms, and emergencies. Class upgrades matter because every class has three levels that improve Sanity bonuses, utility effects, starter items, or passive abilities.",
       "cards": [
         {
           "title": "Understand the Two Currencies",
           "cost": "Animal Coins plus shift cash",
           "bestFor": "All players",
           "classes": [],
-          "value": "Animal Coins are permanent progression currency for classes. Cash earned during a run is used for shop items and upgrades.",
+          "value": "Animal Coins are permanent progression currency used for classes. Cash earned during a run is used for shop items and upgrades such as Coffee, Tasers, and supplies.",
           "buyAdvice": "Use run cash to survive the current shift, then use Animal Coins to improve your next runs."
         },
         {
@@ -495,39 +515,39 @@
           "cost": "Free to 120 Animal Coins",
           "bestFor": "New solo players and first teams",
           "classes": ["Intern", "Nurse", "Secretary"],
-          "value": "Intern gives bonus Sanity, Nurse adds inventory capacity, and Secretary supports reception with Sanity recovery.",
-          "buyAdvice": "Start with Intern, then buy Nurse or Secretary depending on your role."
+          "value": "Intern gives beginner-friendly bonus Sanity, Nurse adds inventory capacity, and Secretary supports reception play with Sanity recovery from check-ins.",
+          "buyAdvice": "Start with Intern, then buy Nurse or Secretary depending on whether you carry treatments or work the front desk."
         },
         {
           "title": "Mid-Game Utility Path",
           "cost": "250 to 900 Animal Coins",
           "bestFor": "Players with a fixed team role",
           "classes": ["Paramedic", "Psychologist", "Doctor"],
-          "value": "Paramedic improves movement, Psychologist doubles Sanity effects, and Doctor rewards healing with Sanity.",
-          "buyAdvice": "Pick Paramedic for fast response, Doctor for treatment rooms, Psychologist only if you manage Sanity carefully."
+          "value": "Paramedic improves movement with Speed Cola, Psychologist doubles Sanity effects for advanced players, and Doctor rewards patient healing with Sanity recovery.",
+          "buyAdvice": "Pick Paramedic for fast emergency response, Doctor for treatment rooms, and Psychologist only if you manage Sanity carefully."
         },
         {
           "title": "Anomaly Control Path",
           "cost": "1,250 Animal Coins",
           "bestFor": "Defensive players",
           "classes": ["Security"],
-          "value": "Security starts with an X-Taser, useful when missed anomalies turn into active threats.",
-          "buyAdvice": "Buy Security when your team often lets anomalies through or needs threat control."
+          "value": "Security starts with an X-Taser, making it useful when missed anomalies turn into active threats.",
+          "buyAdvice": "Buy Security when your team often lets anomalies through or needs one player assigned to threat control."
         },
         {
           "title": "Late-Game Treatment Path",
           "cost": "2,500 Animal Coins",
           "bestFor": "Experienced treatment players",
           "classes": ["Surgeon"],
-          "value": "Surgeon rewards healing with Sanity and movement speed for players who stay in treatment rooms.",
-          "buyAdvice": "Save for Surgeon after you understand room tasks, surgery timing, and emergency routing."
+          "value": "Surgeon rewards patient healing with Sanity and movement speed, making it strong for players who spend most of the shift in treatment rooms.",
+          "buyAdvice": "Save for Surgeon after you already understand room tasks, surgery timing, and emergency routing."
         },
         {
           "title": "Robux Class Options",
           "cost": "190 Robux or 890 Robux",
           "bestFor": "Players who want premium role shortcuts",
           "classes": ["Head Nurse", "Secret Agent"],
-          "value": "Head Nurse is flexible support, while Secret Agent starts with a gun for combat anomaly control.",
+          "value": "Head Nurse is a flexible support class, while Secret Agent starts with a gun and fits combat-focused anomaly control.",
           "buyAdvice": "Use these only if you want their exact role; Animal Coin classes already cover the main survival jobs."
         },
         {
@@ -535,14 +555,14 @@
           "cost": "Class upgrade levels",
           "bestFor": "Long-term progression",
           "classes": ["All classes"],
-          "value": "Every class has three levels that improve perks such as bonus Sanity, inventory, starter items, or passive effects.",
+          "value": "Every class has three levels, and upgrades improve perks such as bonus Sanity, inventory capacity, starter items, or passive effects.",
           "buyAdvice": "Do not spread upgrades too thin. Choose one main role first, then upgrade the class you use most."
         }
       ]
     },
     "animalHospitalUpdates": {
       "title": "Animal Hospital Updates and Events",
-      "intro": "The game is built around live survival runs, new anomaly behavior, class balance, and community-discovered secrets. This feed gives returning players a fast view of what changed, what is coming next, and which official channels to follow.",
+      "intro": "Animal Hospital changes quickly, so returning players should check official Roblox events, the Roblox community page, and the official Discord before jumping back into a long shift. The game is built around live survival runs, new anomaly behavior, class balance, and community-discovered secrets. This update feed is designed for players who already know the basics and want a fast view of what changed, what is coming next, and which official channels to follow.",
       "entries": [
         {
           "date": "Jul 10 - Jul 12, 2026",
@@ -550,26 +570,26 @@
           "headline": "Next Update Event Window",
           "details": [
             "The Roblox event page lists the next Animal Hospital update window from Jul 10, 9:00 AM to Jul 12, 9:00 AM.",
-            "Announced highlights include Harlow interactions and a new redacted interaction."
+            "Announced highlights include Harlow interactions and a new [REDACTED] interaction."
           ],
-          "playerImpact": "Check the event page before starting a long run, because new interactions can change route planning and late-shift decisions."
+          "playerImpact": "Check the event page before starting a long run because new interactions can change route planning and late-shift decisions."
         },
         {
           "date": "Ongoing",
           "type": "Official Community",
           "headline": "Discord Update Hub",
           "details": [
-            "The official Discord server is the main Animal Hospital community hub.",
-            "Its focus includes codes, weekly updates, update alerts, strategy guides, and patch notes."
+            "The official Discord server presents itself as the main Animal Hospital community hub.",
+            "Its listed focus includes codes, weekly updates, update alerts, strategy guides, and patch notes."
           ],
-          "playerImpact": "Use Discord for fast announcements, party finding, update alerts, and community anomaly tips."
+          "playerImpact": "Use the Discord for fast announcements, party finding, update alerts, and community-discovered anomaly behavior."
         },
         {
           "date": "Current Season",
           "type": "Game Direction",
           "headline": "New Anomalies and Classes Keep Changing Runs",
           "details": [
-            "Animal Hospital is a survival horror multiplayer game with evolving anomalies and classes.",
+            "Animal Hospital is described as a survival horror multiplayer Roblox game with evolving anomalies and classes.",
             "The class pool includes Intern, Nurse, Secretary, Paramedic, Psychologist, Doctor, Security, Head Nurse, Surgeon, and Secret Agent."
           ],
           "playerImpact": "Returning players should re-check class perks and anomaly tells before copying old strategies."
@@ -580,9 +600,9 @@
           "headline": "Roblox Page and Animal Anomaly Community",
           "details": [
             "The Roblox game page identifies the experience as Animal Hospital (Anomaly) by Animal Anomaly.",
-            "The core loop is working the night shift, treating patients, and dealing with patients who act weird."
+            "The description frames the core loop as working the night shift, treating patients, and dealing with patients who are acting weird."
           ],
-          "playerImpact": "Use the Roblox page for the official play link and the Animal Anomaly community page for creator updates."
+          "playerImpact": "Use the Roblox page for the official play link and the Animal Anomaly community page for creator-side updates."
         }
       ]
     }
