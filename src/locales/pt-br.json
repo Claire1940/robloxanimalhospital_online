@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Roblox Animal Hospital - Códigos, Anomalias e Sobrevivência",
+      "description": "Wiki de Roblox Animal Hospital com códigos, guias de anomalias, dicas de classes, tarefas de pacientes, sobrevivência no turno, inimigos, atualizações e ajuda para iniciantes para todos os jogadores.",
+      "keywords": "Animal Hospital, Roblox Animal Hospital, Roblox, códigos, anomalias, classes, inimigos, turnos, survival horror",
+      "ogTitle": "Wiki de Roblox Animal Hospital - Códigos, Anomalias e Sobrevivência",
+      "ogDescription": "Wiki de Roblox Animal Hospital com códigos, guias de anomalias, dicas de classes, tarefas de pacientes, sobrevivência no turno, inimigos, atualizações e ajuda para iniciantes para todos os jogadores.",
+      "twitterTitle": "Wiki de Roblox Animal Hospital - Códigos, Anomalias e Sobrevivência",
+      "twitterDescription": "Wiki de Roblox Animal Hospital com códigos, guias de anomalias, dicas de classes, tarefas de pacientes, sobrevivência no turno, inimigos e atualizações."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guia",
@@ -7,5 +18,814 @@
     "mechanics": "Mecânicas",
     "characters": "Personagens",
     "endings": "Finais"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Hospital de Survival Horror no Roblox",
+    "title": "Wiki de Roblox Animal Hospital",
+    "description": "Trabalhe no turno da noite, trate pacientes animais, procure por anomalias estranhas, sobreviva a eventos assustadores e aprenda sobre códigos, classes, pacientes, turnos e atualizações.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "634M+",
+        "label": "Visitas Totais"
+      },
+      "stat2": {
+        "value": "553K+",
+        "label": "Jogadores Online"
+      },
+      "stat3": {
+        "value": "95%",
+        "label": "Avaliação dos Usuários"
+      },
+      "stat4": {
+        "value": "1,1M+",
+        "label": "Favoritos"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Animal Hospital",
+    "description": "Trabalhe em turnos da noite, trate pacientes animais, detecte anomalias estranhas e sobreviva a eventos de terror neste hospital de survival horror do Roblox."
+  },
+  "tools": {
+    "title": "Animal Hospital",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para sobreviver aos turnos da noite, detectar anomalias, escolher classes e tratar pacientes em Animal Hospital.",
+    "cards": [
+      {
+        "icon": "Presente",
+        "title": "Códigos de Animal Hospital",
+        "description": "Códigos ativos, códigos expirados e onde novos códigos são lançados primeiro"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guia para Iniciantes de Animal Hospital",
+        "description": "Fluxo do primeiro turno, verificação de pacientes e o básico para sobreviver no início"
+      },
+      {
+        "icon": "ScanSearch",
+        "title": "Anomalias de Animal Hospital",
+        "description": "Sinais visuais, de CCTV e em fotos para rejeitar anomalias rapidamente"
+      },
+      {
+        "icon": "Users",
+        "title": "Classes de Animal Hospital",
+        "description": "Tier list de cada classe, vantagem, custo e melhor função"
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Sanidade de Animal Hospital",
+        "description": "Mantenha a Sanidade acima de zero e recupere-se de eventos perigosos"
+      },
+      {
+        "icon": "Syringe",
+        "title": "Itens de Animal Hospital",
+        "description": "Tarefas de quarto, itens de tratamento e ferramentas de emergência"
+      },
+      {
+        "icon": "Coins",
+        "title": "Moedas de Animal Hospital",
+        "description": "Como gastar Animal Coins nas classes certas primeiro"
+      },
+      {
+        "icon": "Bell",
+        "title": "Atualizações de Animal Hospital",
+        "description": "Novos eventos, mudanças de classe e atualizações de anomalias"
+      }
+    ]
+  },
+  "modules": {
+    "animalHospitalCodes": {
+      "title": "Códigos de Animal Hospital",
+      "intro": "Atualmente, Animal Hospital foca na sobrevivência de turnos, Animal Coins, classes, itens de loja e detecção de anomalias. Acompanhe o status dos códigos aqui e fique de olho no jogo oficial do Roblox, no grupo e no Discord para novos lançamentos de códigos.",
+      "items": [
+        {
+          "label": "Códigos Ativos",
+          "status": "nenhum",
+          "value": "Não há códigos ativos de Animal Hospital disponíveis no momento.",
+          "reward": "Sem recompensas de códigos ativos",
+          "action": "Verifique o Discord oficial e o grupo do Roblox para futuros lançamentos de códigos."
+        },
+        {
+          "label": "Códigos Expirados",
+          "status": "nenhum",
+          "value": "Nenhum código expirado de Animal Hospital está listado.",
+          "reward": "Sem recompensas expiradas",
+          "action": "Mantenha as listas de códigos antigos separadas das recompensas ativas para evitar o acúmulo de códigos falsos."
+        },
+        {
+          "label": "Sistema de Resgate",
+          "status": "não ativo",
+          "value": "Nenhum fluxo público de resgate de códigos foi listado para o Animal Hospital ainda.",
+          "reward": "Recompensas futuras podem incluir Animal Coins, itens da loja ou bônus de evento.",
+          "action": "Use os anúncios oficiais como a primeira fonte antes de adicionar qualquer código novo."
+        }
+      ]
+    },
+    "animalHospitalBeginnerGuide": {
+      "title": "Como Jogar Animal Hospital",
+      "intro": "Animal Hospital é um jogo de terror e sobrevivência do Roblox onde você trabalha no turno da noite em uma clínica de animais estranha. Equilibre os deveres do hospital com as verificações de anomalias, pois admitir o paciente errado pode criar ameaças perigosas e drenar a Sanidade.",
+      "steps": [
+        {
+          "title": "Comece o turno na recepção",
+          "description": "Os pacientes chegam à área de check-in, e você decide se eles são pacientes normais ou anomalias suspeitas.",
+          "tip": "Não apresse o tratamento de todos os pacientes. Um erro rápido pode criar mais perigo mais tarde."
+        },
+        {
+          "title": "Inspecione cada paciente antes de aceitá-lo",
+          "description": "Olhe para o paciente pessoalmente, use fotos e verifique o CCTV quando necessário. Os sinais de alerta incluem olhos estranhos, dentes afiados, espasmos e partes do corpo distorcidas.",
+          "tip": "Use uma rotina consistente: verificação visual, verificação de câmera, verificação de foto."
+        },
+        {
+          "title": "Rejeite anomalias com as persianas",
+          "description": "Quando um paciente mostrar sinais de anomalia, use o botão da persiana na mesa para mandá-lo embora antes que ele entre no hospital.",
+          "tip": "Rejeitar anomalias corretamente melhora os resultados do turno e ajuda a prevenir problemas com Skinwalkers."
+        },
+        {
+          "title": "Trate os pacientes normais corretamente",
+          "description": "Os pacientes aceitos vão para as salas de tratamento. Use o computador, diagnósticos e os medicamentos ou itens de tratamento listados para curá-los.",
+          "tip": "Dar o tratamento errado pode matar um paciente normal, então combine a tela de tratamento com cuidado."
+        },
+        {
+          "title": "Mantenha a Sanidade acima de zero",
+          "description": "A Sanidade é o verdadeiro medidor de sobrevivência. Anomalias, inimigos, rituais e eventos assustadores a drenam, enquanto Café e comida a restauram.",
+          "tip": "Compre itens úteis entre os turnos e leve itens de recuperação de Sanidade sempre que possível."
+        },
+        {
+          "title": "Ganhe dinheiro e Animal Coins",
+          "description": "Sobreviver aos turnos recompensa com dinheiro para itens e Animal Coins para classes. Classes melhores facilitam os turnos futuros por meio de reforços de Sanidade, velocidade de movimento, inventário ou armas.",
+          "tip": "Novos jogadores devem se concentrar em concluir turnos de forma estável antes de irem atrás de caçadas arriscadas a anomalias."
+        }
+      ],
+      "quickTips": [
+        "Sempre faça verificações visuais, de câmera e de foto antes de admitir um paciente.",
+        "Feche as persianas no momento em que um visitante parecer estranho.",
+        "Economize Café para o trabalho nas câmeras, rituais e salas de emergência.",
+        "Divida as funções da equipe: um no check-in, um no tratamento e um pronto para as ameaças.",
+        "Combine a tela de tratamento exatamente para evitar matar pacientes normais."
+      ]
+    },
+    "animalHospitalAnomalies": {
+      "title": "Guia de Anomalias do Animal Hospital",
+      "intro": "A detecção de anomalias é a habilidade mais importante no Animal Hospital. Inspecione cada visitante por meio de várias verificações antes de admiti-lo e depois rejeite qualquer coisa suspeita com as persianas da recepção.",
+      "categories": [
+        {
+          "category": "Sinais Visuais Presenciais",
+          "severity": "alto",
+          "checks": [
+            "Três olhos",
+            "Olhos vazios",
+            "Dentes afiados",
+            "Dentes realistas",
+            "Sorriso largo",
+            "Espasmos"
+          ],
+          "action": "Rejeite o paciente imediatamente com as portas de segurança quando estes sinais aparecerem no guichê."
+        },
+        {
+          "category": "Sinais de CFTV",
+          "severity": "alto",
+          "checks": [
+            "Caixa preta sobre os olhos",
+            "Membros alongados ou distorcidos",
+            "Paciente encarando a câmera",
+            "Corpo semelhante ao vazio",
+            "Espasmos apenas na câmera",
+            "Orelhas, boca ou nariz diferentes"
+          ],
+          "action": "Use as câmeras do saguão quando o paciente parecer normal pessoalmente, mas ainda parecer suspeito."
+        },
+        {
+          "category": "Sinais da Foto",
+          "severity": "alto",
+          "checks": [
+            "A foto não corresponde ao paciente",
+            "Foto com estática ou granulada",
+            "Foto amaldiçoada com olhos injetados de sangue",
+            "Partes do rosto diferem do paciente real"
+          ],
+          "action": "Rejeite o paciente após a confirmação da foto e evite encarar fotos amaldiçoadas por muito tempo."
+        },
+        {
+          "category": "Resposta a Anomalias Não Detectadas",
+          "severity": "crítico",
+          "checks": [
+            "Anomalias admitidas podem se tornar Skinwalkers",
+            "Skinwalkers podem atacar jogadores ou pacientes",
+            "Tasers e armas lidam com ameaças diretas"
+          ],
+          "action": "Elimine as anomalias não detectadas rapidamente, proteja a Sanidade e retome o tratamento assim que a ameaça desaparecer."
+        },
+        {
+          "category": "Ameaças Ambientais",
+          "severity": "médio",
+          "checks": [
+            "Gosma verde no chão",
+            "Monstro da Cama sob as camas de tratamento",
+            "Wall Bangers perto da recepção",
+            "Ameaças no teto punem quem olha para cima",
+            "Anomalias de parede que perseguem ou roubam itens"
+          ],
+          "action": "Siga a contra-medida específica do evento em vez de tratar cada ameaça como uma anomalia de paciente."
+        }
+      ]
+    },
+    "animalHospitalClasses": {
+      "title": "Tier List de Classes de Animal Hospital",
+      "intro": "As classes mudam a dinâmica de cada turno ao adicionar bônus de Sanidade, espaço no inventário, ferramentas de movimento, vantagens de tratamento ou armas. A maioria das classes usa Animal Coins obtidos nos turnos, enquanto opções premium como Enfermeira-Chefe e Agente Secreto usam Robux.",
+      "tiers": [
+        {
+          "tier": "S",
+          "summary": "Melhores classes gerais para um forte valor de sobrevivência, progressão no final do jogo ou poder premium.",
+          "classes": [
+            {
+              "name": "Cirurgião",
+              "cost": "2500 Animal Coins",
+              "role": "Melhor opção geral gratuita",
+              "perk": "Ganha Sanidade e um aumento de velocidade após curar pacientes.",
+              "bestFor": "Jogadores solo, jogadores focados em tratamento, sequências de turnos longos"
+            },
+            {
+              "name": "Agente Secreto",
+              "cost": "890 Robux",
+              "role": "Melhor caçador de anomalias",
+              "perk": "Começa com uma arma; níveis mais altos concedem Sanidade bônus e regeneram um uso a cada rodada.",
+              "bestFor": "Jogadores Premium, controle de anomalias, situações perigosas no fim do turno"
+            },
+            {
+              "name": "Enfermeira-Chefe",
+              "cost": "190 Robux",
+              "role": "Especialista em suporte Premium",
+              "perk": "Adiciona capacidade de inventário; o Nível 3 começa cada rodada com a Técnica Especial.",
+              "bestFor": "Jogadores de suporte, tratamento de emergência, partidas intensas em equipe"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "summary": "Classes de grande valor que são práticas para a maioria dos jogadores e mais fáceis de estruturar.",
+          "classes": [
+            {
+              "name": "Médico",
+              "cost": "900 Animal Coins",
+              "role": "Classe médica confiável",
+              "perk": "Recupera Sanidade ao curar pacientes e ganha mais Sanidade inicial posteriormente.",
+              "bestFor": "Tratamento de pacientes, progressão no meio do jogo, partidas solo estáveis"
+            },
+            {
+              "name": "Psicólogo",
+              "cost": "500 Animal Coins",
+              "role": "Especialista em alta Sanidade",
+              "perk": "Dobra os efeitos positivos e negativos de Sanidade; pode ignorar parte da perda de Sanidade em níveis mais altos.",
+              "bestFor": "Jogadores experientes, gerenciamento de Sanidade, estilo de jogo de suporte cuidadoso"
+            },
+            {
+              "name": "Secretária",
+              "cost": "120 Animal Coins",
+              "role": "Melhor classe inicial para a recepção",
+              "perk": "Recupera Sanidade ao dar entrada em pacientes; níveis posteriores adicionam Sanidade bônus.",
+              "bestFor": "Iniciantes, serviço de recepção, progressão de baixo custo"
+            },
+            {
+              "name": "Segurança",
+              "cost": "1250 Animal Coins",
+              "role": "Controle defensivo de anomalias",
+              "perk": "Começa com um X-Taser; níveis mais altos adicionam mais usos e regeneração baseada em rodadas.",
+              "bestFor": "Defesa de equipe, controle de Skinwalker, jogadores que querem uma arma sem gastar Robux"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "summary": "Classes úteis com funções claras, mas com menos valor geral do que as opções acima.",
+          "classes": [
+            {
+              "name": "Paramédico",
+              "cost": "250 Animal Coins",
+              "role": "Classe de movimentação de emergência",
+              "perk": "Começa com uma Speed Cola Grande; níveis mais altos regeneram um uso a cada rodada.",
+              "bestFor": "Incêndios, pacientes desmaiados, eventos de ambulância, socorristas rápidos"
+            },
+            {
+              "name": "Enfermeiro",
+              "cost": "20 Animal Coins",
+              "role": "Suporte de inventário simples",
+              "perk": "Adiciona até +3 de capacidade máxima de inventário até o Nível 3.",
+              "bestFor": "Novos jogadores, transportadores de itens, suporte de baixo custo"
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "summary": "Classe inicial usada principalmente para aprender o jogo e economizar para opções melhores.",
+          "classes": [
+            {
+              "name": "Estagiário",
+              "cost": "Grátis",
+              "role": "Classe inicial padrão",
+              "perk": "Começa com Sanity bônus que aumenta de +10 para +20 ao longo dos níveis.",
+              "bestFor": "Primeiros turnos, aprendendo os controles, economizando Animal Coins"
+            }
+          ]
+        }
+      ]
+    },
+    "animalHospitalSanity": {
+      "title": "Guia de Sanity do Animal Hospital",
+      "intro": "Sanity é o principal medidor de sobrevivência no Animal Hospital. Cada turno mistura o tratamento de pacientes com a detecção de anomalias, e a Sanity cai quando os jogadores cometem erros arriscados, encaram pistas perigosas ou são pegos por eventos hostis. Bons jogadores a protegem evitando erros de anomalias, economizando Coffee para momentos de perigo e escolhendo uma classe que combine com seu papel. A equipe mais segura mantém um jogador no check-in, um no tratamento e um pronto com Coffee ou um Taser quando a partida fica complicada.",
+      "risks": [
+        {
+          "label": "Zero Sanity",
+          "meterLevel": "crítico",
+          "risk": "Perigo de fim de partida",
+          "whatHappens": "Se a Sanity chegar a 0, o jogador morre e não pode mais continuar o turno em segurança.",
+          "commonCauses": [
+            "Deixar pacientes com anomalias passarem pelo check-in",
+            "Receber dano de Skinwalkers ou eventos hostis",
+            "Olhar por muito tempo para ameaças na câmera, fotos ou no teto que drenam a Sanity",
+            "Lidar com rituais ou perigos quando já estiver com pouca Sanity"
+          ],
+          "bestResponse": "Afaste-se da ameaça, pare de olhar para pistas visuais amaldiçoadas, tome Coffee ou coma comida e deixe um colega de equipe assumir a tarefa arriscada."
+        },
+        {
+          "label": "Coffee e Comida",
+          "meterLevel": "recuperação",
+          "risk": "Principal ferramenta de recuperação",
+          "whatHappens": "Coffee e comida da loja são usados para restaurar a Sanity durante turnos longos.",
+          "commonCauses": [
+            "Verificações de fotos amaldiçoadas",
+            "Limpeza de velas do Ritual de Morte",
+            "Interações com Wall Banger",
+            "Erros com Skinwalker"
+          ],
+          "bestResponse": "Não gaste o Coffee cedo demais. Guarde-o para o monitoramento de câmeras, salas de emergência, rituais ou para o jogador que já estiver realizando as tarefas mais perigosas."
+        },
+        {
+          "label": "Erros de Anomalia",
+          "meterLevel": "alto",
+          "risk": "Perda rápida de Sanity",
+          "whatHappens": "Anomalias não detectadas podem se tornar Skinwalkers e pressionar tanto os pacientes quanto os jogadores.",
+          "commonCauses": [
+            "Pular a comparação de fotos",
+            "Ignorar pistas do CCTV",
+            "Não fechar as persianas quando o visitante parecer estranho",
+            "Fazer o check-in de muitos visitantes antes de confirmar as anomalias"
+          ],
+          "bestResponse": "Rejeite anomalias óbvias na recepção, use câmeras e fotos antes de admitir pacientes suspeitos e mantenha um Taser pronto após os turnos avançados."
+        },
+        {
+          "label": "Escolha de Classe",
+          "meterLevel": "prevenção",
+          "risk": "Segurança dependente da build",
+          "whatHappens": "Algumas classes ajudam a Sanity diretamente, enquanto outras ajudam indiretamente por meio do inventário, velocidade, tratamento ou controle de combate.",
+          "recommendedClasses": [
+            {
+              "name": "Estagiário",
+              "useCase": "Melhor escolha de segurança para iniciantes porque começa com bônus de Sanity e não tem mecânicas extras para gerenciar."
+            },
+            {
+              "name": "Secretário",
+              "useCase": "Bom para jogadores da recepção, pois sua vantagem recompensa o trabalho de check-in com recuperação de Sanity."
+            },
+            {
+              "name": "Médico",
+              "useCase": "Bom para jogadores focados em tratamento, pois recupera Sanity ao curar pacientes."
+            },
+            {
+              "name": "Psicólogo",
+              "useCase": "Escolha avançada com efeitos de Sanity dobrados, tornando tanto a recuperação quanto os erros mais fortes."
+            },
+            {
+              "name": "Cirurgião",
+              "useCase": "Função de tratamento forte que ganha Sanity e velocidade após curar pacientes."
+            }
+          ],
+          "bestResponse": "Escolha a classe com base no seu trabalho: a recepção precisa de Secretário, o tratamento precisa de Médico ou Cirurgião, e novos jogadores devem começar com Estagiário."
+        }
+      ]
+    },
+    "animalHospitalItems": {
+      "title": "Guia de Itens e Tratamentos do Animal Hospital",
+      "intro": "A maioria dos pacientes normais precisa das tarefas de sala corretas e dos itens de tratamento certos, e o maior erro é dar o item errado, pois isso pode matar um paciente normal e prejudicar a pontuação do turno. O tratamento no Animal Hospital é simples quando a equipe divide o trabalho: faça o check-in do visitante, confirme se não é uma anomalia, envie-o para a sala certa, termine a tarefa da sala e dê o tratamento necessário. Emergências podem interromper esse fluxo, então saiba quais ferramentas são para Sanity, quais são para inimigos e quais são apenas para o cuidado dos pacientes.",
+      "rows": [
+        {
+          "item": "Coffee",
+          "category": "Item de Sanity",
+          "whereUsed": "Recepção, monitoramento de câmeras, rituais, turnos longos",
+          "whatItDoes": "Restaura a Sanity e ajuda os jogadores a se recuperarem após interações perigosas com anomalias ou eventos.",
+          "priority": "Alta",
+          "mistakeToAvoid": "Não desperdice cedo, quando a equipe ainda não tiver chegado a eventos perigosos."
+        },
+        {
+          "item": "Taser",
+          "category": "Controle de ameaças",
+          "whereUsed": "Situações de anomalias perdidas e Skinwalker",
+          "whatItDoes": "Interrompe pacientes de anomalias hostis depois que passam pelo check-in.",
+          "priority": "Alta após os turnos iniciais",
+          "mistakeToAvoid": "Não dependa de armas para todos os inimigos ambientais; alguns perigos exigem manuseio especial."
+        },
+        {
+          "item": "Arma",
+          "category": "Controle de ameaças",
+          "whereUsed": "Controle de anomalias focado em combate",
+          "whatItDoes": "Atua como uma ferramenta de longo alcance mais forte para situações hostis perigosas.",
+          "priority": "Dependente da equipe",
+          "mistakeToAvoid": "Não atire descuidadamente perto dos pacientes, pois as armas podem criar problemas extras para eles."
+        },
+        {
+          "item": "Extintor de Incêndio",
+          "category": "Ferramenta de emergência",
+          "whereUsed": "Incêndios em salas e emergências de pacientes em chamas",
+          "whatItDoes": "Apaga incêndios mais rápido do que apagá-los manualmente.",
+          "priority": "Alta assim que os eventos de incêndio começarem",
+          "mistakeToAvoid": "Depois que um paciente em chamas estiver seguro, continue o fluxo de pacientes e aplique o tratamento de acompanhamento correto."
+        },
+        {
+          "item": "Pomada",
+          "category": "Item de tratamento",
+          "whereUsed": "Emergência de paciente em chamas",
+          "whatItDoes": "Usado após um paciente em chamas ter sido apagado.",
+          "priority": "Apenas emergência",
+          "mistakeToAvoid": "Não apresse o fluxo normal de fotos e tratamento antes de lidar com o estado de queimadura."
+        },
+        {
+          "item": "Tratamento Médico Básico",
+          "category": "Tratamento de sala",
+          "whereUsed": "Salas 1-5",
+          "whatItDoes": "Analise o paciente e, em seguida, dê os itens de tratamento de corredor necessários.",
+          "priority": "Jogabilidade principal",
+          "mistakeToAvoid": "Dar o item de tratamento errado mata um paciente normal."
+        },
+        {
+          "item": "Tratamento de Raio-X",
+          "category": "Tratamento de sala",
+          "whereUsed": "Sala 6",
+          "whatItDoes": "Complete a sequência de quadrados piscantes e, em seguida, dê os itens de tratamento necessários.",
+          "priority": "Média",
+          "mistakeToAvoid": "Se a sequência falhar, refaça-a antes de tratar; não adivinhe o item final."
+        },
+        {
+          "item": "Tratamento de Monitor Cardíaco",
+          "category": "Tratamento de sala",
+          "whereUsed": "Sala 7",
+          "whatItDoes": "Clique nos ícones corretos, evite as caveiras e finalize o tratamento após a conclusão da tarefa do monitor.",
+          "priority": "Média",
+          "mistakeToAvoid": "Não clique em caveiras por pânico, pois elas atrasam a tarefa da sala e desperdiçam tempo."
+        },
+        {
+          "item": "Ferramentas de Cirurgia",
+          "category": "Tratamento temporizado",
+          "whereUsed": "Sala 8",
+          "whatItDoes": "Use as ferramentas da sala de cirurgia mostradas na tela, incluindo ferramentas específicas de cirurgia, como Tesouras e Bisturis.",
+          "priority": "Muito alta",
+          "mistakeToAvoid": "Assim que a cirurgia começar, termine-a imediatamente; sair ou usar a ferramenta errada mata o paciente."
+        },
+        {
+          "item": "Ervas e Colírios",
+          "category": "Itens de tratamento iniciais",
+          "whereUsed": "Cuidados de pacientes do primeiro turno",
+          "whatItDoes": "Tratamentos iniciais comuns usados no fluxo do início do turno.",
+          "priority": "Alta para iniciantes",
+          "mistakeToAvoid": "Não faça check-in excessivo de pacientes antes que os primeiros itens de tratamento estejam prontos."
+        }
+      ]
+    },
+    "animalHospitalCoins": {
+      "title": "Guia de Upgrades e Animal Coins do Animal Hospital",
+      "intro": "As Animal Coins são a moeda de longo prazo para a progressão de classe, enquanto o dinheiro do turno é usado para itens da partida e suprimentos da loja, e o melhor caminho de gastos depende se você joga na recepção, tratamento, suporte ou controle de anomalias. Novos jogadores não devem gastar Animal Coins aleatoriamente. Comece com valor de sobrevivência simples e depois mude para uma classe específica de função assim que sua equipe souber quem cuida do check-in, das salas de tratamento e das emergências. Os upgrades de classe importam porque cada classe tem três níveis que melhoram os bônus de Sanidade, efeitos de utilidade, itens iniciais ou habilidades passivas.",
+      "cards": [
+        {
+          "title": "Entenda as duas moedas",
+          "cost": "Animal Coins mais dinheiro do turno",
+          "bestFor": "Todos os jogadores",
+          "classes": [],
+          "value": "Animal Coins são a moeda de progressão permanente usada para classes. O dinheiro ganho durante uma partida é usado para itens da loja e melhorias como Coffee, Tasers e suprimentos.",
+          "buyAdvice": "Use o dinheiro da partida para sobreviver ao turno atual e, depois, use Animal Coins para melhorar suas próximas partidas."
+        },
+        {
+          "title": "Caminho de Segurança para Iniciantes",
+          "cost": "Grátis até 120 Animal Coins",
+          "bestFor": "Novos jogadores solo e primeiras equipes",
+          "classes": [
+            "Estagiário",
+            "Enfermeiro",
+            "Secretário"
+          ],
+          "value": "O Estagiário concede bônus de Sanity para iniciantes, o Enfermeiro aumenta a capacidade do inventário e o Secretário auxilia na recepção com recuperação de Sanity ao fazer check-ins.",
+          "buyAdvice": "Comece com o Estagiário, depois compre o Enfermeiro ou o Secretário dependendo se você carrega tratamentos ou trabalha na recepção."
+        },
+        {
+          "title": "Caminho de Utilidade de Meio de Jogo",
+          "cost": "250 a 900 Animal Coins",
+          "bestFor": "Jogadores com uma função fixa na equipe",
+          "classes": [
+            "Paramédico",
+            "Psicólogo",
+            "Médico"
+          ],
+          "value": "O Paramédico melhora a movimentação com Speed Cola, o Psicólogo dobra os efeitos de Sanity para jogadores avançados e o Médico recompensa a cura de pacientes com recuperação de Sanity.",
+          "buyAdvice": "Escolha o Paramédico para respostas de emergência rápidas, o Médico para as salas de tratamento e o Psicólogo apenas se você gerenciar a Sanity com cuidado."
+        },
+        {
+          "title": "Caminho de Controle de Anomaly",
+          "cost": "1.250 Animal Coins",
+          "bestFor": "Jogadores defensivos",
+          "classes": [
+            "Segurança"
+          ],
+          "value": "O Segurança começa com um X-Taser, tornando-o útil quando Anomalies não detectadas se tornam ameaças ativas.",
+          "buyAdvice": "Compre o Segurança quando sua equipe costuma deixar Anomalies passarem ou precisar de um jogador dedicado ao controle de ameaças."
+        },
+        {
+          "title": "Caminho de Tratamento de Fim de Jogo",
+          "cost": "2.500 Animal Coins",
+          "bestFor": "Jogadores de tratamento experientes",
+          "classes": [
+            "Cirurgião"
+          ],
+          "value": "O Cirurgião recompensa a cura de pacientes com Sanity e velocidade de movimento, sendo ideal para jogadores que passam a maior parte do turno em salas de tratamento.",
+          "buyAdvice": "Economize para o Cirurgião após já entender as tarefas das salas, o tempo das cirurgias e as rotas de emergência."
+        },
+        {
+          "title": "Opções de Classe por Robux",
+          "cost": "190 Robux ou 890 Robux",
+          "bestFor": "Jogadores que desejam atalhos para funções premium",
+          "classes": [
+            "Enfermeiro-Chefe",
+            "Agente Secreto"
+          ],
+          "value": "O Enfermeiro-Chefe é uma classe de suporte flexível, enquanto o Agente Secreto começa com uma arma e é ideal para o controle de Anomaly focado em combate.",
+          "buyAdvice": "Use estas apenas se desejar a função exata delas; as classes de Animal Coins já cobrem os principais trabalhos de sobrevivência."
+        },
+        {
+          "title": "Melhore após escolher uma classe principal",
+          "cost": "Níveis de melhoria de classe",
+          "bestFor": "Progressão de longo prazo",
+          "classes": [
+            "Todas as classes"
+          ],
+          "value": "Cada classe tem três níveis, e as melhorias aprimoram vantagens como Sanidade bônus, capacidade do inventário, itens iniciais ou efeitos passivos.",
+          "buyAdvice": "Não distribua suas melhorias de forma muito fragmentada. Escolha uma função principal primeiro e depois melhore a classe que você mais usa."
+        }
+      ]
+    },
+    "animalHospitalUpdates": {
+      "title": "Atualizações e Eventos de Animal Hospital",
+      "intro": "O Animal Hospital muda rapidamente, então os jogadores que estão retornando devem verificar os eventos oficiais do Roblox, a página da comunidade do Roblox e o Discord oficial antes de entrarem de cabeça em um longo plantão. O jogo é estruturado em torno de partidas de sobrevivência em tempo real, novos comportamentos de anomalias, equilíbrio de classes e segredos descobertos pela comunidade. Este feed de atualizações foi projetado para jogadores que já conhecem o básico e querem uma visão rápida do que mudou, do que está por vir e de quais canais oficiais seguir.",
+      "entries": [
+        {
+          "date": "10 de jul. - 12 de jul. de 2026",
+          "type": "Atualização Agendada",
+          "headline": "Janela do Próximo Evento de Atualização",
+          "details": [
+            "A página de eventos do Roblox lista a próxima janela de atualização do Animal Hospital de 10 de julho, às 9h00, a 12 de julho, às 9h00.",
+            "Os destaques anunciados incluem interações com Harlow e uma nova interação [CENSURADO]."
+          ],
+          "playerImpact": "Verifique a página do evento antes de começar uma partida longa, pois novas interações podem mudar o planejamento de rotas e as decisões no fim do plantão."
+        },
+        {
+          "date": "Em andamento",
+          "type": "Comunidade Oficial",
+          "headline": "Central de Atualizações do Discord",
+          "details": [
+            "O servidor oficial do Discord se apresenta como a principal central da comunidade do Animal Hospital.",
+            "Seu foco listado inclui códigos, atualizações semanais, alertas de atualização, guias de estratégia e notas de atualização."
+          ],
+          "playerImpact": "Use o Discord para anúncios rápidos, busca de grupos, alertas de atualização e comportamentos de anomalias descobertos pela comunidade."
+        },
+        {
+          "date": "Temporada Atual",
+          "type": "Direção do Jogo",
+          "headline": "Novas Anomalias e Classes Continuam Mudando as Partidas",
+          "details": [
+            "Animal Hospital é descrito como um jogo de survival horror multijogador no Roblox com anomalias e classes em constante evolução.",
+            "O conjunto de classes inclui Estagiário, Enfermeiro, Secretário, Paramédico, Psicólogo, Médico, Segurança, Enfermeiro-Chefe, Cirurgião e Agente Secreto."
+          ],
+          "playerImpact": "Jogadores que estão retornando devem verificar novamente as vantagens das classes e os sinais das anomalias antes de copiar estratégias antigas."
+        },
+        {
+          "date": "Página do Jogo Ativo",
+          "type": "Status Oficial",
+          "headline": "Página do Roblox e Comunidade Animal Anomaly",
+          "details": [
+            "A página do jogo no Roblox identifica a experiência como Animal Hospital (Anomaly) por Animal Anomaly.",
+            "A descrição define o ciclo principal do jogo como trabalhar no plantão noturno, tratar pacientes e lidar com pacientes que estão agindo de forma estranha."
+          ],
+          "playerImpact": "Use a página do Roblox para o link oficial de jogo e a página da comunidade Animal Anomaly para atualizações por parte dos criadores."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "Dúvidas",
+    "subtitle": "Tudo o que você precisa saber sobre o Animal Hospital no Roblox",
+    "questions": [
+      {
+        "question": "O que é o Animal Hospital no Roblox?",
+        "answer": "Animal Hospital (Anomaly) é um jogo de survival horror no Roblox onde os jogadores trabalham em plantões noturnos em uma clínica veterinária estranha, tratam pacientes, detectam anomalias e sobrevivem a eventos assustadores."
+      },
+      {
+        "question": "Como eu resgato códigos do Animal Hospital?",
+        "answer": "O Animal Hospital ainda não possui um fluxo público de resgate de códigos. Fique de olho no Discord oficial e no grupo do Roblox para futuros lançamentos de códigos e um sistema de resgate."
+      },
+      {
+        "question": "O que é a Sanidade no Animal Hospital?",
+        "answer": "A Sanidade é o principal medidor de sobrevivência em Animal Hospital. Ela diminui com erros de anomalias, eventos hostis e pistas perigosas, e se recupera com Café e comida. Se chegar a zero, seu jogador morre."
+      },
+      {
+        "question": "Como eu identifico anomalias em Animal Hospital?",
+        "answer": "Verifique cada visitante pessoalmente, no CFTV e por fotos. Rejeite olhos estranhos, dentes afiados, corpos distorcidos, fotos incompatíveis ou espasmos apenas na câmera usando as persianas da recepção."
+      },
+      {
+        "question": "Para que servem as Animal Coins em Animal Hospital?",
+        "answer": "Animal Coins são a moeda de progressão permanente usada para desbloquear classes como Secretário, Médico, Segurança e Cirurgião. O dinheiro do turno é separado e usado para itens da loja durante uma partida."
+      },
+      {
+        "question": "Animal Hospital é multiplayer?",
+        "answer": "Sim. Animal Hospital é um jogo de terror de sobrevivência multiplayer que suporta até 30 jogadores, permitindo que as equipes dividam as funções de check-in, tratamento e defesa contra anomalias durante um turno."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para sobreviver ao Turno da Noite?",
+    "description": "Junte-se à comunidade de Roblox Animal Hospital no Discord para códigos, guias de anomalias, dicas de turno e atualizações!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Roblox Animal Hospital",
+    "description": "Seu centro de recursos completo para códigos, anomalias, classes, pacientes, inimigos, turnos e guias de sobrevivência de Roblox Animal Hospital.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "youtube": "YouTube",
+    "robloxGame": "Jogo no Roblox",
+    "robloxGroup": "Grupo no Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Roblox Animal Hospital Wiki. Não afiliado aos desenvolvedores de Animal Hospital (Anomaly).",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Roblox Animal Hospital",
+      "description": "Últimos códigos funcionais de Roblox Animal Hospital para Animal Coins grátis, vantagens e melhorias de classe, além de como resgatá-los no jogo.",
+      "metaTitle": "Códigos de Roblox Animal Hospital - Moedas e Recompensas Grátis (2026)",
+      "metaDescription": "Obtenha Animal Coins e recompensas grátis com códigos ativos de Roblox Animal Hospital. Lista atualizada com passos de resgate e onde encontrar novos códigos.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são os Códigos de Roblox Animal Hospital?",
+      "whatIsDescription": "Códigos são sequências resgatáveis gratuitas lançadas pela equipe de desenvolvimento de Animal Anomaly que concedem Animal Coins, bônus de sanidade e vantagens de classe para ajudar você a sobreviver ao turno da noite.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "Animal Coins Grátis",
+        "step1Description": "Resgate códigos por moedas para desbloquear novas classes sem precisar farmar nos turnos iniciais.",
+        "step2Title": "Fique por dentro das atualizações",
+        "step2Description": "Novos códigos surgem junto com grandes anomalias, classes e eventos.",
+        "step3Title": "Melhore sua sobrevivência inicial",
+        "step3Description": "Use recompensas em moedas para escolher uma classe mais forte antes dos turnos da noite mais difíceis."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guia de Roblox Animal Hospital",
+      "description": "Guias completos de Roblox Animal Hospital abrangendo dicas para iniciantes, estratégias de sobrevivência, jogo solo, detonados e segredos para cada turno da noite.",
+      "metaTitle": "Guia de Roblox Animal Hospital - Dicas para Iniciantes, Detonado e Sobrevivência",
+      "metaDescription": "Domine o Roblox Animal Hospital com guias para iniciantes, dicas de sobrevivência, estratégias solo, detonados completos e segredos ocultos para todos os jogadores.",
+      "categoryLabel": "GUIAS E DETONADOS",
+      "whatIs": "O que é o Guia de Roblox Animal Hospital?",
+      "whatIsDescription": "Os guias orientam você no ciclo principal do turno da noite: fazer o check-in dos pacientes animais, tratá-los, detectar anomalias, gerenciar a Sanity e sobreviver até o fim de cada turno.",
+      "why": "Por que ler os guias?",
+      "whySteps": {
+        "step1Title": "Aprenda as Mecânicas Principais",
+        "step1Description": "Entenda o tratamento de pacientes e a detecção de anomalias para evitar erros fatais",
+        "step2Title": "Progressão Rápida",
+        "step2Description": "Siga caminhos comprovados para concluir os turnos da noite e ganhar Animal Coins",
+        "step3Title": "Domine a Sobrevivência",
+        "step3Description": "Desenvolva táticas avançadas para controle de Sanity, jogo solo e segredos ocultos"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "classes": {
+      "title": "Classes de Roblox Animal Hospital",
+      "description": "Compare cada classe de Roblox Animal Hospital por custo, vantagem, função e melhor uso, desde o Intern gratuito até o Secret Agent premium, com uma tier list completa.",
+      "metaTitle": "Tier List de Classes de Roblox Animal Hospital - Vantagens, Custos e Funções",
+      "metaDescription": "Tier list completa de classes de Roblox Animal Hospital abrangendo Intern, Nurse, Secretary, Paramedic, Psychologist, Doctor, Security, Surgeon e Secret Agent.",
+      "categoryLabel": "CLASSES E FUNÇÕES",
+      "whatIs": "O que são as Classes de Roblox Animal Hospital?",
+      "whatIsDescription": "As classes são funções que você desbloqueia com Animal Coins que adicionam bônus de Sanity, espaço no inventário, ferramentas de movimento, vantagens de tratamento ou armas, mudando a forma como cada turno é jogado.",
+      "why": "Por que escolher a classe certa?",
+      "whySteps": {
+        "step1Title": "Combine com sua Função",
+        "step1Description": "Escolha uma classe que se adapte à recepção, tratamento ou defesa",
+        "step2Title": "Gaste Moedas com Sabedoria",
+        "step2Description": "Evite desperdiçar Animal Coins em classes que você não usará",
+        "step3Title": "Melhore com o Tempo",
+        "step3Description": "Suba o nível da sua classe principal para aumentar a Sanity e desbloquear vantagens mais fortes"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Classes"
+    },
+    "anomalies": {
+      "title": "Anomalias de Roblox Animal Hospital",
+      "description": "Aprenda a detectar cada anomalia de Roblox Animal Hospital usando sinais visuais, CCTV, fotos e mudanças de comportamento antes que um paciente entre na clínica.",
+      "metaTitle": "Guia de Anomalias de Roblox Animal Hospital - Sinais, Inimigos e Jumpscares",
+      "metaDescription": "Domine a detecção de anomalias no Roblox Animal Hospital com verificações visuais, de CCTV, fotos e comportamento. Aprenda a rejeitar pacientes perigosos e sobreviver a eventos.",
+      "categoryLabel": "DETECÇÃO DE ANOMALIAS",
+      "whatIs": "O que são as Anomalias de Roblox Animal Hospital?",
+      "whatIsDescription": "Anomalias são visitantes que parecem quase normais, mas exibem olhos estranhos, corpos distorcidos, divergências nas fotos ou sinais de alerta apenas na câmera antes de se tornarem hostis.",
+      "why": "Por que aprender os sinais de anomalia?",
+      "whySteps": {
+        "step1Title": "Rejeite Pacientes Perigosos",
+        "step1Description": "Impeça as anomalias antes que elas entrem e se tornem Skinwalkers ou algo pior",
+        "step2Title": "Proteja sua Sanidade",
+        "step2Description": "Evite pistas que drenam a Sanidade, fotos amaldiçoadas e jumpscares",
+        "step3Title": "Mantenha a consistência",
+        "step3Description": "Faça verificações visuais, de câmera e de foto em cada um dos visitantes"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Anomalias"
+    },
+    "mechanics": {
+      "title": "Mecânicas de Roblox Animal Hospital",
+      "description": "Análises detalhadas das mecânicas de Roblox Animal Hospital: Coffee, chaves, a maleta, o Stalker, modo sandbox e como desbloquear recursos ocultos como o rato.",
+      "metaTitle": "Mecânicas de Roblox Animal Hospital - Coffee, Chaves, Maleta e Stalker",
+      "metaDescription": "Entenda as mecânicas principais de Roblox Animal Hospital, incluindo Coffee, chaves, a maleta, a ameaça do Stalker, o modo sandbox e como desbloquear o rato.",
+      "categoryLabel": "MECÂNICAS DE JOGO",
+      "whatIs": "O que são as Mecânicas de Roblox Animal Hospital?",
+      "whatIsDescription": "As mecânicas são os sistemas que regem cada turno: Coffee restaura a Sanidade, chaves abrem salas trancadas, a maleta armazena itens e o Stalker é uma ameaça recorrente.",
+      "why": "Por que dominar as mecânicas?",
+      "whySteps": {
+        "step1Title": "Gerencie Recursos",
+        "step1Description": "Use Coffee, chaves e a maleta com eficiência ao longo do turno da noite",
+        "step2Title": "Enfrente o Stalker",
+        "step2Description": "Aprenda a se livrar do Stalker antes que ele estrague seu turno",
+        "step3Title": "Desbloqueie Conteúdo Oculto",
+        "step3Description": "Descubra o modo sandbox e como desbloquear o rato para novas estratégias"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Mecânicas"
+    },
+    "characters": {
+      "title": "Personagens de Roblox Animal Hospital",
+      "description": "Conheça todos os personagens de Roblox Animal Hospital: Barney, Ratthew, Coffee Guy, Ron, Officer Duckman, Oggy e o elenco completo de pacientes e NPCs.",
+      "metaTitle": "Personagens de Roblox Animal Hospital - Barney, Ratthew, Coffee Guy e Elenco",
+      "metaDescription": "Lista completa de personagens de Roblox Animal Hospital cobrindo Barney, Ratthew, Coffee Guy, Ron, Officer Duckman, Oggy e o que cada NPC faz no turno da noite.",
+      "categoryLabel": "PERSONAGENS E NPCs",
+      "whatIs": "Quem são os Personagens de Roblox Animal Hospital?",
+      "whatIsDescription": "Os personagens são os NPCs com nome e pacientes recorrentes que você encontra ao longo dos turnos, desde aliados úteis como Barney até figuras estranhas como Ratthew e o Coffee Guy.",
+      "why": "Por que conhecer os personagens?",
+      "whySteps": {
+        "step1Title": "Identifique Amigos ou Ameaças",
+        "step1Description": "Reconheça personagens nomeados para distinguir aliados de anomalias disfarçadas",
+        "step2Title": "Acione Eventos",
+        "step2Description": "Saiba quais personagens desbloqueiam eventos, itens ou salas ocultas",
+        "step3Title": "Siga a História",
+        "step3Description": "Acompanhe os arcos dos personagens para alcançar encontros secretos e finais"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Personagens"
+    },
+    "endings": {
+      "title": "Finais de Roblox Animal Hospital",
+      "description": "Guia completo para cada final de Roblox Animal Hospital, como ativar cada um e as escolhas e condições necessárias para desbloqueá-los.",
+      "metaTitle": "Guia de Finais de Roblox Animal Hospital - Como Desbloquear Todos os Finais",
+      "metaDescription": "Desbloqueie todos os finais de Roblox Animal Hospital com este guia que abrange gatilhos, escolhas, resultados de anomalias e as condições para cada desfecho.",
+      "categoryLabel": "FINAIS E ROTAS",
+      "whatIs": "O que são os Finais de Roblox Animal Hospital?",
+      "whatIsDescription": "Os finais são os desfechos da história do turno da noite, alcançados ao cumprir condições específicas, sobreviver a turnos suficientes ou resolver anomalias importantes de certas maneiras.",
+      "why": "Por que buscar todos os finais?",
+      "whySteps": {
+        "step1Title": "Veja a História Completa",
+        "step1Description": "Cada final revela novas informações sobre a história do hospital e suas anomalias",
+        "step2Title": "Ative Gatilhos Ocultos",
+        "step2Description": "Aprenda as escolhas e condições exatas que cada final exige",
+        "step3Title": "Complete o Jogo",
+        "step3Description": "Acompanhe quais finais você já desbloqueou e o que ainda falta"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Finais"
+    }
   }
 }

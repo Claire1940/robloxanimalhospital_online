@@ -1,11 +1,831 @@
 {
+  "seo": {
+    "home": {
+      "title": "Roblox Animal Hospital Wiki - コード、アノマリー、サバイバル",
+      "description": "全プレイヤーに向けたコード、アノマリー攻略、クラスのヒント、患者のタスク、シフトの生存、敵、アップデート、初心者向けヘルプを掲載したRoblox Animal Hospital Wikiです。",
+      "keywords": "Animal Hospital, Roblox Animal Hospital, Roblox, コード, アノマリー, クラス, 敵, シフト, サバイバルホラー",
+      "ogTitle": "Roblox Animal Hospital Wiki - コード、アノマリー、サバイバル",
+      "ogDescription": "全プレイヤーに向けたコード、アノマリー攻略、クラスのヒント、患者のタスク、シフトの生存、敵、アップデート、初心者向けヘルプを掲載したRoblox Animal Hospital Wikiです。",
+      "twitterTitle": "Roblox Animal Hospital Wiki - コード、アノマリー、サバイバル",
+      "twitterDescription": "コード、アノマリー攻略、クラスのヒント、患者のタスク、シフトの生存、敵、アップデートを掲載したRoblox Animal Hospital Wikiです。"
+    }
+  },
   "nav": {
     "codes": "コード",
     "guide": "ガイド",
     "classes": "クラス",
-    "anomalies": "異常",
+    "anomalies": "アノマリー",
     "mechanics": "メカニクス",
     "characters": "キャラクター",
     "endings": "エンディング"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Robloxでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームへ戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "Roblox サバイバルホラー病院",
+    "title": "Roblox Animal Hospital Wiki",
+    "description": "夜勤として働き、動物の患者を治療し、奇妙なアノマリーを特定し、恐ろしいイベントを生き残り、コード、クラス、患者、シフト、アップデートについて学びましょう。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnRobloxCTA": "Robloxでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "6億3400万+",
+        "label": "総訪問数"
+      },
+      "stat2": {
+        "value": "55.3万+",
+        "label": "オンラインプレイヤー数"
+      },
+      "stat3": {
+        "value": "95%",
+        "label": "ユーザー評価"
+      },
+      "stat4": {
+        "value": "110万+",
+        "label": "お気に入り数"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Animal Hospitalのゲームプレイ",
+    "description": "このRobloxサバイバルホラー病院で、夜勤に従事し、動物の患者を治療し、奇妙なアノマリーを発見して、ホラーイベントを生き延びましょう。"
+  },
+  "tools": {
+    "title": "Animal Hospital",
+    "titleHighlight": "リソース",
+    "subtitle": "Animal Hospitalで夜勤を生き残り、アノマリーを見つけ、役職を選び、患者を治療するために必要なすべての情報。",
+    "cards": [
+      {
+        "icon": "ギフト",
+        "title": "Animal Hospitalのコード",
+        "description": "有効なコード、期限切れのコード、最新コードがいち早く公開される場所"
+      },
+      {
+        "icon": "卒業帽",
+        "title": "Animal Hospital 初心者ガイド",
+        "description": "初回の勤務の流れ、患者のチェック、序盤のサバイバルの基本"
+      },
+      {
+        "icon": "スキャン検索",
+        "title": "Animal Hospitalのアノマリー",
+        "description": "アノマリーを素早く特定し拒絶するための、外見、監視カメラ、写真の兆候"
+      },
+      {
+        "icon": "ユーザー",
+        "title": "Animal Hospitalの役職",
+        "description": "全役職のティアリスト、パーク、コスト、おすすめの役割"
+      },
+      {
+        "icon": "心拍",
+        "title": "Animal HospitalのSanity",
+        "description": "Sanityをゼロより上に保ち、危険なイベントから回復しましょう"
+      },
+      {
+        "icon": "注射器",
+        "title": "Animal Hospitalのアイテム",
+        "description": "部屋のタスク、治療アイテム、緊急用ツール"
+      },
+      {
+        "icon": "コイン",
+        "title": "Animal Hospitalのコイン",
+        "description": "Animal Coinsをまずどの役職に使うべきか"
+      },
+      {
+        "icon": "ベル",
+        "title": "Animal Hospitalのアップデート",
+        "description": "新しいイベント、役職の変更、アノマリーのアップデート"
+      }
+    ]
+  },
+  "modules": {
+    "animalHospitalCodes": {
+      "title": "Animal Hospitalのコード",
+      "intro": "Animal Hospitalは現在、勤務の生存、Animal Coins、役職、ショップアイテム、アノマリーの発見に焦点を当てています。ここでコードの状況を確認し、Robloxの公式ゲーム、グループ、Discordで新しいコードの配布をチェックしてください。",
+      "items": [
+        {
+          "label": "有効なコード",
+          "status": "なし",
+          "value": "現在、利用可能なAnimal Hospitalの有効なコードはありません。",
+          "reward": "有効なコード報酬はありません",
+          "action": "今後のコード配布については、公式DiscordとRobloxグループを確認してください。"
+        },
+        {
+          "label": "期限切れのコード",
+          "status": "なし",
+          "value": "期限切れのAnimal Hospitalのコードは掲載されていません。",
+          "reward": "期限切れの報酬はありません",
+          "action": "偽コードの混乱を避けるため、古いコードリストは有効な報酬とは別に管理してください。"
+        },
+        {
+          "label": "コード引き換えシステム",
+          "status": "非公開",
+          "value": "Animal Hospital の公開コード引き換えフローはまだリストされていません。",
+          "reward": "将来の報酬には、Animal Coins、ショップアイテム、またはイベントボーナスが含まれる可能性があります。",
+          "action": "新しいコードを追加する前に、公式発表を第一のソースとして確認してください。"
+        }
+      ]
+    },
+    "animalHospitalBeginnerGuide": {
+      "title": "Animal Hospital の遊び方",
+      "intro": "Animal Hospital は、奇妙な動物クリニックで夜勤を行う Roblox のサバイバルホラーゲームです。間違った患者を受け入れると危険な脅威が発生し、Sanity を消耗させるため、病院の業務とアノマリーチェックのバランスをとってください。",
+      "steps": [
+        {
+          "title": "受付でシフトを開始する",
+          "description": "患者が受付エリアに到着するので、通常の患者か、あるいは不審なアノマリーかを判断します。",
+          "tip": "すべての患者を急いで治療に回さないでください。焦ってミスをすると、後でより大きな危険を招く可能性があります。"
+        },
+        {
+          "title": "受け入れる前に各患者を検査する",
+          "description": "患者を直接目で見て、写真を確認し、必要に応じて監視カメラをチェックしてください。異常のサインには、奇妙な目、鋭い歯、けいれん、体の部位の歪みなどがあります。",
+          "tip": "目視チェック、カメラチェック、写真チェックという一貫したルーチンを使いましょう。"
+        },
+        {
+          "title": "シャッターでアノマリーを拒否する",
+          "description": "患者にアノマリーの兆候が見られる場合は、デスクのシャッターボタンを使用して、病院に入る前に追い返してください。",
+          "tip": "アノマリーを正しく拒否することでシフトの結果が向上し、Skinwalker の問題を防ぐことができます。"
+        },
+        {
+          "title": "通常の患者を正しく治療する",
+          "description": "受け入れた患者は治療室に移動します。コンピューター、診断、リストされた薬や治療アイテムを使用して治療してください。",
+          "tip": "誤った治療を行うと通常の患者を死なせてしまう可能性があるため、治療画面を慎重に確認してください。"
+        },
+        {
+          "title": "Sanity を 0 より上に保つ",
+          "description": "Sanity は生存に直結する重要なメーターです。アノマリー、敵、儀式、恐ろしいイベントによって減少しますが、Coffee や食べ物で回復できます。",
+          "tip": "シフトの合間に役立つアイテムを購入し、可能な限り Sanity 回復アイテムを持ち歩きましょう。"
+        },
+        {
+          "title": "現金と Animal Coins を稼ぐ",
+          "description": "シフトを生き延びると、アイテム用の現金やクラス用の Animal Coins を獲得できます。上位のクラスは、Sanity ブースト、移動速度、インベントリ、武器などを通じて、後のシフトを有利にします。",
+          "tip": "新規プレイヤーは、リスクの高いアノマリー狩りをする前に、まずは確実にシフトをクリアすることに集中しましょう。"
+        }
+      ],
+      "quickTips": [
+        "患者を受け入れる前に、必ず目視、カメラ、写真のチェックを行ってください。",
+        "訪問者の様子がおかしいと感じた瞬間にシャッターを閉めてください。",
+        "Coffee はカメラ監視、儀式、緊急治療室のために取っておきましょう。",
+        "役割を分担しましょう：一人は受付、一人は治療、一人は脅威への備え。",
+        "通常の患者を死なせないよう、治療画面の内容と正確に一致させてください。"
+      ]
+    },
+    "animalHospitalAnomalies": {
+      "title": "Animal Hospital アノマリーガイド",
+      "intro": "アノマリーの検出は Animal Hospital で最も重要なスキルです。受け入れる前に複数のチェックで各訪問者を検査し、不審な点は受付のシャッターで拒否してください。",
+      "categories": [
+        {
+          "category": "目視で確認できる兆候",
+          "severity": "背が高い",
+          "checks": [
+            "三つの目",
+            "空洞の目",
+            "鋭い歯",
+            "リアルな歯",
+            "大きく裂けた笑み",
+            "痙攣"
+          ],
+          "action": "受付でこれらの兆候が現れたら、すぐにシャッターを閉めて患者を拒否してください。"
+        },
+        {
+          "category": "CCTVの兆候",
+          "severity": "高",
+          "checks": [
+            "目の上の黒いボックス",
+            "伸びた、または歪んだ四肢",
+            "カメラを凝視する患者",
+            "ボイド（虚無）のような体",
+            "カメラ越しにのみ発生する痙攣",
+            "耳、口、または鼻の形状が異なる"
+          ],
+          "action": "患者が直接見ると普通でも怪しいと感じる場合は、ロビーカメラを使用してください。"
+        },
+        {
+          "category": "写真の兆候",
+          "severity": "高",
+          "checks": [
+            "写真が患者と一致しない",
+            "ノイズが入った、または粒子が荒い写真",
+            "充血した目をした呪いの写真",
+            "顔のパーツが実際の患者と異なる"
+          ],
+          "action": "写真で確認した後に患者を拒否し、呪いの写真を長時間見つめないようにしてください。"
+        },
+        {
+          "category": "アノマリーを見逃した際の対応",
+          "severity": "致命的",
+          "checks": [
+            "入院させたアノマリーはスキンウォーカーになる可能性があります",
+            "スキンウォーカーはプレイヤーや患者を攻撃することがあります",
+            "テーザー銃や銃で直接的な脅威に対処します"
+          ],
+          "action": "見逃したアノマリーを素早く排除し、Sanityを守り、脅威が去ったら治療を再開してください。"
+        },
+        {
+          "category": "環境の脅威",
+          "severity": "中",
+          "checks": [
+            "床の緑色のスライム",
+            "治療用ベッドの下のベッドモンスター",
+            "受付近くのウォールバンガー",
+            "上を見上げることを制限する天井の脅威",
+            "追いかけてきたりアイテムを盗んだりする壁のアノマリー"
+          ],
+          "action": "すべての脅威を患者のアノマリーとして扱うのではなく、イベント固有の対策に従ってください。"
+        }
+      ]
+    },
+    "animalHospitalClasses": {
+      "title": "Animal Hospital クラス ティアリスト",
+      "intro": "クラスによって、Sanityボーナス、インベントリ容量、移動ツール、治療特典、武器などが追加され、各シフトの感覚が変わります。ほとんどのクラスはシフトで獲得した Animal Coins を使用しますが、Head Nurse や Secret Agent などのプレミアムオプションは Robux を使用します。",
+      "tiers": [
+        {
+          "tier": "S",
+          "summary": "高い生存価値、終盤の拡張性、またはプレミアムなパワーを持つ、総合的に最高のクラス。",
+          "classes": [
+            {
+              "name": "Surgeon",
+              "cost": "2500 Animal Coins",
+              "role": "最高の無課金オールラウンダー",
+              "perk": "患者を治療した後、Sanityとスピードブーストを獲得します。",
+              "bestFor": "ソロプレイヤー、治療重視のプレイヤー、長期シフトの連続記録"
+            },
+            {
+              "name": "シークレットエージェント",
+              "cost": "890 Robux",
+              "role": "最強のアノマリーハンター",
+              "perk": "銃を持った状態でスタート。レベルが上がるとボーナス正気度が付与され、ラウンドごとに使用回数が1回復する。",
+              "bestFor": "プレミアムプレイヤー、アノマリー対策、危険な深夜シフトの状況"
+            },
+            {
+              "name": "ヘッドナース",
+              "cost": "190 Robux",
+              "role": "プレミアムなサポートスペシャリスト",
+              "perk": "インベントリ容量を増加。レベル3になると、各ラウンド開始時にスペシャルテクニックを持った状態でスタートする。",
+              "bestFor": "サポートプレイヤー、応急処置、忙しいチームプレイ"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "summary": "ほとんどのプレイヤーにとって実用的で、ビルドを組みやすく、コストパフォーマンスに優れたクラス。",
+          "classes": [
+            {
+              "name": "ドクター",
+              "cost": "900 Animal Coins",
+              "role": "信頼性の高い医療クラス",
+              "perk": "患者を治療すると正気度が回復し、レベルが上がると初期正気度が高くなる。",
+              "bestFor": "患者の治療、中盤の進行、安定したソロプレイ"
+            },
+            {
+              "name": "サイコロジスト",
+              "cost": "500 Animal Coins",
+              "role": "高正気度スペシャリスト",
+              "perk": "正気度のプラス効果とマイナス効果が2倍になる。高レベルでは一部の正気度減少を無効化できる。",
+              "bestFor": "上級者プレイヤー、正気度管理、慎重なサポートプレイ"
+            },
+            {
+              "name": "セクレタリー",
+              "cost": "120 Animal Coins",
+              "role": "序盤に最適な受付クラス",
+              "perk": "患者の受付時に正気度が回復し、高レベルになるとボーナス正気度が付与される。",
+              "bestFor": "初心者、受付業務、低コストでの進行"
+            },
+            {
+              "name": "セキュリティ",
+              "cost": "1250 Animal Coins",
+              "role": "防御型のアノマリー対策",
+              "perk": "Xテーザーを持った状態でスタート。レベルが上がると使用回数が増え、ラウンドごとに使用回数が回復する。",
+              "bestFor": "チームの防衛、スキンウォーカー対策、Robuxを使わずに武器を手に入れたいプレイヤー"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "summary": "明確な役割を持つ便利なクラスだが、上記の選択肢と比べると全体的な価値は劣る。",
+          "classes": [
+            {
+              "name": "パラメディック",
+              "cost": "250 Animal Coins",
+              "role": "緊急移動クラス",
+              "perk": "ラージスピードコーラを持った状態でスタート。レベルが上がるとラウンドごとに使用回数が1回復する。",
+              "bestFor": "火災、気絶した患者、救急車イベント、迅速な対応"
+            },
+            {
+              "name": "ナース",
+              "cost": "20 アニマルコイン",
+              "role": "シンプルなインベントリサポート",
+              "perk": "レベル3までに最大インベントリ容量が最大+3増加します。",
+              "bestFor": "新規プレイヤー、アイテム運搬役、低コストサポート"
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "summary": "主にゲームを学びながら、より良い選択肢のために貯金する際に使用されるスタータークラス。",
+          "classes": [
+            {
+              "name": "インターン",
+              "cost": "無料",
+              "role": "デフォルトのスタータークラス",
+              "perk": "レベルに応じて+10から+20まで増加するボーナスサニティを持って開始します。",
+              "bestFor": "初めてのシフト、操作の学習、アニマルコインの節約"
+            }
+          ]
+        }
+      ]
+    },
+    "animalHospitalSanity": {
+      "title": "Animal Hospital サニティガイド",
+      "intro": "サニティは Animal Hospital における主要な生存メーターです。各シフトでは患者の治療とアノマリーの検出が混在しており、プレイヤーが危険なミスをしたり、危険な手がかりを凝視したり、敵対的なイベントに巻き込まれたりするとサニティが低下します。上手なプレイヤーは、アノマリーのミスを避け、危険な瞬間のためにコーヒーを温存し、自分の役割に合ったクラスを選ぶことでサニティを守ります。最も安全なチームは、1人が受付、1人が治療を担当し、もう1人が状況が悪化した時のためにコーヒーやテーザー銃を準備しておく構成です。",
+      "risks": [
+        {
+          "label": "サニティゼロ",
+          "meterLevel": "致命的",
+          "risk": "攻略失敗の危険",
+          "whatHappens": "サニティが0になると、プレイヤーは死亡し、それ以上シフトを安全に続行できなくなります。",
+          "commonCauses": [
+            "アノマリーの患者を受付で通してしまうこと",
+            "スキンウォーカーや敵対的イベントからダメージを受けること",
+            "サニティを削るカメラ、写真、または天井の脅威を長時間見すぎること",
+            "すでにサニティが低い状態で儀式や危険物に対処すること"
+          ],
+          "bestResponse": "脅威から離れ、呪われた視覚的手がかりを見るのをやめ、コーヒーや食べ物を摂取し、チームメイトに危険なタスクを代わってもらいましょう。"
+        },
+        {
+          "label": "コーヒーと食べ物",
+          "meterLevel": "回復",
+          "risk": "主要な回復ツール",
+          "whatHappens": "長いシフトの間、サニティを回復するためにコーヒーやショップの食べ物が使用されます。",
+          "commonCauses": [
+            "呪われた写真のチェック",
+            "死の儀式のキャンドル除去",
+            "Wall Banger とのインタラクション",
+            "スキンウォーカーによるミス"
+          ],
+          "bestResponse": "コーヒーを早く使いすぎないでください。カメラ監視、救急室、儀式、またはすでに最も危険なタスクを行っているプレイヤーのために取っておきましょう。"
+        },
+        {
+          "label": "アノマリーのミス",
+          "meterLevel": "高",
+          "risk": "急激なサニティの喪失",
+          "whatHappens": "見逃されたアノマリーはスキンウォーカーになり、患者とプレイヤーの両方に圧力をかける可能性があります。",
+          "commonCauses": [
+            "写真の比較をスキップすること",
+            "CCTVの兆候を無視すること",
+            "訪問者の様子がおかしい時にシャッターを閉めないこと",
+            "アノマリーを確認する前にあまりにも多くの訪問者を受付してしまうこと"
+          ],
+          "bestResponse": "受付で明らかなAnomalyを拒否し、不審な患者を受け入れる前にカメラと写真を確認し、後半のシフトに備えてTaserを準備しておきましょう。"
+        },
+        {
+          "label": "Classの選択",
+          "meterLevel": "予防",
+          "risk": "ビルドに依存した安全性",
+          "whatHappens": "一部のClassは直接Sanityを助けますが、他のClassは所持品、移動速度、治療、または戦闘コントロールを通じて間接的に助けます。",
+          "recommendedClasses": [
+            {
+              "name": "Intern",
+              "useCase": "ボーナスSanityを持って開始し、管理すべき追加のメカニズムがないため、初心者にとって最も安全な選択肢です。"
+            },
+            {
+              "name": "Secretary",
+              "useCase": "受付業務を行うプレイヤーに適しており、パークによってチェックイン作業の報酬としてSanityが回復します。"
+            },
+            {
+              "name": "Doctor",
+              "useCase": "患者を治療する際にSanityが回復するため、治療中心のプレイヤーに適しています。"
+            },
+            {
+              "name": "Psychologist",
+              "useCase": "Sanityの効果が2倍になる上級者向けの選択肢で、回復とミスの両方の影響が強くなります。"
+            },
+            {
+              "name": "Surgeon",
+              "useCase": "患者を治療した後にSanityと移動速度が向上する、強力な治療ロールです。"
+            }
+          ],
+          "bestResponse": "役割に合わせてClassを選びましょう。受付ならSecretary、治療ならDoctorまたはSurgeonが必要で、新規プレイヤーはInternから始めるべきです。"
+        }
+      ]
+    },
+    "animalHospitalItems": {
+      "title": "Animal Hospital アイテムと治療ガイド",
+      "intro": "ほとんどの通常の患者には正しい部屋でのタスクと治療アイテムが必要ですが、最大のミスは間違ったアイテムを渡すことです。それは通常の患者を死なせ、シフトのスコアを下げる可能性があるからです。Animal Hospitalの治療は、チームで分担すれば簡単です。訪問者をチェックインし、Anomalyでないことを確認し、正しい部屋に送り、部屋のタスクを完了してから、必要な治療を行います。緊急事態はこの流れを妨げる可能性があるため、どの道具がSanity用か、敵用か、あるいは患者のケア専用かを把握しておきましょう。",
+      "rows": [
+        {
+          "item": "Coffee",
+          "category": "Sanityアイテム",
+          "whereUsed": "受付、カメラ監視、儀式、長時間のシフト",
+          "whatItDoes": "Sanityを回復し、危険なAnomalyやイベントとの遭遇後にプレイヤーが立ち直るのを助けます。",
+          "priority": "高い",
+          "mistakeToAvoid": "チームがまだ危険なイベントに到達していない序盤で、無駄遣いしないようにしましょう。"
+        },
+        {
+          "item": "Taser",
+          "category": "脅威コントロール",
+          "whereUsed": "見逃したAnomalyやSkinwalkerの状況",
+          "whatItDoes": "チェックインを通過してしまった敵対的なAnomalyの患者を阻止します。",
+          "priority": "序盤のシフト以降は高い",
+          "mistakeToAvoid": "すべての環境上の敵を武器に頼らないでください。一部のハザードには代わりに特別な対処が必要です。"
+        },
+        {
+          "item": "Gun",
+          "category": "脅威コントロール",
+          "whereUsed": "戦闘重視のAnomalyコントロール",
+          "whatItDoes": "危険で敵対的な状況において、より強力な遠距離ツールとして機能します。",
+          "priority": "チームに依存",
+          "mistakeToAvoid": "患者の近くで不用意に発砲しないでください。武器は患者にさらなる問題を引き起こす可能性があります。"
+        },
+        {
+          "item": "消火器",
+          "category": "緊急ツール",
+          "whereUsed": "部屋の火災や燃えている患者の緊急事態",
+          "whatItDoes": "手作業で消すよりも早く火を消し止めます。",
+          "priority": "火災イベント開始後は高い",
+          "mistakeToAvoid": "燃えている患者の安全が確保されたら、通常の診察フローを継続し、正しい事後治療を行ってください。"
+        },
+        {
+          "item": "軟膏",
+          "category": "治療アイテム",
+          "whereUsed": "燃えている患者の緊急事態",
+          "whatItDoes": "燃えている患者の消火が終わった後に使用します。",
+          "priority": "緊急時専用",
+          "mistakeToAvoid": "火傷状態に対処する前に、通常の写真撮影や治療フローを急がないでください。"
+        },
+        {
+          "item": "基本的な医療処置",
+          "category": "病室での治療",
+          "whereUsed": "第1～5病室",
+          "whatItDoes": "患者を分析し、必要な廊下治療アイテムを渡してください。",
+          "priority": "コアゲームプレイ",
+          "mistakeToAvoid": "間違った治療アイテムを渡すと、通常の患者は死亡します。"
+        },
+        {
+          "item": "X線治療",
+          "category": "病室での治療",
+          "whereUsed": "第6病室",
+          "whatItDoes": "点滅する四角のシーケンスを完了し、必要な治療アイテムを渡してください。",
+          "priority": "中",
+          "mistakeToAvoid": "シーケンスに失敗した場合は、治療前にやり直してください。最後のアイテムを勘で選ばないでください。"
+        },
+        {
+          "item": "心電図モニター治療",
+          "category": "病室での治療",
+          "whereUsed": "第7病室",
+          "whatItDoes": "正しいアイコンをクリックし、ドクロを避け、モニタータスク完了後に治療を完了させてください。",
+          "priority": "中",
+          "mistakeToAvoid": "慌ててドクロをクリックしないでください。病室タスクが遅れ、時間の無駄になります。"
+        },
+        {
+          "item": "手術道具",
+          "category": "制限時間付きの治療",
+          "whereUsed": "第8病室",
+          "whatItDoes": "画面に表示される手術室の道具（ハサミやメスなどの手術専用道具を含む）を使用してください。",
+          "priority": "非常に高い",
+          "mistakeToAvoid": "手術が始まったら、すぐに完了させてください。離席したり、間違った道具を使ったりすると患者は死亡します。"
+        },
+        {
+          "item": "薬草と目薬",
+          "category": "序盤の治療アイテム",
+          "whereUsed": "最初のシフトの患者ケア",
+          "whatItDoes": "序盤のシフトの流れで使用される一般的な初期治療。",
+          "priority": "初心者には高い",
+          "mistakeToAvoid": "最初の治療アイテムの準備ができる前に、患者をチェックインさせすぎないでください。"
+        }
+      ]
+    },
+    "animalHospitalCoins": {
+      "title": "Animal Hospital Animal Coinsとアップグレードガイド",
+      "intro": "Animal Coinsはクラス進行のための長期的な通貨であり、シフトキャッシュはランアイテムやショップ用品に使用されます。最適な使い道は、受付、治療、サポート、またはAnomaly制御のどの役割をプレイするかによって異なります。新規プレイヤーはAnimal Coinsを無計画に使わないようにしましょう。まずは単純な生存能力から始め、チーム内で誰がチェックイン、治療室、緊急事態を担当するかが決まったら、役割に応じたクラスに移行してください。すべてのクラスにはSanityボーナス、ユーティリティ効果、初期アイテム、またはパッシブ能力を向上させる3つのレベルがあるため、クラスのアップグレードは重要です。",
+      "cards": [
+        {
+          "title": "2つの通貨を理解する",
+          "cost": "Animal Coinsとシフト中の現金",
+          "bestFor": "すべてのプレイヤー",
+          "classes": [],
+          "value": "Animal Coinsはクラスに使用される恒久的な進行用通貨です。ラン中に獲得した現金は、Coffee、Taser、物資などのショップアイテムやアップグレードに使用されます。",
+          "buyAdvice": "ラン中の現金を使って現在のシフトを生き残り、Animal Coinsを使って次のランを改善しましょう。"
+        },
+        {
+          "title": "初心者向けセーフティパス",
+          "cost": "無料 ～ 120 Animal Coins",
+          "bestFor": "新規ソロプレイヤーおよび初めてのチーム",
+          "classes": [
+            "Intern",
+            "Nurse",
+            "Secretary"
+          ],
+          "value": "Internは初心者向けのボーナスSanityを提供し、Nurseはインベントリ容量を増やし、Secretaryはチェックイン時のSanity回復で受付プレイをサポートします。",
+          "buyAdvice": "まずはInternから始め、治療器具を運ぶか受付業務を行うかに応じてNurseまたはSecretaryを購入しましょう。"
+        },
+        {
+          "title": "中盤向けユーティリティパス",
+          "cost": "250 ～ 900 Animal Coins",
+          "bestFor": "固定のチーム役割を持つプレイヤー",
+          "classes": [
+            "Paramedic",
+            "Psychologist",
+            "Doctor"
+          ],
+          "value": "ParamedicはSpeed Colaで移動速度を向上させ、Psychologistは上級者向けにSanity効果を2倍にし、Doctorは患者の治療に対してSanity回復の報酬を与えます。",
+          "buyAdvice": "素早い緊急対応にはParamedic、治療室にはDoctor、Sanityを慎重に管理できる場合はPsychologistを選びましょう。"
+        },
+        {
+          "title": "Anomalyコントロールパス",
+          "cost": "1,250 Animal Coins",
+          "bestFor": "防衛重視のプレイヤー",
+          "classes": [
+            "Security"
+          ],
+          "value": "SecurityはX-Taserを所持して開始するため、見逃したAnomalyが能動的な脅威となった際に役立ちます。",
+          "buyAdvice": "チームが頻繁にAnomalyを通してしまう場合や、脅威の排除に専念するプレイヤーが必要な場合はSecurityを購入しましょう。"
+        },
+        {
+          "title": "終盤向け治療パス",
+          "cost": "2,500 Animal Coins",
+          "bestFor": "経験豊富な治療担当プレイヤー",
+          "classes": [
+            "Surgeon"
+          ],
+          "value": "Surgeonは患者の治療に対してSanityと移動速度の報酬を与えるため、シフトの大部分を治療室で過ごすプレイヤーにとって強力です。",
+          "buyAdvice": "部屋のタスク、手術のタイミング、緊急時のルートを理解してからSurgeonのために貯金しましょう。"
+        },
+        {
+          "title": "Robuxクラスオプション",
+          "cost": "190 Robux または 890 Robux",
+          "bestFor": "プレミアムな役割への近道を求めるプレイヤー",
+          "classes": [
+            "Head Nurse",
+            "Secret Agent"
+          ],
+          "value": "Head Nurseは柔軟なサポートクラスであり、Secret Agentは銃を所持して開始し、戦闘重視のAnomalyコントロールに適しています。",
+          "buyAdvice": "これらは特定の役割を求める場合のみ使用してください。主要な生存タスクはすでにAnimal Coinのクラスでカバーされています。"
+        },
+        {
+          "title": "メインクラスを選択した後にアップグレード",
+          "cost": "クラスのアップグレードレベル",
+          "bestFor": "長期的な進行状況",
+          "classes": [
+            "全クラス"
+          ],
+          "value": "各クラスには3つのレベルがあり、アップグレードすることでボーナスSanity、所持品容量、初期アイテム、パッシブ効果などのパークが向上します。",
+          "buyAdvice": "アップグレードを分散させすぎないようにしましょう。まずはメインの役割を1つ決め、最もよく使うクラスをアップグレードしてください。"
+        }
+      ]
+    },
+    "animalHospitalUpdates": {
+      "title": "Animal Hospitalのアップデートとイベント",
+      "intro": "Animal Hospitalは変化が激しいため、復帰プレイヤーは長時間のシフトに戻る前に、Robloxの公式イベント、Robloxコミュニティページ、公式Discordを確認することをお勧めします。このゲームは、ライブサバイバルラン、新しいAnomalyの行動、クラスバランス、そしてコミュニティによって発見された秘密を中心に構成されています。このアップデートフィードは、基本を理解しており、変更点や今後の予定、フォローすべき公式チャンネルを素早く確認したいプレイヤー向けに設計されています。",
+      "entries": [
+        {
+          "date": "2026年7月10日 - 7月12日",
+          "type": "予定されているアップデート",
+          "headline": "次回アップデートイベント期間",
+          "details": [
+            "Robloxのイベントページには、次回のAnimal Hospitalアップデート期間が7月10日午前9時から7月12日午前9時までと記載されています。",
+            "発表されたハイライトには、Harlowとのインタラクションや新しい[REDACTED]とのインタラクションが含まれています。"
+          ],
+          "playerImpact": "新しいインタラクションによってルート計画や後半シフトの判断が変わる可能性があるため、長時間のプレイを始める前にイベントページを確認してください。"
+        },
+        {
+          "date": "開催中",
+          "type": "公式コミュニティ",
+          "headline": "Discordアップデートハブ",
+          "details": [
+            "公式Discordサーバーは、Animal Hospitalの主要なコミュニティハブとして機能しています。",
+            "そこではコード、毎週のアップデート、アップデート通知、攻略ガイド、パッチノートなどが重点的に扱われています。"
+          ],
+          "playerImpact": "迅速なアナウンス、パーティー募集、アップデート通知、コミュニティで発見されたAnomalyの行動などを確認するためにDiscordを活用してください。"
+        },
+        {
+          "date": "現在のシーズン",
+          "type": "ゲームの方向性",
+          "headline": "新しいAnomalyとクラスがプレイ体験を変化させ続ける",
+          "details": [
+            "Animal Hospitalは、進化するAnomalyとクラスを備えたサバイバルホラー・マルチプレイヤーRobloxゲームとして説明されています。",
+            "クラスには、Intern、Nurse、Secretary、Paramedic、Psychologist、Doctor、Security、Head Nurse、Surgeon、そしてSecret Agentが含まれます。"
+          ],
+          "playerImpact": "復帰プレイヤーは、古い戦略をそのまま使う前に、クラスのパークやAnomalyの予兆を再確認する必要があります。"
+        },
+        {
+          "date": "ライブゲームページ",
+          "type": "公式ステータス",
+          "headline": "RobloxページとAnimal Anomalyコミュニティ",
+          "details": [
+            "Robloxのゲームページでは、このエクスペリエンスはAnimal AnomalyによるAnimal Hospital (Anomaly)として識別されています。",
+            "説明文では、夜勤、患者の治療、そして様子がおかしい患者への対応がコアなゲームサイクルとして構成されています。"
+          ],
+          "playerImpact": "公式プレイリンクについてはRobloxページを、制作者側のアップデートについてはAnimal Anomalyコミュニティページを使用してください。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "RobloxのAnimal Hospitalについて知っておくべきことすべて",
+    "questions": [
+      {
+        "question": "RobloxのAnimal Hospitalとは何ですか？",
+        "answer": "Animal Hospital (Anomaly)は、奇妙な動物クリニックで夜勤を行い、患者を治療し、Anomalyを見つけ出し、恐ろしいイベントを生き延びるRobloxのサバイバルホラーゲームです。"
+      },
+      {
+        "question": "Animal Hospitalのコードはどのように引き換えますか？",
+        "answer": "Animal Hospitalにはまだ公開されたコード引き換え機能はありません。今後のコード配布や引き換えシステムについては、公式DiscordやRobloxグループをチェックしてください。"
+      },
+      {
+        "question": "Animal HospitalにおけるSanityとは何ですか？",
+        "answer": "SanityはAnimal Hospitalにおける主要な生存メーターです。anomalyの判定ミス、敵対的なイベント、危険な手がかりによって低下し、Coffeeや食べ物で回復します。ゼロになるとプレイヤーは死亡します。"
+      },
+      {
+        "question": "Animal Hospitalでanomalyを見つけるにはどうすればよいですか？",
+        "answer": "受付のシャッターを使用し、直接、CCTV、および写真で各訪問者をチェックしてください。奇妙な目、鋭い歯、歪んだ体、写真の不一致、またはカメラでのみ発生する痙攣がある場合は拒否してください。"
+      },
+      {
+        "question": "Animal HospitalでAnimal Coinsは何に使用されますか？",
+        "answer": "Animal Coinsは、Secretary、Doctor、Security、Surgeonなどのクラスをアンロックするために使用される永続的な進行用通貨です。Shift cashは別であり、ラン中のショップアイテムに使用されます。"
+      },
+      {
+        "question": "Animal Hospitalはマルチプレイヤーに対応していますか？",
+        "answer": "はい。Animal Hospitalは最大30人のプレイヤーに対応したマルチプレイヤー・サバイバルホラーゲームで、チームでシフト中の受付、治療、anomaly防御の役割を分担することができます。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "night shiftを生き抜く準備はできていますか？",
+    "description": "DiscordのRoblox Animal Hospitalコミュニティに参加して、コード、anomalyガイド、シフトのコツ、アップデート情報を手に入れましょう！",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Robloxでプレイする"
+  },
+  "footer": {
+    "title": "Roblox Animal Hospital Wiki",
+    "description": "Roblox Animal Hospitalのコード、anomaly、クラス、患者、敵、シフト、サバイバルガイドに関する総合リソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "youtube": "YouTube",
+    "robloxGame": "Robloxゲーム",
+    "robloxGroup": "Robloxグループ",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Roblox Animal Hospital Wiki. Animal Hospital (Anomaly) の開発元とは提携していません。",
+    "disclaimer": "非公式のファン作成リソースウェブサイト。"
+  },
+  "pages": {
+    "codes": {
+      "title": "Roblox Animal Hospitalコード",
+      "description": "無料のAnimal Coins、パーク、クラスアップグレードを入手できる最新の有効なRoblox Animal Hospitalコードと、ゲーム内での引き換え方法。",
+      "metaTitle": "Roblox Animal Hospitalコード - 無料コイン＆報酬 (2026)",
+      "metaDescription": "有効なRoblox Animal Hospitalコードで無料のAnimal Coinsと報酬を獲得しましょう。引き換え手順と新しいコードの入手場所を含む最新リスト。",
+      "categoryLabel": "コードを引き換える",
+      "whatIs": "Roblox Animal Hospitalコードとは何ですか？",
+      "whatIsDescription": "コードは、Animal Anomaly開発チームによってリリースされる無料の引き換えコードで、night shiftを生き延びるのに役立つAnimal Coins、Sanityブースト、クラスパークを付与します。",
+      "why": "コードを引き換える理由",
+      "whySteps": {
+        "step1Title": "無料のAnimal Coins",
+        "step1Description": "コードを引き換えてコインを獲得し、序盤のシフトを周回することなく新しいクラスをアンロックしましょう",
+        "step2Title": "最新アップデートに備える",
+        "step2Description": "主要なanomaly、クラス、イベントの登場に合わせて、新しいコードが配布されます",
+        "step3Title": "序盤の生存率を高める",
+        "step3Description": "コイン報酬を使用して、より難易度の高いnight shiftに挑む前に、より強力なクラスを選択しましょう"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべての Codes"
+    },
+    "guide": {
+      "title": "Roblox Animal Hospital ガイド",
+      "description": "初心者向けのヒント、生存戦略、ソロプレイ、攻略、そして各夜勤の秘密を網羅した Roblox Animal Hospital の完全ガイド。",
+      "metaTitle": "Roblox Animal Hospital ガイド - 初心者向けヒント、攻略＆生存",
+      "metaDescription": "初心者向けガイド、生存のヒント、ソロ戦略、完全攻略、そして隠された秘密で Roblox Animal Hospital をマスターしましょう。",
+      "categoryLabel": "ガイド＆攻略",
+      "whatIs": "Roblox Animal Hospital ガイドとは？",
+      "whatIsDescription": "ガイドでは、動物の患者の受付、治療、Anomalies の特定、Sanity の管理、そして各シフトの終わりまで生き残るという夜勤の基本ループを解説します。",
+      "why": "なぜガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "基本メカニクスの学習",
+        "step1Description": "致命的なミスを避けるために、患者の治療と Anomaly 特定を理解する",
+        "step2Title": "素早い進行",
+        "step2Description": "夜勤をクリアして Animal Coins を稼ぐための確実な道筋を辿る",
+        "step3Title": "生存をマスターする",
+        "step3Description": "Sanity 管理、ソロプレイ、隠された秘密のための高度な戦術を身につける"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのガイド"
+    },
+    "classes": {
+      "title": "Roblox Animal Hospital Classes",
+      "description": "無料の Intern からプレミアムな Secret Agent まで、Roblox Animal Hospital の全 Class をコスト、Perks、役割、最適な用途別に比較した完全ティアリスト。",
+      "metaTitle": "Roblox Animal Hospital Classes ティアリスト - Perks、コスト＆役割",
+      "metaDescription": "Intern, Nurse, Secretary, Paramedic, Psychologist, Doctor, Security, Surgeon, Secret Agent を網羅した Roblox Animal Hospital の全 Class ティアリスト。",
+      "categoryLabel": "CLASSES ＆ 役割",
+      "whatIs": "Roblox Animal Hospital Classes とは？",
+      "whatIsDescription": "Classes は Animal Coins でアンロックできる役割で、Sanity ボーナス、インベントリ容量、移動ツール、治療 Perks、または武器を追加し、各シフトのプレイ方法を変化させます。",
+      "why": "なぜ適切な Class を選ぶべきなのか？",
+      "whySteps": {
+        "step1Title": "役割に合わせる",
+        "step1Description": "受付、治療、または防衛に適した Class を選択する",
+        "step2Title": "Coins を賢く使う",
+        "step2Description": "使わない Classes に Animal Coins を無駄使いするのを避ける",
+        "step3Title": "継続的なアップグレード",
+        "step3Description": "メインの Class のレベルを上げて Sanity を強化し、より強力な Perks をアンロックする"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべての Class ガイド"
+    },
+    "anomalies": {
+      "title": "Roblox Animal Hospital Anomalies",
+      "description": "患者がクリニックに入る前に、視覚的な兆候、CCTV、写真、行動の変化を利用して、Roblox Animal Hospital のあらゆる Anomaly を特定する方法を学びましょう。",
+      "metaTitle": "Roblox Animal Hospital Anomalies ガイド - 兆候、敵＆ジャンプスケア",
+      "metaDescription": "視覚、CCTV、写真、行動のチェックで Roblox Animal Hospital の Anomaly 特定をマスターしましょう。危険な患者を拒絶し、イベントを生き抜く方法を学びます。",
+      "categoryLabel": "ANOMALY 検知",
+      "whatIs": "Roblox Animal Hospital Anomalies とは？",
+      "whatIsDescription": "アノマリーとは、一見普通に見えるものの、敵対化する前に奇妙な目、歪んだ体、写真の不一致、またはカメラにしか映らない警告サインを示す訪問者のことです。",
+      "why": "なぜアノマリーの兆候を学ぶのか？",
+      "whySteps": {
+        "step1Title": "危険な患者を拒否する",
+        "step1Description": "アノマリーが侵入してスキンウォーカーやそれ以上に恐ろしいものになる前に阻止する",
+        "step2Title": "正気度を守る",
+        "step2Description": "正気度を削る手がかり、呪われた写真、およびジャンプスケアを避ける",
+        "step3Title": "一貫性を保つ",
+        "step3Description": "すべての訪問者に対して、目視、カメラ、写真のチェックを行う"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのアノマリーガイド"
+    },
+    "mechanics": {
+      "title": "Roblox Animal Hospitalのメカニクス",
+      "description": "Roblox Animal Hospitalのメカニクスを徹底解説：コーヒー、鍵、スーツケース、Stalker、サンドボックスモード、そしてネズミなどの隠し要素をアンロックする方法。",
+      "metaTitle": "Roblox Animal Hospitalのメカニクス - コーヒー、鍵、スーツケース ＆ Stalker",
+      "metaDescription": "コーヒー、鍵、スーツケース、Stalkerの脅威、サンドボックスモード、ネズミのアンロックなど、Roblox Animal Hospitalの核心となるメカニクスを理解しましょう。",
+      "categoryLabel": "ゲームメカニクス",
+      "whatIs": "Roblox Animal Hospitalのメカニクスとは？",
+      "whatIsDescription": "メカニクスとは各シフトを支配するシステムのことです。コーヒーは正気度を回復し、鍵はロックされた部屋を開け、スーツケースはアイテムを保管し、Stalkerは繰り返し現れる脅威となります。",
+      "why": "なぜメカニクスをマスターするのか？",
+      "whySteps": {
+        "step1Title": "リソースを管理する",
+        "step1Description": "夜勤を通じて、コーヒー、鍵、スーツケースを効率的に使用する",
+        "step2Title": "Stalkerに対抗する",
+        "step2Description": "シフトが台無しにされる前に、Stalkerを排除する方法を学ぶ",
+        "step3Title": "隠しコンテンツをアンロックする",
+        "step3Description": "サンドボックスモードや、新しい戦略のためにネズミをアンロックする方法を発見する"
+      },
+      "featured": "おすすめ＆必須",
+      "all": "すべてのメカニクスガイド"
+    },
+    "characters": {
+      "title": "Roblox Animal Hospitalのキャラクター",
+      "description": "Roblox Animal Hospitalのすべてのキャラクターに会いましょう：Barney、Ratthew、Coffee Guy、Ron、Officer Duckman、Oggy、そして患者やNPCのキャスト全員。",
+      "metaTitle": "Roblox Animal Hospitalのキャラクター - Barney、Ratthew、Coffee Guy ＆ キャスト",
+      "metaDescription": "Barney、Ratthew、Coffee Guy、Ron、Officer Duckman、Oggy、そして各NPCが夜勤で何をするかを網羅した、Roblox Animal Hospitalの完全キャラクターリスト。",
+      "categoryLabel": "キャラクター ＆ NPC",
+      "whatIs": "Roblox Animal Hospitalのキャラクターとは？",
+      "whatIsDescription": "キャラクターとは、シフト中に出会う名前付きのNPCや繰り返し登場する患者のことで、Barneyのような役立つ味方から、RatthewやCoffee Guyのような奇妙な人物まで様々です。",
+      "why": "なぜキャラクターについて学ぶのか？",
+      "whySteps": {
+        "step1Title": "味方か脅威かを見極める",
+        "step1Description": "名前付きのキャラクターを認識し、味方と変装したアノマリーを見分ける",
+        "step2Title": "イベントを発生させる",
+        "step2Description": "どのキャラクターがイベント、アイテム、または隠し部屋をアンロックするかを知る",
+        "step3Title": "ストーリーを追う",
+        "step3Description": "キャラクターのアーク（ストーリー展開）を追い、秘密の遭遇やエンディングに到達する"
+      },
+      "featured": "フィーチャー＆必須ガイド",
+      "all": "全キャラクターガイド"
+    },
+    "endings": {
+      "title": "Roblox Animal Hospitalのエンディング一覧",
+      "description": "Roblox Animal Hospitalの全エンディングの完全ガイド。各エンディングの発生条件、選択肢、解放に必要な条件を解説。",
+      "metaTitle": "Roblox Animal Hospital エンディング攻略ガイド - 全エンディングの解放方法",
+      "metaDescription": "トリガー、選択肢、アノマリーへの対処結果、そして各フィナーレの条件を網羅したこのガイドで、Roblox Animal Hospitalのすべてのエンディングを解放しましょう。",
+      "categoryLabel": "エンディング＆ルート",
+      "whatIs": "Roblox Animal Hospitalのエンディングとは？",
+      "whatIsDescription": "エンディングとは夜勤ストーリーのフィナーレであり、特定の条件を満たす、一定数のシフトを生き延びる、または重要なアノマリーを特定の方法で処理することで到達できます。",
+      "why": "なぜすべてのエンディングを目指すのか？",
+      "whySteps": {
+        "step1Title": "ストーリーの全貌を暴く",
+        "step1Description": "各エンディングによって、病院やアノマリーに関する新たな伝承（ロア）が明らかになります",
+        "step2Title": "隠されたトリガーを引く",
+        "step2Description": "各エンディングに必要な正確な選択肢と条件を把握できます",
+        "step3Title": "ゲームを完全攻略する",
+        "step3Description": "どのフィナーレを解放済みで、どれが未解放かを追跡できます"
+      },
+      "featured": "フィーチャー＆必須ガイド",
+      "all": "全エンディングガイド"
+    }
   }
 }
